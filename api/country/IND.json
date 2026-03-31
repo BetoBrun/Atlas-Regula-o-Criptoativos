@@ -1,0 +1,52 @@
+{
+  "country": "India",
+  "iso3": "IND",
+  "region": "Asia",
+  "trend": "mixed",
+  "summary_en": "India combines a very large user base with heavy taxation and still-evolving policy, creating a mixed environment for crypto business formation.",
+  "summary_pt": "A Índia combina uma base muito grande de usuários com tributação pesada e política ainda em evolução, criando um ambiente misto para a formação de negócios cripto.",
+  "last_update": "2026-03-14",
+  "criteria": {
+    "legal_certainty": 8,
+    "proportionality": 4,
+    "exchanges": 5,
+    "stablecoins": 4,
+    "tokenization": 4,
+    "taxation": 2,
+    "mining_infrastructure": 5,
+    "innovation_openness": 6,
+    "anti_centralization": 2
+  },
+  "status": {
+    "exchanges": "allowed with friction",
+    "stablecoins": "uncertain",
+    "tokenization": "limited",
+    "taxation": "heavy",
+    "mining": "mixed",
+    "cbdc": "retail pilot"
+  },
+  "laws": [
+    "Tax provisions",
+    "RBI digital rupee pilot"
+  ],
+  "opportunities_en": [
+    "Large domestic market"
+  ],
+  "opportunities_pt": [
+    "Grande mercado doméstico"
+  ],
+  "risks_en": [
+    "Punitive taxation"
+  ],
+  "risks_pt": [
+    "Tributação punitiva"
+  ],
+  "references": [
+    {
+      "label": "RBI",
+      "url": "https://www.rbi.org.in/"
+    }
+  ],
+  "score": 40,
+  "classification": "restrictive"
+}

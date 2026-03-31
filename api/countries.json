@@ -1,0 +1,1086 @@
+[
+  {
+    "country": "Brazil",
+    "iso3": "BRA",
+    "region": "Latin America",
+    "trend": "improving",
+    "summary_en": "Brazil has a developing but increasingly structured framework for virtual asset service providers, with progress in prudential oversight but remaining friction in taxation and tokenization.",
+    "summary_pt": "O Brasil possui um arcabouço em desenvolvimento, porém cada vez mais estruturado, para prestadores de serviços de ativos virtuais, com avanço na supervisão prudencial, mas ainda com fricções em tributação e tokenização.",
+    "last_update": "2026-03-30",
+    "criteria": {
+      "legal_certainty": 14,
+      "proportionality": 10,
+      "exchanges": 8,
+      "stablecoins": 6,
+      "tokenization": 7,
+      "taxation": 6,
+      "mining_infrastructure": 8,
+      "innovation_openness": 7,
+      "anti_centralization": 3
+    },
+    "status": {
+      "exchanges": "regulated",
+      "stablecoins": "partially open",
+      "tokenization": "developing",
+      "taxation": "moderate friction",
+      "mining": "potentially favorable",
+      "cbdc": "pilot under debate"
+    },
+    "laws": [
+      "Law 14.478/2022",
+      "Decree 11.563/2023",
+      "BCB Resolution 520/2025"
+    ],
+    "opportunities_en": [
+      "Tokenization",
+      "Green digital infrastructure",
+      "Stablecoin development"
+    ],
+    "opportunities_pt": [
+      "Tokenização",
+      "Infraestrutura digital verde",
+      "Desenvolvimento de stablecoins"
+    ],
+    "risks_en": [
+      "Tax uncertainty",
+      "Institutional fragmentation"
+    ],
+    "risks_pt": [
+      "Incerteza tributária",
+      "Fragmentação institucional"
+    ],
+    "references": [
+      {
+        "label": "Official framework",
+        "url": "https://www.planalto.gov.br/"
+      }
+    ],
+    "score": 69,
+    "classification": "favorable"
+  },
+  {
+    "country": "United States",
+    "iso3": "USA",
+    "region": "North America",
+    "trend": "improving",
+    "summary_en": "The United States combines fragmented federal oversight with strong market depth. Stablecoin policy became more structured, but securities-law uncertainty still affects some projects.",
+    "summary_pt": "Os Estados Unidos combinam supervisão federal fragmentada com grande profundidade de mercado. A política para stablecoins ficou mais estruturada, mas a incerteza em matéria de valores mobiliários ainda afeta parte dos projetos.",
+    "last_update": "2026-03-28",
+    "criteria": {
+      "legal_certainty": 15,
+      "proportionality": 11,
+      "exchanges": 7,
+      "stablecoins": 8,
+      "tokenization": 8,
+      "taxation": 7,
+      "mining_infrastructure": 9,
+      "innovation_openness": 9,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "regulated with litigation risk",
+      "stablecoins": "developing framework",
+      "tokenization": "active",
+      "taxation": "moderate",
+      "mining": "favorable in several states",
+      "cbdc": "research only"
+    },
+    "laws": [
+      "GENIUS Act (2025)",
+      "State-level digital asset laws",
+      "Federal agency guidance"
+    ],
+    "opportunities_en": [
+      "Stablecoins",
+      "Tokenized capital markets",
+      "Mining and compute"
+    ],
+    "opportunities_pt": [
+      "Stablecoins",
+      "Mercados de capitais tokenizados",
+      "Mineração e computação"
+    ],
+    "risks_en": [
+      "Regulatory fragmentation",
+      "Enforcement uncertainty"
+    ],
+    "risks_pt": [
+      "Fragmentação regulatória",
+      "Incerteza de enforcement"
+    ],
+    "references": [
+      {
+        "label": "White House fact sheet",
+        "url": "https://www.whitehouse.gov/"
+      }
+    ],
+    "score": 78,
+    "classification": "favorable"
+  },
+  {
+    "country": "Germany",
+    "iso3": "DEU",
+    "region": "Europe",
+    "trend": "stable",
+    "summary_en": "Germany benefits from EU-level legal certainty under MiCA and strong financial regulation, though compliance can be costly.",
+    "summary_pt": "A Alemanha se beneficia da segurança jurídica em nível europeu sob o MiCA e de uma forte regulação financeira, embora o compliance possa ser custoso.",
+    "last_update": "2026-03-25",
+    "criteria": {
+      "legal_certainty": 17,
+      "proportionality": 10,
+      "exchanges": 8,
+      "stablecoins": 7,
+      "tokenization": 8,
+      "taxation": 6,
+      "mining_infrastructure": 4,
+      "innovation_openness": 7,
+      "anti_centralization": 3
+    },
+    "status": {
+      "exchanges": "regulated",
+      "stablecoins": "regulated under MiCA",
+      "tokenization": "active",
+      "taxation": "moderate friction",
+      "mining": "limited",
+      "cbdc": "euro area exploration"
+    },
+    "laws": [
+      "MiCA",
+      "German banking supervision rules"
+    ],
+    "opportunities_en": [
+      "Regulated tokenization",
+      "Institutional adoption"
+    ],
+    "opportunities_pt": [
+      "Tokenização regulada",
+      "Adoção institucional"
+    ],
+    "risks_en": [
+      "High compliance cost"
+    ],
+    "risks_pt": [
+      "Alto custo de compliance"
+    ],
+    "references": [
+      {
+        "label": "BaFin",
+        "url": "https://www.bafin.de/"
+      }
+    ],
+    "score": 70,
+    "classification": "favorable"
+  },
+  {
+    "country": "France",
+    "iso3": "FRA",
+    "region": "Europe",
+    "trend": "stable",
+    "summary_en": "France combines early digital asset licensing experience with the broader MiCA framework, offering clarity but significant compliance obligations.",
+    "summary_pt": "A França combina experiência precoce em licenciamento de ativos digitais com o quadro mais amplo do MiCA, oferecendo clareza, porém com obrigações relevantes de compliance.",
+    "last_update": "2026-03-24",
+    "criteria": {
+      "legal_certainty": 17,
+      "proportionality": 9,
+      "exchanges": 8,
+      "stablecoins": 7,
+      "tokenization": 8,
+      "taxation": 6,
+      "mining_infrastructure": 4,
+      "innovation_openness": 7,
+      "anti_centralization": 3
+    },
+    "status": {
+      "exchanges": "regulated",
+      "stablecoins": "regulated under MiCA",
+      "tokenization": "active",
+      "taxation": "moderate friction",
+      "mining": "limited",
+      "cbdc": "euro area exploration"
+    },
+    "laws": [
+      "MiCA",
+      "PSAN regime"
+    ],
+    "opportunities_en": [
+      "Institutional market entry"
+    ],
+    "opportunities_pt": [
+      "Entrada de mercado institucional"
+    ],
+    "risks_en": [
+      "Regulatory cost"
+    ],
+    "risks_pt": [
+      "Custo regulatório"
+    ],
+    "references": [
+      {
+        "label": "AMF France",
+        "url": "https://www.amf-france.org/"
+      }
+    ],
+    "score": 69,
+    "classification": "favorable"
+  },
+  {
+    "country": "Switzerland",
+    "iso3": "CHE",
+    "region": "Europe",
+    "trend": "stable",
+    "summary_en": "Switzerland remains one of the strongest jurisdictions for tokenization, DLT trading infrastructure and legal certainty for crypto businesses.",
+    "summary_pt": "A Suíça continua sendo uma das jurisdições mais fortes para tokenização, infraestrutura de negociação em DLT e segurança jurídica para negócios cripto.",
+    "last_update": "2026-03-26",
+    "criteria": {
+      "legal_certainty": 18,
+      "proportionality": 13,
+      "exchanges": 9,
+      "stablecoins": 8,
+      "tokenization": 10,
+      "taxation": 8,
+      "mining_infrastructure": 6,
+      "innovation_openness": 9,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "regulated",
+      "stablecoins": "open with compliance",
+      "tokenization": "highly favorable",
+      "taxation": "competitive",
+      "mining": "moderate",
+      "cbdc": "wholesale focus"
+    },
+    "laws": [
+      "Swiss DLT Act",
+      "FINMA guidance"
+    ],
+    "opportunities_en": [
+      "DLT markets",
+      "Custody",
+      "Tokenized securities"
+    ],
+    "opportunities_pt": [
+      "Mercados DLT",
+      "Custódia",
+      "Valores mobiliários tokenizados"
+    ],
+    "risks_en": [
+      "Cost of operation"
+    ],
+    "risks_pt": [
+      "Custo operacional"
+    ],
+    "references": [
+      {
+        "label": "Swiss DLT Framework",
+        "url": "https://www.sif.admin.ch/"
+      }
+    ],
+    "score": 85,
+    "classification": "very_favorable"
+  },
+  {
+    "country": "Singapore",
+    "iso3": "SGP",
+    "region": "Asia",
+    "trend": "improving",
+    "summary_en": "Singapore combines strict licensing with strong policy support for tokenization, stablecoins and institutional digital asset markets.",
+    "summary_pt": "Singapura combina licenciamento rigoroso com forte apoio de política pública para tokenização, stablecoins e mercados institucionais de ativos digitais.",
+    "last_update": "2026-03-27",
+    "criteria": {
+      "legal_certainty": 18,
+      "proportionality": 12,
+      "exchanges": 8,
+      "stablecoins": 9,
+      "tokenization": 10,
+      "taxation": 8,
+      "mining_infrastructure": 4,
+      "innovation_openness": 10,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "licensed",
+      "stablecoins": "regulated",
+      "tokenization": "very active",
+      "taxation": "competitive",
+      "mining": "limited",
+      "cbdc": "wholesale experimentation"
+    },
+    "laws": [
+      "Payment Services Act",
+      "MAS Stablecoin Framework",
+      "Project Guardian"
+    ],
+    "opportunities_en": [
+      "Institutional tokenization",
+      "Stablecoins"
+    ],
+    "opportunities_pt": [
+      "Tokenização institucional",
+      "Stablecoins"
+    ],
+    "risks_en": [
+      "Strict licensing thresholds"
+    ],
+    "risks_pt": [
+      "Limiares de licenciamento rigorosos"
+    ],
+    "references": [
+      {
+        "label": "MAS",
+        "url": "https://www.mas.gov.sg/"
+      }
+    ],
+    "score": 83,
+    "classification": "very_favorable"
+  },
+  {
+    "country": "Hong Kong",
+    "iso3": "HKG",
+    "region": "Asia",
+    "trend": "improving",
+    "summary_en": "Hong Kong has moved toward a more explicit pro-innovation but supervised framework, especially for exchanges and fiat-backed stablecoins.",
+    "summary_pt": "Hong Kong avançou para um quadro mais explícito de incentivo à inovação com supervisão, especialmente para exchanges e stablecoins lastreadas em moeda fiduciária.",
+    "last_update": "2026-03-27",
+    "criteria": {
+      "legal_certainty": 17,
+      "proportionality": 12,
+      "exchanges": 9,
+      "stablecoins": 9,
+      "tokenization": 8,
+      "taxation": 8,
+      "mining_infrastructure": 4,
+      "innovation_openness": 9,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "licensed",
+      "stablecoins": "licensed framework",
+      "tokenization": "active",
+      "taxation": "competitive",
+      "mining": "limited",
+      "cbdc": "research"
+    },
+    "laws": [
+      "VASP licensing",
+      "Stablecoins Ordinance"
+    ],
+    "opportunities_en": [
+      "Exchange licensing",
+      "Asian capital access"
+    ],
+    "opportunities_pt": [
+      "Licenciamento de exchanges",
+      "Acesso a capital asiático"
+    ],
+    "risks_en": [
+      "Policy shifts"
+    ],
+    "risks_pt": [
+      "Mudanças de política"
+    ],
+    "references": [
+      {
+        "label": "HKMA",
+        "url": "https://www.hkma.gov.hk/"
+      }
+    ],
+    "score": 80,
+    "classification": "very_favorable"
+  },
+  {
+    "country": "United Kingdom",
+    "iso3": "GBR",
+    "region": "Europe",
+    "trend": "improving",
+    "summary_en": "The UK is moving toward a tailored regime for stablecoins, digital securities and broader crypto activities, but implementation remains gradual.",
+    "summary_pt": "O Reino Unido caminha para um regime específico para stablecoins, valores mobiliários digitais e atividades cripto em geral, mas a implementação segue gradual.",
+    "last_update": "2026-03-20",
+    "criteria": {
+      "legal_certainty": 16,
+      "proportionality": 11,
+      "exchanges": 8,
+      "stablecoins": 8,
+      "tokenization": 8,
+      "taxation": 6,
+      "mining_infrastructure": 5,
+      "innovation_openness": 8,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "regulated",
+      "stablecoins": "developing framework",
+      "tokenization": "sandboxing",
+      "taxation": "moderate",
+      "mining": "neutral",
+      "cbdc": "consultation stage"
+    },
+    "laws": [
+      "FCA crypto regime",
+      "Digital Securities Sandbox"
+    ],
+    "opportunities_en": [
+      "Tokenized securities",
+      "Regulatory experimentation"
+    ],
+    "opportunities_pt": [
+      "Valores mobiliários tokenizados",
+      "Experimentação regulatória"
+    ],
+    "risks_en": [
+      "Slow implementation"
+    ],
+    "risks_pt": [
+      "Implementação lenta"
+    ],
+    "references": [
+      {
+        "label": "Bank of England",
+        "url": "https://www.bankofengland.co.uk/"
+      }
+    ],
+    "score": 74,
+    "classification": "favorable"
+  },
+  {
+    "country": "United Arab Emirates",
+    "iso3": "ARE",
+    "region": "Middle East",
+    "trend": "improving",
+    "summary_en": "The UAE offers one of the most business-friendly regulated environments for exchanges, tokenization and digital asset services, especially in Dubai and ADGM.",
+    "summary_pt": "Os Emirados Árabes Unidos oferecem um dos ambientes regulados mais favoráveis a negócios para exchanges, tokenização e serviços com ativos digitais, especialmente em Dubai e ADGM.",
+    "last_update": "2026-03-21",
+    "criteria": {
+      "legal_certainty": 17,
+      "proportionality": 13,
+      "exchanges": 10,
+      "stablecoins": 8,
+      "tokenization": 9,
+      "taxation": 9,
+      "mining_infrastructure": 6,
+      "innovation_openness": 10,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "licensed",
+      "stablecoins": "open with rules",
+      "tokenization": "very active",
+      "taxation": "favorable",
+      "mining": "moderate",
+      "cbdc": "wholesale and cross-border exploration"
+    },
+    "laws": [
+      "VARA regime",
+      "ADGM virtual assets framework"
+    ],
+    "opportunities_en": [
+      "Regional hub",
+      "Low-tax environment"
+    ],
+    "opportunities_pt": [
+      "Hub regional",
+      "Ambiente de baixa tributação"
+    ],
+    "risks_en": [
+      "Jurisdictional complexity between zones"
+    ],
+    "risks_pt": [
+      "Complexidade jurisdicional entre zonas"
+    ],
+    "references": [
+      {
+        "label": "VARA",
+        "url": "https://www.vara.ae/"
+      }
+    ],
+    "score": 86,
+    "classification": "very_favorable"
+  },
+  {
+    "country": "El Salvador",
+    "iso3": "SLV",
+    "region": "Latin America",
+    "trend": "stable",
+    "summary_en": "El Salvador remains symbolically important for crypto policy, with an institutional digital asset regime despite reforms to Bitcoin’s legal-tender status.",
+    "summary_pt": "El Salvador permanece simbolicamente importante para a política cripto, com um regime institucional de ativos digitais apesar das reformas no status do Bitcoin como moeda de curso legal.",
+    "last_update": "2026-03-15",
+    "criteria": {
+      "legal_certainty": 12,
+      "proportionality": 10,
+      "exchanges": 7,
+      "stablecoins": 6,
+      "tokenization": 8,
+      "taxation": 8,
+      "mining_infrastructure": 5,
+      "innovation_openness": 9,
+      "anti_centralization": 3
+    },
+    "status": {
+      "exchanges": "specialized framework",
+      "stablecoins": "possible",
+      "tokenization": "open",
+      "taxation": "favorable",
+      "mining": "neutral",
+      "cbdc": "not central"
+    },
+    "laws": [
+      "Digital Assets Issuance Law",
+      "Bitcoin Law reforms"
+    ],
+    "opportunities_en": [
+      "Digital asset issuance",
+      "Policy experimentation"
+    ],
+    "opportunities_pt": [
+      "Emissão de ativos digitais",
+      "Experimentação regulatória"
+    ],
+    "risks_en": [
+      "Country risk",
+      "Policy volatility"
+    ],
+    "risks_pt": [
+      "Risco-país",
+      "Volatilidade de política"
+    ],
+    "references": [
+      {
+        "label": "CNAD",
+        "url": "https://cnad.gob.sv/"
+      }
+    ],
+    "score": 68,
+    "classification": "favorable"
+  },
+  {
+    "country": "Paraguay",
+    "iso3": "PRY",
+    "region": "Latin America",
+    "trend": "stable",
+    "summary_en": "Paraguay has abundant energy and mining potential, but its legal treatment of crypto remains fragmented and less institutionally mature.",
+    "summary_pt": "O Paraguai possui energia abundante e potencial para mineração, mas o tratamento jurídico dos criptoativos permanece fragmentado e menos maduro institucionalmente.",
+    "last_update": "2026-03-18",
+    "criteria": {
+      "legal_certainty": 8,
+      "proportionality": 8,
+      "exchanges": 5,
+      "stablecoins": 3,
+      "tokenization": 3,
+      "taxation": 6,
+      "mining_infrastructure": 8,
+      "innovation_openness": 6,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "fragmented",
+      "stablecoins": "unclear",
+      "tokenization": "incipient",
+      "taxation": "developing reporting rules",
+      "mining": "potentially favorable",
+      "cbdc": "not central"
+    },
+    "laws": [
+      "Tax reporting measures",
+      "Central bank warnings"
+    ],
+    "opportunities_en": [
+      "Mining",
+      "Low-cost energy"
+    ],
+    "opportunities_pt": [
+      "Mineração",
+      "Energia de baixo custo"
+    ],
+    "risks_en": [
+      "Weak legal certainty"
+    ],
+    "risks_pt": [
+      "Baixa segurança jurídica"
+    ],
+    "references": [
+      {
+        "label": "BCP",
+        "url": "https://www.bcp.gov.py/"
+      }
+    ],
+    "score": 51,
+    "classification": "mixed"
+  },
+  {
+    "country": "Argentina",
+    "iso3": "ARG",
+    "region": "Latin America",
+    "trend": "improving",
+    "summary_en": "Argentina shows high social adoption and entrepreneurial activity, but macroeconomic instability and regulatory uncertainty remain relevant risks.",
+    "summary_pt": "A Argentina apresenta alta adoção social e atividade empreendedora, mas a instabilidade macroeconômica e a incerteza regulatória ainda são riscos relevantes.",
+    "last_update": "2026-03-19",
+    "criteria": {
+      "legal_certainty": 9,
+      "proportionality": 9,
+      "exchanges": 7,
+      "stablecoins": 6,
+      "tokenization": 5,
+      "taxation": 5,
+      "mining_infrastructure": 6,
+      "innovation_openness": 8,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "operating",
+      "stablecoins": "widely used",
+      "tokenization": "developing",
+      "taxation": "uncertain",
+      "mining": "moderate",
+      "cbdc": "unclear"
+    },
+    "laws": [
+      "Tax and reporting measures",
+      "Central bank restrictions history"
+    ],
+    "opportunities_en": [
+      "Stablecoin demand",
+      "Entrepreneurial adoption"
+    ],
+    "opportunities_pt": [
+      "Demanda por stablecoins",
+      "Adoção empreendedora"
+    ],
+    "risks_en": [
+      "Macroeconomic instability"
+    ],
+    "risks_pt": [
+      "Instabilidade macroeconômica"
+    ],
+    "references": [
+      {
+        "label": "BCRA",
+        "url": "https://www.bcra.gob.ar/"
+      }
+    ],
+    "score": 59,
+    "classification": "mixed"
+  },
+  {
+    "country": "Chile",
+    "iso3": "CHL",
+    "region": "Latin America",
+    "trend": "improving",
+    "summary_en": "Chile benefits from relatively stable institutions and strong digital infrastructure potential, though its crypto framework remains incremental.",
+    "summary_pt": "O Chile se beneficia de instituições relativamente estáveis e forte potencial de infraestrutura digital, embora seu marco para criptoativos ainda avance de forma incremental.",
+    "last_update": "2026-03-16",
+    "criteria": {
+      "legal_certainty": 11,
+      "proportionality": 10,
+      "exchanges": 6,
+      "stablecoins": 5,
+      "tokenization": 5,
+      "taxation": 6,
+      "mining_infrastructure": 7,
+      "innovation_openness": 7,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "operating",
+      "stablecoins": "partially open",
+      "tokenization": "developing",
+      "taxation": "moderate",
+      "mining": "potentially favorable",
+      "cbdc": "research"
+    },
+    "laws": [
+      "Fintech Law",
+      "Central bank studies"
+    ],
+    "opportunities_en": [
+      "Infrastructure",
+      "Institutional clarity"
+    ],
+    "opportunities_pt": [
+      "Infraestrutura",
+      "Clareza institucional"
+    ],
+    "risks_en": [
+      "Limited crypto-specific regulation"
+    ],
+    "risks_pt": [
+      "Regulação cripto específica limitada"
+    ],
+    "references": [
+      {
+        "label": "CMF Chile",
+        "url": "https://www.cmfchile.cl/"
+      }
+    ],
+    "score": 61,
+    "classification": "mixed"
+  },
+  {
+    "country": "Nigeria",
+    "iso3": "NGA",
+    "region": "Africa",
+    "trend": "mixed",
+    "summary_en": "Nigeria has strong grassroots crypto use but an unstable regulatory path, including CBDC experience with limited traction and changing approaches to exchanges.",
+    "summary_pt": "A Nigéria apresenta forte uso social de criptoativos, mas uma trajetória regulatória instável, incluindo experiência de CBDC com baixa tração e mudanças na abordagem sobre exchanges.",
+    "last_update": "2026-03-17",
+    "criteria": {
+      "legal_certainty": 7,
+      "proportionality": 7,
+      "exchanges": 4,
+      "stablecoins": 5,
+      "tokenization": 3,
+      "taxation": 4,
+      "mining_infrastructure": 5,
+      "innovation_openness": 6,
+      "anti_centralization": 2
+    },
+    "status": {
+      "exchanges": "uncertain",
+      "stablecoins": "used informally",
+      "tokenization": "limited",
+      "taxation": "unclear",
+      "mining": "neutral",
+      "cbdc": "retail launched with low adoption"
+    },
+    "laws": [
+      "eNaira framework",
+      "Regulatory circulars"
+    ],
+    "opportunities_en": [
+      "High adoption base"
+    ],
+    "opportunities_pt": [
+      "Base alta de adoção"
+    ],
+    "risks_en": [
+      "Policy reversals"
+    ],
+    "risks_pt": [
+      "Reversões de política"
+    ],
+    "references": [
+      {
+        "label": "CBN",
+        "url": "https://www.cbn.gov.ng/"
+      }
+    ],
+    "score": 43,
+    "classification": "restrictive"
+  },
+  {
+    "country": "China",
+    "iso3": "CHN",
+    "region": "Asia",
+    "trend": "stable",
+    "summary_en": "China is highly restrictive toward private crypto markets while strongly pursuing state-led digital currency and blockchain infrastructure strategies.",
+    "summary_pt": "A China é altamente restritiva em relação aos mercados privados de criptoativos, ao mesmo tempo em que persegue fortemente estratégias estatais de moeda digital e infraestrutura blockchain.",
+    "last_update": "2026-03-12",
+    "criteria": {
+      "legal_certainty": 10,
+      "proportionality": 3,
+      "exchanges": 1,
+      "stablecoins": 1,
+      "tokenization": 4,
+      "taxation": 5,
+      "mining_infrastructure": 1,
+      "innovation_openness": 4,
+      "anti_centralization": 0
+    },
+    "status": {
+      "exchanges": "banned",
+      "stablecoins": "restricted",
+      "tokenization": "state-influenced pilots",
+      "taxation": "secondary issue",
+      "mining": "hostile",
+      "cbdc": "advanced state model"
+    },
+    "laws": [
+      "Crypto trading bans",
+      "e-CNY program"
+    ],
+    "opportunities_en": [
+      "Enterprise blockchain under state framework"
+    ],
+    "opportunities_pt": [
+      "Blockchain empresarial sob estrutura estatal"
+    ],
+    "risks_en": [
+      "Severe restrictions",
+      "State centralization"
+    ],
+    "risks_pt": [
+      "Restrições severas",
+      "Centralização estatal"
+    ],
+    "references": [
+      {
+        "label": "PBOC",
+        "url": "https://www.pbc.gov.cn/"
+      }
+    ],
+    "score": 29,
+    "classification": "very_restrictive"
+  },
+  {
+    "country": "India",
+    "iso3": "IND",
+    "region": "Asia",
+    "trend": "mixed",
+    "summary_en": "India combines a very large user base with heavy taxation and still-evolving policy, creating a mixed environment for crypto business formation.",
+    "summary_pt": "A Índia combina uma base muito grande de usuários com tributação pesada e política ainda em evolução, criando um ambiente misto para a formação de negócios cripto.",
+    "last_update": "2026-03-14",
+    "criteria": {
+      "legal_certainty": 8,
+      "proportionality": 4,
+      "exchanges": 5,
+      "stablecoins": 4,
+      "tokenization": 4,
+      "taxation": 2,
+      "mining_infrastructure": 5,
+      "innovation_openness": 6,
+      "anti_centralization": 2
+    },
+    "status": {
+      "exchanges": "allowed with friction",
+      "stablecoins": "uncertain",
+      "tokenization": "limited",
+      "taxation": "heavy",
+      "mining": "mixed",
+      "cbdc": "retail pilot"
+    },
+    "laws": [
+      "Tax provisions",
+      "RBI digital rupee pilot"
+    ],
+    "opportunities_en": [
+      "Large domestic market"
+    ],
+    "opportunities_pt": [
+      "Grande mercado doméstico"
+    ],
+    "risks_en": [
+      "Punitive taxation"
+    ],
+    "risks_pt": [
+      "Tributação punitiva"
+    ],
+    "references": [
+      {
+        "label": "RBI",
+        "url": "https://www.rbi.org.in/"
+      }
+    ],
+    "score": 40,
+    "classification": "restrictive"
+  },
+  {
+    "country": "Japan",
+    "iso3": "JPN",
+    "region": "Asia",
+    "trend": "stable",
+    "summary_en": "Japan offers high legal certainty and a mature exchange regime, though compliance remains demanding and innovation can move more slowly.",
+    "summary_pt": "O Japão oferece alta segurança jurídica e um regime maduro para exchanges, embora o compliance permaneça exigente e a inovação possa avançar mais lentamente.",
+    "last_update": "2026-03-13",
+    "criteria": {
+      "legal_certainty": 17,
+      "proportionality": 10,
+      "exchanges": 9,
+      "stablecoins": 7,
+      "tokenization": 7,
+      "taxation": 5,
+      "mining_infrastructure": 4,
+      "innovation_openness": 7,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "licensed",
+      "stablecoins": "regulated",
+      "tokenization": "active",
+      "taxation": "moderate friction",
+      "mining": "limited",
+      "cbdc": "research"
+    },
+    "laws": [
+      "Payment Services Act",
+      "FSA guidance"
+    ],
+    "opportunities_en": [
+      "Institutional trust",
+      "Stablecoins"
+    ],
+    "opportunities_pt": [
+      "Confiança institucional",
+      "Stablecoins"
+    ],
+    "risks_en": [
+      "High compliance burden"
+    ],
+    "risks_pt": [
+      "Alto ônus de compliance"
+    ],
+    "references": [
+      {
+        "label": "JFSA",
+        "url": "https://www.fsa.go.jp/en/"
+      }
+    ],
+    "score": 70,
+    "classification": "favorable"
+  },
+  {
+    "country": "South Korea",
+    "iso3": "KOR",
+    "region": "Asia",
+    "trend": "improving",
+    "summary_en": "South Korea maintains strong oversight of exchanges and market conduct, with growing interest in tokenization and institutional use cases.",
+    "summary_pt": "A Coreia do Sul mantém forte supervisão sobre exchanges e conduta de mercado, com interesse crescente em tokenização e casos de uso institucionais.",
+    "last_update": "2026-03-11",
+    "criteria": {
+      "legal_certainty": 14,
+      "proportionality": 9,
+      "exchanges": 8,
+      "stablecoins": 6,
+      "tokenization": 7,
+      "taxation": 5,
+      "mining_infrastructure": 4,
+      "innovation_openness": 7,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "regulated",
+      "stablecoins": "developing",
+      "tokenization": "developing",
+      "taxation": "moderate",
+      "mining": "limited",
+      "cbdc": "research"
+    },
+    "laws": [
+      "Virtual Asset User Protection Act"
+    ],
+    "opportunities_en": [
+      "Market conduct and tokenization"
+    ],
+    "opportunities_pt": [
+      "Conduta de mercado e tokenização"
+    ],
+    "risks_en": [
+      "Strict onboarding requirements"
+    ],
+    "risks_pt": [
+      "Requisitos rigorosos de onboarding"
+    ],
+    "references": [
+      {
+        "label": "FSC Korea",
+        "url": "https://www.fsc.go.kr/eng/"
+      }
+    ],
+    "score": 64,
+    "classification": "mixed"
+  },
+  {
+    "country": "Australia",
+    "iso3": "AUS",
+    "region": "Oceania",
+    "trend": "improving",
+    "summary_en": "Australia offers a relatively open but still maturing framework, with ongoing reforms around tokenization, custody and licensing.",
+    "summary_pt": "A Austrália oferece um quadro relativamente aberto, porém ainda em amadurecimento, com reformas em andamento sobre tokenização, custódia e licenciamento.",
+    "last_update": "2026-03-10",
+    "criteria": {
+      "legal_certainty": 13,
+      "proportionality": 10,
+      "exchanges": 7,
+      "stablecoins": 6,
+      "tokenization": 7,
+      "taxation": 6,
+      "mining_infrastructure": 7,
+      "innovation_openness": 8,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "regulated",
+      "stablecoins": "developing",
+      "tokenization": "active reform",
+      "taxation": "moderate",
+      "mining": "potentially favorable",
+      "cbdc": "research"
+    },
+    "laws": [
+      "Treasury consultation papers",
+      "ASIC guidance"
+    ],
+    "opportunities_en": [
+      "Mining and tokenization"
+    ],
+    "opportunities_pt": [
+      "Mineração e tokenização"
+    ],
+    "risks_en": [
+      "Framework still evolving"
+    ],
+    "risks_pt": [
+      "Arcabouço ainda em evolução"
+    ],
+    "references": [
+      {
+        "label": "Treasury Australia",
+        "url": "https://treasury.gov.au/"
+      }
+    ],
+    "score": 68,
+    "classification": "favorable"
+  },
+  {
+    "country": "Canada",
+    "iso3": "CAN",
+    "region": "North America",
+    "trend": "stable",
+    "summary_en": "Canada has comparatively strong exchange oversight and mature market institutions, though innovation can face meaningful compliance burdens.",
+    "summary_pt": "O Canadá possui supervisão relativamente forte de exchanges e instituições de mercado maduras, embora a inovação possa enfrentar ônus relevantes de compliance.",
+    "last_update": "2026-03-09",
+    "criteria": {
+      "legal_certainty": 15,
+      "proportionality": 10,
+      "exchanges": 8,
+      "stablecoins": 6,
+      "tokenization": 7,
+      "taxation": 6,
+      "mining_infrastructure": 8,
+      "innovation_openness": 7,
+      "anti_centralization": 4
+    },
+    "status": {
+      "exchanges": "regulated",
+      "stablecoins": "cautious",
+      "tokenization": "developing",
+      "taxation": "moderate",
+      "mining": "favorable in some provinces",
+      "cbdc": "research"
+    },
+    "laws": [
+      "CSA guidance",
+      "FINTRAC rules"
+    ],
+    "opportunities_en": [
+      "Institutional markets",
+      "Mining"
+    ],
+    "opportunities_pt": [
+      "Mercados institucionais",
+      "Mineração"
+    ],
+    "risks_en": [
+      "Provincial complexity"
+    ],
+    "risks_pt": [
+      "Complexidade provincial"
+    ],
+    "references": [
+      {
+        "label": "CSA",
+        "url": "https://www.securities-administrators.ca/"
+      }
+    ],
+    "score": 71,
+    "classification": "favorable"
+  }
+]

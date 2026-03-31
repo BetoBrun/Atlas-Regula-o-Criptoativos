@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Regulation Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.6.0/dist/css/jsvectormap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="eyebrow">Global regulatory intelligence</p>
+      <h1 data-i18n="title">Crypto Regulation Atlas</h1>
+      <p class="subtitle" data-i18n="subtitle">A comparative observatory of crypto regulation, stablecoins, tokenization, mining infrastructure, and CBDC policy.</p>
+      <div class="hero-actions">
+        <a href="#jurisdiction-explorer" class="button-primary" data-i18n="exploreJurisdictions">Explore jurisdictions</a>
+        <a href="#compare-section" class="button-secondary" data-i18n="compareCountries">Compare countries</a>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="lang-switcher" aria-label="Language selector">
+        <button class="lang-btn" data-lang="pt" title="Português">🇧🇷</button>
+        <button class="lang-btn" data-lang="en" title="English">🇬🇧</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="hero-stats card">
+      <article class="stat-card">
+        <span class="stat-label" data-i18n="statJurisdictions">Jurisdictions mapped</span>
+        <strong id="stat-country-count">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label" data-i18n="statActs">Normative acts catalogued</span>
+        <strong id="stat-acts-count">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label" data-i18n="statThemes">Themes compared</span>
+        <strong id="stat-themes-count">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label" data-i18n="statUpdated">Last update</span>
+        <strong id="stat-last-update">—</strong>
+      </article>
+    </section>
+
+    <section class="intro-card card">
+      <div class="section-heading">
+        <h2 data-i18n="whyAtlasTitle">Why this Atlas matters</h2>
+      </div>
+      <p data-i18n="whyAtlasP1">This project is not a simple repository of laws. It is an analytical observatory designed to compare how jurisdictions allocate power between the State, the market, and digital financial infrastructure.</p>
+      <p data-i18n="whyAtlasP2">The central question is not merely whether a country regulates crypto-assets, but how it regulates exchanges, stablecoins, tokenization, and public digital money, and what these choices imply for innovation, investor protection, legal certainty, and institutional concentration.</p>
+      <div class="pill-nav">
+        <a href="#methodology-section" class="pill-link" data-i18n="methodologyNav">Methodology</a>
+        <a href="#themes-section" class="pill-link" data-i18n="themesNav">Thematic pillars</a>
+        <a href="#jurisdiction-explorer" class="pill-link" data-i18n="jurisdictionsNav">Jurisdictions</a>
+      </div>
+    </section>
+
+    <section id="methodology-section" class="methodology-overview card">
+      <div class="section-heading">
+        <h2 data-i18n="methodologyTitle">Methodology</h2>
+      </div>
+      <p class="methodology-lead" data-i18n="methodologyLead">The Atlas adopts a comparative legal-institutional approach. It evaluates not only the existence of rules, but also their architecture, coherence, and distributive effects on the digital financial ecosystem.</p>
+      <div class="methodology-grid">
+        <article class="method-card">
+          <h3 data-i18n="methodQuestionTitle">Core question</h3>
+          <p data-i18n="methodQuestionText">How do different jurisdictions structure crypto regulation, and what does this reveal about supervision, competition, innovation, and the centralization of digital monetary infrastructure?</p>
+        </article>
+        <article class="method-card">
+          <h3 data-i18n="methodUnitsTitle">Units of analysis</h3>
+          <ul>
+            <li data-i18n="methodUnit1">Jurisdiction</li>
+            <li data-i18n="methodUnit2">Normative act</li>
+            <li data-i18n="methodUnit3">Supervisory authority</li>
+            <li data-i18n="methodUnit4">Asset category and regulatory scope</li>
+          </ul>
+        </article>
+        <article class="method-card">
+          <h3 data-i18n="methodCriteriaTitle">Comparative criteria</h3>
+          <ul>
+            <li data-i18n="methodCriterion1">Legal certainty</li>
+            <li data-i18n="methodCriterion2">Innovation openness</li>
+            <li data-i18n="methodCriterion3">Investor and user protection</li>
+            <li data-i18n="methodCriterion4">Institutional coherence</li>
+            <li data-i18n="methodCriterion5">Risk of excessive centralization</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="themes-section" class="themes-grid">
+      <article class="theme-card card">
+        <h3 data-i18n="themeStablecoinsTitle">Stablecoins</h3>
+        <p data-i18n="themeStablecoinsText">The Atlas treats stablecoins as the main intersection between crypto regulation, payments, reserves, redemption, and financial stability. Their treatment reveals how each jurisdiction organizes private innovation under public oversight.</p>
+      </article>
+      <article class="theme-card card">
+        <h3 data-i18n="themeTokenizationTitle">Tokenization</h3>
+        <p data-i18n="themeTokenizationText">Tokenization is assessed as a regulatory gateway to the integration of digital assets with real-economy assets, capital markets, and institutional finance.</p>
+      </article>
+      <article class="theme-card card">
+        <h3 data-i18n="themeCBDCTitle">CBDC and public digital money</h3>
+        <p data-i18n="themeCBDCText">The Atlas distinguishes between wholesale, retail, and hybrid CBDC models and highlights how programmability, privacy, and intermediation choices affect the balance between innovation and concentration of monetary power.</p>
+      </article>
+    </section>
+
+    <section class="controls-card" id="jurisdiction-explorer">
+      <div class="section-heading compact-heading">
+        <h2 data-i18n="jurisdictionExplorerTitle">Jurisdiction explorer</h2>
+        <p id="metadata"></p>
+      </div>
+      <div class="controls-grid">
+        <div class="control control-search">
+          <label for="search-input" data-i18n="searchLabel">Search</label>
+          <input id="search-input" type="search" placeholder="Search a country" />
+        </div>
+
+        <div class="control">
+          <label for="region-filter" data-i18n="region">Region</label>
+          <select id="region-filter">
+            <option value="all" data-i18n="allRegions">All regions</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="trend-filter" data-i18n="trend">Trend</label>
+          <select id="trend-filter">
+            <option value="all" data-i18n="allTrends">All trends</option>
+            <option value="improving" data-i18n="improving">Improving</option>
+            <option value="stable" data-i18n="stable">Stable</option>
+            <option value="worsening" data-i18n="worsening">Worsening</option>
+            <option value="mixed" data-i18n="mixedTrend">Mixed</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="score-min" data-i18n="scoreMin">Minimum score</label>
+          <input id="score-min" type="range" min="0" max="100" step="5" value="0" />
+          <span id="score-min-value">0</span>
+        </div>
+
+        <div class="control">
+          <label for="topic-filter" data-i18n="topic">Topic</label>
+          <select id="topic-filter">
+            <option value="all" data-i18n="allTopics">All topics</option>
+            <option value="exchanges" data-i18n="exchanges">Exchanges</option>
+            <option value="stablecoins" data-i18n="stablecoins">Stablecoins</option>
+            <option value="tokenization" data-i18n="tokenization">Tokenization</option>
+            <option value="mining" data-i18n="mining">Mining</option>
+            <option value="cbdc" data-i18n="cbdc">CBDC</option>
+          </select>
+        </div>
+
+        <div class="control control-actions">
+          <button id="reset-filters" class="button-secondary" data-i18n="resetFilters">Reset filters</button>
+          <div class="view-toggle">
+            <button class="view-btn active" data-view="map" data-i18n="mapView">Map view</button>
+            <button class="view-btn" data-view="table" data-i18n="tableView">Table view</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <div class="main-panel">
+        <section id="map-section" class="map-card card">
+          <div class="card-header">
+            <h2 data-i18n="mapTitle">Global map</h2>
+          </div>
+          <div id="world-map"></div>
+          <div class="legend">
+            <span class="legend-item"><i style="background:#14532d"></i><span data-i18n="legendVeryFavorable">80–100 Very favorable</span></span>
+            <span class="legend-item"><i style="background:#16a34a"></i><span data-i18n="legendFavorable">65–79 Favorable</span></span>
+            <span class="legend-item"><i style="background:#eab308"></i><span data-i18n="legendMixed">50–64 Mixed</span></span>
+            <span class="legend-item"><i style="background:#f97316"></i><span data-i18n="legendRestrictive">35–49 Restrictive</span></span>
+            <span class="legend-item"><i style="background:#b91c1c"></i><span data-i18n="legendVeryRestrictive">0–34 Very restrictive</span></span>
+          </div>
+        </section>
+
+        <section id="table-section" class="card hidden">
+          <div class="card-header">
+            <h2 data-i18n="tableTitle">Countries table</h2>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th data-i18n="country">Country</th>
+                  <th data-i18n="region">Region</th>
+                  <th data-i18n="score">Score</th>
+                  <th data-i18n="classification">Classification</th>
+                  <th data-i18n="trend">Trend</th>
+                </tr>
+              </thead>
+              <tbody id="countries-table-body"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="cards-row">
+          <article class="card small-card">
+            <div class="card-header">
+              <h3 data-i18n="topFavorable">Top 10 favorable</h3>
+            </div>
+            <ol id="top-favorable"></ol>
+          </article>
+          <article class="card small-card">
+            <div class="card-header">
+              <h3 data-i18n="topRestrictive">Top 10 restrictive</h3>
+            </div>
+            <ol id="top-restrictive"></ol>
+          </article>
+        </section>
+
+        <section id="compare-section" class="card compare-card">
+          <div class="card-header">
+            <h2 data-i18n="compareTitle">Compare jurisdictions</h2>
+          </div>
+          <div class="compare-controls">
+            <div class="control">
+              <label for="compare-a" data-i18n="compareSelectA">Jurisdiction A</label>
+              <select id="compare-a"></select>
+            </div>
+            <div class="control">
+              <label for="compare-b" data-i18n="compareSelectB">Jurisdiction B</label>
+              <select id="compare-b"></select>
+            </div>
+          </div>
+          <div class="table-wrapper">
+            <table class="compare-table">
+              <tbody id="compare-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <aside class="sidebar">
+        <section class="card detail-card" id="country-panel">
+          <div class="empty-state">
+            <h2 data-i18n="selectCountry">Select a country</h2>
+            <p data-i18n="selectCountryHelp">Click a country on the map or choose one in the table to inspect its regulatory profile.</p>
+          </div>
+        </section>
+
+        <section class="card updates-card">
+          <div class="card-header">
+            <h3 data-i18n="latestUpdates">Latest updates</h3>
+          </div>
+          <ul id="latest-updates"></ul>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.6.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.6.0/dist/maps/world.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

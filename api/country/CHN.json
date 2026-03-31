@@ -1,0 +1,54 @@
+{
+  "country": "China",
+  "iso3": "CHN",
+  "region": "Asia",
+  "trend": "stable",
+  "summary_en": "China is highly restrictive toward private crypto markets while strongly pursuing state-led digital currency and blockchain infrastructure strategies.",
+  "summary_pt": "A China é altamente restritiva em relação aos mercados privados de criptoativos, ao mesmo tempo em que persegue fortemente estratégias estatais de moeda digital e infraestrutura blockchain.",
+  "last_update": "2026-03-12",
+  "criteria": {
+    "legal_certainty": 10,
+    "proportionality": 3,
+    "exchanges": 1,
+    "stablecoins": 1,
+    "tokenization": 4,
+    "taxation": 5,
+    "mining_infrastructure": 1,
+    "innovation_openness": 4,
+    "anti_centralization": 0
+  },
+  "status": {
+    "exchanges": "banned",
+    "stablecoins": "restricted",
+    "tokenization": "state-influenced pilots",
+    "taxation": "secondary issue",
+    "mining": "hostile",
+    "cbdc": "advanced state model"
+  },
+  "laws": [
+    "Crypto trading bans",
+    "e-CNY program"
+  ],
+  "opportunities_en": [
+    "Enterprise blockchain under state framework"
+  ],
+  "opportunities_pt": [
+    "Blockchain empresarial sob estrutura estatal"
+  ],
+  "risks_en": [
+    "Severe restrictions",
+    "State centralization"
+  ],
+  "risks_pt": [
+    "Restrições severas",
+    "Centralização estatal"
+  ],
+  "references": [
+    {
+      "label": "PBOC",
+      "url": "https://www.pbc.gov.cn/"
+    }
+  ],
+  "score": 29,
+  "classification": "very_restrictive"
+}

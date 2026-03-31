@@ -1,0 +1,54 @@
+{
+  "country": "Japan",
+  "iso3": "JPN",
+  "region": "Asia",
+  "trend": "stable",
+  "summary_en": "Japan offers high legal certainty and a mature exchange regime, though compliance remains demanding and innovation can move more slowly.",
+  "summary_pt": "O Japão oferece alta segurança jurídica e um regime maduro para exchanges, embora o compliance permaneça exigente e a inovação possa avançar mais lentamente.",
+  "last_update": "2026-03-13",
+  "criteria": {
+    "legal_certainty": 17,
+    "proportionality": 10,
+    "exchanges": 9,
+    "stablecoins": 7,
+    "tokenization": 7,
+    "taxation": 5,
+    "mining_infrastructure": 4,
+    "innovation_openness": 7,
+    "anti_centralization": 4
+  },
+  "status": {
+    "exchanges": "licensed",
+    "stablecoins": "regulated",
+    "tokenization": "active",
+    "taxation": "moderate friction",
+    "mining": "limited",
+    "cbdc": "research"
+  },
+  "laws": [
+    "Payment Services Act",
+    "FSA guidance"
+  ],
+  "opportunities_en": [
+    "Institutional trust",
+    "Stablecoins"
+  ],
+  "opportunities_pt": [
+    "Confiança institucional",
+    "Stablecoins"
+  ],
+  "risks_en": [
+    "High compliance burden"
+  ],
+  "risks_pt": [
+    "Alto ônus de compliance"
+  ],
+  "references": [
+    {
+      "label": "JFSA",
+      "url": "https://www.fsa.go.jp/en/"
+    }
+  ],
+  "score": 70,
+  "classification": "favorable"
+}

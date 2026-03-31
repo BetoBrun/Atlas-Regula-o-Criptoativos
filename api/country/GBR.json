@@ -1,0 +1,54 @@
+{
+  "country": "United Kingdom",
+  "iso3": "GBR",
+  "region": "Europe",
+  "trend": "improving",
+  "summary_en": "The UK is moving toward a tailored regime for stablecoins, digital securities and broader crypto activities, but implementation remains gradual.",
+  "summary_pt": "O Reino Unido caminha para um regime específico para stablecoins, valores mobiliários digitais e atividades cripto em geral, mas a implementação segue gradual.",
+  "last_update": "2026-03-20",
+  "criteria": {
+    "legal_certainty": 16,
+    "proportionality": 11,
+    "exchanges": 8,
+    "stablecoins": 8,
+    "tokenization": 8,
+    "taxation": 6,
+    "mining_infrastructure": 5,
+    "innovation_openness": 8,
+    "anti_centralization": 4
+  },
+  "status": {
+    "exchanges": "regulated",
+    "stablecoins": "developing framework",
+    "tokenization": "sandboxing",
+    "taxation": "moderate",
+    "mining": "neutral",
+    "cbdc": "consultation stage"
+  },
+  "laws": [
+    "FCA crypto regime",
+    "Digital Securities Sandbox"
+  ],
+  "opportunities_en": [
+    "Tokenized securities",
+    "Regulatory experimentation"
+  ],
+  "opportunities_pt": [
+    "Valores mobiliários tokenizados",
+    "Experimentação regulatória"
+  ],
+  "risks_en": [
+    "Slow implementation"
+  ],
+  "risks_pt": [
+    "Implementação lenta"
+  ],
+  "references": [
+    {
+      "label": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/"
+    }
+  ],
+  "score": 74,
+  "classification": "favorable"
+}

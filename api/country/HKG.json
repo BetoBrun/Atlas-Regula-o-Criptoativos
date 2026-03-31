@@ -1,0 +1,54 @@
+{
+  "country": "Hong Kong",
+  "iso3": "HKG",
+  "region": "Asia",
+  "trend": "improving",
+  "summary_en": "Hong Kong has moved toward a more explicit pro-innovation but supervised framework, especially for exchanges and fiat-backed stablecoins.",
+  "summary_pt": "Hong Kong avançou para um quadro mais explícito de incentivo à inovação com supervisão, especialmente para exchanges e stablecoins lastreadas em moeda fiduciária.",
+  "last_update": "2026-03-27",
+  "criteria": {
+    "legal_certainty": 17,
+    "proportionality": 12,
+    "exchanges": 9,
+    "stablecoins": 9,
+    "tokenization": 8,
+    "taxation": 8,
+    "mining_infrastructure": 4,
+    "innovation_openness": 9,
+    "anti_centralization": 4
+  },
+  "status": {
+    "exchanges": "licensed",
+    "stablecoins": "licensed framework",
+    "tokenization": "active",
+    "taxation": "competitive",
+    "mining": "limited",
+    "cbdc": "research"
+  },
+  "laws": [
+    "VASP licensing",
+    "Stablecoins Ordinance"
+  ],
+  "opportunities_en": [
+    "Exchange licensing",
+    "Asian capital access"
+  ],
+  "opportunities_pt": [
+    "Licenciamento de exchanges",
+    "Acesso a capital asiático"
+  ],
+  "risks_en": [
+    "Policy shifts"
+  ],
+  "risks_pt": [
+    "Mudanças de política"
+  ],
+  "references": [
+    {
+      "label": "HKMA",
+      "url": "https://www.hkma.gov.hk/"
+    }
+  ],
+  "score": 80,
+  "classification": "very_favorable"
+}

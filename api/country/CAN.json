@@ -1,0 +1,54 @@
+{
+  "country": "Canada",
+  "iso3": "CAN",
+  "region": "North America",
+  "trend": "stable",
+  "summary_en": "Canada has comparatively strong exchange oversight and mature market institutions, though innovation can face meaningful compliance burdens.",
+  "summary_pt": "O Canadá possui supervisão relativamente forte de exchanges e instituições de mercado maduras, embora a inovação possa enfrentar ônus relevantes de compliance.",
+  "last_update": "2026-03-09",
+  "criteria": {
+    "legal_certainty": 15,
+    "proportionality": 10,
+    "exchanges": 8,
+    "stablecoins": 6,
+    "tokenization": 7,
+    "taxation": 6,
+    "mining_infrastructure": 8,
+    "innovation_openness": 7,
+    "anti_centralization": 4
+  },
+  "status": {
+    "exchanges": "regulated",
+    "stablecoins": "cautious",
+    "tokenization": "developing",
+    "taxation": "moderate",
+    "mining": "favorable in some provinces",
+    "cbdc": "research"
+  },
+  "laws": [
+    "CSA guidance",
+    "FINTRAC rules"
+  ],
+  "opportunities_en": [
+    "Institutional markets",
+    "Mining"
+  ],
+  "opportunities_pt": [
+    "Mercados institucionais",
+    "Mineração"
+  ],
+  "risks_en": [
+    "Provincial complexity"
+  ],
+  "risks_pt": [
+    "Complexidade provincial"
+  ],
+  "references": [
+    {
+      "label": "CSA",
+      "url": "https://www.securities-administrators.ca/"
+    }
+  ],
+  "score": 71,
+  "classification": "favorable"
+}

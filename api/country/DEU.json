@@ -1,0 +1,54 @@
+{
+  "country": "Germany",
+  "iso3": "DEU",
+  "region": "Europe",
+  "trend": "stable",
+  "summary_en": "Germany benefits from EU-level legal certainty under MiCA and strong financial regulation, though compliance can be costly.",
+  "summary_pt": "A Alemanha se beneficia da segurança jurídica em nível europeu sob o MiCA e de uma forte regulação financeira, embora o compliance possa ser custoso.",
+  "last_update": "2026-03-25",
+  "criteria": {
+    "legal_certainty": 17,
+    "proportionality": 10,
+    "exchanges": 8,
+    "stablecoins": 7,
+    "tokenization": 8,
+    "taxation": 6,
+    "mining_infrastructure": 4,
+    "innovation_openness": 7,
+    "anti_centralization": 3
+  },
+  "status": {
+    "exchanges": "regulated",
+    "stablecoins": "regulated under MiCA",
+    "tokenization": "active",
+    "taxation": "moderate friction",
+    "mining": "limited",
+    "cbdc": "euro area exploration"
+  },
+  "laws": [
+    "MiCA",
+    "German banking supervision rules"
+  ],
+  "opportunities_en": [
+    "Regulated tokenization",
+    "Institutional adoption"
+  ],
+  "opportunities_pt": [
+    "Tokenização regulada",
+    "Adoção institucional"
+  ],
+  "risks_en": [
+    "High compliance cost"
+  ],
+  "risks_pt": [
+    "Alto custo de compliance"
+  ],
+  "references": [
+    {
+      "label": "BaFin",
+      "url": "https://www.bafin.de/"
+    }
+  ],
+  "score": 70,
+  "classification": "favorable"
+}

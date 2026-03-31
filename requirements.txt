@@ -1,0 +1,1 @@
+# No external runtime dependency is required for the current static build.

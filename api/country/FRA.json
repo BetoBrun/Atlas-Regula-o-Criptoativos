@@ -1,0 +1,52 @@
+{
+  "country": "France",
+  "iso3": "FRA",
+  "region": "Europe",
+  "trend": "stable",
+  "summary_en": "France combines early digital asset licensing experience with the broader MiCA framework, offering clarity but significant compliance obligations.",
+  "summary_pt": "A França combina experiência precoce em licenciamento de ativos digitais com o quadro mais amplo do MiCA, oferecendo clareza, porém com obrigações relevantes de compliance.",
+  "last_update": "2026-03-24",
+  "criteria": {
+    "legal_certainty": 17,
+    "proportionality": 9,
+    "exchanges": 8,
+    "stablecoins": 7,
+    "tokenization": 8,
+    "taxation": 6,
+    "mining_infrastructure": 4,
+    "innovation_openness": 7,
+    "anti_centralization": 3
+  },
+  "status": {
+    "exchanges": "regulated",
+    "stablecoins": "regulated under MiCA",
+    "tokenization": "active",
+    "taxation": "moderate friction",
+    "mining": "limited",
+    "cbdc": "euro area exploration"
+  },
+  "laws": [
+    "MiCA",
+    "PSAN regime"
+  ],
+  "opportunities_en": [
+    "Institutional market entry"
+  ],
+  "opportunities_pt": [
+    "Entrada de mercado institucional"
+  ],
+  "risks_en": [
+    "Regulatory cost"
+  ],
+  "risks_pt": [
+    "Custo regulatório"
+  ],
+  "references": [
+    {
+      "label": "AMF France",
+      "url": "https://www.amf-france.org/"
+    }
+  ],
+  "score": 69,
+  "classification": "favorable"
+}
