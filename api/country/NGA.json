@@ -3,9 +3,9 @@
   "iso3": "NGA",
   "region": "Africa",
   "trend": "mixed",
-  "summary_en": "Nigeria has strong grassroots crypto use but an unstable regulatory path, including CBDC experience with limited traction and changing approaches to exchanges.",
-  "summary_pt": "A Nigéria apresenta forte uso social de criptoativos, mas uma trajetória regulatória instável, incluindo experiência de CBDC com baixa tração e mudanças na abordagem sobre exchanges.",
-  "last_update": "2026-03-17",
+  "summary_en": "Nigeria is a socially important crypto market moving toward greater formalisation, but still marked by institutional oscillation.",
+  "summary_pt": "A Nigéria é um mercado de cripto socialmente importante em movimento para maior formalização, mas ainda marcado por oscilação institucional.",
+  "last_update": "2026-03-31",
   "criteria": {
     "legal_certainty": 7,
     "proportionality": 7,
@@ -48,5 +48,30 @@
     }
   ],
   "score": 43,
-  "classification": "restrictive"
+  "classification": "restrictive",
+  "thesis_core": false,
+  "thesis_scope": true,
+  "authorities": [
+    "Securities and Exchange Commission Nigeria",
+    "Central Bank of Nigeria",
+    "Nigerian FIU / AML bodies"
+  ],
+  "model_en": "High-adoption market moving from restriction and ambiguity toward a more unified securities-led VASP framework.",
+  "model_pt": "Mercado de alta adoção em transição de restrição e ambiguidade para um framework mais unificado, liderado pela autoridade de valores mobiliários para VASPs.",
+  "detailed_analysis_en": "Nigeria is analytically important because social use, remittances and currency pressures gave crypto a strong practical role before a fully coherent legal framework emerged. The SEC has moved toward formal VASP registration and oversight, while the system still reflects the aftereffects of earlier banking restrictions and policy oscillation. Nigeria thus illustrates a jurisdiction where adoption pressure forces institutional regularisation, but enforcement credibility and inter-agency coherence remain central challenges.",
+  "detailed_analysis_pt": "A Nigéria é analiticamente importante porque uso social, remessas e pressões cambiais deram aos criptoativos um papel prático forte antes do surgimento de um framework jurídico plenamente coerente. A SEC evoluiu para registro e supervisão formal de VASPs, enquanto o sistema ainda carrega os efeitos de restrições bancárias anteriores e de oscilações de política pública. A Nigéria ilustra, assim, uma jurisdição em que a pressão da adoção força a regularização institucional, mas a credibilidade do enforcement e a coerência interagências permanecem desafios centrais.",
+  "stablecoin_regime_en": "Stablecoins matter in practice, especially in a dollar-access context, but the regime remains more market-driven than fully codified.",
+  "stablecoin_regime_pt": "As stablecoins importam na prática, especialmente no contexto de acesso ao dólar, mas o regime continua mais puxado pelo mercado do que totalmente codificado.",
+  "tokenization_regime_en": "Tokenization is not yet the defining regulatory axis; exchange and VASP oversight remain more central.",
+  "tokenization_regime_pt": "A tokenização ainda não é o eixo regulatório definidor; a supervisão de exchanges e VASPs permanece mais central.",
+  "cbdc_note_en": "Nigeria remains relevant because of its early CBDC experience, but private crypto and stablecoin use continue to be more socially salient than CBDC adoption.",
+  "cbdc_note_pt": "A Nigéria continua relevante por sua experiência precoce com CBDC, mas o uso privado de cripto e stablecoins segue mais socialmente saliente do que a adoção da CBDC.",
+  "comparison_axes": {
+    "clarity": "medium-low",
+    "innovation": "high",
+    "stablecoins": "socially salient / partial",
+    "tokenization": "incipient",
+    "state_centralization": "low-moderate"
+  },
+  "iso2": "NG"
 }

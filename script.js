@@ -1,68 +1,58 @@
 const I18N = {
   en: {
-    eyebrow: 'Comparative regulatory observatory',
+    eyebrow: 'Global regulatory intelligence',
     title: 'Crypto Regulation Atlas',
     subtitle: 'A comparative observatory of crypto regulation, stablecoins, tokenization, mining infrastructure, and CBDC policy.',
-    exploreJurisdictions: 'Explore jurisdictions', compareCountries: 'Compare countries',
-    statJurisdictions: 'Jurisdictions mapped', statActs: 'Normative acts catalogued', statThemes: 'Themes compared', statUpdated: 'Last update',
-    whyAtlasTitle: 'Why this Atlas matters', whyAtlasP1: 'This project is not a simple repository of laws. It is an analytical observatory designed to compare how jurisdictions allocate power between the State, the market, and digital financial infrastructure.', whyAtlasP2: 'The central question is not merely whether a country regulates crypto-assets, but how it regulates exchanges, stablecoins, tokenization, and public digital money, and what these choices imply for innovation, investor protection, legal certainty, and institutional concentration.',
-    methodologyNav: 'Methodology', themesNav: 'Thematic pillars', jurisdictionsNav: 'Jurisdictions',
-    methodologyTitle: 'Methodology', methodologyLead: 'The Atlas adopts a comparative legal-institutional approach. It evaluates not only the existence of rules, but also their architecture, coherence, and distributive effects on the digital financial ecosystem.',
-    methodQuestionTitle: 'Core question', methodQuestionText: 'How do different jurisdictions structure crypto regulation, and what does this reveal about supervision, competition, innovation, and the centralization of digital monetary infrastructure?',
-    methodUnitsTitle: 'Units of analysis', methodUnit1: 'Jurisdiction', methodUnit2: 'Normative act', methodUnit3: 'Supervisory authority', methodUnit4: 'Asset category and regulatory scope',
-    methodCriteriaTitle: 'Comparative criteria', methodCriterion1: 'Legal certainty', methodCriterion2: 'Innovation openness', methodCriterion3: 'Investor and user protection', methodCriterion4: 'Institutional coherence', methodCriterion5: 'Risk of excessive centralization',
-    themeStablecoinsTitle: 'Stablecoins', themeStablecoinsText: 'The Atlas treats stablecoins as the main intersection between crypto regulation, payments, reserves, redemption, and financial stability. Their treatment reveals how each jurisdiction organizes private innovation under public oversight.',
-    themeTokenizationTitle: 'Tokenization', themeTokenizationText: 'Tokenization is assessed as a regulatory gateway to the integration of digital assets with real-economy assets, capital markets, and institutional finance.',
-    themeCBDCTitle: 'CBDC and public digital money', themeCBDCText: 'The Atlas distinguishes between wholesale, retail, and hybrid CBDC models and highlights how programmability, privacy, and intermediation choices affect the balance between innovation and concentration of monetary power.',
-    jurisdictionExplorerTitle: 'Jurisdiction explorer',
     searchLabel: 'Search', searchPlaceholder: 'Search a country', region: 'Region', allRegions: 'All regions',
     trend: 'Trend', allTrends: 'All trends', improving: 'Improving', stable: 'Stable', worsening: 'Worsening', mixedTrend: 'Mixed',
     scoreMin: 'Minimum score', topic: 'Topic', allTopics: 'All topics', exchanges: 'Exchanges', stablecoins: 'Stablecoins', tokenization: 'Tokenization', mining: 'Mining', cbdc: 'CBDC',
     resetFilters: 'Reset filters', mapView: 'Map view', tableView: 'Table view', mapTitle: 'Global map',
     legendVeryFavorable: '80–100 Very favorable', legendFavorable: '65–79 Favorable', legendMixed: '50–64 Mixed', legendRestrictive: '35–49 Restrictive', legendVeryRestrictive: '0–34 Very restrictive',
-    tableTitle: 'Countries table', country: 'Country', score: 'Score', classification: 'Classification', topFavorable: 'Top 10 favorable', topRestrictive: 'Top 10 restrictive',
+    tableTitle: 'Countries table', country: 'Country', score: 'Score', classification: 'Classification', topFavorable: 'Top 10 favorable', topRestrictive: 'Restrictive & mixed',
+    methodologyTitle: 'Methodology', methodologyP1: 'The score does not treat the absence of regulation as inherently positive. It rewards legal certainty, proportionality, innovation openness, room for regulated stablecoins and tokenization, healthy conditions for exchanges and mining infrastructure, and lower risk of excessive state centralization.', methodologyP2: 'This observatory is analytical and comparative. It is not legal advice. Scores combine editorial judgment and structured criteria and should be read with attention to context, trend, and source quality.',
     selectCountry: 'Select a country', selectCountryHelp: 'Click a country on the map or choose one in the table to inspect its regulatory profile.', latestUpdates: 'Latest updates',
     lastUpdate: 'Last update', statusOverview: 'Status overview', principalLaws: 'Principal laws and frameworks', opportunities: 'Opportunities', risks: 'Risks', sources: 'Sources', criteriaBreakdown: 'Criteria breakdown',
-    noData: 'No data available', generatedAt: 'Generated at', countriesCovered: 'Countries covered', compareTitle: 'Compare jurisdictions', compareSelectA: 'Jurisdiction A', compareSelectB: 'Jurisdiction B',
+    noData: 'No data available', generatedAt: 'Generated at', countriesCovered: 'Countries covered',
+    jurisdictionsMapped: 'Jurisdictions mapped', normativeActs: 'Normative acts catalogued', themesCompared: 'Themes compared', thesisCore: 'Thesis core jurisdictions',
+    themesTitle: 'Thematic pillars', compareTitle: 'Compare jurisdictions', jurisdictionA: 'Jurisdiction A', jurisdictionB: 'Jurisdiction B',
+    summary: 'Summary', regulatoryModel: 'Regulatory model', authorities: 'Authorities', stablecoinRegime: 'Stablecoin regime', tokenizationRegime: 'Tokenization regime', cbdcNote: 'CBDC note',
+    detailedAnalysis: 'Analytical note', thesisBadge: 'Thesis core',
     class_very_favorable: 'Very favorable', class_favorable: 'Favorable', class_mixed: 'Mixed', class_restrictive: 'Restrictive', class_very_restrictive: 'Very restrictive',
     t_improving: 'Improving', t_stable: 'Stable', t_worsening: 'Worsening', t_mixed: 'Mixed',
-    analyticalReading: 'Analytical reading', inferredModel: 'Inferred model', innovationScore: 'Innovation openness', centralizationRisk: 'State centralization risk', generalScore: 'General score', compareMetric: 'Metric', summary: 'Summary', legalActs: 'Legal acts',
-    compareSummary: 'Summary', compareClassification: 'Classification', compareTrend: 'Trend', compareStablecoins: 'Stablecoins', compareTokenization: 'Tokenization', compareCBDC: 'CBDC', compareExchanges: 'Exchanges', compareInnovation: 'Innovation openness', compareCentralization: 'Anti-centralization',
-    regulated: 'Regulated', 'regulated with litigation risk': 'Regulated with litigation risk', 'developing framework': 'Developing framework', 'open with compliance': 'Open with compliance', 'licensed': 'Licensed', 'licensed framework': 'Licensed framework', 'open with rules': 'Open with rules', 'specialized framework': 'Specialized framework', 'operating': 'Operating', 'uncertain': 'Uncertain', 'banned': 'Banned', 'allowed with friction': 'Allowed with friction', 'partially open': 'Partially open', 'regulated under mica': 'Regulated under MiCA', 'highly favorable': 'Highly favorable', 'very active': 'Very active', 'active': 'Active', 'sandboxing': 'Sandboxing', 'developing': 'Developing', 'open': 'Open', 'incipient': 'Incipient', 'active reform': 'Active reform', 'moderate friction': 'Moderate friction', 'moderate': 'Moderate', 'competitive': 'Competitive', 'favorable': 'Favorable', 'favorable in several states': 'Favorable in several states', 'used informally': 'Used informally', 'heavily': 'Heavy', 'heavy': 'Heavy', 'secondary issue': 'Secondary issue', 'potentially favorable': 'Potentially favorable', 'limited': 'Limited', 'neutral': 'Neutral', 'hostile': 'Hostile', 'pilot under debate': 'Pilot under debate', 'research only': 'Research only', 'euro area exploration': 'Euro area exploration', 'research': 'Research', 'wholesale focus': 'Wholesale focus', 'wholesale and cross-border exploration': 'Wholesale and cross-border exploration', 'not central': 'Not central', 'retail launched with low adoption': 'Retail launched with low adoption', 'advanced state model': 'Advanced state model', 'retail pilot': 'Retail pilot', 'consultation stage': 'Consultation stage'
+    regulated: 'Regulated', 'regulated with litigation risk': 'Regulated with litigation risk', 'developing framework': 'Developing framework', 'open with compliance': 'Open with compliance', 'licensed': 'Licensed', 'licensed framework': 'Licensed framework', 'open with rules': 'Open with rules', 'specialized framework': 'Specialized framework', 'operating': 'Operating', 'uncertain': 'Uncertain', 'banned': 'Banned', 'allowed with friction': 'Allowed with friction', 'partially open': 'Partially open', 'regulated under mica': 'Regulated under MiCA', 'highly favorable': 'Highly favorable', 'very active': 'Very active', 'active': 'Active', 'sandboxing': 'Sandboxing', 'developing': 'Developing', 'open': 'Open', 'incipient': 'Incipient', 'active reform': 'Active reform', 'moderate friction': 'Moderate friction', 'moderate': 'Moderate', 'competitive': 'Competitive', 'favorable': 'Favorable', 'favorable in several states': 'Favorable in several states', 'used informally': 'Used informally', 'heavily': 'Heavy', 'heavy': 'Heavy', 'secondary issue': 'Secondary issue', 'potentially favorable': 'Potentially favorable', 'limited': 'Limited', 'neutral': 'Neutral', 'hostile': 'Hostile', 'pilot under debate': 'Pilot under debate', 'research only': 'Research only', 'euro area exploration': 'Euro area exploration', 'research': 'Research', 'wholesale focus': 'Wholesale focus', 'wholesale and cross-border exploration': 'Wholesale and cross-border exploration', 'not central': 'Not central', 'retail launched with low adoption': 'Retail launched with low adoption', 'advanced state model': 'Advanced state model', 'retail pilot': 'Retail pilot', 'consultation stage': 'Consultation stage',
+    'dac8 reporting': 'DAC8 reporting', 'limited relevance': 'Limited relevance'
   },
   pt: {
-    eyebrow: 'Observatório regulatório comparado',
-    title: 'Atlas Comparado da Regulação de Criptoativos',
+    eyebrow: 'Inteligência regulatória global',
+    title: 'Atlas da Regulação de Criptoativos',
     subtitle: 'Um observatório comparado da regulação de criptoativos, stablecoins, tokenização, infraestrutura de mineração e política de CBDC.',
-    exploreJurisdictions: 'Explorar jurisdições', compareCountries: 'Comparar países',
-    statJurisdictions: 'Jurisdições mapeadas', statActs: 'Atos normativos catalogados', statThemes: 'Temas comparados', statUpdated: 'Última atualização',
-    whyAtlasTitle: 'Por que este Atlas importa', whyAtlasP1: 'Este projeto não é um simples repositório de leis. Trata-se de um observatório analítico criado para comparar como diferentes jurisdições distribuem poder entre Estado, mercado e infraestrutura financeira digital.', whyAtlasP2: 'A questão central não é apenas se um país regula criptoativos, mas como regula exchanges, stablecoins, tokenização e dinheiro digital público, e o que essas escolhas implicam para inovação, proteção do investidor, segurança jurídica e concentração institucional.',
-    methodologyNav: 'Metodologia', themesNav: 'Pilares temáticos', jurisdictionsNav: 'Jurisdições',
-    methodologyTitle: 'Metodologia', methodologyLead: 'O Atlas adota uma abordagem jurídico-institucional comparada. Ele avalia não só a existência de regras, mas também sua arquitetura, coerência e efeitos distributivos sobre o ecossistema financeiro digital.',
-    methodQuestionTitle: 'Pergunta central', methodQuestionText: 'Como diferentes jurisdições estruturam a regulação dos criptoativos e o que isso revela sobre supervisão, concorrência, inovação e centralização da infraestrutura monetária digital?',
-    methodUnitsTitle: 'Unidades de análise', methodUnit1: 'Jurisdição', methodUnit2: 'Ato normativo', methodUnit3: 'Autoridade supervisora', methodUnit4: 'Categoria de ativo e escopo regulatório',
-    methodCriteriaTitle: 'Critérios comparativos', methodCriterion1: 'Segurança jurídica', methodCriterion2: 'Abertura à inovação', methodCriterion3: 'Proteção do investidor e do usuário', methodCriterion4: 'Coerência institucional', methodCriterion5: 'Risco de centralização excessiva',
-    themeStablecoinsTitle: 'Stablecoins', themeStablecoinsText: 'O Atlas trata stablecoins como o principal ponto de interseção entre regulação cripto, pagamentos, reservas, resgate e estabilidade financeira. Seu tratamento revela como cada jurisdição organiza inovação privada sob supervisão pública.',
-    themeTokenizationTitle: 'Tokenização', themeTokenizationText: 'A tokenização é analisada como porta de entrada regulatória para a integração entre ativos digitais, ativos da economia real, mercado de capitais e finanças institucionais.',
-    themeCBDCTitle: 'CBDC e dinheiro digital público', themeCBDCText: 'O Atlas distingue modelos de CBDC de atacado, varejo e híbridos e mostra como programabilidade, privacidade e intermediação afetam o equilíbrio entre inovação e concentração do poder monetário.',
-    jurisdictionExplorerTitle: 'Explorador de jurisdições',
     searchLabel: 'Busca', searchPlaceholder: 'Buscar um país', region: 'Região', allRegions: 'Todas as regiões',
     trend: 'Tendência', allTrends: 'Todas as tendências', improving: 'Em melhora', stable: 'Estável', worsening: 'Em piora', mixedTrend: 'Mista',
     scoreMin: 'Pontuação mínima', topic: 'Tema', allTopics: 'Todos os temas', exchanges: 'Exchanges', stablecoins: 'Stablecoins', tokenization: 'Tokenização', mining: 'Mineração', cbdc: 'CBDC',
     resetFilters: 'Limpar filtros', mapView: 'Mapa', tableView: 'Tabela', mapTitle: 'Mapa global',
     legendVeryFavorable: '80–100 Muito favorável', legendFavorable: '65–79 Favorável', legendMixed: '50–64 Misto', legendRestrictive: '35–49 Restritivo', legendVeryRestrictive: '0–34 Muito restritivo',
-    tableTitle: 'Tabela de países', country: 'País', score: 'Pontuação', classification: 'Classificação', topFavorable: 'Top 10 favoráveis', topRestrictive: 'Top 10 restritivos',
+    tableTitle: 'Tabela de países', country: 'País', score: 'Pontuação', classification: 'Classificação', topFavorable: 'Top 10 favoráveis', topRestrictive: 'Mais mistos/restritivos',
+    methodologyTitle: 'Metodologia', methodologyP1: 'A pontuação não trata a ausência de regulação como algo inerentemente positivo. Ela premia segurança jurídica, proporcionalidade, abertura à inovação, espaço para stablecoins e tokenização reguladas, condições saudáveis para exchanges e infraestrutura de mineração, e menor risco de centralização estatal excessiva.', methodologyP2: 'Este observatório é analítico e comparativo. Não constitui aconselhamento jurídico. As pontuações combinam juízo editorial e critérios estruturados e devem ser lidas com atenção ao contexto, à tendência e à qualidade das fontes.',
     selectCountry: 'Selecione um país', selectCountryHelp: 'Clique em um país no mapa ou escolha um na tabela para inspecionar o seu perfil regulatório.', latestUpdates: 'Atualizações recentes',
     lastUpdate: 'Última atualização', statusOverview: 'Visão geral do status', principalLaws: 'Principais leis e marcos', opportunities: 'Oportunidades', risks: 'Riscos', sources: 'Fontes', criteriaBreakdown: 'Detalhamento dos critérios',
-    noData: 'Sem dados disponíveis', generatedAt: 'Gerado em', countriesCovered: 'Países cobertos', compareTitle: 'Comparar jurisdições', compareSelectA: 'Jurisdição A', compareSelectB: 'Jurisdição B',
+    noData: 'Sem dados disponíveis', generatedAt: 'Gerado em', countriesCovered: 'Países cobertos',
+    jurisdictionsMapped: 'Jurisdições mapeadas', normativeActs: 'Atos normativos catalogados', themesCompared: 'Temas comparados', thesisCore: 'Jurisdições centrais da tese',
+    themesTitle: 'Pilares temáticos', compareTitle: 'Comparar jurisdições', jurisdictionA: 'Jurisdição A', jurisdictionB: 'Jurisdição B',
+    summary: 'Resumo', regulatoryModel: 'Modelo regulatório', authorities: 'Autoridades', stablecoinRegime: 'Regime de stablecoins', tokenizationRegime: 'Regime de tokenização', cbdcNote: 'Nota sobre CBDC',
+    detailedAnalysis: 'Nota analítica', thesisBadge: 'Núcleo da tese',
     class_very_favorable: 'Muito favorável', class_favorable: 'Favorável', class_mixed: 'Misto', class_restrictive: 'Restritivo', class_very_restrictive: 'Muito restritivo',
     t_improving: 'Em melhora', t_stable: 'Estável', t_worsening: 'Em piora', t_mixed: 'Mista',
-    analyticalReading: 'Leitura analítica', inferredModel: 'Modelo inferido', innovationScore: 'Abertura à inovação', centralizationRisk: 'Risco de centralização estatal', generalScore: 'Pontuação geral', compareMetric: 'Métrica', summary: 'Resumo', legalActs: 'Atos normativos', compareSummary: 'Resumo', compareClassification: 'Classificação', compareTrend: 'Tendência', compareStablecoins: 'Stablecoins', compareTokenization: 'Tokenização', compareCBDC: 'CBDC', compareExchanges: 'Exchanges', compareInnovation: 'Abertura à inovação', compareCentralization: 'Anticentralização',
-    regulated: 'Regulado', 'regulated with litigation risk': 'Regulado com risco contencioso', 'developing framework': 'Arcabouço em desenvolvimento', 'open with compliance': 'Aberto com compliance', 'licensed': 'Licenciado', 'licensed framework': 'Regime licenciado', 'open with rules': 'Aberto com regras', 'specialized framework': 'Regime especializado', 'operating': 'Operando', 'uncertain': 'Incerto', 'banned': 'Proibido', 'allowed with friction': 'Permitido com fricções', 'partially open': 'Parcialmente aberto', 'regulated under mica': 'Regulado sob o MiCA', 'highly favorable': 'Muito favorável', 'very active': 'Muito ativo', 'active': 'Ativo', 'sandboxing': 'Em sandbox', 'developing': 'Em desenvolvimento', 'open': 'Aberto', 'incipient': 'Incipiente', 'active reform': 'Reforma em curso', 'moderate friction': 'Atrito moderado', 'moderate': 'Moderado', 'competitive': 'Competitivo', 'favorable': 'Favorável', 'favorable in several states': 'Favorável em vários estados', 'used informally': 'Usado informalmente', 'heavily': 'Pesado', 'heavy': 'Pesado', 'secondary issue': 'Questão secundária', 'potentially favorable': 'Potencialmente favorável', 'limited': 'Limitado', 'neutral': 'Neutro', 'hostile': 'Hostil', 'pilot under debate': 'Piloto em debate', 'research only': 'Apenas pesquisa', 'euro area exploration': 'Exploração na área do euro', 'research': 'Pesquisa', 'wholesale focus': 'Foco em atacado', 'wholesale and cross-border exploration': 'Exploração em atacado e transfronteiriça', 'not central': 'Não central', 'retail launched with low adoption': 'Varejo lançado com baixa adoção', 'advanced state model': 'Modelo estatal avançado', 'retail pilot': 'Piloto de varejo', 'consultation stage': 'Fase de consulta'
+    regulated: 'Regulado', 'regulated with litigation risk': 'Regulado com risco contencioso', 'developing framework': 'Arcabouço em desenvolvimento', 'open with compliance': 'Aberto com compliance', 'licensed': 'Licenciado', 'licensed framework': 'Regime licenciado', 'open with rules': 'Aberto com regras', 'specialized framework': 'Regime especializado', 'operating': 'Operando', 'uncertain': 'Incerto', 'banned': 'Proibido', 'allowed with friction': 'Permitido com fricções', 'partially open': 'Parcialmente aberto', 'regulated under mica': 'Regulado sob o MiCA', 'highly favorable': 'Muito favorável', 'very active': 'Muito ativo', 'active': 'Ativo', 'sandboxing': 'Em sandbox', 'developing': 'Em desenvolvimento', 'open': 'Aberto', 'incipient': 'Incipiente', 'active reform': 'Reforma em curso', 'moderate friction': 'Atrito moderado', 'moderate': 'Moderado', 'competitive': 'Competitivo', 'favorable': 'Favorável', 'favorable in several states': 'Favorável em vários estados', 'used informally': 'Usado informalmente', 'heavily': 'Pesado', 'heavy': 'Pesado', 'secondary issue': 'Questão secundária', 'potentially favorable': 'Potencialmente favorável', 'limited': 'Limitado', 'neutral': 'Neutro', 'hostile': 'Hostil', 'pilot under debate': 'Piloto em debate', 'research only': 'Apenas pesquisa', 'euro area exploration': 'Exploração na área do euro', 'research': 'Pesquisa', 'wholesale focus': 'Foco em atacado', 'wholesale and cross-border exploration': 'Exploração em atacado e transfronteiriça', 'not central': 'Não central', 'retail launched with low adoption': 'Varejo lançado com baixa adoção', 'advanced state model': 'Modelo estatal avançado', 'retail pilot': 'Piloto de varejo', 'consultation stage': 'Fase de consulta',
+    'dac8 reporting': 'Reporte DAC8', 'limited relevance': 'Relevância limitada'
   }
 };
 
-const state = { lang: localStorage.getItem('atlas-lang') || 'pt', countries: [], filtered: [], map: null, selected: null, view: 'map' };
+const ISO3_TO_ISO2 = {
+  BRA:'BR', EUU:null, USA:'US', GBR:'GB', SGP:'SG', HKG:'HK', CHE:'CH', ARE:'AE', SLV:'SV', PRY:'PY',
+  DEU:'DE', FRA:'FR', ARG:'AR', CHL:'CL', NGA:'NG', CHN:'CN', IND:'IN', JPN:'JP', KOR:'KR', AUS:'AU', CAN:'CA'
+};
+
+const state = { lang: localStorage.getItem('atlas-lang') || 'pt', countries: [], filtered: [], map: null, selected: null, view: 'map', metadata: null, themes: [], updates: [] };
 const REGION_ORDER = ['Africa', 'Asia', 'Europe', 'Latin America', 'Middle East', 'North America', 'Oceania'];
 const CRITERIA_LABELS = {
   legal_certainty: { en: 'Legal certainty', pt: 'Segurança jurídica' },
@@ -75,92 +65,117 @@ const CRITERIA_LABELS = {
   innovation_openness: { en: 'Innovation openness', pt: 'Abertura à inovação' },
   anti_centralization: { en: 'Anti-centralization', pt: 'Anticentralização' }
 };
-const STATUS_LABELS = { exchanges: { en: 'Exchanges', pt: 'Exchanges' }, stablecoins: { en: 'Stablecoins', pt: 'Stablecoins' }, tokenization: { en: 'Tokenization', pt: 'Tokenização' }, taxation: { en: 'Taxation', pt: 'Tributação' }, mining: { en: 'Mining', pt: 'Mineração' }, cbdc: { en: 'CBDC', pt: 'CBDC' } };
 
 function t(key) { return I18N[state.lang][key] || key; }
 function esc(s='') { return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
 function colorForScore(score) { if (score >= 80) return '#14532d'; if (score >= 65) return '#16a34a'; if (score >= 50) return '#eab308'; if (score >= 35) return '#f97316'; return '#b91c1c'; }
-function translateClassification(v) { return t(`class_${v}`); }
-function translateTrend(v) { return t(`t_${v}`); }
-function translateValue(v) { return I18N[state.lang][String(v).toLowerCase()] || v; }
-function fmtDate(value) { try { return new Date(value + 'T00:00:00').toLocaleDateString(state.lang === 'pt' ? 'pt-BR' : 'en-GB'); } catch { return value; } }
-function inferModel(country) {
-  const s = country.score;
-  if (s >= 80) return state.lang === 'pt' ? 'Harmonizado e competitivo' : 'Harmonized and competitive';
-  if (s >= 65) return state.lang === 'pt' ? 'Regulado com abertura seletiva' : 'Regulated with selective openness';
-  if (s >= 50) return state.lang === 'pt' ? 'Misto ou em transição' : 'Mixed or transitional';
-  if (s >= 35) return state.lang === 'pt' ? 'Restritivo ou fragmentado' : 'Restrictive or fragmented';
-  return state.lang === 'pt' ? 'Altamente restritivo' : 'Highly restrictive';
-}
-async function loadJson(path) { const res = await fetch(path); if (!res.ok) throw new Error(`Failed to load ${path}`); return res.json(); }
+function translateClassification(value) { return t(`class_${value}`); }
+function translateTrend(value) { return t(`t_${value}`); }
+function translateStatus(value='') { return t(String(value).toLowerCase()) || value; }
+function fmtDate(d){ return d ? new Date(d).toLocaleDateString(state.lang === 'pt' ? 'pt-BR' : 'en-GB') : '—'; }
+function loadJson(path){ return fetch(path).then(r => { if(!r.ok) throw new Error(`Failed to load ${path}`); return r.json(); }); }
+
 function applyTranslations() {
-  document.documentElement.lang = state.lang === 'pt' ? 'pt-BR' : 'en';
-  document.querySelectorAll('[data-i18n]').forEach(el => { const key = el.dataset.i18n; if (I18N[state.lang][key]) el.textContent = I18N[state.lang][key]; });
+  document.documentElement.lang = state.lang;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.dataset.i18n;
+    if (el.tagName === 'INPUT' && el.placeholder !== undefined) el.placeholder = t(key);
+    else el.textContent = t(key);
+  });
   document.getElementById('search-input').placeholder = t('searchPlaceholder');
-  document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.lang === state.lang));
   renderAll();
 }
-function setupLanguage() { document.querySelectorAll('.lang-btn').forEach(btn => btn.addEventListener('click', () => { state.lang = btn.dataset.lang; localStorage.setItem('atlas-lang', state.lang); applyTranslations(); })); }
+
+function setupLanguage() {
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === state.lang);
+    btn.addEventListener('click', () => {
+      state.lang = btn.dataset.lang; localStorage.setItem('atlas-lang', state.lang);
+      document.querySelectorAll('.lang-btn').forEach(x => x.classList.toggle('active', x.dataset.lang === state.lang));
+      applyTranslations();
+    });
+  });
+}
+
 function populateRegions() {
   const select = document.getElementById('region-filter');
-  const current = select.value;
-  const regions = [...new Set(state.countries.map(c => c.region))].sort((a,b) => (REGION_ORDER.indexOf(a) - REGION_ORDER.indexOf(b)) || a.localeCompare(b));
+  const regions = [...new Set(state.countries.map(c => c.region))].sort((a,b)=>REGION_ORDER.indexOf(a)-REGION_ORDER.indexOf(b));
   select.innerHTML = `<option value="all">${t('allRegions')}</option>` + regions.map(r => `<option value="${esc(r)}">${esc(r)}</option>`).join('');
-  select.value = current && regions.includes(current) ? current : 'all';
+  populateCompareSelects();
 }
-function passesTopic(country, topic) {
-  if (topic === 'all') return true;
-  const value = String(country.status[topic] || '').toLowerCase();
-  return !['banned', 'restricted', 'unclear'].includes(value);
+
+function populateCompareSelects() {
+  const options = state.countries.slice().sort((a,b)=>a.country.localeCompare(b.country)).map(c => `<option value="${esc(c.iso3)}">${esc(c.country)}</option>`).join('');
+  ['compare-a','compare-b'].forEach((id, idx) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.innerHTML = options;
+    el.value = idx === 0 ? 'BRA' : 'USA';
+    el.onchange = renderCompare;
+  });
 }
+
 function applyFilters() {
   const q = document.getElementById('search-input').value.trim().toLowerCase();
   const region = document.getElementById('region-filter').value;
   const trend = document.getElementById('trend-filter').value;
-  const min = Number(document.getElementById('score-min').value);
+  const scoreMin = Number(document.getElementById('score-min').value || 0);
   const topic = document.getElementById('topic-filter').value;
   state.filtered = state.countries.filter(c => {
-    if (q && !c.country.toLowerCase().includes(q)) return false;
+    if (q && !(`${c.country} ${c.summary_en} ${c.summary_pt}`.toLowerCase().includes(q))) return false;
     if (region !== 'all' && c.region !== region) return false;
     if (trend !== 'all' && c.trend !== trend) return false;
-    if (c.score < min) return false;
-    if (!passesTopic(c, topic)) return false;
+    if (c.score < scoreMin) return false;
+    if (topic !== 'all' && !c.status?.[topic]) return false;
     return true;
   });
+  if (state.selected && !state.filtered.some(c => c.iso3 === state.selected.iso3)) state.selected = state.filtered[0] || state.countries[0] || null;
   renderAll();
 }
-function renderHeroStats() {
-  document.getElementById('stat-country-count').textContent = state.countries.length;
-  document.getElementById('stat-acts-count').textContent = state.countries.reduce((acc, c) => acc + (c.laws?.length || 0), 0);
-  document.getElementById('stat-themes-count').textContent = 5;
-  const last = [...state.countries].map(c => c.last_update).sort().slice(-1)[0];
-  document.getElementById('stat-last-update').textContent = last ? fmtDate(last) : '—';
-}
+
 function renderRanking() {
-  const favorable = [...state.filtered].sort((a,b)=>b.score-a.score).slice(0,10);
-  const restrictive = [...state.filtered].sort((a,b)=>a.score-b.score).slice(0,10);
+  const favorable = [...state.countries].filter(c => c.score >= 65).sort((a,b)=>b.score-a.score).slice(0,10);
+  const restrictive = [...state.countries].filter(c => c.score < 65).sort((a,b)=>a.score-b.score).slice(0,10);
   document.getElementById('top-favorable').innerHTML = favorable.map(c => `<li>${esc(c.country)} <strong>${c.score}</strong></li>`).join('') || `<li>${t('noData')}</li>`;
   document.getElementById('top-restrictive').innerHTML = restrictive.map(c => `<li>${esc(c.country)} <strong>${c.score}</strong></li>`).join('') || `<li>${t('noData')}</li>`;
 }
+
 function renderUpdates() {
-  const updates = [...state.countries].sort((a,b)=>String(b.last_update).localeCompare(String(a.last_update))).slice(0,8);
-  document.getElementById('latest-updates').innerHTML = updates.map(c => `<li><strong>${esc(c.country)}</strong> — ${fmtDate(c.last_update)}<br><span>${translateTrend(c.trend)}</span></li>`).join('');
+  const list = state.updates.length ? state.updates.slice(0,8).map(u => {
+    const title = state.lang === 'pt' ? (u.title_pt || u.country || '') : (u.title_en || u.country || '');
+    const summary = state.lang === 'pt' ? (u.summary_pt || '') : (u.summary_en || '');
+    return `<li><strong>${esc(title)}</strong> — ${fmtDate(u.date || u.last_update)}<br><span>${esc(summary)}</span></li>`;
+  }) : [...state.countries].sort((a,b)=>String(b.last_update).localeCompare(String(a.last_update))).slice(0,8).map(c => `<li><strong>${esc(c.country)}</strong> — ${fmtDate(c.last_update)}<br><span>${translateTrend(c.trend)}</span></li>`);
+  document.getElementById('latest-updates').innerHTML = list.join('');
 }
+
+function renderThemes() {
+  const target = document.getElementById('themes-grid');
+  if (!target) return;
+  target.innerHTML = state.themes.map(theme => {
+    const title = state.lang === 'pt' ? theme.title_pt : theme.title_en;
+    const summary = state.lang === 'pt' ? theme.summary_pt : theme.summary_en;
+    return `<article class="theme-card"><h3>${esc(title)}</h3><p>${esc(summary)}</p><div class="theme-countries">${(theme.countries_featured||[]).map(iso => {
+      const c=state.countries.find(x=>x.iso3===iso); return c?`<span>${esc(c.country)}</span>`:'';
+    }).join('')}</div></article>`;
+  }).join('');
+}
+
 function renderTable() {
   const body = document.getElementById('countries-table-body');
   body.innerHTML = [...state.filtered].sort((a,b)=>b.score-a.score).map(c => `
     <tr data-iso3="${c.iso3}">
-      <td>${esc(c.country)}</td>
+      <td>${esc(c.country)} ${c.thesis_core ? '<span class="table-badge">★</span>' : ''}</td>
       <td>${esc(c.region)}</td>
-      <td><strong>${c.score}</strong></td>
+      <td><span class="score-chip" style="background:${colorForScore(c.score)}">${c.score}</span></td>
       <td>${translateClassification(c.classification)}</td>
       <td>${translateTrend(c.trend)}</td>
-    </tr>`).join('');
-  body.querySelectorAll('tr').forEach(tr => tr.addEventListener('click', () => {
-    const country = state.countries.find(c => c.iso3 === tr.dataset.iso3);
-    if (country) { state.selected = country; renderCountryPanel(); if (state.view === 'map') buildMap(); }
+    </tr>`).join('') || `<tr><td colspan="5">${t('noData')}</td></tr>`;
+  body.querySelectorAll('tr[data-iso3]').forEach(tr => tr.addEventListener('click', () => {
+    const country = state.countries.find(c => c.iso3 === tr.dataset.iso3); if (country) { state.selected = country; renderCountryPanel(); if (state.view==='map') buildMap(); }
   }));
 }
+
 function renderCountryPanel() {
   const panel = document.getElementById('country-panel');
   const country = state.selected;
@@ -168,21 +183,26 @@ function renderCountryPanel() {
   const summary = state.lang === 'pt' ? country.summary_pt : country.summary_en;
   const opportunities = state.lang === 'pt' ? country.opportunities_pt : country.opportunities_en;
   const risks = state.lang === 'pt' ? country.risks_pt : country.risks_en;
-  const statusPairs = Object.entries(country.status).map(([k,v]) => `
-    <div class="status-item"><strong>${STATUS_LABELS[k]?.[state.lang] || k}</strong><span>${translateValue(v)}</span></div>`).join('');
-  const criteria = Object.entries(country.criteria).map(([k,v]) => `<li>${CRITERIA_LABELS[k][state.lang]}: <strong>${v}</strong></li>`).join('');
+  const analysis = state.lang === 'pt' ? country.detailed_analysis_pt : country.detailed_analysis_en;
+  const model = state.lang === 'pt' ? country.model_pt : country.model_en;
+  const stablecoin = state.lang === 'pt' ? country.stablecoin_regime_pt : country.stablecoin_regime_en;
+  const tokenization = state.lang === 'pt' ? country.tokenization_regime_pt : country.tokenization_regime_en;
+  const cbdcNote = state.lang === 'pt' ? country.cbdc_note_pt : country.cbdc_note_en;
+  const statusPairs = Object.entries(country.status||{}).map(([k,v]) => `<div class="status-item"><div class="label">${t(k)}</div><div>${translateStatus(v)}</div></div>`).join('');
+  const criteria = Object.entries(country.criteria||{}).map(([k,v]) => `<li>${CRITERIA_LABELS[k][state.lang]}: <strong>${v}</strong></li>`).join('');
   panel.innerHTML = `
-    <h2>${esc(country.country)}</h2>
-    <div>
-      <span class="badge score">${t('generalScore')}: ${country.score}</span>
-      <span class="badge classification" style="background:${colorForScore(country.score)}">${translateClassification(country.classification)}</span>
+    <div class="detail-header">
+      <div>
+        <p class="eyebrow">${esc(country.region)}</p>
+        <h2>${esc(country.country)}</h2>
+        <p>${esc(summary)}</p>
+      </div>
+      <div class="detail-badges">
+        <span class="badge classification" style="background:${colorForScore(country.score)}">${translateClassification(country.classification)}</span>
+        ${country.thesis_core ? `<span class="badge thesis">${t('thesisBadge')}</span>` : ''}
+      </div>
     </div>
-    <p>${esc(summary)}</p>
-    <div class="analysis-box">
-      <strong>${t('analyticalReading')}</strong>
-      <p>${t('inferredModel')}: ${inferModel(country)}<br>${t('innovationScore')}: ${country.criteria.innovation_openness}/10<br>${t('centralizationRisk')}: ${Math.max(0, 5 - country.criteria.anti_centralization)}/5</p>
-    </div>
-    <div class="kpis">
+    <div class="kpi-grid">
       <div class="kpi"><div class="label">ISO3</div><div>${country.iso3}</div></div>
       <div class="kpi"><div class="label">${t('trend')}</div><div>${translateTrend(country.trend)}</div></div>
       <div class="kpi"><div class="label">${t('region')}</div><div>${esc(country.region)}</div></div>
@@ -192,66 +212,84 @@ function renderCountryPanel() {
     <div class="status-grid">${statusPairs}</div>
     <h3>${t('criteriaBreakdown')}</h3>
     <ul>${criteria}</ul>
-    <h3>${t('principalLaws')}</h3>
-    <ul>${country.laws.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
-    <h3>${t('opportunities')}</h3>
-    <ul>${opportunities.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
-    <h3>${t('risks')}</h3>
-    <ul>${risks.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
-    <h3>${t('sources')}</h3>
-    <ul>${country.references.map(r=>`<li><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.label)}</a></li>`).join('')}</ul>`;
+    <h3>${t('regulatoryModel')}</h3><p>${esc(model || t('noData'))}</p>
+    <h3>${t('detailedAnalysis')}</h3><p>${esc(analysis || t('noData'))}</p>
+    <h3>${t('authorities')}</h3><ul>${(country.authorities||[]).map(x=>`<li>${esc(x)}</li>`).join('') || `<li>${t('noData')}</li>`}</ul>
+    <h3>${t('stablecoinRegime')}</h3><p>${esc(stablecoin || t('noData'))}</p>
+    <h3>${t('tokenizationRegime')}</h3><p>${esc(tokenization || t('noData'))}</p>
+    <h3>${t('cbdcNote')}</h3><p>${esc(cbdcNote || t('noData'))}</p>
+    <h3>${t('principalLaws')}</h3><ul>${(country.laws||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+    <h3>${t('opportunities')}</h3><ul>${(opportunities||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+    <h3>${t('risks')}</h3><ul>${(risks||[]).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+    <h3>${t('sources')}</h3><ul>${(country.references||[]).map(r=>`<li><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.label)}</a></li>`).join('')}</ul>`;
 }
+
+function getMapCode(country) { return ISO3_TO_ISO2[country.iso3] || null; }
 function buildMap() {
-  const values = Object.fromEntries(state.filtered.map(c => [c.iso3, c.score]));
+  const values = {};
+  state.countries.forEach(c => { const code = getMapCode(c); if (code) values[code] = c.score; });
+  const selectedCode = state.selected ? getMapCode(state.selected) : null;
   if (state.map) state.map.destroy();
   state.map = new jsVectorMap({
     selector: '#world-map', map: 'world', backgroundColor: 'transparent', zoomButtons: true, zoomOnScroll: true,
     visualizeData: { scale: ['#b91c1c','#f97316','#eab308','#16a34a','#14532d'], values },
-    selectedRegions: state.selected ? [state.selected.iso3] : [], regionStyle: { initial: { stroke: '#fff', strokeWidth: 0.7, fill: '#cbd5e1' } },
+    regionStyle: { initial: { fill: '#cbd5e1', fillOpacity: 1, stroke: '#fff', strokeWidth: 0.7 }, selected: { fill: '#1d4ed8' } },
+    selectedRegions: selectedCode ? [selectedCode] : [],
     onRegionTooltipShow(_, tooltip, code) {
-      const country = state.countries.find(c => c.iso3 === code);
+      const country = state.countries.find(c => getMapCode(c) === code);
       if (!country) { tooltip.text(`${code}: ${t('noData')}`); return; }
       const summary = state.lang === 'pt' ? country.summary_pt : country.summary_en;
       tooltip.html(`<div style="max-width:260px"><strong>${esc(country.country)}</strong><br>${t('score')}: ${country.score}<br>${t('classification')}: ${translateClassification(country.classification)}<br>${t('trend')}: ${translateTrend(country.trend)}<br><span style="color:#64748b">${esc(summary.slice(0,120))}...</span></div>`);
     },
-    onRegionClick(_, code) { const country = state.countries.find(c => c.iso3 === code); if (country) { state.selected = country; renderCountryPanel(); buildMap(); } }
+    onRegionClick(_, code) {
+      const country = state.countries.find(c => getMapCode(c) === code);
+      if (country) { state.selected = country; renderCountryPanel(); buildMap(); }
+    }
   });
 }
+
 function renderMetadata(meta) {
-  document.getElementById('metadata').textContent = `${t('generatedAt')}: ${new Date(meta.generated_at).toLocaleString(state.lang === 'pt' ? 'pt-BR' : 'en-GB')} • ${t('countriesCovered')}: ${meta.country_count}`;
+  state.metadata = meta;
+  const dt = meta?.generated_at ? new Date(meta.generated_at).toLocaleString(state.lang === 'pt' ? 'pt-BR' : 'en-GB') : '—';
+  const countriesCovered = meta?.country_count ?? state.countries.length;
+  document.getElementById('metadata').textContent = `${t('generatedAt')}: ${dt} • ${t('countriesCovered')}: ${countriesCovered}`;
+  document.getElementById('stat-jurisdictions').textContent = countriesCovered;
+  const acts = state.countries.reduce((sum,c)=>sum + (c.laws?.length || 0), 0);
+  document.getElementById('stat-acts').textContent = acts;
+  document.getElementById('stat-themes').textContent = meta?.theme_count ?? state.themes.length;
+  document.getElementById('stat-thesis').textContent = meta?.thesis_core_count ?? state.countries.filter(c=>c.thesis_core).length;
 }
-function populateCompareSelectors() {
-  const a = document.getElementById('compare-a'); const b = document.getElementById('compare-b');
-  const opts = state.countries.map(c => `<option value="${c.iso3}">${esc(c.country)}</option>`).join('');
-  a.innerHTML = opts; b.innerHTML = opts;
-  a.value = state.countries[0]?.iso3 || ''; b.value = state.countries[1]?.iso3 || state.countries[0]?.iso3 || '';
-  a.addEventListener('change', renderComparison); b.addEventListener('change', renderComparison);
-}
-function renderComparison() {
-  const aIso = document.getElementById('compare-a').value; const bIso = document.getElementById('compare-b').value;
-  const a = state.countries.find(c => c.iso3 === aIso); const b = state.countries.find(c => c.iso3 === bIso);
-  if (!a || !b) return;
+
+function renderCompare() {
+  const a = state.countries.find(c => c.iso3 === document.getElementById('compare-a')?.value);
+  const b = state.countries.find(c => c.iso3 === document.getElementById('compare-b')?.value);
   const body = document.getElementById('compare-body');
+  if (!a || !b || !body) return;
   const rows = [
     [t('country'), a.country, b.country],
-    [t('compareClassification'), translateClassification(a.classification), translateClassification(b.classification)],
-    [t('compareTrend'), translateTrend(a.trend), translateTrend(b.trend)],
-    [t('compareSummary'), state.lang === 'pt' ? a.summary_pt : a.summary_en, state.lang === 'pt' ? b.summary_pt : b.summary_en],
-    [t('compareExchanges'), translateValue(a.status.exchanges), translateValue(b.status.exchanges)],
-    [t('compareStablecoins'), translateValue(a.status.stablecoins), translateValue(b.status.stablecoins)],
-    [t('compareTokenization'), translateValue(a.status.tokenization), translateValue(b.status.tokenization)],
-    [t('compareCBDC'), translateValue(a.status.cbdc), translateValue(b.status.cbdc)],
-    [t('compareInnovation'), `${a.criteria.innovation_openness}/10`, `${b.criteria.innovation_openness}/10`],
-    [t('compareCentralization'), `${a.criteria.anti_centralization}/5`, `${b.criteria.anti_centralization}/5`],
-    [t('legalActs'), a.laws.join(', '), b.laws.join(', ')]
+    [t('classification'), translateClassification(a.classification), translateClassification(b.classification)],
+    [t('trend'), translateTrend(a.trend), translateTrend(b.trend)],
+    [t('summary'), state.lang==='pt'?a.summary_pt:a.summary_en, state.lang==='pt'?b.summary_pt:b.summary_en],
+    [t('regulatoryModel'), state.lang==='pt'?a.model_pt:a.model_en, state.lang==='pt'?b.model_pt:b.model_en],
+    [t('exchanges'), translateStatus(a.status?.exchanges), translateStatus(b.status?.exchanges)],
+    [t('stablecoins'), translateStatus(a.status?.stablecoins), translateStatus(b.status?.stablecoins)],
+    [t('tokenization'), translateStatus(a.status?.tokenization), translateStatus(b.status?.tokenization)],
+    [t('cbdc'), translateStatus(a.status?.cbdc), translateStatus(b.status?.cbdc)],
+    [t('stablecoinRegime'), state.lang==='pt'?a.stablecoin_regime_pt:a.stablecoin_regime_en, state.lang==='pt'?b.stablecoin_regime_pt:b.stablecoin_regime_en],
+    [t('tokenizationRegime'), state.lang==='pt'?a.tokenization_regime_pt:a.tokenization_regime_en, state.lang==='pt'?b.tokenization_regime_pt:b.tokenization_regime_en],
+    [t('authorities'), (a.authorities||[]).join(', '), (b.authorities||[]).join(', ')],
+    [t('principalLaws'), (a.laws||[]).join(', '), (b.laws||[]).join(', ')],
+    ['Score', String(a.score), String(b.score)]
   ];
-  body.innerHTML = rows.map(([m,av,bv]) => `<tr><td>${esc(m)}</td><td>${esc(av)}</td><td>${esc(bv)}</td></tr>`).join('');
+  body.innerHTML = rows.map(([label,va,vb]) => `<tr><th>${esc(label)}</th><td>${esc(va||t('noData'))}</td><td>${esc(vb||t('noData'))}</td></tr>`).join('');
 }
+
 function renderAll() {
   document.getElementById('score-min-value').textContent = document.getElementById('score-min').value;
-  renderHeroStats(); renderRanking(); renderUpdates(); renderTable(); renderCountryPanel(); renderComparison();
-  if (document.getElementById('world-map')) buildMap();
+  renderRanking(); renderUpdates(); renderThemes(); renderTable(); renderCountryPanel(); renderCompare(); if (document.getElementById('world-map') && state.view==='map') buildMap();
+  if (state.metadata) renderMetadata(state.metadata);
 }
+
 function setupControls() {
   ['search-input','region-filter','trend-filter','score-min','topic-filter'].forEach(id => document.getElementById(id).addEventListener('input', applyFilters));
   document.getElementById('reset-filters').addEventListener('click', () => {
@@ -264,18 +302,22 @@ function setupControls() {
   });
   document.querySelectorAll('.view-btn').forEach(btn => btn.addEventListener('click', () => {
     state.view = btn.dataset.view;
-    document.querySelectorAll('.view-btn').forEach(x => x.classList.toggle('active', x === btn));
+    document.querySelectorAll('.view-btn').forEach(x=>x.classList.toggle('active', x===btn));
     document.getElementById('map-section').classList.toggle('hidden', state.view !== 'map');
     document.getElementById('table-section').classList.toggle('hidden', state.view !== 'table');
     if (state.view === 'map') setTimeout(buildMap, 50);
   }));
 }
+
 async function init() {
   setupLanguage(); setupControls();
-  const [countries, metadata] = await Promise.all([loadJson('api/countries.json'), loadJson('api/metadata.json')]);
-  state.countries = countries; state.filtered = countries; state.selected = countries[0] || null;
-  populateRegions(); populateCompareSelectors(); renderMetadata(metadata); applyTranslations();
+  const [countries, metadata, themesFile, updates] = await Promise.all([
+    loadJson('api/countries.json'), loadJson('api/metadata.json'), loadJson('api/themes.json').catch(()=>({themes:[]})), loadJson('api/updates.json').catch(()=>[])
+  ]);
+  state.countries = countries; state.filtered = countries; state.selected = countries.find(c=>c.iso3==='BRA') || countries[0] || null; state.metadata = metadata; state.themes = themesFile.themes || []; state.updates = updates || [];
+  populateRegions(); applyTranslations();
 }
+
 init().catch(err => {
   console.error(err);
   document.getElementById('country-panel').innerHTML = `<div class="empty-state"><h2>Error</h2><p>${esc(err.message)}</p></div>`;

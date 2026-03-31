@@ -1,0 +1,72 @@
+{
+  "country": "Russia",
+  "iso3": "RUS",
+  "iso2": "RU",
+  "region": "Europe",
+  "trend": "mixed",
+  "summary_en": "Significant crypto usage with a restrictive and state-centered policy environment; mining and cross-border settlement remain politically sensitive.",
+  "summary_pt": "Uso relevante de criptoativos sob ambiente regulatório restritivo e centrado no Estado; mineração e liquidação transfronteiriça seguem politicamente sensíveis.",
+  "last_update": "2026-03-20",
+  "criteria": {
+    "legal_certainty": 8,
+    "proportionality": 5,
+    "exchanges": 3,
+    "stablecoins": 2,
+    "tokenization": 5,
+    "taxation": 5,
+    "mining_infrastructure": 6,
+    "innovation_openness": 3,
+    "anti_centralization": 1
+  },
+  "status": {
+    "exchanges": "restricted",
+    "stablecoins": "restrictive",
+    "tokenization": "developing",
+    "taxation": "moderate",
+    "mining": "allowed with friction",
+    "cbdc": "advanced state model"
+  },
+  "laws": [
+    "Digital Financial Assets Law",
+    "Digital Ruble legislation"
+  ],
+  "opportunities_en": [
+    "State-backed digital infrastructure"
+  ],
+  "opportunities_pt": [
+    "Infraestrutura digital estatal"
+  ],
+  "risks_en": [
+    "Sanctions exposure",
+    "Centralization"
+  ],
+  "risks_pt": [
+    "Exposição a sanções",
+    "Centralização"
+  ],
+  "references": [],
+  "score": 38,
+  "classification": "restrictive",
+  "thesis_core": false,
+  "thesis_scope": "extended_compare",
+  "authorities": [
+    "Bank of Russia",
+    "Finance Ministry"
+  ],
+  "model_en": "Restrictive and state-centered approach with selective openings tied to strategic policy goals.",
+  "model_pt": "Abordagem restritiva e centrada no Estado, com aberturas seletivas ligadas a objetivos estratégicos.",
+  "detailed_analysis_en": "Russia combines strong state control, selective legal openings and strategic use of digital-finance tools under a broader sanctions and sovereignty context.",
+  "detailed_analysis_pt": "A Rússia combina forte controle estatal, aberturas legais seletivas e uso estratégico de instrumentos digitais em contexto mais amplo de sanções e soberania.",
+  "stablecoin_regime_en": "Limited and politically sensitive.",
+  "stablecoin_regime_pt": "Limitado e politicamente sensível.",
+  "tokenization_regime_en": "Developing under state-centered priorities.",
+  "tokenization_regime_pt": "Em desenvolvimento sob prioridades estatais.",
+  "cbdc_note_en": "Digital ruble is a central strategic project.",
+  "cbdc_note_pt": "O rublo digital é um projeto estratégico central.",
+  "comparison_axes": {
+    "regulatory_model": "restrictive",
+    "stablecoin_maturity": "restrictive",
+    "tokenization_maturity": "developing",
+    "cbdc_posture": "advanced state model"
+  }
+}

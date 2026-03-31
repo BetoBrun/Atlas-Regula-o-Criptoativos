@@ -3,9 +3,9 @@
   "iso3": "ARG",
   "region": "Latin America",
   "trend": "improving",
-  "summary_en": "Argentina shows high social adoption and entrepreneurial activity, but macroeconomic instability and regulatory uncertainty remain relevant risks.",
-  "summary_pt": "A Argentina apresenta alta adoção social e atividade empreendedora, mas a instabilidade macroeconômica e a incerteza regulatória ainda são riscos relevantes.",
-  "last_update": "2026-03-19",
+  "summary_en": "Argentina is a high-adoption, inflation-driven crypto jurisdiction where social demand has outpaced legal consolidation.",
+  "summary_pt": "A Argentina é uma jurisdição de alta adoção de cripto, impulsionada pela inflação, em que a demanda social superou a consolidação jurídica.",
+  "last_update": "2026-03-31",
   "criteria": {
     "legal_certainty": 9,
     "proportionality": 9,
@@ -50,5 +50,30 @@
     }
   ],
   "score": 59,
-  "classification": "mixed"
+  "classification": "mixed",
+  "thesis_core": false,
+  "thesis_scope": true,
+  "authorities": [
+    "CNV",
+    "BCRA",
+    "UIF / tax and AML bodies"
+  ],
+  "model_en": "High-adoption environment with partial formalisation, combining strong social use with still-evolving institutional structure.",
+  "model_pt": "Ambiente de alta adoção com formalização parcial, combinando forte uso social com estrutura institucional ainda em evolução.",
+  "detailed_analysis_en": "Argentina is strategically relevant because high inflation and demand for dollar substitutes have made crypto and stablecoins socially salient. The regulatory picture is no longer purely informal: the CNV has advanced registration and tokenisation-related steps, but the broader framework remains less integrated and less predictable than in the EU. The country is analytically useful as an example of adoption-led regulation rather than regulation-led adoption.",
+  "detailed_analysis_pt": "A Argentina é estrategicamente relevante porque a inflação elevada e a demanda por substitutos do dólar tornaram cripto e stablecoins socialmente centrais. O quadro regulatório já não é puramente informal: a CNV avançou em registro e em medidas ligadas à tokenização, mas o framework mais amplo segue menos integrado e menos previsível do que na UE. O país é analiticamente útil como exemplo de regulação puxada pela adoção, e não de adoção puxada pela regulação.",
+  "stablecoin_regime_en": "Stablecoins are economically important in practice, but the formal regime is still less comprehensive than in leading harmonised jurisdictions.",
+  "stablecoin_regime_pt": "As stablecoins são economicamente importantes na prática, mas o regime formal ainda é menos abrangente do que em jurisdições harmonizadas líderes.",
+  "tokenization_regime_en": "Argentina has become regionally notable for early tokenisation moves linked to the capital market regulator.",
+  "tokenization_regime_pt": "A Argentina tornou-se regionalmente relevante por movimentos iniciais de tokenização associados ao regulador do mercado de capitais.",
+  "cbdc_note_en": "A retail-CBDC-centred model is not the defining feature; private digital dollar substitutes have stronger practical salience.",
+  "cbdc_note_pt": "Um modelo centrado em CBDC de varejo não é a característica definidora; substitutos privados digitais do dólar têm maior relevância prática.",
+  "comparison_axes": {
+    "clarity": "medium-low",
+    "innovation": "high",
+    "stablecoins": "socially salient / partially regulated",
+    "tokenization": "emerging",
+    "state_centralization": "low"
+  },
+  "iso2": "AR"
 }

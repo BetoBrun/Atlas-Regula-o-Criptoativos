@@ -3,9 +3,9 @@
   "iso3": "KOR",
   "region": "Asia",
   "trend": "improving",
-  "summary_en": "South Korea maintains strong oversight of exchanges and market conduct, with growing interest in tokenization and institutional use cases.",
-  "summary_pt": "A Coreia do Sul mantém forte supervisão sobre exchanges e conduta de mercado, com interesse crescente em tokenização e casos de uso institucionais.",
-  "last_update": "2026-03-11",
+  "summary_en": "South Korea is moving toward a more coherent virtual-asset regime, with strong emphasis on user protection and market credibility.",
+  "summary_pt": "A Coreia do Sul caminha para um regime mais coerente de ativos virtuais, com forte ênfase em proteção do usuário e credibilidade do mercado.",
+  "last_update": "2026-03-31",
   "criteria": {
     "legal_certainty": 14,
     "proportionality": 9,
@@ -47,5 +47,30 @@
     }
   ],
   "score": 64,
-  "classification": "mixed"
+  "classification": "mixed",
+  "thesis_core": false,
+  "thesis_scope": true,
+  "authorities": [
+    "Financial Services Commission (FSC)",
+    "Financial Supervisory Service (FSS)",
+    "Korea Exchange / related bodies"
+  ],
+  "model_en": "Investor-protection-centred framework in transition toward a broader virtual-asset market regime.",
+  "model_pt": "Framework centrado na proteção do investidor, em transição para um regime mais amplo de mercado de ativos virtuais.",
+  "detailed_analysis_en": "South Korea is important because it combines intense retail participation with a regulatory culture focused on user protection, market credibility and tighter entry rules. The system has been evolving from narrower investor-protection concerns toward broader market supervision. This makes Korea a useful midpoint between fragmented experimentation and a more systematised virtual-asset framework.",
+  "detailed_analysis_pt": "A Coreia do Sul é importante porque combina intensa participação de varejo com uma cultura regulatória voltada à proteção do usuário, à credibilidade do mercado e a regras mais rígidas de entrada. O sistema vem evoluindo de preocupações mais estreitas de proteção do investidor para uma supervisão mais ampla do mercado. Isso torna a Coreia um ponto intermediário útil entre experimentação fragmentada e um framework mais sistematizado de ativos virtuais.",
+  "stablecoin_regime_en": "Stablecoin rules are still part of a broader virtual-asset reform trajectory rather than a fully settled standalone architecture.",
+  "stablecoin_regime_pt": "As regras de stablecoins ainda fazem parte de uma trajetória mais ampla de reforma dos ativos virtuais, e não de uma arquitetura autônoma plenamente estabilizada.",
+  "tokenization_regime_en": "Tokenization is relevant, but market integrity and user protection remain the dominant regulatory priorities.",
+  "tokenization_regime_pt": "A tokenização é relevante, mas integridade de mercado e proteção do usuário continuam sendo as prioridades regulatórias dominantes.",
+  "cbdc_note_en": "CBDC is not the main comparative issue here; the focus is on the design of the private virtual-asset regime.",
+  "cbdc_note_pt": "CBDC não é aqui a questão comparativa principal; o foco está no desenho do regime privado de ativos virtuais.",
+  "comparison_axes": {
+    "clarity": "medium-high",
+    "innovation": "medium",
+    "stablecoins": "developing",
+    "tokenization": "developing",
+    "state_centralization": "moderate"
+  },
+  "iso2": "KR"
 }
