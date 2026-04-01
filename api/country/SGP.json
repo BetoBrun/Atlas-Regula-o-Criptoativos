@@ -51,27 +51,5 @@
     }
   ],
   "score": 83,
-  "classification": "very_favorable",
-  "thesis_core": true,
-  "thesis_scope": "core_jurisdiction",
-  "authorities": [
-    "Monetary Authority of Singapore (MAS)"
-  ],
-  "model_en": "High-certainty institutional model combining strict licensing, stablecoin rules and strong support for tokenized finance.",
-  "model_pt": "Modelo institucional de alta previsibilidade que combina licenciamento rigoroso, regras para stablecoins e forte apoio a finanças tokenizadas.",
-  "detailed_analysis_en": "Singapore remains one of the most coherent jurisdictions for digital assets. MAS uses licensing and risk-based supervision while actively promoting institutional tokenization and payments innovation. Its stablecoin framework emphasizes reserve quality, segregation, disclosure and redemption reliability, giving the jurisdiction high credibility for regulated private digital money.",
-  "detailed_analysis_pt": "Singapura continua sendo uma das jurisdições mais coerentes para ativos digitais. A MAS usa licenciamento e supervisão baseada em risco enquanto promove ativamente tokenização institucional e inovação em pagamentos. Seu framework de stablecoins enfatiza qualidade das reservas, segregação, disclosure e confiabilidade de resgate, conferindo alta credibilidade ao dinheiro digital privado regulado.",
-  "stablecoin_regime_en": "Regulated single-currency stablecoin framework with full backing, segregation, disclosure and redemption safeguards.",
-  "stablecoin_regime_pt": "Framework regulado para stablecoins de moeda única com lastro integral, segregação, disclosure e salvaguardas de resgate.",
-  "tokenization_regime_en": "Very favorable, especially through institutional projects and capital-markets experimentation.",
-  "tokenization_regime_pt": "Muito favorável, especialmente por meio de projetos institucionais e experimentação em mercados de capitais.",
-  "cbdc_note_en": "Wholesale and tokenized-money experimentation, not a broad retail-centralization push.",
-  "cbdc_note_pt": "Experimentação em atacado e dinheiro tokenizado, e não uma aposta ampla em centralização varejista.",
-  "comparison_axes": {
-    "regulatory_model": "very_favorable",
-    "stablecoin_maturity": "regulated",
-    "tokenization_maturity": "very active",
-    "cbdc_posture": "wholesale experimentation"
-  },
-  "iso2": "SG"
+  "classification": "very_favorable"
 }

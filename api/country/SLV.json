@@ -52,28 +52,5 @@
     }
   ],
   "score": 68,
-  "classification": "favorable",
-  "thesis_core": true,
-  "thesis_scope": "core_jurisdiction",
-  "authorities": [
-    "National Commission of Digital Assets (CNAD)",
-    "Central Reserve Bank / Bitcoin registries"
-  ],
-  "model_en": "Specialized digital-asset framework with high symbolic openness and dedicated licensing, though still shaped by country risk and policy experimentation.",
-  "model_pt": "Framework especializado em ativos digitais, com elevada abertura simbólica e licenciamento dedicado, embora ainda marcado por risco-país e experimentação de política.",
-  "detailed_analysis_en": "El Salvador remains important because it treated crypto policy as state strategy rather than peripheral regulation. The Digital Asset Issuance Law and the CNAD gave the country a specialized licensing and issuance framework. Even after reforms to Bitcoin’s legal-tender status, El Salvador still offers a distinct pathway for digital-asset issuance and service provision.",
-  "detailed_analysis_pt": "El Salvador continua importante por tratar a política cripto como estratégia de Estado, e não como regulação periférica. A Lei de Emissão de Ativos Digitais e a CNAD deram ao país um framework especializado de licenciamento e emissão. Mesmo após reformas no status de curso legal do Bitcoin, El Salvador ainda oferece trilha distinta para emissão de ativos digitais e prestação de serviços.",
-  "stablecoin_regime_en": "Possible within the broader digital-asset framework, though the jurisdiction is better known for openness than for a dedicated stablecoin statute.",
-  "stablecoin_regime_pt": "Possíveis dentro do framework mais amplo de ativos digitais, embora a jurisdição seja mais conhecida pela abertura do que por estatuto específico de stablecoins.",
-  "tokenization_regime_en": "Open and strategically relevant.",
-  "tokenization_regime_pt": "Aberta e estrategicamente relevante.",
-  "cbdc_note_en": "Not the central policy vector.",
-  "cbdc_note_pt": "Não é o vetor central de política.",
-  "comparison_axes": {
-    "regulatory_model": "favorable",
-    "stablecoin_maturity": "possible",
-    "tokenization_maturity": "open",
-    "cbdc_posture": "not central"
-  },
-  "iso2": "SV"
+  "classification": "favorable"
 }

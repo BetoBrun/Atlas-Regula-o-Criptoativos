@@ -50,29 +50,5 @@
     }
   ],
   "score": 51,
-  "classification": "mixed",
-  "thesis_core": true,
-  "thesis_scope": "core_jurisdiction",
-  "authorities": [
-    "Banco Central del Paraguay (BCP)",
-    "Dirección Nacional de Ingresos Tributarios (DNIT)",
-    "SEPRELAD"
-  ],
-  "model_en": "Energy-rich but institutionally uneven jurisdiction, with tax/reporting developments and AML supervision more visible than a full market-structure regime.",
-  "model_pt": "Jurisdição rica em energia, mas institucionalmente desigual, em que desenvolvimentos tributários/de reporte e supervisão AML aparecem com mais nitidez do que um regime completo de estrutura de mercado.",
-  "detailed_analysis_en": "Paraguay is strategically relevant because of cheap energy and mining potential, but its crypto framework remains less mature than the leading jurisdictions in the thesis. In 2026, tax-reporting obligations for cryptoassets became more explicit, and AML-related institutional attention increased. The country is therefore important as a frontier case: high economic potential, lower legal density.",
-  "detailed_analysis_pt": "O Paraguai é estrategicamente relevante por sua energia barata e potencial para mineração, mas seu framework cripto permanece menos maduro que o das jurisdições líderes da tese. Em 2026, obrigações de reporte tributário sobre criptoativos ficaram mais explícitas, e a atenção institucional ligada a AML aumentou. O país é, assim, importante como caso de fronteira: alto potencial econômico, menor densidade jurídica.",
-  "stablecoin_regime_en": "Still unclear or indirect.",
-  "stablecoin_regime_pt": "Ainda incerto ou indireto.",
-  "tokenization_regime_en": "Incipient.",
-  "tokenization_regime_pt": "Incipiente.",
-  "cbdc_note_en": "Not central.",
-  "cbdc_note_pt": "Não central.",
-  "comparison_axes": {
-    "regulatory_model": "mixed",
-    "stablecoin_maturity": "unclear",
-    "tokenization_maturity": "incipient",
-    "cbdc_posture": "not central"
-  },
-  "iso2": "PY"
+  "classification": "mixed"
 }

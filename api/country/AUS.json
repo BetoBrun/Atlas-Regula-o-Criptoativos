@@ -3,9 +3,9 @@
   "iso3": "AUS",
   "region": "Oceania",
   "trend": "improving",
-  "summary_en": "Australia is building a functional, platform-focused crypto regime by extending existing financial-services law.",
-  "summary_pt": "A Austrália está construindo um regime cripto funcional e focado em plataformas por meio da extensão da legislação existente de serviços financeiros.",
-  "last_update": "2026-03-31",
+  "summary_en": "Australia offers a relatively open but still maturing framework, with ongoing reforms around tokenization, custody and licensing.",
+  "summary_pt": "A Austrália oferece um quadro relativamente aberto, porém ainda em amadurecimento, com reformas em andamento sobre tokenização, custódia e licenciamento.",
+  "last_update": "2026-03-10",
   "criteria": {
     "legal_certainty": 13,
     "proportionality": 10,
@@ -48,31 +48,5 @@
     }
   ],
   "score": 68,
-  "classification": "favorable",
-  "thesis_core": false,
-  "thesis_scope": true,
-  "authorities": [
-    "Australian Treasury",
-    "ASIC",
-    "AUSTRAC",
-    "RBA (payments / CBDC context)"
-  ],
-  "model_en": "Functional reform model extending existing financial-services law to digital-asset platforms and custody.",
-  "model_pt": "Modelo de reforma funcional que estende a legislação existente de serviços financeiros a plataformas e custódia de ativos digitais.",
-  "detailed_analysis_en": "Australia is analytically attractive because it has chosen not to reinvent the whole legal architecture, but to adapt existing financial-services law to digital-asset platforms and tokenised custody. This is a strong example of a functional-regulation strategy: rather than regulating all crypto equally, the system targets the segments most connected to custody, intermediation and consumer risk. The main advantage is coherence with legacy law; the main challenge is making sure that innovation outside the targeted perimeter is not left in uncertainty.",
-  "detailed_analysis_pt": "A Austrália é analiticamente atraente porque escolheu não reinventar toda a arquitetura jurídica, mas adaptar a legislação existente de serviços financeiros a plataformas de ativos digitais e custódia tokenizada. Trata-se de um exemplo forte de estratégia de regulação funcional: em vez de regular todo cripto da mesma forma, o sistema mira os segmentos mais conectados a custódia, intermediação e risco ao consumidor. A principal vantagem é a coerência com o direito legado; o principal desafio é garantir que a inovação fora do perímetro visado não permaneça em incerteza.",
-  "stablecoin_regime_en": "Stablecoin treatment is linked to broader payment-service reforms and consultation on payment regulation.",
-  "stablecoin_regime_pt": "O tratamento das stablecoins se conecta a reformas mais amplas de serviços de pagamento e à consulta sobre regulação de pagamentos.",
-  "tokenization_regime_en": "Tokenized custody is explicitly relevant in the reform agenda, making Australia important for tokenization analysis.",
-  "tokenization_regime_pt": "A custódia tokenizada é explicitamente relevante na agenda de reformas, o que torna a Austrália importante para a análise de tokenização.",
-  "cbdc_note_en": "Wholesale and payment-infrastructure debates are more important than a central retail-CBDC narrative in this context.",
-  "cbdc_note_pt": "Debates sobre atacado e infraestrutura de pagamentos são mais importantes do que uma narrativa central de CBDC de varejo neste contexto.",
-  "comparison_axes": {
-    "clarity": "medium-high",
-    "innovation": "medium-high",
-    "stablecoins": "partial / payments-linked",
-    "tokenization": "promising",
-    "state_centralization": "moderate"
-  },
-  "iso2": "AU"
+  "classification": "favorable"
 }

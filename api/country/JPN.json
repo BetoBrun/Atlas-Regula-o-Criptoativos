@@ -3,9 +3,9 @@
   "iso3": "JPN",
   "region": "Asia",
   "trend": "stable",
-  "summary_en": "Japan stands out as an orderly, high-credibility crypto jurisdiction with a mature stablecoin conversation.",
-  "summary_pt": "O Japão se destaca como jurisdição de cripto ordenada e de alta credibilidade, com debate maduro sobre stablecoins.",
-  "last_update": "2026-03-31",
+  "summary_en": "Japan offers high legal certainty and a mature exchange regime, though compliance remains demanding and innovation can move more slowly.",
+  "summary_pt": "O Japão oferece alta segurança jurídica e um regime maduro para exchanges, embora o compliance permaneça exigente e a inovação possa avançar mais lentamente.",
+  "last_update": "2026-03-13",
   "criteria": {
     "legal_certainty": 17,
     "proportionality": 10,
@@ -50,30 +50,5 @@
     }
   ],
   "score": 70,
-  "classification": "favorable",
-  "thesis_core": false,
-  "thesis_scope": true,
-  "authorities": [
-    "Financial Services Agency (FSA)",
-    "JVCEA / self-regulatory layer",
-    "Bank of Japan"
-  ],
-  "model_en": "Institutionalised, rules-based model with comparatively early stablecoin and exchange supervision.",
-  "model_pt": "Modelo institucionalizado e baseado em regras, com supervisão relativamente precoce de exchanges e stablecoins.",
-  "detailed_analysis_en": "Japan is one of the most institutionally mature crypto jurisdictions outside Europe. It combines statutory regulation, licensing, and self-regulatory mechanisms with a cautious but real opening to stablecoins and trusted market infrastructure. Its comparative value in the thesis lies in showing that it is possible to create a high-credibility regulatory environment without defaulting either to prohibition or to regulatory improvisation.",
-  "detailed_analysis_pt": "O Japão é uma das jurisdições de cripto mais maduras institucionalmente fora da Europa. Ele combina regulação legal, licenciamento e mecanismos autorregulatórios com uma abertura cautelosa, mas real, a stablecoins e à infraestrutura confiável de mercado. Seu valor comparativo na tese está em mostrar que é possível criar um ambiente regulatório de alta credibilidade sem recorrer nem à proibição nem à improvisação regulatória.",
-  "stablecoin_regime_en": "Stablecoins are comparatively advanced, with a structured legal path and close supervision.",
-  "stablecoin_regime_pt": "As stablecoins estão comparativamente avançadas, com trajetória jurídica estruturada e supervisão próxima.",
-  "tokenization_regime_en": "Tokenization is relevant but less politically central than exchange, custody and stablecoin architecture.",
-  "tokenization_regime_pt": "A tokenização é relevante, mas menos politicamente central do que a arquitetura de exchanges, custódia e stablecoins.",
-  "cbdc_note_en": "CBDC discussion exists, but Japan is more important in this Atlas for its crypto and stablecoin framework than for retail-CBDC centralisation.",
-  "cbdc_note_pt": "A discussão sobre CBDC existe, mas o Japão é mais importante neste Atlas por seu framework de cripto e stablecoins do que por uma centralização via CBDC de varejo.",
-  "comparison_axes": {
-    "clarity": "high",
-    "innovation": "medium-high",
-    "stablecoins": "advanced",
-    "tokenization": "developing",
-    "state_centralization": "moderate"
-  },
-  "iso2": "JP"
+  "classification": "favorable"
 }
