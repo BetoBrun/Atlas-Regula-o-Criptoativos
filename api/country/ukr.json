@@ -1,0 +1,72 @@
+{
+  "country": "Ukraine",
+  "iso3": "UKR",
+  "iso2": "UA",
+  "region": "Europe",
+  "trend": "mixed",
+  "summary_en": "Ukraine remains a high-adoption case where war, payments, and digital finance have accelerated regulatory and operational relevance.",
+  "summary_pt": "A Ucrânia permanece caso de alta adoção em que guerra, pagamentos e finanças digitais aceleraram a relevância regulatória e operacional.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 10,
+    "proportionality": 7,
+    "exchanges": 6,
+    "stablecoins": 6,
+    "tokenization": 6,
+    "taxation": 5,
+    "mining_infrastructure": 4,
+    "innovation_openness": 7,
+    "anti_centralization": 8
+  },
+  "status": {
+    "exchanges": "developing framework",
+    "stablecoins": "developing framework",
+    "tokenization": "developing",
+    "mining": "neutral",
+    "cbdc": "research"
+  },
+  "laws": [
+    "Active legislative engagement"
+  ],
+  "opportunities_en": [
+    "Cross-border payments",
+    "Emergency and donation rails"
+  ],
+  "opportunities_pt": [
+    "Pagamentos transfronteiriços",
+    "Rails de emergência e doações"
+  ],
+  "risks_en": [
+    "War-related constraints",
+    "Implementation volatility"
+  ],
+  "risks_pt": [
+    "Restrições ligadas à guerra",
+    "Volatilidade de implementação"
+  ],
+  "references": [],
+  "score": 62,
+  "classification": "mixed",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "National Securities and Stock Market Commission",
+    "National Bank of Ukraine"
+  ],
+  "model_en": "High-adoption reforming framework under exceptional conditions.",
+  "model_pt": "Marco reformista de alta adoção sob condições excepcionais.",
+  "detailed_analysis_en": "Ukraine is one of the clearest examples of crypto utility under stress conditions.",
+  "detailed_analysis_pt": "A Ucrânia é um dos exemplos mais claros de utilidade cripto sob condições de estresse.",
+  "stablecoin_regime_en": "Stablecoins are operationally important, even though the legal framework is still maturing.",
+  "stablecoin_regime_pt": "As stablecoins são operacionalmente importantes, ainda que o marco jurídico siga amadurecendo.",
+  "tokenization_regime_en": "Tokenization is developing but secondary to immediate financial utility.",
+  "tokenization_regime_pt": "A tokenização se desenvolve, mas é secundária à utilidade financeira imediata.",
+  "cbdc_note_en": "CBDC remains exploratory.",
+  "cbdc_note_pt": "A CBDC permanece exploratória.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

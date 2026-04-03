@@ -1,0 +1,78 @@
+{
+  "country": "Paraguay",
+  "iso3": "PRY",
+  "region": "Latin America",
+  "trend": "stable",
+  "summary_en": "Paraguay has abundant energy and mining potential, but its legal treatment of crypto remains fragmented and less institutionally mature.",
+  "summary_pt": "O Paraguai possui energia abundante e potencial para mineração, mas o tratamento jurídico dos criptoativos permanece fragmentado e menos maduro institucionalmente.",
+  "last_update": "2026-03-18",
+  "criteria": {
+    "legal_certainty": 8,
+    "proportionality": 8,
+    "exchanges": 5,
+    "stablecoins": 3,
+    "tokenization": 3,
+    "taxation": 6,
+    "mining_infrastructure": 8,
+    "innovation_openness": 6,
+    "anti_centralization": 4
+  },
+  "status": {
+    "exchanges": "fragmented",
+    "stablecoins": "unclear",
+    "tokenization": "incipient",
+    "taxation": "developing reporting rules",
+    "mining": "potentially favorable",
+    "cbdc": "not central"
+  },
+  "laws": [
+    "Tax reporting measures",
+    "Central bank warnings"
+  ],
+  "opportunities_en": [
+    "Mining",
+    "Low-cost energy"
+  ],
+  "opportunities_pt": [
+    "Mineração",
+    "Energia de baixo custo"
+  ],
+  "risks_en": [
+    "Weak legal certainty"
+  ],
+  "risks_pt": [
+    "Baixa segurança jurídica"
+  ],
+  "references": [
+    {
+      "label": "BCP",
+      "url": "https://www.bcp.gov.py/"
+    }
+  ],
+  "score": 51,
+  "classification": "mixed",
+  "thesis_core": true,
+  "thesis_scope": "core_jurisdiction",
+  "authorities": [
+    "Banco Central del Paraguay (BCP)",
+    "Dirección Nacional de Ingresos Tributarios (DNIT)",
+    "SEPRELAD"
+  ],
+  "model_en": "Energy-rich but institutionally uneven jurisdiction, with tax/reporting developments and AML supervision more visible than a full market-structure regime.",
+  "model_pt": "Jurisdição rica em energia, mas institucionalmente desigual, em que desenvolvimentos tributários/de reporte e supervisão AML aparecem com mais nitidez do que um regime completo de estrutura de mercado.",
+  "detailed_analysis_en": "Paraguay is strategically relevant because of cheap energy and mining potential, but its crypto framework remains less mature than the leading jurisdictions in the thesis. In 2026, tax-reporting obligations for cryptoassets became more explicit, and AML-related institutional attention increased. The country is therefore important as a frontier case: high economic potential, lower legal density.",
+  "detailed_analysis_pt": "O Paraguai é estrategicamente relevante por sua energia barata e potencial para mineração, mas seu framework cripto permanece menos maduro que o das jurisdições líderes da tese. Em 2026, obrigações de reporte tributário sobre criptoativos ficaram mais explícitas, e a atenção institucional ligada a AML aumentou. O país é, assim, importante como caso de fronteira: alto potencial econômico, menor densidade jurídica.",
+  "stablecoin_regime_en": "Still unclear or indirect.",
+  "stablecoin_regime_pt": "Ainda incerto ou indireto.",
+  "tokenization_regime_en": "Incipient.",
+  "tokenization_regime_pt": "Incipiente.",
+  "cbdc_note_en": "Not central.",
+  "cbdc_note_pt": "Não central.",
+  "comparison_axes": {
+    "regulatory_model": "mixed",
+    "stablecoin_maturity": "unclear",
+    "tokenization_maturity": "incipient",
+    "cbdc_posture": "not central"
+  },
+  "iso2": "PY"
+}

@@ -1,0 +1,78 @@
+{
+  "country": "United Kingdom",
+  "iso3": "GBR",
+  "region": "Europe",
+  "trend": "improving",
+  "summary_en": "The UK is moving toward a tailored regime for stablecoins, digital securities and broader crypto activities, but implementation remains gradual.",
+  "summary_pt": "O Reino Unido caminha para um regime específico para stablecoins, valores mobiliários digitais e atividades cripto em geral, mas a implementação segue gradual.",
+  "last_update": "2026-03-20",
+  "criteria": {
+    "legal_certainty": 16,
+    "proportionality": 11,
+    "exchanges": 8,
+    "stablecoins": 8,
+    "tokenization": 8,
+    "taxation": 6,
+    "mining_infrastructure": 5,
+    "innovation_openness": 8,
+    "anti_centralization": 4
+  },
+  "status": {
+    "exchanges": "regulated",
+    "stablecoins": "developing framework",
+    "tokenization": "sandboxing",
+    "taxation": "moderate",
+    "mining": "neutral",
+    "cbdc": "consultation stage"
+  },
+  "laws": [
+    "FCA crypto regime",
+    "Digital Securities Sandbox"
+  ],
+  "opportunities_en": [
+    "Tokenized securities",
+    "Regulatory experimentation"
+  ],
+  "opportunities_pt": [
+    "Valores mobiliários tokenizados",
+    "Experimentação regulatória"
+  ],
+  "risks_en": [
+    "Slow implementation"
+  ],
+  "risks_pt": [
+    "Implementação lenta"
+  ],
+  "references": [
+    {
+      "label": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/"
+    }
+  ],
+  "score": 74,
+  "classification": "favorable",
+  "thesis_core": true,
+  "thesis_scope": "core_jurisdiction",
+  "authorities": [
+    "FCA",
+    "Bank of England",
+    "HM Treasury"
+  ],
+  "model_en": "Phased bespoke framework with strong use of consultations, sandboxing and gradual implementation for stablecoins, custody, market abuse and broader crypto activities.",
+  "model_pt": "Framework específico e faseado, com forte uso de consultas, sandboxes e implementação gradual para stablecoins, custódia, abuso de mercado e atividades cripto mais amplas.",
+  "detailed_analysis_en": "The UK seeks a tailored regime rather than a full transplant of MiCA. It combines existing financial promotions rules with a forward-looking roadmap on stablecoin issuance, custody, prudential treatment and trading platforms. This favors policy flexibility and experimentation, but implementation remains gradual and firms still face a transitional environment.",
+  "detailed_analysis_pt": "O Reino Unido busca um regime próprio, e não um transplante integral do MiCA. Combina regras já vigentes de promoções financeiras com um roadmap prospectivo para emissão de stablecoins, custódia, prudencial e plataformas de negociação. Isso favorece flexibilidade de política e experimentação, mas a implementação segue gradual e as empresas ainda enfrentam ambiente de transição.",
+  "stablecoin_regime_en": "Structured but not fully live as a single unified regime; proposals cover issuance, custody, redemption and prudential requirements.",
+  "stablecoin_regime_pt": "Estruturado, mas ainda não totalmente operacional como regime único; as propostas cobrem emissão, custódia, resgate e exigências prudenciais.",
+  "tokenization_regime_en": "Favorable through digital securities experimentation and sandbox structures.",
+  "tokenization_regime_pt": "Favorável por meio de experimentação com valores mobiliários digitais e estruturas de sandbox.",
+  "cbdc_note_en": "Consultation-stage and infrastructure-focused debate around the digital pound.",
+  "cbdc_note_pt": "Debate em estágio consultivo e focado em infraestrutura em torno da libra digital.",
+  "comparison_axes": {
+    "regulatory_model": "favorable",
+    "stablecoin_maturity": "developing framework",
+    "tokenization_maturity": "sandboxing",
+    "cbdc_posture": "consultation stage"
+  },
+  "iso2": "GB"
+}

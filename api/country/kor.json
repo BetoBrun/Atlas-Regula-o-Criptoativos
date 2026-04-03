@@ -1,0 +1,81 @@
+{
+  "country": "South Korea",
+  "iso3": "KOR",
+  "region": "Asia",
+  "trend": "improving",
+  "summary_en": "South Korea has moved from AML-first oversight to a user-protection-centred market regime, with phased opening to corporate participation and growing attention to tokenisation.",
+  "summary_pt": "A Coreia do Sul evoluiu de supervisão AML-first para um regime de mercado centrado na proteção do usuário, com abertura em fases à participação corporativa e atenção crescente à tokenização.",
+  "last_update": "2026-04-01",
+  "criteria": {
+    "legal_certainty": 14,
+    "proportionality": 9,
+    "exchanges": 8,
+    "stablecoins": 6,
+    "tokenization": 7,
+    "taxation": 5,
+    "mining_infrastructure": 4,
+    "innovation_openness": 7,
+    "anti_centralization": 4
+  },
+  "status": {
+    "exchanges": "regulated",
+    "stablecoins": "developing",
+    "tokenization": "developing",
+    "taxation": "moderate",
+    "mining": "limited",
+    "cbdc": "research"
+  },
+  "laws": [
+    "Virtual Asset User Protection Act",
+    "Corporate participation roadmap"
+  ],
+  "opportunities_en": [
+    "Market conduct and tokenization"
+  ],
+  "opportunities_pt": [
+    "Conduta de mercado e tokenização"
+  ],
+  "risks_en": [
+    "Strict onboarding requirements"
+  ],
+  "risks_pt": [
+    "Requisitos rigorosos de onboarding"
+  ],
+  "references": [
+    {
+      "label": "FSC - user protection act",
+      "url": "https://www.fsc.go.kr/eng/pr010101/82683"
+    },
+    {
+      "label": "FSC - corporate entities roadmap",
+      "url": "https://www.fsc.go.kr/eng/pr010101/86176"
+    }
+  ],
+  "score": 64,
+  "classification": "mixed",
+  "thesis_core": false,
+  "thesis_scope": true,
+  "authorities": [
+    "Financial Services Commission (FSC)",
+    "Financial Supervisory Service (FSS)",
+    "KoFIU and related market bodies"
+  ],
+  "model_en": "User-protection-centred framework in transition toward a broader and more institutional virtual-asset market regime.",
+  "model_pt": "Framework centrado na proteção do usuário, em transição para um regime de mercado de ativos virtuais mais amplo e institucionalizado.",
+  "detailed_analysis_en": "South Korea matters because it demonstrates a regulatory path built around safe custody, market conduct and credibility before wider liberalisation. The Virtual Asset User Protection Act created a real legal baseline, and later FSC actions in 2025 opened corporate participation only in stages. This is analytically useful because it shows a dense supervisory model that still leaves room for private-market development instead of replacing it with a centralised public-money architecture.",
+  "detailed_analysis_pt": "A Coreia do Sul importa porque demonstra uma trajetória regulatória construída em torno de custódia segura, conduta de mercado e credibilidade antes de liberalização mais ampla. A Virtual Asset User Protection Act criou uma base legal real, e as ações posteriores da FSC em 2025 passaram a abrir a participação corporativa apenas em fases. Isso é analiticamente útil porque mostra um modelo de supervisão densa que ainda preserva espaço para desenvolvimento do mercado privado, em vez de substituí-lo por uma arquitetura centralizada de dinheiro público.",
+  "stablecoin_regime_en": "The stablecoin framework is still incomplete, but the policy debate is clearly moving toward a more specific legal treatment.",
+  "stablecoin_regime_pt": "O regime de stablecoins ainda é incompleto, mas o debate regulatório caminha claramente para tratamento legal mais específico.",
+  "tokenization_regime_en": "Security-token and tokenisation debates are becoming more important as the market regime broadens.",
+  "tokenization_regime_pt": "Os debates sobre security tokens e tokenização ganham importância à medida que o regime de mercado se amplia.",
+  "cbdc_note_en": "The current comparative focus is on protected private-market development rather than a retail-CBDC-led solution.",
+  "cbdc_note_pt": "O foco comparativo atual está no desenvolvimento protegido do mercado privado, e não em uma solução liderada por CBDC de varejo.",
+  "comparison_axes": {
+    "clarity": "medium-high",
+    "innovation": "medium",
+    "stablecoins": "developing",
+    "tokenization": "developing",
+    "state_centralization": "moderate"
+  },
+  "iso2": "KR"
+}

@@ -1,0 +1,84 @@
+{
+  "country": "European Union",
+  "iso3": "EUU",
+  "region": "Europe",
+  "trend": "improving",
+  "summary_en": "The EU operates the most comprehensive harmonized crypto-asset regime among major jurisdictions, centered on MiCA and related implementation measures.",
+  "summary_pt": "A União Europeia opera o regime harmonizado de criptoativos mais abrangente entre as grandes jurisdições, centrado no MiCA e em medidas correlatas de implementação.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 18,
+    "proportionality": 11,
+    "exchanges": 9,
+    "stablecoins": 10,
+    "tokenization": 8,
+    "taxation": 8,
+    "mining_infrastructure": 4,
+    "innovation_openness": 8,
+    "anti_centralization": 4
+  },
+  "status": {
+    "exchanges": "regulated under mica",
+    "stablecoins": "regulated under mica",
+    "tokenization": "active",
+    "taxation": "dac8 reporting",
+    "mining": "limited relevance",
+    "cbdc": "euro area exploration"
+  },
+  "laws": [
+    "MiCA",
+    "DAC8",
+    "DORA"
+  ],
+  "opportunities_en": [
+    "Passporting",
+    "Legal certainty",
+    "Stablecoin regime"
+  ],
+  "opportunities_pt": [
+    "Passaporte regulatório",
+    "Segurança jurídica",
+    "Regime de stablecoins"
+  ],
+  "risks_en": [
+    "High compliance burden",
+    "Interpretive overlap"
+  ],
+  "risks_pt": [
+    "Elevada carga de conformidade",
+    "Sobreposição interpretativa"
+  ],
+  "references": [
+    {
+      "label": "ESMA MiCA",
+      "url": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica"
+    }
+  ],
+  "score": 80,
+  "classification": "very_favorable",
+  "thesis_core": true,
+  "thesis_scope": "core_jurisdiction",
+  "authorities": [
+    "European Commission",
+    "ESMA",
+    "EBA",
+    "National competent authorities"
+  ],
+  "model_en": "Comprehensive harmonized regime built around MiCA, with passporting, issuer rules, CASP authorization, stablecoin discipline and conduct obligations.",
+  "model_pt": "Regime harmonizado e abrangente estruturado em torno do MiCA, com passaporte, regras para emissores, autorização de CASPs, disciplina de stablecoins e deveres de conduta.",
+  "detailed_analysis_en": "The European Union offers the clearest large-scale harmonized framework for crypto-assets. MiCA reduces regulatory fragmentation by creating common categories and obligations for issuers and CASPs, while DAC8 extends tax transparency. The model favors legal certainty and investor protection, but it also raises compliance costs and leaves open questions on DeFi, certain NFTs and overlaps with pre-existing financial regulation.",
+  "detailed_analysis_pt": "A União Europeia oferece o framework harmonizado de maior escala e maior clareza para criptoativos. O MiCA reduz a fragmentação regulatória ao criar categorias e obrigações comuns para emissores e CASPs, enquanto a DAC8 amplia a transparência tributária. O modelo privilegia segurança jurídica e proteção do investidor, mas também eleva custos de conformidade e mantém dúvidas sobre DeFi, certos NFTs e sobreposições com a regulação financeira preexistente.",
+  "stablecoin_regime_en": "Detailed regime for ARTs and EMTs with reserves, redemption, authorization, disclosure and enhanced oversight for significant issuers; no deposit-guarantee equivalence.",
+  "stablecoin_regime_pt": "Regime detalhado para ARTs e EMTs com reservas, resgate, autorização, disclosure e supervisão reforçada para emissores significativos; sem equivalência a garantia de depósitos.",
+  "tokenization_regime_en": "Moderately to strongly favorable, especially where combined with broader EU capital-markets tools; still needs interpretive work at the boundary with MiFID II and other regimes.",
+  "tokenization_regime_pt": "Moderadamente a fortemente favorável, especialmente em combinação com ferramentas mais amplas do mercado de capitais da UE; ainda requer trabalho interpretativo na fronteira com MiFID II e outros regimes.",
+  "cbdc_note_en": "Parallel euro-area debate, separate from MiCA, focused on the digital euro and on trade-offs involving privacy, intermediation and monetary design.",
+  "cbdc_note_pt": "Debate paralelo na área do euro, separado do MiCA, concentrado no euro digital e nos trade-offs entre privacidade, intermediação e desenho monetário.",
+  "comparison_axes": {
+    "regulatory_model": "very_favorable",
+    "stablecoin_maturity": "regulated under mica",
+    "tokenization_maturity": "active",
+    "cbdc_posture": "euro area exploration"
+  },
+  "iso2": null
+}

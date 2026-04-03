@@ -1,59 +1,77 @@
 {
-  "generated_at": "2026-03-31T18:49:56.099771Z",
   "themes": [
     {
       "slug": "stablecoins",
       "title_en": "Stablecoins",
       "title_pt": "Stablecoins",
-      "summary_en": "Comparative layer on issuer models, reserves, redemption, prudential oversight and links to banking and payments.",
-      "summary_pt": "Camada comparativa sobre modelos de emissão, reservas, resgate, supervisão prudencial e vínculos com bancos e pagamentos.",
+      "summary_en": "Compare reserve rules, redemption, issuer models, and supervisory design.",
+      "summary_pt": "Compare regras de reservas, resgate, modelos de emissor e desenho supervisório.",
       "countries_featured": [
-        "BRA",
-        "EUU",
         "USA",
-        "GBR",
+        "EUU",
         "SGP",
-        "HKG",
-        "CHE",
-        "ARE",
-        "SLV",
-        "PRY"
+        "JPN",
+        "GBR",
+        "ARE"
       ]
     },
     {
       "slug": "tokenization",
       "title_en": "Tokenization",
       "title_pt": "Tokenização",
-      "summary_en": "Comparative layer on legal certainty, capital-markets integration, sandboxes, pilots and scalable tokenized-asset regimes.",
-      "summary_pt": "Camada comparativa sobre segurança jurídica, integração com mercado de capitais, sandboxes, pilotos e regimes escaláveis de ativos tokenizados.",
+      "summary_en": "Track pilots, legal wrappers, and the move from experimentation to scaled deployment.",
+      "summary_pt": "Acompanhe pilotos, invólucros jurídicos e a passagem da experimentação para implantação em escala.",
       "countries_featured": [
-        "BRA",
         "EUU",
-        "USA",
-        "GBR",
         "CHE",
-        "SGP",
+        "LIE",
+        "USA",
         "HKG",
-        "ARE",
-        "FRA",
-        "DEU"
+        "THA"
       ]
     },
     {
       "slug": "cbdc-drex",
       "title_en": "CBDC and Drex",
       "title_pt": "CBDC e Drex",
-      "summary_en": "Comparative layer on wholesale vs retail CBDCs, programmability, privacy and institutional concentration.",
-      "summary_pt": "Camada comparativa sobre CBDCs de atacado e varejo, programabilidade, privacidade e concentração institucional.",
+      "summary_en": "Differentiate retail, wholesale, and cross-border CBDC strategies.",
+      "summary_pt": "Diferencie estratégias de CBDC de varejo, atacado e transfronteiriças.",
       "countries_featured": [
         "BRA",
         "EUU",
-        "GBR",
-        "CHN",
+        "THA",
+        "SAU",
+        "BHS"
+      ]
+    },
+    {
+      "slug": "aml-travel-rule",
+      "title_en": "AML and Travel Rule",
+      "title_pt": "AML e Travel Rule",
+      "summary_en": "Follow how jurisdictions are translating FATF standards into licensing, supervision, and data-sharing requirements.",
+      "summary_pt": "Veja como as jurisdições traduzem os padrões do FATF em licenciamento, supervisão e exigências de compartilhamento de dados.",
+      "countries_featured": [
+        "USA",
+        "EUU",
         "SGP",
-        "HKG",
         "JPN",
-        "KOR"
+        "BRA",
+        "NGA"
+      ]
+    },
+    {
+      "slug": "market-infrastructure",
+      "title_en": "Market infrastructure and data",
+      "title_pt": "Infraestrutura de mercado e dados",
+      "summary_en": "Show how regulators are moving from legal design to monitoring, dashboards, and prudential data collection.",
+      "summary_pt": "Mostre como reguladores estão passando do desenho jurídico para monitoramento, dashboards e coleta prudencial de dados.",
+      "countries_featured": [
+        "EUU",
+        "USA",
+        "BRA",
+        "CHE",
+        "ZAF",
+        "IND"
       ]
     }
   ]

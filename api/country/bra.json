@@ -1,0 +1,84 @@
+{
+  "country": "Brazil",
+  "iso3": "BRA",
+  "region": "Latin America",
+  "trend": "improving",
+  "summary_en": "Brazil has a developing but increasingly structured framework for virtual asset service providers, with progress in prudential oversight but remaining friction in taxation and tokenization.",
+  "summary_pt": "O Brasil possui um arcabouço em desenvolvimento, porém cada vez mais estruturado, para prestadores de serviços de ativos virtuais, com avanço na supervisão prudencial, mas ainda com fricções em tributação e tokenização.",
+  "last_update": "2026-03-30",
+  "criteria": {
+    "legal_certainty": 14,
+    "proportionality": 10,
+    "exchanges": 8,
+    "stablecoins": 6,
+    "tokenization": 7,
+    "taxation": 6,
+    "mining_infrastructure": 8,
+    "innovation_openness": 7,
+    "anti_centralization": 3
+  },
+  "status": {
+    "exchanges": "regulated",
+    "stablecoins": "partially open",
+    "tokenization": "developing",
+    "taxation": "moderate friction",
+    "mining": "potentially favorable",
+    "cbdc": "pilot under debate"
+  },
+  "laws": [
+    "Law 14.478/2022",
+    "Decree 11.563/2023",
+    "BCB Resolution 520/2025"
+  ],
+  "opportunities_en": [
+    "Tokenization",
+    "Green digital infrastructure",
+    "Stablecoin development"
+  ],
+  "opportunities_pt": [
+    "Tokenização",
+    "Infraestrutura digital verde",
+    "Desenvolvimento de stablecoins"
+  ],
+  "risks_en": [
+    "Tax uncertainty",
+    "Institutional fragmentation"
+  ],
+  "risks_pt": [
+    "Incerteza tributária",
+    "Fragmentação institucional"
+  ],
+  "references": [
+    {
+      "label": "Official framework",
+      "url": "https://www.planalto.gov.br/"
+    }
+  ],
+  "score": 69,
+  "classification": "favorable",
+  "thesis_core": true,
+  "thesis_scope": "core_jurisdiction",
+  "authorities": [
+    "Banco Central do Brasil (BCB)",
+    "Receita Federal do Brasil (RFB)",
+    "Comissão de Valores Mobiliários (CVM)",
+    "Conselho Monetário Nacional (CMN)"
+  ],
+  "model_en": "Developing but increasingly rules-based model centered on virtual asset service providers, prudential authorization, foreign-exchange integration and tighter stablecoin supervision.",
+  "model_pt": "Modelo em consolidação, cada vez mais baseado em regras, centrado em prestadores de serviços de ativos virtuais, autorização prudencial, integração cambial e supervisão mais densa de stablecoins.",
+  "detailed_analysis_en": "Brazil moved from a general statutory framework toward a more operational supervisory model. The legal core remains Law 14.478/2022 and Decree 11.563/2023, but the relevant shift came with the Central Bank rules that entered into force in 2026 for authorization, governance, controls and customer-asset safeguards. The market remains open to private innovation, yet it is becoming more formalized in stablecoins, custody and cross-border use. The key institutional challenge is to avoid replacing legal uncertainty with excessive operational concentration in the regulator.",
+  "detailed_analysis_pt": "O Brasil saiu de um marco legal geral para um modelo supervisório mais operacional. O núcleo jurídico permanece na Lei 14.478/2022 e no Decreto 11.563/2023, mas a mudança decisiva veio com as regras do Banco Central que entraram em vigor em 2026 para autorização, governança, controles e proteção dos ativos dos clientes. O mercado continua aberto à inovação privada, porém mais formalizado em stablecoins, custódia e usos transfronteiriços. O desafio institucional central é não trocar a insegurança jurídica por concentração operacional excessiva no regulador.",
+  "stablecoin_regime_en": "Partially open but rapidly formalising. Cross-border use is being integrated into foreign-exchange and reporting rules; proof-of-reserves, governance and disclosure expectations are increasing.",
+  "stablecoin_regime_pt": "Parcialmente aberto, mas em rápida formalização. O uso transfronteiriço está sendo integrado às regras cambiais e de reporte; aumentam as exigências de prova de reservas, governança e disclosure.",
+  "tokenization_regime_en": "Developing. Strong market interest and compatibility with capital-markets infrastructure, but still dependent on clearer legal pathways and supervisory coordination.",
+  "tokenization_regime_pt": "Em desenvolvimento. Há forte interesse de mercado e compatibilidade com a infraestrutura de mercado de capitais, mas ainda dependente de trilhas jurídicas mais claras e maior coordenação supervisória.",
+  "cbdc_note_en": "Drex remains relevant, especially as a wholesale / infrastructure project, but constitutional and institutional debates persist around privacy, programmability and the role of intermediaries.",
+  "cbdc_note_pt": "O Drex segue relevante, sobretudo como projeto de atacado / infraestrutura, mas persistem debates constitucionais e institucionais sobre privacidade, programabilidade e papel dos intermediários.",
+  "comparison_axes": {
+    "regulatory_model": "favorable",
+    "stablecoin_maturity": "partially open",
+    "tokenization_maturity": "developing",
+    "cbdc_posture": "pilot under debate"
+  },
+  "iso2": "BR"
+}

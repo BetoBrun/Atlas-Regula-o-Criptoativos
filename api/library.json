@@ -1,0 +1,215 @@
+{
+  "items": [
+    {
+      "title": "2nd Global Cryptoasset Regulatory Landscape Study",
+      "publisher": "CCAF",
+      "year": 2024,
+      "type": "comparative study",
+      "themes": [
+        "classification",
+        "stablecoins",
+        "CASPs",
+        "AML",
+        "consumer protection"
+      ],
+      "jurisdictions": [
+        "EUU",
+        "USA",
+        "GBR",
+        "BRA",
+        "NGA",
+        "SGP",
+        "JPN",
+        "PHL",
+        "MEX",
+        "IDN"
+      ],
+      "focus_en": "Comparative regulation, taxonomy, bans versus regulation, stablecoins, CASPs, AML/CFT and retail protection across 19 representative jurisdictions.",
+      "focus_pt": "Regulação comparada, taxonomia, proibição versus regulação, stablecoins, CASPs, AML/CFT e proteção de varejo em 19 jurisdições representativas.",
+      "why_en": "Useful for structuring the Atlas by regulatory dimensions, not just by country score. It supports chapters on classification, bans, issuers, service providers, AML and consumer protection.",
+      "why_pt": "Útil para estruturar o Atlas por dimensões regulatórias, e não apenas por score por país. Sustenta capítulos sobre classificação, proibições, emissores, prestadores, AML e proteção do consumidor."
+    },
+    {
+      "title": "PwC Global Crypto Regulation Report 2026",
+      "publisher": "PwC",
+      "year": 2026,
+      "type": "global report",
+      "themes": [
+        "implementation",
+        "stablecoins",
+        "tokenization",
+        "prudential",
+        "sandboxes"
+      ],
+      "jurisdictions": [
+        "USA",
+        "EUU",
+        "GBR",
+        "SGP",
+        "JPN",
+        "ARE",
+        "HKG",
+        "BRA",
+        "CAN",
+        "AUS"
+      ],
+      "focus_en": "Tracks the shift from policy design to implementation, with emphasis on stablecoin divergence, tokenized money, prudential treatment and selected jurisdiction summaries.",
+      "focus_pt": "Acompanha a passagem do desenho regulatório para a implementação, com ênfase em divergências de stablecoins, dinheiro tokenizado, prudencial e resumos jurisdicionais selecionados.",
+      "why_en": "Useful for the Atlas timeline and for the idea that supervision, reserves, redemption and operational resilience are now the central issues.",
+      "why_pt": "Útil para a linha do tempo do Atlas e para a ideia de que supervisão, reservas, resgate e resiliência operacional são agora os temas centrais."
+    },
+    {
+      "title": "Project Atlas: Mapping the world of decentralised finance",
+      "publisher": "BIS Innovation Hub",
+      "year": 2023,
+      "type": "infrastructure report",
+      "themes": [
+        "data",
+        "supervision",
+        "DeFi",
+        "cross-border flows"
+      ],
+      "jurisdictions": [
+        "EUU",
+        "CHE",
+        "BRA",
+        "IND",
+        "ZAF",
+        "USA"
+      ],
+      "focus_en": "Explains why regulators need tailored on-chain/off-chain data infrastructure and dashboards to monitor macro-financial relevance and cross-border crypto flows.",
+      "focus_pt": "Explica por que reguladores precisam de infraestrutura própria de dados on-chain/off-chain e dashboards para monitorar relevância macrofinanceira e fluxos cripto transfronteiriços.",
+      "why_en": "Supports the Atlas as a regulatory intelligence platform, not only a legal map. It justifies adding dashboards, monitoring and data quality layers.",
+      "why_pt": "Sustenta o Atlas como plataforma de inteligência regulatória, e não apenas mapa legal. Justifica adicionar dashboards, monitoramento e camadas de qualidade de dados."
+    },
+    {
+      "title": "2024 FINRA Annual Regulatory Oversight Report",
+      "publisher": "FINRA",
+      "year": 2024,
+      "type": "supervisory report",
+      "themes": [
+        "AML",
+        "cyber",
+        "retail conduct",
+        "compliance"
+      ],
+      "jurisdictions": [
+        "USA",
+        "CAN",
+        "GBR",
+        "AUS",
+        "EUU"
+      ],
+      "focus_en": "Shows how crypto supervision in practice extends into AML, cyber, custody, communications with the public, suspicious activity reviews and incident governance.",
+      "focus_pt": "Mostra como a supervisão cripto, na prática, se estende a AML, ciber, custódia, comunicações com o público, revisões de atividade suspeita e governança de incidentes.",
+      "why_en": "Useful for translating legal frameworks into operational expectations and compliance tooling.",
+      "why_pt": "Útil para traduzir marcos legais em expectativas operacionais e ferramentas de compliance."
+    },
+    {
+      "title": "The 2025 Geography of Crypto Report",
+      "publisher": "Chainalysis",
+      "year": 2025,
+      "type": "adoption report",
+      "themes": [
+        "adoption",
+        "stablecoins",
+        "retail",
+        "institutional"
+      ],
+      "jurisdictions": [
+        "IND",
+        "USA",
+        "BRA",
+        "NGA",
+        "UKR",
+        "ARG",
+        "SGP",
+        "HKG",
+        "JPN"
+      ],
+      "focus_en": "Maps where adoption is accelerating, how stablecoins are used, and how retail and institutional flows vary by region and income bracket.",
+      "focus_pt": "Mapeia onde a adoção acelera, como stablecoins são usadas e como fluxos de varejo e institucionais variam por região e faixa de renda.",
+      "why_en": "Useful to show that adoption hotspots and regulatory maturity do not always move together, especially across the Global South.",
+      "why_pt": "Útil para mostrar que hotspots de adoção e maturidade regulatória nem sempre andam juntos, especialmente no Sul Global."
+    },
+    {
+      "title": "Crypto Assets and Regulatory Challenges in Business Finance",
+      "publisher": "IJABMR",
+      "year": 2025,
+      "type": "academic article",
+      "themes": [
+        "business finance",
+        "jurisdictional ambiguity",
+        "SMEs",
+        "corporate adoption"
+      ],
+      "jurisdictions": [
+        "USA",
+        "EUU",
+        "IND",
+        "SLV",
+        "SGP",
+        "JPN"
+      ],
+      "focus_en": "Discusses compliance costs, treasury use, cross-border ambiguity, AML/KYC and operational dilemmas for firms adopting crypto in business finance.",
+      "focus_pt": "Discute custos de compliance, uso em tesouraria, ambiguidade transfronteiriça, AML/KYC e dilemas operacionais para empresas que adotam cripto em finanças corporativas.",
+      "why_en": "Useful for connecting national regulation to business impacts and corporate governance constraints.",
+      "why_pt": "Útil para conectar regulação nacional a impactos empresariais e restrições de governança corporativa."
+    },
+    {
+      "title": "World Economic Forum: Navigating Cryptocurrency Regulation",
+      "publisher": "WEF",
+      "year": 2021,
+      "type": "policy paper",
+      "themes": [
+        "policy",
+        "global coordination",
+        "framework design"
+      ],
+      "jurisdictions": [
+        "USA",
+        "EUU",
+        "SGP",
+        "JPN",
+        "CHE"
+      ],
+      "focus_en": "Early global synthesis on regulatory strategies, taxonomies and coordination challenges for cryptocurrency regulation.",
+      "focus_pt": "Síntese global inicial sobre estratégias regulatórias, taxonomias e desafios de coordenação na regulação de criptoativos.",
+      "why_en": "Useful as a baseline to show how the field moved from conceptual framing to implementation-heavy oversight.",
+      "why_pt": "Útil como linha de base para mostrar como o campo saiu de formulações conceituais para uma supervisão pesada em implementação."
+    },
+    {
+      "title_en": "FSB Thematic Review on Global Regulatory Framework for Crypto-asset Activities",
+      "title_pt": "FSB - Revisão temática do framework regulatório global para atividades com criptoativos",
+      "institution": "FSB",
+      "jurisdiction": "Global",
+      "theme": "regulatory-experiences",
+      "year": 2025,
+      "why_it_matters_en": "Provides a staged cross-jurisdiction implementation map for CASPs and stablecoins.",
+      "why_it_matters_pt": "Oferece um mapa por estágios da implementação comparada para CASPs e stablecoins.",
+      "url": "https://www.fsb.org/wp-content/uploads/P161025-1.pdf"
+    },
+    {
+      "title_en": "Law Library of Congress - Regulation of Cryptocurrency Around the World",
+      "title_pt": "Law Library of Congress - Regulação das criptomoedas no mundo",
+      "institution": "Law Library of Congress",
+      "jurisdiction": "Global",
+      "theme": "comparative-law",
+      "year": 2021,
+      "why_it_matters_en": "Shows the AML/CFT-first and tax-first sequencing visible across many jurisdictions.",
+      "why_it_matters_pt": "Mostra o sequenciamento AML/CFT-first e tax-first visível em muitas jurisdições.",
+      "url": "https://www.loc.gov/item/2021687419/"
+    },
+    {
+      "title_en": "IFWG South African Stablecoin Landscape Diagnostic",
+      "title_pt": "IFWG - Diagnóstico do panorama de stablecoins na África do Sul",
+      "institution": "IFWG",
+      "jurisdiction": "South Africa",
+      "theme": "stablecoins",
+      "year": 2025,
+      "why_it_matters_en": "Highlights why rand-backed stablecoins require a more specific framework.",
+      "why_it_matters_pt": "Mostra por que stablecoins lastreadas em rand exigem framework mais específico.",
+      "url": "https://www.ifwg.co.za/Reports/IFWG%20South%20African%20Stablecoin%20Landscape%20Diagnostic.pdf"
+    }
+  ]
+}

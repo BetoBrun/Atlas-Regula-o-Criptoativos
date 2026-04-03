@@ -1,0 +1,73 @@
+{
+  "country": "Indonesia",
+  "iso3": "IDN",
+  "iso2": "ID",
+  "region": "Asia",
+  "trend": "improving",
+  "summary_en": "Indonesia has moved gradually, balancing crypto market participation with prudential caution and capital-flow sensitivities.",
+  "summary_pt": "A Indonésia avançou gradualmente, equilibrando participação de mercado cripto com cautela prudencial e sensibilidades de fluxo de capitais.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 12,
+    "proportionality": 8,
+    "exchanges": 8,
+    "stablecoins": 6,
+    "tokenization": 6,
+    "taxation": 6,
+    "mining_infrastructure": 5,
+    "innovation_openness": 7,
+    "anti_centralization": 7
+  },
+  "status": {
+    "exchanges": "regulated",
+    "stablecoins": "developing framework",
+    "tokenization": "developing",
+    "mining": "moderate",
+    "cbdc": "research"
+  },
+  "laws": [
+    "Exchange and commodity-style oversight"
+  ],
+  "opportunities_en": [
+    "Large retail market",
+    "Payment and settlement experimentation"
+  ],
+  "opportunities_pt": [
+    "Grande mercado de varejo",
+    "Experimentação em pagamentos e liquidação"
+  ],
+  "risks_en": [
+    "Regulatory overlap",
+    "Prudential caution"
+  ],
+  "risks_pt": [
+    "Sobreposição regulatória",
+    "Cautela prudencial"
+  ],
+  "references": [],
+  "score": 67,
+  "classification": "favorable",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Bappebti",
+    "Bank Indonesia",
+    "Financial Services Authority"
+  ],
+  "model_en": "Gradual formalization under multiple authorities.",
+  "model_pt": "Formalização gradual sob múltiplas autoridades.",
+  "detailed_analysis_en": "Indonesia is useful as a large EMDE case where adoption pressure and prudential caution coexist.",
+  "detailed_analysis_pt": "A Indonésia é útil como grande caso EMDE em que pressão de adoção e cautela prudencial coexistem.",
+  "stablecoin_regime_en": "Stablecoin treatment remains partial and linked to broader payment concerns.",
+  "stablecoin_regime_pt": "O tratamento de stablecoins permanece parcial e ligado a preocupações amplas de pagamentos.",
+  "tokenization_regime_en": "Tokenization is developing, but not yet a central competitive edge.",
+  "tokenization_regime_pt": "A tokenização está em desenvolvimento, mas ainda não é vantagem competitiva central.",
+  "cbdc_note_en": "CBDC remains exploratory within broader digital rupiah work.",
+  "cbdc_note_pt": "A CBDC segue exploratória no contexto do projeto de rupia digital.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

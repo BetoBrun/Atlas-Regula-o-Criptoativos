@@ -1,0 +1,72 @@
+{
+  "country": "Turkey",
+  "iso3": "TUR",
+  "iso2": "TR",
+  "region": "Middle East",
+  "trend": "mixed",
+  "summary_en": "Turkey reflects high usage pressure, inflation-driven demand, and an evolving but still incomplete regulatory perimeter.",
+  "summary_pt": "A Turquia reflete forte pressão de uso, demanda guiada por inflação e perímetro regulatório ainda incompleto, embora em evolução.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 9,
+    "proportionality": 7,
+    "exchanges": 6,
+    "stablecoins": 5,
+    "tokenization": 5,
+    "taxation": 5,
+    "mining_infrastructure": 4,
+    "innovation_openness": 6,
+    "anti_centralization": 7
+  },
+  "status": {
+    "exchanges": "allowed with friction",
+    "stablecoins": "developing framework",
+    "tokenization": "incipient",
+    "mining": "neutral",
+    "cbdc": "pilot under debate"
+  },
+  "laws": [
+    "Developing digital-asset rules"
+  ],
+  "opportunities_en": [
+    "Inflation hedge use cases",
+    "Retail adoption"
+  ],
+  "opportunities_pt": [
+    "Casos de uso como proteção inflacionária",
+    "Adoção de varejo"
+  ],
+  "risks_en": [
+    "Incomplete framework",
+    "High policy sensitivity"
+  ],
+  "risks_pt": [
+    "Marco incompleto",
+    "Alta sensibilidade política"
+  ],
+  "references": [],
+  "score": 54,
+  "classification": "mixed",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Capital Markets Board of Turkey",
+    "Central Bank of the Republic of Türkiye"
+  ],
+  "model_en": "Adoption-rich but still frictional framework.",
+  "model_pt": "Marco rico em adoção, mas ainda friccional.",
+  "detailed_analysis_en": "Turkey matters because real-world demand can be high even before full regulatory consolidation.",
+  "detailed_analysis_pt": "A Turquia importa porque a demanda real pode ser alta mesmo antes da consolidação regulatória completa.",
+  "stablecoin_regime_en": "Stablecoins are central to use cases, but regulation remains incomplete.",
+  "stablecoin_regime_pt": "As stablecoins são centrais para os casos de uso, mas a regulação continua incompleta.",
+  "tokenization_regime_en": "Tokenization is still incipient.",
+  "tokenization_regime_pt": "A tokenização ainda é incipiente.",
+  "cbdc_note_en": "CBDC remains in pilot and policy discussion.",
+  "cbdc_note_pt": "A CBDC permanece em pilotos e discussão de política.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

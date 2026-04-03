@@ -1,0 +1,78 @@
+{
+  "country": "United Arab Emirates",
+  "iso3": "ARE",
+  "region": "Middle East",
+  "trend": "improving",
+  "summary_en": "The UAE offers one of the most business-friendly regulated environments for exchanges, tokenization and digital asset services, especially in Dubai and ADGM.",
+  "summary_pt": "Os Emirados Árabes Unidos oferecem um dos ambientes regulados mais favoráveis a negócios para exchanges, tokenização e serviços com ativos digitais, especialmente em Dubai e ADGM.",
+  "last_update": "2026-03-21",
+  "criteria": {
+    "legal_certainty": 17,
+    "proportionality": 13,
+    "exchanges": 10,
+    "stablecoins": 8,
+    "tokenization": 9,
+    "taxation": 9,
+    "mining_infrastructure": 6,
+    "innovation_openness": 10,
+    "anti_centralization": 4
+  },
+  "status": {
+    "exchanges": "licensed",
+    "stablecoins": "open with rules",
+    "tokenization": "very active",
+    "taxation": "favorable",
+    "mining": "moderate",
+    "cbdc": "wholesale and cross-border exploration"
+  },
+  "laws": [
+    "VARA regime",
+    "ADGM virtual assets framework"
+  ],
+  "opportunities_en": [
+    "Regional hub",
+    "Low-tax environment"
+  ],
+  "opportunities_pt": [
+    "Hub regional",
+    "Ambiente de baixa tributação"
+  ],
+  "risks_en": [
+    "Jurisdictional complexity between zones"
+  ],
+  "risks_pt": [
+    "Complexidade jurisdicional entre zonas"
+  ],
+  "references": [
+    {
+      "label": "VARA",
+      "url": "https://www.vara.ae/"
+    }
+  ],
+  "score": 86,
+  "classification": "very_favorable",
+  "thesis_core": true,
+  "thesis_scope": "core_jurisdiction",
+  "authorities": [
+    "Virtual Assets Regulatory Authority (VARA)",
+    "Abu Dhabi Global Market (ADGM)",
+    "Central Bank of the UAE"
+  ],
+  "model_en": "Multi-zone, business-friendly regime with specialized virtual-asset frameworks and strong competition for global digital-asset business.",
+  "model_pt": "Regime multi-zona e favorável a negócios, com frameworks especializados para ativos virtuais e forte competição pela atração de negócios globais de ativos digitais.",
+  "detailed_analysis_en": "The UAE has built one of the most commercially attractive environments for digital-asset business, particularly through Dubai and ADGM. The framework is specialized, licensing-oriented and open to exchanges, custody, brokerage and tokenization. The main challenge is not hostility, but navigating parallel regulatory zones and their interaction.",
+  "detailed_analysis_pt": "Os Emirados Árabes Unidos construíram um dos ambientes mais atraentes comercialmente para negócios com ativos digitais, especialmente por meio de Dubai e do ADGM. O framework é especializado, orientado a licenciamento e aberto a exchanges, custódia, corretagem e tokenização. O principal desafio não é hostilidade regulatória, mas a navegação entre zonas paralelas e sua interação.",
+  "stablecoin_regime_en": "Open with rules, especially in Dubai’s evolving issuance framework.",
+  "stablecoin_regime_pt": "Aberto com regras, especialmente no framework evolutivo de emissão em Dubai.",
+  "tokenization_regime_en": "Very favorable, with market-infrastructure and institutional momentum.",
+  "tokenization_regime_pt": "Muito favorável, com impulso em infraestrutura de mercado e uso institucional.",
+  "cbdc_note_en": "Cross-border and wholesale exploration remains more relevant than retail public-money centralization.",
+  "cbdc_note_pt": "Exploração transfronteiriça e de atacado segue mais relevante do que centralização varejista de dinheiro público.",
+  "comparison_axes": {
+    "regulatory_model": "very_favorable",
+    "stablecoin_maturity": "open with rules",
+    "tokenization_maturity": "very active",
+    "cbdc_posture": "wholesale and cross-border exploration"
+  },
+  "iso2": "AE"
+}

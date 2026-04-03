@@ -1,0 +1,86 @@
+{
+  "country": "United States",
+  "iso3": "USA",
+  "region": "North America",
+  "trend": "improving",
+  "summary_en": "The United States combines fragmented federal oversight with strong market depth. Stablecoin policy became more structured, but securities-law uncertainty still affects some projects.",
+  "summary_pt": "Os Estados Unidos combinam supervisão federal fragmentada com grande profundidade de mercado. A política para stablecoins ficou mais estruturada, mas a incerteza em matéria de valores mobiliários ainda afeta parte dos projetos.",
+  "last_update": "2026-03-28",
+  "criteria": {
+    "legal_certainty": 15,
+    "proportionality": 11,
+    "exchanges": 7,
+    "stablecoins": 8,
+    "tokenization": 8,
+    "taxation": 7,
+    "mining_infrastructure": 9,
+    "innovation_openness": 9,
+    "anti_centralization": 4
+  },
+  "status": {
+    "exchanges": "regulated with litigation risk",
+    "stablecoins": "developing framework",
+    "tokenization": "active",
+    "taxation": "moderate",
+    "mining": "favorable in several states",
+    "cbdc": "research only"
+  },
+  "laws": [
+    "GENIUS Act (2025)",
+    "State-level digital asset laws",
+    "Federal agency guidance"
+  ],
+  "opportunities_en": [
+    "Stablecoins",
+    "Tokenized capital markets",
+    "Mining and compute"
+  ],
+  "opportunities_pt": [
+    "Stablecoins",
+    "Mercados de capitais tokenizados",
+    "Mineração e computação"
+  ],
+  "risks_en": [
+    "Regulatory fragmentation",
+    "Enforcement uncertainty"
+  ],
+  "risks_pt": [
+    "Fragmentação regulatória",
+    "Incerteza de enforcement"
+  ],
+  "references": [
+    {
+      "label": "White House fact sheet",
+      "url": "https://www.whitehouse.gov/"
+    }
+  ],
+  "score": 78,
+  "classification": "favorable",
+  "thesis_core": true,
+  "thesis_scope": "core_jurisdiction",
+  "authorities": [
+    "Congress",
+    "Office of the Comptroller of the Currency (OCC)",
+    "SEC",
+    "CFTC",
+    "Federal Reserve",
+    "Treasury/FinCEN"
+  ],
+  "model_en": "Deep market with mixed federal-state architecture: stronger statutory treatment for payment stablecoins, but persistent fragmentation for broader crypto-asset classification and market structure.",
+  "model_pt": "Mercado profundo com arquitetura federal-estadual mista: tratamento legal mais forte para payment stablecoins, mas fragmentação persistente para classificação mais ampla de criptoativos e estrutura de mercado.",
+  "detailed_analysis_en": "The United States combines market depth and innovation capacity with institutional fragmentation. The GENIUS Act created the first federal framework for payment stablecoins, while the 2025 White House report called for moving away from regulation by enforcement. Even so, uncertainty remains around the securities/commodities boundary, exchange supervision and the treatment of many tokens. The result is a powerful but uneven ecosystem.",
+  "detailed_analysis_pt": "Os Estados Unidos combinam profundidade de mercado e capacidade de inovação com fragmentação institucional. O GENIUS Act criou o primeiro framework federal para payment stablecoins, enquanto o relatório da Casa Branca de 2025 defendeu a superação da regulação por enforcement. Ainda assim, permanecem incertezas sobre a fronteira entre securities e commodities, a supervisão de exchanges e o tratamento de muitos tokens. O resultado é um ecossistema forte, porém irregular.",
+  "stablecoin_regime_en": "Substantially stronger after the GENIUS Act: authorized issuers, federal oversight paths, AML obligations and redemption discipline.",
+  "stablecoin_regime_pt": "Sensivelmente mais robusto após o GENIUS Act: emissores autorizados, trilhas de supervisão federal, obrigações AML e disciplina de resgate.",
+  "tokenization_regime_en": "Highly active, especially institutionally, but still shaped by agency fragmentation and litigation risk.",
+  "tokenization_regime_pt": "Muito ativo, sobretudo no plano institucional, mas ainda moldado por fragmentação entre agências e risco litigioso.",
+  "cbdc_note_en": "Research and policy debate continue, but no retail CBDC implementation path is central to the current federal strategy.",
+  "cbdc_note_pt": "Pesquisa e debate de política continuam, mas não há trajetória central de implementação de CBDC de varejo na estratégia federal atual.",
+  "comparison_axes": {
+    "regulatory_model": "favorable",
+    "stablecoin_maturity": "developing framework",
+    "tokenization_maturity": "active",
+    "cbdc_posture": "research only"
+  },
+  "iso2": "US"
+}

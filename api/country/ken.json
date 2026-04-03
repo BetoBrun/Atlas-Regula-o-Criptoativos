@@ -1,0 +1,72 @@
+{
+  "country": "Kenya",
+  "iso3": "KEN",
+  "iso2": "KE",
+  "region": "Africa",
+  "trend": "mixed",
+  "summary_en": "Kenya shows strong adoption dynamics but still lacks a fully consolidated, comprehensive digital-asset framework.",
+  "summary_pt": "O Quênia mostra forte dinâmica de adoção, mas ainda carece de marco consolidado e abrangente para ativos digitais.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 9,
+    "proportionality": 7,
+    "exchanges": 6,
+    "stablecoins": 5,
+    "tokenization": 5,
+    "taxation": 5,
+    "mining_infrastructure": 4,
+    "innovation_openness": 7,
+    "anti_centralization": 8
+  },
+  "status": {
+    "exchanges": "allowed with friction",
+    "stablecoins": "uncertain",
+    "tokenization": "incipient",
+    "mining": "neutral",
+    "cbdc": "research"
+  },
+  "laws": [
+    "Consultations and market warnings"
+  ],
+  "opportunities_en": [
+    "Financial inclusion relevance",
+    "Mobile-money adjacency"
+  ],
+  "opportunities_pt": [
+    "Financial inclusion relevance",
+    "Proximidade com mobile money"
+  ],
+  "risks_en": [
+    "Fragmentation",
+    "Limited perimeter"
+  ],
+  "risks_pt": [
+    "Fragmentação",
+    "Perímetro limitado"
+  ],
+  "references": [],
+  "score": 57,
+  "classification": "mixed",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Capital Markets Authority Kenya",
+    "Central Bank of Kenya"
+  ],
+  "model_en": "High-adoption but still incomplete framework.",
+  "model_pt": "Marco incompleto apesar da alta adoção.",
+  "detailed_analysis_en": "Kenya is relevant because usage pressure may outpace the maturity of formal oversight.",
+  "detailed_analysis_pt": "O Quênia é relevante porque a pressão de uso pode superar a maturidade da supervisão formal.",
+  "stablecoin_regime_en": "Stablecoins are relevant for use cases, but regulation remains uncertain.",
+  "stablecoin_regime_pt": "As stablecoins são relevantes para casos de uso, mas a regulação permanece incerta.",
+  "tokenization_regime_en": "Tokenization remains incipient.",
+  "tokenization_regime_pt": "A tokenização permanece incipiente.",
+  "cbdc_note_en": "CBDC is exploratory.",
+  "cbdc_note_pt": "A CBDC é exploratória.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

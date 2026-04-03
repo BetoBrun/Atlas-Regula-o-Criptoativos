@@ -1,0 +1,160 @@
+{
+  "events": [
+    {
+      "date": "2023-07-01",
+      "title_en": "MiCA enters into force",
+      "title_pt": "MiCA entra em vigor",
+      "jurisdiction": "EUU",
+      "category": "framework",
+      "source": "EU",
+      "note_en": "The EU turns its crypto package into binding law, creating the clearest harmonised framework among major jurisdictions.",
+      "note_pt": "A UE transforma seu pacote cripto em direito vinculante, criando o framework harmonizado mais claro entre grandes jurisdições."
+    },
+    {
+      "date": "2023-10-01",
+      "title_en": "BIS Project Atlas launches proof of concept",
+      "title_pt": "BIS Project Atlas lança prova de conceito",
+      "jurisdiction": "EUU",
+      "category": "data",
+      "source": "BIS",
+      "note_en": "Project Atlas frames crypto regulation as a data-infrastructure problem, combining on-chain and off-chain sources for regulators.",
+      "note_pt": "O Project Atlas enquadra a regulação cripto como problema de infraestrutura de dados, combinando fontes on-chain e off-chain para reguladores."
+    },
+    {
+      "date": "2024-12-30",
+      "title_en": "MiCA applies in full",
+      "title_pt": "MiCA passa a se aplicar integralmente",
+      "jurisdiction": "EUU",
+      "category": "implementation",
+      "source": "EU",
+      "note_en": "Full application marks the transition from legislative design to supervisory delivery in Europe.",
+      "note_pt": "A aplicação integral marca a passagem do desenho legislativo para a entrega supervisória na Europa."
+    },
+    {
+      "date": "2025-03-01",
+      "title_en": "Nigeria adoption spike follows macro stress",
+      "title_pt": "Pico de adoção na Nigéria acompanha estresse macro",
+      "jurisdiction": "NGA",
+      "category": "adoption",
+      "source": "Chainalysis",
+      "note_en": "Chainalysis links Nigeria’s activity jump to currency devaluation and stronger demand for crypto rails.",
+      "note_pt": "A Chainalysis relaciona o salto de atividade na Nigéria à desvalorização cambial e à maior demanda por rails cripto."
+    },
+    {
+      "date": "2025-06-01",
+      "title_en": "FATF reports uneven Travel Rule implementation",
+      "title_pt": "FATF aponta implementação desigual da Travel Rule",
+      "jurisdiction": "SGP",
+      "category": "AML",
+      "source": "FATF",
+      "note_en": "The global AML picture improves legislatively, but supervision and cross-border data sharing remain inconsistent.",
+      "note_pt": "O quadro global de AML melhora no plano legislativo, mas supervisão e compartilhamento transfronteiriço de dados seguem inconsistentes."
+    },
+    {
+      "date": "2025-07-01",
+      "title_en": "Stablecoin divergence becomes a structuring issue",
+      "title_pt": "A divergência em stablecoins vira tema estruturante",
+      "jurisdiction": "USA",
+      "category": "stablecoins",
+      "source": "PwC",
+      "note_en": "Issuer type, reserve composition, redemption speed and third-country access emerge as key differences across the US, EU, UK and Asia.",
+      "note_pt": "Tipo de emissor, composição das reservas, velocidade de resgate e acesso de terceiros países emergem como diferenças centrais entre EUA, UE, Reino Unido e Ásia."
+    },
+    {
+      "date": "2025-08-01",
+      "title_en": "Hong Kong licensing path for stablecoins matures",
+      "title_pt": "Matura a trilha de licenciamento de stablecoins em Hong Kong",
+      "jurisdiction": "HKG",
+      "category": "stablecoins",
+      "source": "PwC",
+      "note_en": "Hong Kong strengthens its role as a supervised experimentation hub for payments-facing digital assets.",
+      "note_pt": "Hong Kong reforça seu papel como hub de experimentação supervisionada para ativos digitais voltados a pagamentos."
+    },
+    {
+      "date": "2025-08-15",
+      "title_en": "Singapore moves stablecoins into practical deployment",
+      "title_pt": "Singapura leva stablecoins à implantação prática",
+      "jurisdiction": "SGP",
+      "category": "stablecoins",
+      "source": "PwC",
+      "note_en": "The MAS framework becomes a reference point for quality-labelled onshore stablecoins in a small open economy.",
+      "note_pt": "O framework da MAS torna-se referência para stablecoins domésticas com selo de qualidade em uma pequena economia aberta."
+    },
+    {
+      "date": "2025-10-01",
+      "title_en": "FSB review flags implementation gaps",
+      "title_pt": "Revisão do FSB aponta lacunas de implementação",
+      "jurisdiction": "EUU",
+      "category": "implementation",
+      "source": "FSB/PwC",
+      "note_en": "Global standard-setters conclude that fragmentation persists despite convergence in principles.",
+      "note_pt": "Os standard-setters globais concluem que a fragmentação persiste apesar da convergência em princípios."
+    },
+    {
+      "date": "2026-01-01",
+      "title_en": "Basel prudential treatment becomes effective",
+      "title_pt": "Tratamento prudencial de Basileia entra em vigor",
+      "jurisdiction": "CHE",
+      "category": "prudential",
+      "source": "PwC",
+      "note_en": "Bank crypto exposures move under a clearer prudential perimeter, especially for stablecoins and tokenized assets.",
+      "note_pt": "Exposições bancárias a cripto passam a um perímetro prudencial mais claro, especialmente para stablecoins e ativos tokenizados."
+    },
+    {
+      "date": "2026-01-01",
+      "title_en": "Global crypto regulation shifts from design to supervision",
+      "title_pt": "Regulação global passa do desenho à supervisão",
+      "jurisdiction": "EUU",
+      "category": "supervision",
+      "source": "PwC",
+      "note_en": "2026 is defined less by new rulebooks and more by operational supervision, resilience, disclosure and live enforcement.",
+      "note_pt": "2026 é definido menos por novos rulebooks e mais por supervisão operacional, resiliência, disclosure e enforcement em mercado vivo."
+    },
+    {
+      "date": "2026-01-15",
+      "title_en": "Atlas coverage expands toward a comparative observatory",
+      "title_pt": "Cobertura do Atlas se expande rumo a um observatório comparado",
+      "jurisdiction": "BRA",
+      "category": "atlas",
+      "source": "Atlas",
+      "note_en": "The observatory links legal frameworks, adoption patterns, implementation experience and supervisory infrastructure in one interface.",
+      "note_pt": "O observatório passa a ligar marcos legais, padrões de adoção, experiência de implementação e infraestrutura supervisória numa só interface."
+    },
+    {
+      "date": "2024-07-19",
+      "jurisdiction": "South Korea",
+      "category": "legislation",
+      "title_en": "Virtual Asset User Protection Act takes effect",
+      "title_pt": "Entra em vigor a Virtual Asset User Protection Act",
+      "summary_en": "Creates a statutory baseline for user protection and unfair-trading enforcement.",
+      "summary_pt": "Cria base legal para proteção do usuário e repressão a práticas desleais."
+    },
+    {
+      "date": "2025-03-21",
+      "jurisdiction": "Australia",
+      "category": "policy",
+      "title_en": "Treasury statement on innovative digital asset industry",
+      "title_pt": "Tesouro divulga diretriz sobre indústria inovadora de ativos digitais",
+      "summary_en": "Signals a functional reform path for digital assets and payment stablecoins.",
+      "summary_pt": "Sinaliza uma trajetória funcional de reforma para ativos digitais e payment stablecoins."
+    },
+    {
+      "date": "2025-11-26",
+      "jurisdiction": "Australia",
+      "category": "legislation",
+      "title_en": "Digital Assets Framework Bill introduced",
+      "title_pt": "Introdução do Digital Assets Framework Bill",
+      "summary_en": "Brings digital asset platforms and tokenised custody into the financial-services perimeter.",
+      "summary_pt": "Traz plataformas de ativos digitais e custódia tokenizada para o perímetro dos serviços financeiros."
+    },
+    {
+      "date": "2025-04-30",
+      "jurisdiction": "South Africa",
+      "category": "aml",
+      "title_en": "Travel Rule enters into force for CASPs",
+      "title_pt": "Travel Rule entra em vigor para CASPs",
+      "summary_en": "Moves crypto supervision further into operational AML/CFT enforcement.",
+      "summary_pt": "Aprofunda a supervisão cripto no plano operacional de AML/CFT."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "version": "weighted_legal_institutional_v2",
+  "unit_of_analysis": "jurisdiction",
+  "scope": "core legal-institutional score for the thesis and Atlas",
+  "weights": {
+    "regulatory_clarity": 18,
+    "private_innovation_openness": 14,
+    "investor_user_protection": 14,
+    "institutional_coherence": 12,
+    "stablecoin_regime": 12,
+    "tokenization_legal_security": 10,
+    "supervisory_capacity": 10,
+    "state_centralization_risk": 10
+  },
+  "thresholds": {
+    "very_favorable": [
+      80,
+      100
+    ],
+    "favorable": [
+      65,
+      79
+    ],
+    "mixed": [
+      50,
+      64
+    ],
+    "restrictive": [
+      35,
+      49
+    ],
+    "very_restrictive": [
+      0,
+      34
+    ]
+  },
+  "anchor_levels": {
+    "0": "absence, prohibition, or severe indeterminacy",
+    "2.5": "incipient or AML-first treatment",
+    "5": "partial framework or functionally limited approach",
+    "7.5": "advanced but incomplete or transitional framework",
+    "10": "operative, clear, and relatively comprehensive framework"
+  },
+  "criteria_notes": {
+    "regulatory_clarity": "quality and operative certainty of the legal framework",
+    "private_innovation_openness": "room for regulated private innovation and market entry",
+    "investor_user_protection": "safeguards for users, custody, conduct and disclosure",
+    "institutional_coherence": "clarity of mandates and coordination among competent authorities",
+    "stablecoin_regime": "existence and maturity of a dedicated or functionally adequate stablecoin framework",
+    "tokenization_legal_security": "legal support for tokenized assets and market infrastructure",
+    "supervisory_capacity": "authorisation, oversight, reporting and supervisory operability",
+    "state_centralization_risk": "degree to which the framework avoids excessive concentration of digital monetary/control power"
+  },
+  "consistency_rules": [
+    "Official in-force sources prevail over speeches, consultations and soft law.",
+    "Stablecoin scores are not inferred solely from general CASP regulation.",
+    "The European Union is treated as a single jurisdiction where the regulatory core is harmonised.",
+    "The core score excludes taxation and mining/hardware, which are tracked separately as supplementary analytical blocks.",
+    "Scores are read jointly with trend, summary and, where relevant, FSB implementation stage."
+  ]
+}

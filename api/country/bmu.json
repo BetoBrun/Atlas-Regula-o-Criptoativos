@@ -1,0 +1,71 @@
+{
+  "country": "Bermuda",
+  "iso3": "BMU",
+  "iso2": "BM",
+  "region": "North America",
+  "trend": "stable",
+  "summary_en": "Bermuda combines dedicated digital asset licensing with an insurance and funds-friendly regulatory environment.",
+  "summary_pt": "Bermuda combina licenciamento dedicado de ativos digitais com ambiente regulatório amigável a seguros e fundos.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 14,
+    "proportionality": 9,
+    "exchanges": 9,
+    "stablecoins": 7,
+    "tokenization": 8,
+    "taxation": 7,
+    "mining_infrastructure": 4,
+    "innovation_openness": 8,
+    "anti_centralization": 8
+  },
+  "status": {
+    "exchanges": "licensed",
+    "stablecoins": "open with rules",
+    "tokenization": "active",
+    "mining": "limited",
+    "cbdc": "research"
+  },
+  "laws": [
+    "Digital Asset Business Act"
+  ],
+  "opportunities_en": [
+    "Tokenization pilots",
+    "Specialized licensing"
+  ],
+  "opportunities_pt": [
+    "Pilotos de tokenização",
+    "Licenciamento especializado"
+  ],
+  "risks_en": [
+    "Scale limitations",
+    "Dependence on cross-border access"
+  ],
+  "risks_pt": [
+    "Limitações de escala",
+    "Dependência de acesso transfronteiriço"
+  ],
+  "references": [],
+  "score": 74,
+  "classification": "favorable",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Bermuda Monetary Authority"
+  ],
+  "model_en": "Specialized digital asset framework tied to a credible supervisory authority.",
+  "model_pt": "Marco especializado de ativos digitais ligado a uma autoridade supervisora crível.",
+  "detailed_analysis_en": "Bermuda is relevant as a case of small-jurisdiction specialization with relatively high legal certainty.",
+  "detailed_analysis_pt": "Bermuda é relevante como caso de especialização de pequena jurisdição com segurança jurídica relativamente elevada.",
+  "stablecoin_regime_en": "Stablecoin issuance is generally possible within the licensed perimeter and supervisory expectations.",
+  "stablecoin_regime_pt": "A emissão de stablecoins é em geral possível dentro do perímetro licenciado e das expectativas supervisórias.",
+  "tokenization_regime_en": "Tokenization is treated as an extension of digital asset business and securities structuring.",
+  "tokenization_regime_pt": "A tokenização é tratada como extensão do negócio de ativos digitais e da estruturação de valores mobiliários.",
+  "cbdc_note_en": "No major retail CBDC agenda drives the framework.",
+  "cbdc_note_pt": "Nenhuma agenda relevante de CBDC de varejo orienta o marco.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

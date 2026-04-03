@@ -1,0 +1,338 @@
+{
+  "experiences": [
+    {
+      "title_en": "Comprehensive licensing as a path to clarity",
+      "title_pt": "Licenciamento abrangente como caminho para a clareza",
+      "summary_en": "The CCAF study shows a growing shift from AML-only rules to broader licensing and conduct regimes, especially in advanced economies.",
+      "summary_pt": "O estudo do CCAF mostra uma transição crescente de regras apenas de AML para regimes mais amplos de licenciamento e conduta, especialmente em economias avançadas.",
+      "examples": [
+        "EUU",
+        "CHE",
+        "ARE",
+        "JPN",
+        "LIE"
+      ]
+    },
+    {
+      "title_en": "Bans often fail to eliminate use",
+      "title_pt": "Proibições frequentemente não eliminam o uso",
+      "summary_en": "Nigeria and China illustrate how restrictive measures can coexist with high adoption, raising questions about effectiveness and unintended migration to informal rails.",
+      "summary_pt": "Nigéria e China ilustram como medidas restritivas podem coexistir com alta adoção, levantando dúvidas sobre efetividade e migração para rails informais.",
+      "examples": [
+        "NGA",
+        "CHN",
+        "TUR",
+        "KEN"
+      ]
+    },
+    {
+      "title_en": "Stablecoin convergence, with local divergence",
+      "title_pt": "Convergência em stablecoins, com divergência local",
+      "summary_en": "PwC highlights convergence on reserves, redemption and AML, but differences remain in issuer types, holding limits, reserve composition and third-country access.",
+      "summary_pt": "A PwC destaca convergência em reservas, resgate e AML, mas persistem diferenças quanto a tipos de emissor, limites de holding, composição de reservas e acesso de terceiros países.",
+      "examples": [
+        "USA",
+        "EUU",
+        "SGP",
+        "GBR",
+        "JPN",
+        "ARE"
+      ]
+    },
+    {
+      "title_en": "Sandboxes as shared-governance laboratories",
+      "title_pt": "Sandboxes como laboratórios de governança compartilhada",
+      "summary_en": "UK, Singapore, Hong Kong and the UAE use sandboxes to test tokenized deposits and stablecoins before full scaling.",
+      "summary_pt": "Reino Unido, Singapura, Hong Kong e Emirados usam sandboxes para testar depósitos tokenizados e stablecoins antes da escala plena.",
+      "examples": [
+        "GBR",
+        "SGP",
+        "HKG",
+        "ARE",
+        "THA"
+      ]
+    },
+    {
+      "title_en": "Implementation is now the main battleground",
+      "title_pt": "A implementação virou o principal campo de disputa",
+      "summary_en": "By 2026, the key issue is no longer drafting rules but enforcing reserves, custody, disclosures, resilience and consumer protections in live markets.",
+      "summary_pt": "Em 2026, a questão central já não é redigir regras, mas fazer cumprir reservas, custódia, disclosures, resiliência e proteções ao consumidor em mercados vivos.",
+      "examples": [
+        "USA",
+        "EUU",
+        "CAN",
+        "AUS",
+        "BRA"
+      ]
+    },
+    {
+      "title_en": "Data and monitoring are becoming part of regulation",
+      "title_pt": "Dados e monitoramento estão virando parte da regulação",
+      "summary_en": "Project Atlas and related monitoring initiatives show that on-chain and off-chain analytics are becoming supervisory infrastructure, not just research tools.",
+      "summary_pt": "Project Atlas e iniciativas correlatas mostram que a análise on-chain e off-chain está virando infraestrutura supervisória, e não apenas ferramenta de pesquisa.",
+      "examples": [
+        "EUU",
+        "CHE",
+        "BRA",
+        "IND",
+        "ZAF"
+      ]
+    },
+    {
+      "title_en": "Consumer protection is moving inside licensing",
+      "title_pt": "Proteção do consumidor está entrando no licenciamento",
+      "summary_en": "PwC and FINRA materials show how fair-value outcomes, appropriateness, marketing, disclosure and redress are being integrated into crypto licensing and supervision.",
+      "summary_pt": "Materiais da PwC e da FINRA mostram como fair-value outcomes, adequação, marketing, disclosure e remediação estão sendo integrados ao licenciamento e à supervisão cripto.",
+      "examples": [
+        "USA",
+        "EUU",
+        "GBR",
+        "HKG",
+        "SGP"
+      ]
+    },
+    {
+      "title_en": "EMDEs face different trade-offs",
+      "title_pt": "EMDEs enfrentam trade-offs distintos",
+      "summary_en": "The CCAF and Chainalysis evidence suggests that inflation, remittances, capital controls and banking gaps push many EMDEs toward different regulatory priorities than advanced economies.",
+      "summary_pt": "As evidências do CCAF e da Chainalysis sugerem que inflação, remessas, controles de capitais e lacunas bancárias empurram muitos EMDEs para prioridades regulatórias distintas das economias avançadas.",
+      "examples": [
+        "BRA",
+        "NGA",
+        "IND",
+        "KEN",
+        "UKR",
+        "ARG"
+      ]
+    },
+    {
+      "title_en": "Sequencing matters in emerging markets",
+      "title_pt": "Sequenciamento importa em mercados emergentes",
+      "summary_en": "The CCAF study suggests EMDEs often need to move gradually from AML-only controls to broader CASP, stablecoin and consumer-protection frameworks, especially where macro-stability and capital controls are sensitive.",
+      "summary_pt": "O estudo do CCAF sugere que EMDEs frequentemente precisam migrar gradualmente de controles apenas de AML para marcos mais amplos de CASPs, stablecoins e proteção do consumidor, sobretudo onde macroestabilidade e controles de capitais são sensíveis.",
+      "examples": [
+        "BRA",
+        "NGA",
+        "IND",
+        "PHL",
+        "MEX",
+        "IDN"
+      ]
+    },
+    {
+      "title_en": "Offshore access and localisation are now part of the toolkit",
+      "title_pt": "Acesso offshore e localização já fazem parte do toolkit",
+      "summary_en": "Global reports show regulators increasingly use reverse solicitation limits, localisation requirements and cross-border cooperation tools to manage offshore CASPs and stablecoin issuers.",
+      "summary_pt": "Relatórios globais mostram que reguladores usam cada vez mais limites à reverse solicitation, exigências de localização e instrumentos de cooperação transfronteiriça para lidar com CASPs e emissores offshore.",
+      "examples": [
+        "EUU",
+        "GBR",
+        "ARE",
+        "SGP",
+        "CHE",
+        "HKG"
+      ]
+    },
+    {
+      "title_en": "Tokenization is advancing through pilots, exemptions and infrastructure reform",
+      "title_pt": "A tokenização avança por pilotos, exceções e reforma de infraestrutura",
+      "summary_en": "Across Europe, Asia and selected common-law jurisdictions, tokenization is scaling through pilot regimes, market-infrastructure exemptions and supervised experiments instead of a single global model.",
+      "summary_pt": "Na Europa, Ásia e em jurisdições de common law, a tokenização está escalando por regimes-piloto, exceções de infraestrutura de mercado e experimentos supervisionados, e não por um modelo global único.",
+      "examples": [
+        "EUU",
+        "CHE",
+        "HKG",
+        "THA",
+        "GBR",
+        "USA"
+      ]
+    },
+    {
+      "title_en": "Stablecoins are becoming payment and treasury infrastructure",
+      "title_pt": "Stablecoins estão virando infraestrutura de pagamentos e tesouraria",
+      "summary_en": "PwC and Chainalysis indicate stablecoins are no longer only trading tools; they increasingly support remittances, treasury transfers, settlement, and digital-dollar access across multiple regions.",
+      "summary_pt": "PwC e Chainalysis indicam que as stablecoins já não são apenas instrumentos de trading; elas passam a sustentar remessas, transferências de tesouraria, liquidação e acesso ao dólar digital em múltiplas regiões.",
+      "examples": [
+        "USA",
+        "BRA",
+        "NGA",
+        "ARG",
+        "SGP",
+        "EUU"
+      ]
+    },
+    {
+      "title_en": "Supervision is expanding from legal texts to cyber, AML and conduct tooling",
+      "title_pt": "A supervisão está saindo do texto legal para ferramentas de ciber, AML e conduta",
+      "summary_en": "The FINRA materials show how crypto oversight increasingly includes surveillance, customer-protection controls, cyber incident response, suspicious activity monitoring and outsourced-vendor governance.",
+      "summary_pt": "Os materiais da FINRA mostram como a supervisão cripto incorpora cada vez mais vigilância, controles de proteção ao cliente, resposta a incidentes cibernéticos, monitoramento de atividade suspeita e governança de fornecedores terceirizados.",
+      "examples": [
+        "USA",
+        "CAN",
+        "GBR",
+        "AUS",
+        "EUU"
+      ]
+    },
+    {
+      "title_en": "Adoption hotspots do not always match regulatory maturity",
+      "title_pt": "Hotspots de adoção nem sempre coincidem com maturidade regulatória",
+      "summary_en": "Chainalysis highlights that countries such as India, Brazil, Nigeria, Ukraine and Argentina combine strong user adoption with very different regulatory structures, showing that demand and law evolve at different speeds.",
+      "summary_pt": "A Chainalysis mostra que países como Índia, Brasil, Nigéria, Ucrânia e Argentina combinam forte adoção com estruturas regulatórias muito distintas, revelando que demanda e direito evoluem em ritmos diferentes.",
+      "examples": [
+        "IND",
+        "BRA",
+        "NGA",
+        "UKR",
+        "ARG",
+        "USA"
+      ]
+    },
+    {
+      "title_en": "Japan segments stablecoin issuance by institutional type",
+      "title_pt": "O Japão segmenta a emissão de stablecoins por tipo institucional",
+      "summary_en": "The CCAF study shows Japan differentiating banks, fund transfer providers and trust companies, each with different reserve and redemption structures for digital-money-type stablecoins.",
+      "summary_pt": "O estudo do CCAF mostra que o Japão diferencia bancos, prestadores de transferência de fundos e trust companies, cada qual com estrutura própria de reservas e resgate para stablecoins de tipo monetário digital.",
+      "examples": [
+        "JPN",
+        "SGP",
+        "EUU"
+      ],
+      "categories": [
+        "stablecoins",
+        "implementation"
+      ],
+      "sources": [
+        "CCAF 2024"
+      ]
+    },
+    {
+      "title_en": "Singapore uses the regulated label as a quality signal",
+      "title_pt": "Singapura usa o selo regulado como sinal de qualidade",
+      "summary_en": "Singapore’s framework does not ban offshore stablecoins outright; instead, it creates a recognised category of MAS-regulated stablecoins, turning regulation into a market quality signal.",
+      "summary_pt": "O framework de Singapura não proíbe de forma absoluta as stablecoins offshore; em vez disso, cria uma categoria reconhecida de stablecoins reguladas pela MAS, transformando a regulação em sinal de qualidade de mercado.",
+      "examples": [
+        "SGP",
+        "EUU",
+        "ARE"
+      ],
+      "categories": [
+        "stablecoins",
+        "market design"
+      ],
+      "sources": [
+        "CCAF 2024",
+        "PwC 2026"
+      ]
+    },
+    {
+      "title_en": "EMDE restrictions often reflect macro-stability and capacity limits",
+      "title_pt": "Restrições em EMDEs frequentemente refletem macroestabilidade e limites de capacidade",
+      "summary_en": "CCAF finds bans and restrictions are more common in EMDEs, often linked to concerns about currency substitution, capital outflows and limited regulatory capacity rather than pure consumer protection logic.",
+      "summary_pt": "O CCAF mostra que proibições e restrições são mais comuns em EMDEs, frequentemente ligadas a preocupações com substituição monetária, fuga de capitais e capacidade regulatória limitada, e não apenas à proteção do consumidor.",
+      "examples": [
+        "NGA",
+        "CHN",
+        "IND",
+        "KEN",
+        "IDN"
+      ],
+      "categories": [
+        "EMDE",
+        "macro"
+      ],
+      "sources": [
+        "CCAF 2024"
+      ]
+    },
+    {
+      "title_en": "Adoption is broad-based across income brackets",
+      "title_pt": "A adoção é ampla em várias faixas de renda",
+      "summary_en": "Chainalysis finds adoption waves spreading across high-, upper-middle- and lower-middle-income cohorts, suggesting crypto is no longer a niche market phenomenon.",
+      "summary_pt": "A Chainalysis identifica ondas de adoção distribuídas entre países de renda alta, média-alta e média-baixa, sugerindo que cripto já não é fenômeno de nicho.",
+      "examples": [
+        "IND",
+        "USA",
+        "BRA",
+        "UKR",
+        "ARG",
+        "NGA"
+      ],
+      "categories": [
+        "adoption",
+        "global south"
+      ],
+      "sources": [
+        "Chainalysis 2025"
+      ]
+    },
+    {
+      "title_en": "Retail-heavy African growth reveals inclusion demand",
+      "title_pt": "O crescimento africano puxado pelo varejo revela demanda por inclusão",
+      "summary_en": "Sub-Saharan Africa’s growth and unusually large share of transfers below $10,000 suggest crypto is closely tied to retail payments, inflation hedging and financial inclusion gaps.",
+      "summary_pt": "O crescimento da África Subsaariana e sua participação incomumente alta de transferências abaixo de US$ 10 mil sugerem que cripto está fortemente ligado a pagamentos de varejo, hedge inflacionário e lacunas de inclusão financeira.",
+      "examples": [
+        "NGA",
+        "KEN",
+        "ZAF",
+        "MUS"
+      ],
+      "categories": [
+        "retail",
+        "financial inclusion"
+      ],
+      "sources": [
+        "Chainalysis 2025"
+      ]
+    },
+    {
+      "title_en": "Regulators increasingly need to audit market data itself",
+      "title_pt": "Reguladores cada vez mais precisam auditar os próprios dados de mercado",
+      "summary_en": "Project Atlas highlights black-box methodologies and possible wash trading distortions, suggesting that data verification is becoming part of the regulatory function itself.",
+      "summary_pt": "O Project Atlas destaca metodologias em caixa-preta e possíveis distorções por wash trading, indicando que a verificação dos dados está se tornando parte da própria função regulatória.",
+      "examples": [
+        "EUU",
+        "USA",
+        "CHE",
+        "BRA"
+      ],
+      "categories": [
+        "data",
+        "supervision"
+      ],
+      "sources": [
+        "BIS Project Atlas 2023"
+      ]
+    },
+    {
+      "title_en": "Japan and the ex ante stablecoin model",
+      "title_pt": "Japão e o modelo ex ante de stablecoins",
+      "summary_en": "Japan illustrates a high-credibility path in which private issuance is allowed only through regulated issuer classes tied to redemption safeguards.",
+      "summary_pt": "O Japão ilustra uma trajetória de alta credibilidade em que a emissão privada é permitida apenas por classes reguladas de emissores vinculadas a salvaguardas de resgate.",
+      "jurisdictions": [
+        "Japan"
+      ],
+      "theme": "stablecoins"
+    },
+    {
+      "title_en": "Australia’s functional-regulation strategy",
+      "title_pt": "A estratégia australiana de regulação funcional",
+      "summary_en": "Australia adapts legacy financial-services law to digital asset platforms and tokenised custody instead of rebuilding the entire legal architecture from scratch.",
+      "summary_pt": "A Austrália adapta o direito financeiro legado a plataformas de ativos digitais e custódia tokenizada, em vez de reconstruir do zero toda a arquitetura jurídica.",
+      "jurisdictions": [
+        "Australia"
+      ],
+      "theme": "tokenization"
+    },
+    {
+      "title_en": "South Africa and EMDE sequencing",
+      "title_pt": "África do Sul e o sequenciamento EMDE",
+      "summary_en": "South Africa shows how emerging markets often move from classification and AML/CFT to licensing and only later toward more refined stablecoin frameworks.",
+      "summary_pt": "A África do Sul mostra como mercados emergentes frequentemente avançam de classificação e AML/CFT para licenciamento e só depois para frameworks mais refinados de stablecoins.",
+      "jurisdictions": [
+        "South Africa"
+      ],
+      "theme": "supervision"
+    }
+  ]
+}
