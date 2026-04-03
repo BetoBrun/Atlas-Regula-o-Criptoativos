@@ -62,7 +62,6 @@ The score rewards:
 - innovation openness
 - healthy conditions for exchanges
 - room for stablecoins and tokenization
-- mining / infrastructure feasibility
 - lower risk of excessive state centralization
 
 It does **not** assume that either deregulation or heavy regulation is automatically positive.
@@ -118,3 +117,51 @@ Este pacote adiciona uma camada temática alinhada à tese:
 - `data/atlas_master_template.csv`
 
 O objetivo é transformar o Atlas em um observatório analítico, e não apenas em um repositório estático de normas.
+
+
+## Sixth stage additions
+- Expanded comparative coverage with additional jurisdictions drawn from PwC 2026 and CCAF materials.
+- Added regulatory experiences cards, research base cards, and a short regulatory timeline.
+- Added thematic expansion around AML/Travel Rule and market-data infrastructure.
+
+
+## Seventh stage
+- sticky navigation
+- timeline and library filters
+- drawer for thematic, experience and library details
+- expanded regulatory experiences and timeline
+- stronger observatory-style front-end navigation
+
+
+## Eighth stage additions
+
+- multi-filter research library (publisher, theme, jurisdiction)
+- richer regulatory experiences cards with categories and source notes
+- grouped regulatory timeline with categories and detail drawer
+- expanded comparative research base using CCAF, PwC, BIS, FINRA, Chainalysis, WEF and business-finance literature
+- refined observatory styling for a more think-tank / research-center presentation
+
+
+## April 2026 comparative revision
+
+This revision strengthens the thesis-facing comparative layer by improving Japan, South Korea, Australia and South Africa, and by adding new library/timeline entries connected to FSB 2025 and related official sources.
+
+
+## Metodologia de score (versão weighted_additive_v1)
+
+O Atlas utiliza um modelo aditivo multicritério com nove dimensões e pesos fixos que somam 100 pontos:
+
+- segurança jurídica (18)
+- proporcionalidade regulatória (14)
+- exchanges/CASPs (10)
+- stablecoins (10)
+- tokenização (10)
+- tributação (9)
+- mineração e infraestrutura (9)
+- abertura à inovação (10)
+- anticentralização (10)
+
+Cada dimensão é avaliada por rubricagem ancorada em cinco níveis: ausência/proibição, estágio incipiente, regime parcial, regime avançado porém incompleto e regime operativo relativamente abrangente. O score final deve ser lido em conjunto com tendência, resumo analítico e estágio de implementação do FSB.
+
+
+Note: taxation and mining/hardware are supplementary analytical blocks and do not affect the central score.
