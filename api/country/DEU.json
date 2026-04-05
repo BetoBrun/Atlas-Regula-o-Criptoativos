@@ -3,9 +3,9 @@
   "iso3": "DEU",
   "region": "Europe",
   "trend": "stable",
-  "summary_en": "Germany offers one of the strongest rule-of-law environments for crypto in Europe, but with high compliance intensity.",
-  "summary_pt": "A Alemanha oferece um dos ambientes de Estado de Direito mais fortes para cripto na Europa, mas com alta intensidade de compliance.",
-  "last_update": "2026-03-31",
+  "summary_en": "Germany benefits from EU-level legal certainty under MiCA and strong financial regulation, though compliance can be costly.",
+  "summary_pt": "A Alemanha se beneficia da segurança jurídica em nível europeu sob o MiCA e de uma forte regulação financeira, embora o compliance possa ser custoso.",
+  "last_update": "2026-03-25",
   "criteria": {
     "legal_certainty": 17,
     "proportionality": 10,
@@ -50,30 +50,5 @@
     }
   ],
   "score": 70,
-  "classification": "favorable",
-  "thesis_core": false,
-  "thesis_scope": true,
-  "authorities": [
-    "BaFin",
-    "Deutsche Bundesbank",
-    "ESMA / EBA (EU layer)"
-  ],
-  "model_en": "EU-harmonised model with strong domestic supervisory capacity and relatively advanced licensing culture.",
-  "model_pt": "Modelo harmonizado pela UE, com forte capacidade supervisória doméstica e cultura regulatória avançada de licenciamento.",
-  "detailed_analysis_en": "Germany combines the EU-wide MiCA framework with a historically strict domestic supervisory culture. The jurisdiction stands out for earlier experience with crypto custody and for a relatively institutionalised path toward CASP authorisation. Its comparative advantage is legal seriousness and supervisory credibility; its main drawback is a compliance burden that tends to favour larger and more capitalised operators.",
-  "detailed_analysis_pt": "A Alemanha combina o framework harmonizado da União Europeia com uma cultura supervisória doméstica historicamente rigorosa. A jurisdição se destaca pela experiência prévia com custódia cripto e por uma trajetória relativamente institucionalizada de autorização de CASPs. Sua principal vantagem comparativa é a seriedade jurídica e a credibilidade supervisória; sua principal desvantagem é uma carga regulatória que tende a favorecer operadores maiores e mais capitalizados.",
-  "stablecoin_regime_en": "Stablecoins follow MiCA, with reserve, disclosure and authorisation requirements under the EU framework and close domestic scrutiny.",
-  "stablecoin_regime_pt": "As stablecoins seguem o MiCA, com exigências de reservas, disclosure e autorização sob o framework europeu e escrutínio doméstico próximo.",
-  "tokenization_regime_en": "Tokenization is comparatively promising because Germany combines capital-market depth, banking infrastructure and legal familiarity with digital assets.",
-  "tokenization_regime_pt": "A tokenização é comparativamente promissora porque a Alemanha combina profundidade de mercado de capitais, infraestrutura bancária e familiaridade jurídica com ativos digitais.",
-  "cbdc_note_en": "Digital euro debates matter more than a national retail CBDC agenda; the key issue is the role of banks and payment infrastructure.",
-  "cbdc_note_pt": "O debate sobre o euro digital importa mais do que uma agenda nacional própria de CBDC de varejo; a questão central é o papel dos bancos e da infraestrutura de pagamentos.",
-  "comparison_axes": {
-    "clarity": "high",
-    "innovation": "medium",
-    "stablecoins": "structured",
-    "tokenization": "promising",
-    "state_centralization": "moderate"
-  },
-  "iso2": "DE"
+  "classification": "favorable"
 }
