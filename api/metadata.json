@@ -1,5 +1,11 @@
 {
-  "generated_at": "2026-04-05T07:33:41.564637Z",
-  "country_count": 20,
-  "methodology_version": "1.1.0-bilingual"
+  "generated_at": "2026-04-03T18:00:00Z",
+  "country_count": 41,
+  "theme_count": 5,
+  "thesis_core_count": 10,
+  "library_count": 7,
+  "experience_count": 20,
+  "notes_pt": "Alinhamento final com a tese: score central jurídico-institucional com oito critérios, excluindo tributação e mineração/hardware da nota principal.",
+  "notes_en": "Final alignment with the thesis: core legal-institutional score based on eight criteria, excluding taxation and mining/hardware from the main score.",
+  "methodology_version": "weighted_legal_institutional_v2"
 }

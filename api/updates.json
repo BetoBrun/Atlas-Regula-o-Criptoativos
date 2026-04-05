@@ -1,142 +1,205 @@
 [
   {
+    "date": "2026-04-03",
+    "title_en": "Atlas score aligned with thesis methodology",
+    "title_pt": "Score do Atlas alinhado à metodologia da tese",
+    "summary_en": "The central score now uses eight legal-institutional criteria and removes taxation and mining/hardware from the main rating.",
+    "summary_pt": "A nota central agora usa oito critérios jurídico-institucionais e retira tributação e mineração/hardware da avaliação principal."
+  },
+  {
+    "date": "2026-04-01",
+    "title_en": "Weighted scoring methodology and thesis alignment",
+    "title_pt": "Metodologia de scoring ponderado e alinhamento com a tese",
+    "summary_en": "Added a transparent weighted multicriteria method, revised key jurisdictions, and aligned the Atlas with the thesis chapter on comparative methodology.",
+    "summary_pt": "Foi adicionada metodologia transparente de scoring multicritério ponderado, revisadas jurisdições-chave e alinhado o Atlas ao capítulo metodológico comparado da tese."
+  },
+  {
+    "date": "2026-04-01",
+    "title_en": "Comparative country revision for thesis alignment",
+    "title_pt": "Revisão comparativa de países alinhada à tese",
+    "summary_en": "Rewrote Japan, South Korea, Australia and South Africa entries, added library and timeline items, and strengthened the thesis-facing comparative narrative.",
+    "summary_pt": "Reescreveu as entradas de Japão, Coreia do Sul, Austrália e África do Sul, adicionou itens de biblioteca e timeline e fortaleceu a narrativa comparativa voltada à tese."
+  },
+  {
+    "date": "2026-03-31",
+    "title_en": "Third thematic round added",
+    "title_pt": "Terceira rodada temática adicionada",
+    "summary_en": "Added thematic pages for stablecoins, tokenization and CBDC/Drex, plus a master maintenance template and revised rankings.",
+    "summary_pt": "Foram adicionadas páginas temáticas sobre stablecoins, tokenização e CBDC/Drex, além de um modelo mestre de manutenção e ranking revisado."
+  },
+  {
+    "date": "2026-03-31",
+    "title_en": "Second comparative round added",
+    "title_pt": "Segunda rodada comparativa adicionada",
+    "summary_en": "Added Germany, France, Argentina, Chile, Nigeria, China, India, Japan, South Korea, Australia and Canada with thesis-aligned analytical fields.",
+    "summary_pt": "Foram adicionados Alemanha, França, Argentina, Chile, Nigéria, China, Índia, Japão, Coreia do Sul, Austrália e Canadá com campos analíticos alinhados à tese."
+  },
+  {
+    "country": "European Union",
+    "iso3": "EUU",
+    "last_update": "2026-03-31",
+    "trend": "improving",
+    "score": 80,
+    "thesis_core": true
+  },
+  {
     "country": "Brazil",
     "iso3": "BRA",
     "last_update": "2026-03-30",
     "trend": "improving",
-    "score": 69
+    "score": 69,
+    "thesis_core": true
   },
   {
     "country": "United States",
     "iso3": "USA",
     "last_update": "2026-03-28",
     "trend": "improving",
-    "score": 78
+    "score": 78,
+    "thesis_core": true
   },
   {
     "country": "Singapore",
     "iso3": "SGP",
     "last_update": "2026-03-27",
     "trend": "improving",
-    "score": 83
+    "score": 83,
+    "thesis_core": true
   },
   {
     "country": "Hong Kong",
     "iso3": "HKG",
     "last_update": "2026-03-27",
     "trend": "improving",
-    "score": 80
+    "score": 80,
+    "thesis_core": true
   },
   {
     "country": "Switzerland",
     "iso3": "CHE",
     "last_update": "2026-03-26",
     "trend": "stable",
-    "score": 85
+    "score": 85,
+    "thesis_core": true
   },
   {
     "country": "Germany",
     "iso3": "DEU",
     "last_update": "2026-03-25",
     "trend": "stable",
-    "score": 70
+    "score": 70,
+    "thesis_core": false
   },
   {
     "country": "France",
     "iso3": "FRA",
     "last_update": "2026-03-24",
     "trend": "stable",
-    "score": 69
+    "score": 69,
+    "thesis_core": false
   },
   {
     "country": "United Arab Emirates",
     "iso3": "ARE",
     "last_update": "2026-03-21",
     "trend": "improving",
-    "score": 86
+    "score": 86,
+    "thesis_core": true
   },
   {
     "country": "United Kingdom",
     "iso3": "GBR",
     "last_update": "2026-03-20",
     "trend": "improving",
-    "score": 74
+    "score": 74,
+    "thesis_core": true
   },
   {
     "country": "Argentina",
     "iso3": "ARG",
     "last_update": "2026-03-19",
     "trend": "improving",
-    "score": 59
+    "score": 59,
+    "thesis_core": false
   },
   {
     "country": "Paraguay",
     "iso3": "PRY",
     "last_update": "2026-03-18",
     "trend": "stable",
-    "score": 51
+    "score": 51,
+    "thesis_core": true
   },
   {
     "country": "Nigeria",
     "iso3": "NGA",
     "last_update": "2026-03-17",
     "trend": "mixed",
-    "score": 43
+    "score": 43,
+    "thesis_core": false
   },
   {
     "country": "Chile",
     "iso3": "CHL",
     "last_update": "2026-03-16",
     "trend": "improving",
-    "score": 61
+    "score": 61,
+    "thesis_core": false
   },
   {
     "country": "El Salvador",
     "iso3": "SLV",
     "last_update": "2026-03-15",
     "trend": "stable",
-    "score": 68
+    "score": 68,
+    "thesis_core": true
   },
   {
     "country": "India",
     "iso3": "IND",
     "last_update": "2026-03-14",
     "trend": "mixed",
-    "score": 40
+    "score": 40,
+    "thesis_core": false
   },
   {
     "country": "Japan",
     "iso3": "JPN",
     "last_update": "2026-03-13",
     "trend": "stable",
-    "score": 70
+    "score": 70,
+    "thesis_core": false
   },
   {
     "country": "China",
     "iso3": "CHN",
     "last_update": "2026-03-12",
     "trend": "stable",
-    "score": 29
+    "score": 29,
+    "thesis_core": false
   },
   {
     "country": "South Korea",
     "iso3": "KOR",
     "last_update": "2026-03-11",
     "trend": "improving",
-    "score": 64
+    "score": 64,
+    "thesis_core": false
   },
   {
     "country": "Australia",
     "iso3": "AUS",
     "last_update": "2026-03-10",
     "trend": "improving",
-    "score": 68
+    "score": 68,
+    "thesis_core": false
   },
   {
     "country": "Canada",
     "iso3": "CAN",
     "last_update": "2026-03-09",
     "trend": "stable",
-    "score": 71
+    "score": 71,
+    "thesis_core": false
   }
 ]
