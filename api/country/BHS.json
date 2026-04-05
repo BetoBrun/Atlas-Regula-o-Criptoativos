@@ -1,0 +1,73 @@
+{
+  "country": "Bahamas",
+  "iso3": "BHS",
+  "iso2": "BS",
+  "region": "North America",
+  "trend": "stable",
+  "summary_en": "Open offshore-friendly licensing for digital asset businesses, with focus on registration, custody, and compliance.",
+  "summary_pt": "Regime licenciado com perfil offshore favorável para ativos digitais, com foco em registro, custódia e compliance.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 14,
+    "proportionality": 9,
+    "exchanges": 9,
+    "stablecoins": 7,
+    "tokenization": 7,
+    "taxation": 6,
+    "mining_infrastructure": 4,
+    "innovation_openness": 8,
+    "anti_centralization": 9
+  },
+  "status": {
+    "exchanges": "licensed",
+    "stablecoins": "open with rules",
+    "tokenization": "active",
+    "mining": "limited",
+    "cbdc": "retail launched with low adoption"
+  },
+  "laws": [
+    "DARE Act framework",
+    "Digital asset business registration"
+  ],
+  "opportunities_en": [
+    "Digital asset services",
+    "Regional experimentation"
+  ],
+  "opportunities_pt": [
+    "Serviços de ativos digitais",
+    "Experimentação regional"
+  ],
+  "risks_en": [
+    "Small market size",
+    "Offshore perception risks"
+  ],
+  "risks_pt": [
+    "Pequeno tamanho de mercado",
+    "Riscos de percepção offshore"
+  ],
+  "references": [],
+  "score": 73,
+  "classification": "favorable",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Securities Commission of The Bahamas",
+    "Central Bank of The Bahamas"
+  ],
+  "model_en": "Offshore licensed framework with supervisory gating and compliance controls.",
+  "model_pt": "Marco licenciado offshore com portas de entrada supervisórias e controles de compliance.",
+  "detailed_analysis_en": "Useful for studying how small jurisdictions specialize in licensing digital asset firms.",
+  "detailed_analysis_pt": "Útil para estudar como pequenas jurisdições se especializam em licenciar firmas de ativos digitais.",
+  "stablecoin_regime_en": "Rules-based entry for stablecoin and custodial businesses, but not a global benchmark for payment-scale issuance.",
+  "stablecoin_regime_pt": "Entrada baseada em regras para stablecoins e custódia, mas não é benchmark global para emissão em escala de pagamentos.",
+  "tokenization_regime_en": "Tokenization is allowed through broader digital asset and securities-compatible structuring.",
+  "tokenization_regime_pt": "A tokenização é admitida por estruturação ampla de ativos digitais compatível com valores mobiliários.",
+  "cbdc_note_en": "The Bahamas also offers a live CBDC experience through the Sand Dollar, relevant for retail CBDC comparison.",
+  "cbdc_note_pt": "As Bahamas também oferecem experiência concreta de CBDC por meio do Sand Dollar, relevante para comparação de CBDC de varejo.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

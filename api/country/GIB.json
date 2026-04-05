@@ -1,0 +1,71 @@
+{
+  "country": "Gibraltar",
+  "iso3": "GIB",
+  "iso2": "GI",
+  "region": "Europe",
+  "trend": "stable",
+  "summary_en": "Gibraltar pioneered a tailored DLT licensing approach and remains relevant as an early specialist regime.",
+  "summary_pt": "Gibraltar foi pioneiro em abordagem licenciada específica para DLT e continua relevante como regime especializado precoce.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 14,
+    "proportionality": 9,
+    "exchanges": 9,
+    "stablecoins": 7,
+    "tokenization": 8,
+    "taxation": 6,
+    "mining_infrastructure": 4,
+    "innovation_openness": 8,
+    "anti_centralization": 10
+  },
+  "status": {
+    "exchanges": "licensed",
+    "stablecoins": "open with compliance",
+    "tokenization": "active",
+    "mining": "limited",
+    "cbdc": "research"
+  },
+  "laws": [
+    "DLT regulatory framework"
+  ],
+  "opportunities_en": [
+    "Early DLT specialization",
+    "Tokenization structuring"
+  ],
+  "opportunities_pt": [
+    "Especialização precoce em DLT",
+    "Estruturação de tokenização"
+  ],
+  "risks_en": [
+    "Small market size",
+    "Competitive pressure from MiCA"
+  ],
+  "risks_pt": [
+    "Pequeno tamanho de mercado",
+    "Pressão competitiva do MiCA"
+  ],
+  "references": [],
+  "score": 75,
+  "classification": "favorable",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Gibraltar Financial Services Commission"
+  ],
+  "model_en": "Early bespoke DLT licensing model.",
+  "model_pt": "Modelo precoce de licenciamento específico para DLT.",
+  "detailed_analysis_en": "Gibraltar matters as one of the first jurisdictions to operationalize a crypto-native licensing perimeter.",
+  "detailed_analysis_pt": "Gibraltar importa como uma das primeiras jurisdições a operacionalizar um perímetro de licenciamento cripto-nativo.",
+  "stablecoin_regime_en": "Stablecoins can be accommodated within the broader licensed digital asset perimeter.",
+  "stablecoin_regime_pt": "Stablecoins podem ser acomodadas dentro do perímetro mais amplo de ativos digitais licenciados.",
+  "tokenization_regime_en": "Tokenization is treated pragmatically and benefits from the jurisdiction’s specialist posture.",
+  "tokenization_regime_pt": "A tokenização é tratada de modo pragmático e se beneficia da postura especialista da jurisdição.",
+  "cbdc_note_en": "CBDC is peripheral.",
+  "cbdc_note_pt": "CBDC é periférica.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

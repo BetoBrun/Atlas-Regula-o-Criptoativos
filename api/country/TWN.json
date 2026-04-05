@@ -1,0 +1,72 @@
+{
+  "country": "Taiwan",
+  "iso3": "TWN",
+  "iso2": "TW",
+  "region": "Asia",
+  "trend": "improving",
+  "summary_en": "Taiwan has been building a more structured digital-asset perimeter while keeping close watch on consumer protection and market conduct.",
+  "summary_pt": "Taiwan vem construindo perímetro mais estruturado para ativos digitais, mantendo atenção próxima à proteção do consumidor e à conduta de mercado.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 12,
+    "proportionality": 8,
+    "exchanges": 8,
+    "stablecoins": 6,
+    "tokenization": 7,
+    "taxation": 6,
+    "mining_infrastructure": 4,
+    "innovation_openness": 7,
+    "anti_centralization": 8
+  },
+  "status": {
+    "exchanges": "regulated",
+    "stablecoins": "developing framework",
+    "tokenization": "active",
+    "mining": "limited",
+    "cbdc": "research"
+  },
+  "laws": [
+    "Virtual asset guidance and licensing proposals"
+  ],
+  "opportunities_en": [
+    "Institutional experimentation",
+    "Regulatory formalization"
+  ],
+  "opportunities_pt": [
+    "Experimentação institucional",
+    "Regulatory formalization"
+  ],
+  "risks_en": [
+    "Implementation still maturing",
+    "Regional competition"
+  ],
+  "risks_pt": [
+    "Implementação ainda em maturação",
+    "Competição regional"
+  ],
+  "references": [],
+  "score": 66,
+  "classification": "favorable",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Financial Supervisory Commission Taiwan",
+    "Central Bank of the Republic of China (Taiwan)"
+  ],
+  "model_en": "Structured, still-maturing framework with conduct emphasis.",
+  "model_pt": "Marco estruturado, ainda em maturação, com ênfase em conduta.",
+  "detailed_analysis_en": "Taiwan is useful as a case of gradual consolidation in a high-tech jurisdiction.",
+  "detailed_analysis_pt": "Taiwan é útil como caso de consolidação gradual em jurisdição de alta tecnologia.",
+  "stablecoin_regime_en": "Stablecoin rules remain less mature than in Singapore or Japan.",
+  "stablecoin_regime_pt": "As regras de stablecoins permanecem menos maduras do que em Singapura ou Japão.",
+  "tokenization_regime_en": "Tokenization is active and institutionally plausible.",
+  "tokenization_regime_pt": "A tokenização é ativa e institucionalmente plausível.",
+  "cbdc_note_en": "CBDC remains exploratory.",
+  "cbdc_note_pt": "A CBDC permanece exploratória.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

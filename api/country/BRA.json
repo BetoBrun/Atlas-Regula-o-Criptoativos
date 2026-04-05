@@ -55,5 +55,30 @@
     }
   ],
   "score": 69,
-  "classification": "favorable"
+  "classification": "favorable",
+  "thesis_core": true,
+  "thesis_scope": "core_jurisdiction",
+  "authorities": [
+    "Banco Central do Brasil (BCB)",
+    "Receita Federal do Brasil (RFB)",
+    "Comissão de Valores Mobiliários (CVM)",
+    "Conselho Monetário Nacional (CMN)"
+  ],
+  "model_en": "Developing but increasingly rules-based model centered on virtual asset service providers, prudential authorization, foreign-exchange integration and tighter stablecoin supervision.",
+  "model_pt": "Modelo em consolidação, cada vez mais baseado em regras, centrado em prestadores de serviços de ativos virtuais, autorização prudencial, integração cambial e supervisão mais densa de stablecoins.",
+  "detailed_analysis_en": "Brazil moved from a general statutory framework toward a more operational supervisory model. The legal core remains Law 14.478/2022 and Decree 11.563/2023, but the relevant shift came with the Central Bank rules that entered into force in 2026 for authorization, governance, controls and customer-asset safeguards. The market remains open to private innovation, yet it is becoming more formalized in stablecoins, custody and cross-border use. The key institutional challenge is to avoid replacing legal uncertainty with excessive operational concentration in the regulator.",
+  "detailed_analysis_pt": "O Brasil saiu de um marco legal geral para um modelo supervisório mais operacional. O núcleo jurídico permanece na Lei 14.478/2022 e no Decreto 11.563/2023, mas a mudança decisiva veio com as regras do Banco Central que entraram em vigor em 2026 para autorização, governança, controles e proteção dos ativos dos clientes. O mercado continua aberto à inovação privada, porém mais formalizado em stablecoins, custódia e usos transfronteiriços. O desafio institucional central é não trocar a insegurança jurídica por concentração operacional excessiva no regulador.",
+  "stablecoin_regime_en": "Partially open but rapidly formalising. Cross-border use is being integrated into foreign-exchange and reporting rules; proof-of-reserves, governance and disclosure expectations are increasing.",
+  "stablecoin_regime_pt": "Parcialmente aberto, mas em rápida formalização. O uso transfronteiriço está sendo integrado às regras cambiais e de reporte; aumentam as exigências de prova de reservas, governança e disclosure.",
+  "tokenization_regime_en": "Developing. Strong market interest and compatibility with capital-markets infrastructure, but still dependent on clearer legal pathways and supervisory coordination.",
+  "tokenization_regime_pt": "Em desenvolvimento. Há forte interesse de mercado e compatibilidade com a infraestrutura de mercado de capitais, mas ainda dependente de trilhas jurídicas mais claras e maior coordenação supervisória.",
+  "cbdc_note_en": "Drex remains relevant, especially as a wholesale / infrastructure project, but constitutional and institutional debates persist around privacy, programmability and the role of intermediaries.",
+  "cbdc_note_pt": "O Drex segue relevante, sobretudo como projeto de atacado / infraestrutura, mas persistem debates constitucionais e institucionais sobre privacidade, programabilidade e papel dos intermediários.",
+  "comparison_axes": {
+    "regulatory_model": "favorable",
+    "stablecoin_maturity": "partially open",
+    "tokenization_maturity": "developing",
+    "cbdc_posture": "pilot under debate"
+  },
+  "iso2": "BR"
 }

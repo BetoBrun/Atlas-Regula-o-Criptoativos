@@ -1,0 +1,72 @@
+{
+  "country": "Thailand",
+  "iso3": "THA",
+  "iso2": "TH",
+  "region": "Asia",
+  "trend": "improving",
+  "summary_en": "Thailand combines exchange licensing, securities-style controls, and active supervisory engagement with digital-asset markets.",
+  "summary_pt": "A Tailândia combina licenciamento de exchanges, controles em estilo de valores mobiliários e engajamento supervisório ativo com mercados de ativos digitais.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 12,
+    "proportionality": 8,
+    "exchanges": 8,
+    "stablecoins": 6,
+    "tokenization": 7,
+    "taxation": 6,
+    "mining_infrastructure": 4,
+    "innovation_openness": 7,
+    "anti_centralization": 8
+  },
+  "status": {
+    "exchanges": "licensed",
+    "stablecoins": "developing framework",
+    "tokenization": "active",
+    "mining": "limited",
+    "cbdc": "wholesale and cross-border exploration"
+  },
+  "laws": [
+    "Digital asset business rules"
+  ],
+  "opportunities_en": [
+    "Cross-border settlement experimentation",
+    "Institutional pilots"
+  ],
+  "opportunities_pt": [
+    "Experimentação de liquidação transfronteiriça",
+    "Institutional pilots"
+  ],
+  "risks_en": [
+    "Retail protection pressure",
+    "Policy complexity"
+  ],
+  "risks_pt": [
+    "Pressão de proteção ao investidor de varejo",
+    "Complexidade de política"
+  ],
+  "references": [],
+  "score": 69,
+  "classification": "favorable",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Thai SEC",
+    "Bank of Thailand"
+  ],
+  "model_en": "Licensed market model with active SEC-style oversight.",
+  "model_pt": "Modelo de mercado licenciado com supervisão ativa em estilo SEC.",
+  "detailed_analysis_en": "Thailand is relevant because it mixes investor-protection logic with payment-system experimentation.",
+  "detailed_analysis_pt": "A Tailândia é relevante porque mistura lógica de proteção do investidor com experimentação em sistemas de pagamento.",
+  "stablecoin_regime_en": "Stablecoin treatment is still evolving and tied to payment-system concerns.",
+  "stablecoin_regime_pt": "O tratamento de stablecoins ainda evolui e está ligado a preocupações do sistema de pagamentos.",
+  "tokenization_regime_en": "Tokenization is active, especially in controlled pilot settings.",
+  "tokenization_regime_pt": "A tokenização é ativa, especialmente em pilotos controlados.",
+  "cbdc_note_en": "CBDC work emphasizes wholesale and cross-border experimentation.",
+  "cbdc_note_pt": "O trabalho com CBDC enfatiza experimentação atacadista e transfronteiriça.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

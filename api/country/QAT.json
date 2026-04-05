@@ -1,0 +1,73 @@
+{
+  "country": "Qatar",
+  "iso3": "QAT",
+  "iso2": "QA",
+  "region": "Middle East",
+  "trend": "mixed",
+  "summary_en": "Qatar combines selective digital-asset experimentation with an incomplete broader virtual-asset perimeter.",
+  "summary_pt": "O Catar combina experimentação seletiva em ativos digitais com perímetro mais amplo de ativos virtuais ainda incompleto.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 10,
+    "proportionality": 7,
+    "exchanges": 6,
+    "stablecoins": 5,
+    "tokenization": 7,
+    "taxation": 5,
+    "mining_infrastructure": 4,
+    "innovation_openness": 6,
+    "anti_centralization": 8
+  },
+  "status": {
+    "exchanges": "developing framework",
+    "stablecoins": "uncertain",
+    "tokenization": "active",
+    "mining": "limited",
+    "cbdc": "research"
+  },
+  "laws": [
+    "QFC and investment-token rules"
+  ],
+  "opportunities_en": [
+    "Controlled experimentation",
+    "Institutional pilots"
+  ],
+  "opportunities_pt": [
+    "Experimentação controlada",
+    "Institutional pilots"
+  ],
+  "risks_en": [
+    "Partial perimeter",
+    "Regulatory asymmetry"
+  ],
+  "risks_pt": [
+    "Perímetro parcial",
+    "Assimetria regulatória"
+  ],
+  "references": [],
+  "score": 60,
+  "classification": "mixed",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Qatar Financial Centre Regulatory Authority",
+    "Qatar Central Bank",
+    "Qatar Financial Markets Authority"
+  ],
+  "model_en": "Partial and segmented framework.",
+  "model_pt": "Marco parcial e segmentado.",
+  "detailed_analysis_en": "Qatar is useful to compare segmented free-zone style regulation with broader national incompleteness.",
+  "detailed_analysis_pt": "O Catar é útil para comparar regulação segmentada em estilo de zona financeira com incompletude nacional mais ampla.",
+  "stablecoin_regime_en": "Stablecoins remain uncertain at the national level.",
+  "stablecoin_regime_pt": "As stablecoins permanecem incertas em nível nacional.",
+  "tokenization_regime_en": "Tokenization is more advanced than the broader virtual-asset framework.",
+  "tokenization_regime_pt": "A tokenização está mais avançada do que o marco geral de ativos virtuais.",
+  "cbdc_note_en": "CBDC remains exploratory.",
+  "cbdc_note_pt": "A CBDC permanece exploratória.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

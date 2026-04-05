@@ -50,5 +50,28 @@
     }
   ],
   "score": 80,
-  "classification": "very_favorable"
+  "classification": "very_favorable",
+  "thesis_core": true,
+  "thesis_scope": "core_jurisdiction",
+  "authorities": [
+    "Hong Kong Monetary Authority (HKMA)",
+    "Securities and Futures Commission (SFC)"
+  ],
+  "model_en": "Pro-innovation but tightly supervised regime for virtual assets, with explicit licensing for exchanges and fiat-referenced stablecoin issuers.",
+  "model_pt": "Regime pró-inovação, mas fortemente supervisionado, para ativos virtuais, com licenciamento explícito para exchanges e emissores de stablecoins referenciadas em moeda fiduciária.",
+  "detailed_analysis_en": "Hong Kong is positioning itself as a regulated Asian gateway for digital assets. Its framework combines VASP licensing with the stablecoin issuer regime under the HKMA. The model is clear and increasingly sophisticated, especially for fiat-referenced stablecoins, though regulators remain cautious and licensing has progressed gradually.",
+  "detailed_analysis_pt": "Hong Kong se posiciona como porta de entrada asiática regulada para ativos digitais. Seu framework combina licenciamento de VASPs com o regime de emissores de stablecoins sob o HKMA. O modelo é claro e cada vez mais sofisticado, especialmente para stablecoins referenciadas em moeda fiduciária, embora os reguladores mantenham postura cautelosa e o licenciamento avance gradualmente.",
+  "stablecoin_regime_en": "Licensing regime in force for fiat-referenced stablecoins, with capital, reserve, redemption, audit and AML/CFT expectations.",
+  "stablecoin_regime_pt": "Regime de licenciamento em vigor para stablecoins referenciadas em moeda fiduciária, com exigências de capital, reservas, resgate, auditoria e AML/CFT.",
+  "tokenization_regime_en": "Active and increasingly relevant in market infrastructure and institutional digital finance.",
+  "tokenization_regime_pt": "Ativa e cada vez mais relevante em infraestrutura de mercado e finanças digitais institucionais.",
+  "cbdc_note_en": "Research and infrastructure experimentation continue, but the immediate regulatory focus has been private digital-asset intermediation and stablecoins.",
+  "cbdc_note_pt": "Pesquisa e experimentação de infraestrutura continuam, mas o foco regulatório imediato tem sido a intermediação privada de ativos digitais e stablecoins.",
+  "comparison_axes": {
+    "regulatory_model": "very_favorable",
+    "stablecoin_maturity": "licensed framework",
+    "tokenization_maturity": "active",
+    "cbdc_posture": "research"
+  },
+  "iso2": "HK"
 }

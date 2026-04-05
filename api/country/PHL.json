@@ -1,0 +1,72 @@
+{
+  "country": "Philippines",
+  "iso3": "PHL",
+  "iso2": "PH",
+  "region": "Asia",
+  "trend": "improving",
+  "summary_en": "The Philippines has steadily formalized VASP-style oversight and remains an important case of emerging-market licensing.",
+  "summary_pt": "As Filipinas formalizaram progressivamente a supervisão no estilo VASP e permanecem caso importante de licenciamento em mercado emergente.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 12,
+    "proportionality": 8,
+    "exchanges": 8,
+    "stablecoins": 6,
+    "tokenization": 7,
+    "taxation": 6,
+    "mining_infrastructure": 4,
+    "innovation_openness": 7,
+    "anti_centralization": 8
+  },
+  "status": {
+    "exchanges": "licensed",
+    "stablecoins": "developing framework",
+    "tokenization": "active",
+    "mining": "limited",
+    "cbdc": "pilot under debate"
+  },
+  "laws": [
+    "VASP licensing framework"
+  ],
+  "opportunities_en": [
+    "Financial inclusion",
+    "Payment experimentation"
+  ],
+  "opportunities_pt": [
+    "Inclusão financeira",
+    "Payment experimentation"
+  ],
+  "risks_en": [
+    "Implementation unevenness",
+    "Resource constraints"
+  ],
+  "risks_pt": [
+    "Implementação desigual",
+    "Restrições de recursos"
+  ],
+  "references": [],
+  "score": 68,
+  "classification": "favorable",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Bangko Sentral ng Pilipinas",
+    "Securities and Exchange Commission Philippines"
+  ],
+  "model_en": "Emerging-market licensing model with increasing formalization.",
+  "model_pt": "Modelo de licenciamento de mercado emergente com formalização crescente.",
+  "detailed_analysis_en": "The Philippines show how licensing can expand before a full market-structure regime exists.",
+  "detailed_analysis_pt": "As Filipinas mostram como o licenciamento pode avançar antes da existência de um regime completo de estrutura de mercado.",
+  "stablecoin_regime_en": "Stablecoins remain more operational than deeply prudential.",
+  "stablecoin_regime_pt": "As stablecoins permanecem mais operacionais do que profundamente prudenciais.",
+  "tokenization_regime_en": "Tokenization is active but still secondary.",
+  "tokenization_regime_pt": "A tokenização é ativa, mas ainda secundária.",
+  "cbdc_note_en": "CBDC is under debate and pilot-oriented.",
+  "cbdc_note_pt": "A CBDC está em debate e orientada a pilotos.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

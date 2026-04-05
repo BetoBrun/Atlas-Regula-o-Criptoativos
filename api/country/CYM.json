@@ -1,0 +1,71 @@
+{
+  "country": "Cayman Islands",
+  "iso3": "CYM",
+  "iso2": "KY",
+  "region": "North America",
+  "trend": "stable",
+  "summary_en": "Cayman provides a structured but internationally oriented registration and supervision environment for virtual asset services.",
+  "summary_pt": "As Ilhas Cayman oferecem ambiente estruturado, porém orientado internacionalmente, de registro e supervisão para serviços de ativos virtuais.",
+  "last_update": "2026-03-31",
+  "criteria": {
+    "legal_certainty": 13,
+    "proportionality": 9,
+    "exchanges": 9,
+    "stablecoins": 7,
+    "tokenization": 7,
+    "taxation": 7,
+    "mining_infrastructure": 4,
+    "innovation_openness": 8,
+    "anti_centralization": 8
+  },
+  "status": {
+    "exchanges": "licensed",
+    "stablecoins": "open with rules",
+    "tokenization": "active",
+    "mining": "limited",
+    "cbdc": "research"
+  },
+  "laws": [
+    "Virtual Asset (Service Providers) Act"
+  ],
+  "opportunities_en": [
+    "Fund structuring",
+    "Cross-border service models"
+  ],
+  "opportunities_pt": [
+    "Estruturação de fundos",
+    "Modelos transfronteiriços de prestação"
+  ],
+  "risks_en": [
+    "Offshore concentration risk",
+    "Market perception"
+  ],
+  "risks_pt": [
+    "Risco de concentração offshore",
+    "Percepção de mercado"
+  ],
+  "references": [],
+  "score": 72,
+  "classification": "favorable",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Cayman Islands Monetary Authority"
+  ],
+  "model_en": "Internationally oriented licensed regime focused on service providers and compliance.",
+  "model_pt": "Regime licenciado de orientação internacional focado em prestadores de serviço e compliance.",
+  "detailed_analysis_en": "Cayman is useful to map how offshore financial centers absorb crypto activity into service-provider regimes.",
+  "detailed_analysis_pt": "Cayman é útil para mapear como centros financeiros offshore absorvem a atividade cripto em regimes de prestadores.",
+  "stablecoin_regime_en": "Stablecoin-related businesses fit the service-provider logic, though systemic payment integration is limited.",
+  "stablecoin_regime_pt": "Negócios ligados a stablecoins se encaixam na lógica de prestadores, embora a integração sistêmica de pagamentos seja limitada.",
+  "tokenization_regime_en": "Tokenization is generally feasible through fund, SPV, and digital-asset structures.",
+  "tokenization_regime_pt": "A tokenização é em geral viável por meio de fundos, SPVs e estruturas de ativos digitais.",
+  "cbdc_note_en": "CBDC is not central to the jurisdictional strategy.",
+  "cbdc_note_pt": "A CBDC não é central para a estratégia jurisdicional.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "country": "South Africa",
+  "iso3": "ZAF",
+  "iso2": "ZA",
+  "region": "Africa",
+  "trend": "improving",
+  "summary_en": "South Africa has moved into formal supervision through CASP licensing, travel-rule implementation and a growing stablecoin-policy debate, making it one of the most useful EMDE comparators in the Atlas.",
+  "summary_pt": "A África do Sul entrou em fase de supervisão formal com licenciamento de CASPs, implementação da travel rule e debate crescente sobre stablecoins, tornando-se um dos comparadores EMDE mais úteis do Atlas.",
+  "last_update": "2026-04-01",
+  "criteria": {
+    "legal_certainty": 12,
+    "proportionality": 8,
+    "exchanges": 8,
+    "stablecoins": 6,
+    "tokenization": 6,
+    "taxation": 6,
+    "mining_infrastructure": 6,
+    "innovation_openness": 7,
+    "anti_centralization": 7
+  },
+  "status": {
+    "exchanges": "regulated",
+    "stablecoins": "developing framework",
+    "tokenization": "developing",
+    "mining": "potentially favorable",
+    "cbdc": "wholesale focus"
+  },
+  "laws": [
+    "Declaration of a crypto asset as a financial product",
+    "Travel Rule Directive 9 of 2024",
+    "Stablecoin Landscape Diagnostic"
+  ],
+  "opportunities_en": [
+    "Cross-border payments",
+    "Institutional use cases"
+  ],
+  "opportunities_pt": [
+    "Pagamentos transfronteiriços",
+    "Casos institucionais de uso"
+  ],
+  "risks_en": [
+    "Exchange control friction",
+    "Implementation gaps"
+  ],
+  "risks_pt": [
+    "Fricções cambiais",
+    "Lacunas de implementação"
+  ],
+  "references": [
+    {
+      "label": "Gov.za - 2022 declaration",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/202210/47334gen1350.pdf"
+    },
+    {
+      "label": "FIC - travel rule",
+      "url": "https://www.fic.gov.za/2025/04/17/joint-advisory-directive-9-of-2024-on-implementation-of-the-travel-rule-to-enhance-transparency-in-crypto-asset-transactions-takes-effect-on-30-april-2025/"
+    },
+    {
+      "label": "IFWG - stablecoin diagnostic",
+      "url": "https://www.ifwg.co.za/Reports/IFWG%20South%20African%20Stablecoin%20Landscape%20Diagnostic.pdf"
+    }
+  ],
+  "score": 66,
+  "classification": "favorable",
+  "thesis_core": false,
+  "thesis_scope": "expansion",
+  "authorities": [
+    "Financial Sector Conduct Authority (FSCA)",
+    "Financial Intelligence Centre (FIC)",
+    "South African Reserve Bank (SARB)",
+    "IFWG"
+  ],
+  "model_en": "Progressive formalisation in an emerging market, beginning with classification, licensing and AML/CFT before moving to more specialised stablecoin design.",
+  "model_pt": "Formalização progressiva em mercado emergente, começando por classificação, licenciamento e AML/CFT antes de avançar para desenho mais especializado de stablecoins.",
+  "detailed_analysis_en": "South Africa is especially valuable for the thesis because it is an EMDE case that formalises the market without embracing either prohibition or a strong retail-CBDC solution. The 2022 declaration brought crypto assets into the FAIS perimeter; subsequent licensing and travel-rule implementation moved the sector into genuine supervisory terrain; and the IFWG stablecoin work shows the system beginning to confront risks from private digital money in a more targeted way. This sequencing closely resembles the kind of path many developing jurisdictions are likely to follow.",
+  "detailed_analysis_pt": "A África do Sul é especialmente valiosa para a tese porque é um caso EMDE que formaliza o mercado sem abraçar nem a proibição nem uma solução forte de CBDC de varejo. A declaração de 2022 trouxe os criptoativos para o perímetro do FAIS; o licenciamento subsequente e a implementação da travel rule colocaram o setor em terreno genuinamente supervisório; e o trabalho do IFWG sobre stablecoins mostra o sistema começando a enfrentar os riscos do dinheiro digital privado de forma mais direcionada. Esse sequenciamento se aproxima muito do caminho que várias jurisdições em desenvolvimento tendem a seguir.",
+  "stablecoin_regime_en": "There is still no fully finalised stablecoin regime, but the official diagnostic work makes clear that rand-backed stablecoins already require a more specific framework.",
+  "stablecoin_regime_pt": "Ainda não há regime de stablecoins plenamente finalizado, mas o diagnóstico oficial deixa claro que stablecoins lastreadas em rand já exigem framework mais específico.",
+  "tokenization_regime_en": "Tokenisation remains secondary to licensing and integrity concerns, but institutional use cases are growing.",
+  "tokenization_regime_pt": "A tokenização ainda é secundária em relação a licenciamento e integridade, mas os casos institucionais de uso crescem.",
+  "cbdc_note_en": "The policy focus is wholesale and cross-border experimentation rather than an all-encompassing retail CBDC.",
+  "cbdc_note_pt": "O foco de política pública está em experimentação atacadista e transfronteiriça, e não em uma CBDC de varejo abrangente.",
+  "comparison_axes": [
+    "licensing",
+    "stablecoins",
+    "tokenization",
+    "cbdc"
+  ]
+}

@@ -2,10 +2,10 @@
   "country": "Japan",
   "iso3": "JPN",
   "region": "Asia",
-  "trend": "stable",
-  "summary_en": "Japan offers high legal certainty and a mature exchange regime, though compliance remains demanding and innovation can move more slowly.",
-  "summary_pt": "O Japão oferece alta segurança jurídica e um regime maduro para exchanges, embora o compliance permaneça exigente e a inovação possa avançar mais lentamente.",
-  "last_update": "2026-03-13",
+  "trend": "improving",
+  "summary_en": "Japan combines early statutory supervision, a licensed exchange regime and a structured stablecoin framework centred on redemption and regulated issuers.",
+  "summary_pt": "O Japão combina supervisão legal precoce, regime licenciado para exchanges e um framework estruturado de stablecoins centrado em resgate e emissores regulados.",
+  "last_update": "2026-04-01",
   "criteria": {
     "legal_certainty": 17,
     "proportionality": 10,
@@ -27,7 +27,8 @@
   },
   "laws": [
     "Payment Services Act",
-    "FSA guidance"
+    "Banking Act and Trust Business Act amendments",
+    "Electronic Payment Instruments framework"
   ],
   "opportunities_en": [
     "Institutional trust",
@@ -45,10 +46,39 @@
   ],
   "references": [
     {
-      "label": "JFSA",
-      "url": "https://www.fsa.go.jp/en/"
+      "label": "JFSA - stablecoins",
+      "url": "https://www.fsa.go.jp/inter/etc/20220914-2/02.pdf"
+    },
+    {
+      "label": "JFSA - 2025 review",
+      "url": "https://www.fsa.go.jp/en/news/2025/20250410_2/01.pdf"
     }
   ],
   "score": 70,
-  "classification": "favorable"
+  "classification": "favorable",
+  "thesis_core": false,
+  "thesis_scope": true,
+  "authorities": [
+    "Financial Services Agency (FSA)",
+    "JVCEA / certified self-regulatory layer",
+    "Bank of Japan"
+  ],
+  "model_en": "High-credibility institutional model with early exchange supervision and a prudentially anchored stablecoin regime.",
+  "model_pt": "Modelo institucional de alta credibilidade, com supervisão precoce de exchanges e regime de stablecoins ancorado em prudência.",
+  "detailed_analysis_en": "Japan is one of the clearest examples of ex ante institutional design in crypto regulation. Stablecoin issuance is restricted to banks, fund transfer service providers and trust companies, each tied to a legally coherent redemption model. The result is not a permissive system, but a highly structured one: private issuance is allowed, provided that issuer type, safeguards and intermediary duties are predefined. For the thesis, Japan is valuable because it shows that a country can protect users and financial stability without collapsing the debate into a retail-CBDC solution.",
+  "detailed_analysis_pt": "O Japão é um dos exemplos mais claros de desenho institucional ex ante na regulação de criptoativos. A emissão de stablecoins é restrita a bancos, fund transfer service providers e trust companies, cada qual vinculado a um modelo juridicamente coerente de resgate. O resultado não é um sistema permissivo, mas altamente estruturado: a emissão privada é admitida, desde que o tipo de emissor, as salvaguardas e os deveres dos intermediários estejam previamente definidos. Para a tese, o Japão é valioso porque mostra que um país pode proteger usuários e estabilidade financeira sem reduzir o debate a uma solução de CBDC de varejo.",
+  "stablecoin_regime_en": "Only regulated issuer classes may issue digital-money type stablecoins, with emphasis on redemption at par and strong intermediary obligations.",
+  "stablecoin_regime_pt": "Somente classes reguladas de emissores podem emitir stablecoins do tipo digital-money, com ênfase em resgate ao par e deveres robustos dos intermediários.",
+  "tokenization_regime_en": "Tokenisation matters in Japan, but the strongest differentiator remains the legal design of exchanges and stablecoin intermediation.",
+  "tokenization_regime_pt": "A tokenização importa no Japão, mas o maior diferencial continua sendo o desenho jurídico de exchanges e da intermediação de stablecoins.",
+  "cbdc_note_en": "Japan’s comparative relevance lies more in private regulated digital money than in any retail-CBDC-centred architecture.",
+  "cbdc_note_pt": "A relevância comparativa do Japão está mais no dinheiro digital privado regulado do que em qualquer arquitetura centrada em CBDC de varejo.",
+  "comparison_axes": {
+    "clarity": "high",
+    "innovation": "medium-high",
+    "stablecoins": "advanced",
+    "tokenization": "developing",
+    "state_centralization": "moderate"
+  },
+  "iso2": "JP"
 }
