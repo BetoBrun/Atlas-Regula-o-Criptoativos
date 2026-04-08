@@ -64,8 +64,7 @@ const CRITERIA_LABELS = {
   tokenization: { en: 'Tokenization', pt: 'Tokenização' },
   taxation: { en: 'Taxation', pt: 'Tributação' },
   innovation_openness: { en: 'Innovation openness', pt: 'Abertura à inovação' },
-  anti_centralization: { en: 'Anti-centralization', pt: 'Anticentralização' },
-  mining_infrastructure: { en: 'Mining infrastructure', pt: 'Infraestrutura de mineração' }
+  anti_centralization: { en: 'Anti-centralization', pt: 'Anticentralização' }
 };
 
 const MARKER_COORDS = {
@@ -93,7 +92,6 @@ function translateClassification(value) { return t(`class_${value}`); }
 function translateTrend(value) { return t(`t_${value}`); }
 function translateStatus(value='') { return t(String(value).toLowerCase()) || value; }
 function fmtDate(d){ return d ? new Date(d).toLocaleDateString(state.lang === 'pt' ? 'pt-BR' : 'en-GB') : '—'; }
-function labelForCriterion(key){ return CRITERIA_LABELS[key]?.[state.lang] || key.replace(/_/g, ' '); }
 function loadJson(path){ return fetch(path).then(r => { if(!r.ok) throw new Error(`Failed to load ${path}`); return r.json(); }); }
 
 function applyTranslations() {
@@ -353,7 +351,7 @@ function renderCountryPanel() {
   const tokenization = state.lang === 'pt' ? country.tokenization_regime_pt : country.tokenization_regime_en;
   const cbdcNote = state.lang === 'pt' ? country.cbdc_note_pt : country.cbdc_note_en;
   const statusPairs = Object.entries(country.status||{}).map(([k,v]) => `<div class="status-item"><div class="label">${t(k)}</div><div>${translateStatus(v)}</div></div>`).join('');
-  const criteria = Object.entries(country.criteria||{}).map(([k,v]) => `<li>${esc(labelForCriterion(k))}: <strong>${v}</strong></li>`).join('');
+  const criteria = Object.entries(country.criteria||{}).map(([k,v]) => { const lbl = (CRITERIA_LABELS[k] && CRITERIA_LABELS[k][state.lang]) || k; return `<li>${lbl}: <strong>${v}</strong></li>`; }).join('');
   panel.innerHTML = `
     <div class="detail-header">
       <div>
@@ -413,8 +411,9 @@ function buildMap() {
     }));
   const selectedCode = state.selected ? getMapCode(state.selected) : null;
   const selectedMarkerIndex = state.selected ? markers.findIndex(m => m.iso3 === state.selected.iso3) : -1;
-  if (state.map) state.map.destroy();
-  state.map = new jsVectorMap({
+  try {
+    if (state.map) state.map.destroy();
+    state.map = new jsVectorMap({
     selector: '#world-map', map: 'world', backgroundColor: 'transparent', zoomButtons: true, zoomOnScroll: true,
     visualizeData: { scale: ['#b91c1c','#f97316','#eab308','#16a34a','#14532d'], values },
     regionStyle: { initial: { fill: '#cbd5e1', fillOpacity: 1, stroke: '#fff', strokeWidth: 0.7 }, selected: { fill: '#1d4ed8' } },
@@ -449,6 +448,9 @@ function buildMap() {
       if (country) { state.selected = country; renderCountryPanel(); buildMap(); }
     }
   });
+  } catch (err) {
+    console.error('Map render failed', err);
+  }
   renderMapCoverage(values, markers);
 }
 
@@ -460,7 +462,8 @@ function renderMetadata(meta) {
   document.getElementById('stat-jurisdictions').textContent = countriesCovered;
   const acts = state.countries.reduce((sum,c)=>sum + (c.laws?.length || 0), 0);
   document.getElementById('stat-acts').textContent = acts;
-  document.getElementById('stat-themes').textContent = meta?.theme_count ?? state.themes.length;
+  const avgScore = state.countries.length ? Math.round(state.countries.reduce((sum,c)=>sum + (c.score || 0), 0) / state.countries.length) : 0;
+  document.getElementById('stat-themes').textContent = avgScore;
   document.getElementById('stat-thesis').textContent = meta?.thesis_core_count ?? state.countries.filter(c=>c.thesis_core).length;
 }
 
@@ -490,25 +493,8 @@ function renderCompare() {
 
 function renderAll() {
   document.getElementById('score-min-value').textContent = document.getElementById('score-min').value;
-  renderRanking();
-  renderUpdates();
-  renderThemes();
-  renderExperiences();
-  renderLibrary();
-  renderTimeline();
-  renderTable();
-  renderCountryPanel();
-  renderCompare();
+  renderRanking(); renderUpdates(); renderThemes(); renderExperiences(); renderLibrary(); renderTimeline(); renderTable(); renderCountryPanel(); renderCompare(); if (document.getElementById('world-map') && state.view==='map') buildMap();
   if (state.metadata) renderMetadata(state.metadata);
-  if (document.getElementById('world-map') && state.view==='map') {
-    try {
-      buildMap();
-    } catch (err) {
-      console.error('Map rendering failed:', err);
-      const note = document.getElementById('map-coverage-note');
-      if (note) note.textContent = state.lang === 'pt' ? 'Falha ao renderizar o mapa. Verifique a carga da biblioteca de mapa.' : 'Failed to render map. Check the map library loading.';
-    }
-  }
 }
 
 function setupControls() {

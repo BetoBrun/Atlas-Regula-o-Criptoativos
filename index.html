@@ -26,47 +26,26 @@
   </header>
 
   <main class="layout">
-
-  <nav class="section-nav card">
-    <a href="#overview-section" class="nav-link">Overview</a>
-    <a href="#experiences-section" class="nav-link">Experiences</a>
-    <a href="#themes-section" class="nav-link">Themes</a>
-    <a href="#map-section" class="nav-link">Map</a>
-    <a href="#compare-section" class="nav-link">Compare</a>
-    <a href="#library-section" class="nav-link">Library</a>
-    <a href="#timeline-section" class="nav-link">Timeline</a>
-    <a href="#methodology-section" class="nav-link">Methodology</a>
-  </nav>
-
+    <nav class="section-nav card">
+      <a href="#overview-section" class="nav-link">Overview</a>
+      <a href="#map-section" class="nav-link">Map</a>
+      <a href="#country-panel" class="nav-link">Country</a>
+      <a href="#compare-section" class="nav-link">Compare</a>
+      <a href="#experiences-section" class="nav-link">Experiences</a>
+      <a href="#themes-section" class="nav-link">Themes</a>
+      <a href="#library-section" class="nav-link">Library</a>
+      <a href="#timeline-section" class="nav-link">Timeline</a>
+      <a href="#methodology-section" class="nav-link">Methodology</a>
+    </nav>
 
     <section id="overview-section" class="stats-grid">
       <article class="card stat-card"><div class="label" data-i18n="jurisdictionsMapped">Jurisdictions mapped</div><div class="value" id="stat-jurisdictions">—</div></article>
       <article class="card stat-card"><div class="label" data-i18n="normativeActs">Normative acts catalogued</div><div class="value" id="stat-acts">—</div></article>
-      <article class="card stat-card"><div class="label" data-i18n="themesCompared">Themes compared</div><div class="value" id="stat-themes">—</div></article>
+      <article class="card stat-card"><div class="label">Score médio</div><div class="value" id="stat-themes">—</div></article>
       <article class="card stat-card"><div class="label" data-i18n="thesisCore">Thesis core jurisdictions</div><div class="value" id="stat-thesis">—</div></article>
     </section>
 
-    <section id="experiences-section" class="card experiences-section">
-      <div class="card-header"><h2 id="experiences-title">Regulatory experiences</h2><div class="section-tools">
-        <div class="control compact-control"><label for="experience-filter">Filter</label><select id="experience-filter"><option value="all">All</option><option value="thesis">Thesis core</option><option value="emerging">EMDE focus</option><option value="implementation">Implementation</option><option value="data">Data & supervision</option></select></div>
-      </div></div>
-      <div id="experiences-grid" class="experiences-grid"></div>
-    </section>
-
-    <section id="library-section" class="card library-section">
-      <div class="card-header"><h2 id="library-title">Research base</h2><div class="section-tools">
-        <div class="control compact-control"><label for="library-filter">Publisher</label><select id="library-filter"><option value="all">All</option></select></div>
-        <div class="control compact-control"><label for="library-theme-filter">Theme</label><select id="library-theme-filter"><option value="all">All</option></select></div>
-        <div class="control compact-control"><label for="library-jurisdiction-filter">Jurisdiction</label><select id="library-jurisdiction-filter"><option value="all">All</option></select></div>
-      </div></div>
-      <div id="library-grid" class="library-grid"></div>
-    </section>
-
-    <section id="themes-section" class="card themes-section">
-      <div class="card-header"><h2 data-i18n="themesTitle">Thematic pillars</h2></div>
-      <div id="themes-grid" class="themes-grid"></div>
-    </section>
-    <section class="controls-card">
+    <section class="controls-card focus-controls">
       <div class="controls-grid">
         <div class="control control-search">
           <label for="search-input" data-i18n="searchLabel">Search</label>
@@ -104,7 +83,7 @@
             <option value="exchanges" data-i18n="exchanges">Exchanges</option>
             <option value="stablecoins" data-i18n="stablecoins">Stablecoins</option>
             <option value="tokenization" data-i18n="tokenization">Tokenization</option>
-                        <option value="cbdc" data-i18n="cbdc">CBDC</option>
+            <option value="cbdc" data-i18n="cbdc">CBDC</option>
           </select>
         </div>
 
@@ -135,7 +114,6 @@
           </div>
           <div id="map-coverage-note" class="map-coverage-note"></div>
           <div id="map-marker-list" class="map-marker-list"></div>
-
         </section>
 
         <section id="table-section" class="card hidden">
@@ -157,52 +135,6 @@
             </table>
           </div>
         </section>
-
-        <section class="cards-row">
-          <article class="card small-card">
-            <div class="card-header">
-              <h3 data-i18n="topFavorable">Top 10 favorable</h3>
-            </div>
-            <ol id="top-favorable"></ol>
-          </article>
-          <article class="card small-card">
-            <div class="card-header">
-              <h3 data-i18n="topRestrictive">Top 10 restrictive</h3>
-            </div>
-            <ol id="top-restrictive"></ol>
-          </article>
-        </section>
-
-
-        <section id="compare-section" class="card compare-section">
-          <div class="card-header"><h2 data-i18n="compareTitle">Compare jurisdictions</h2></div>
-          <div class="compare-controls">
-            <div class="control"><label for="compare-a" data-i18n="jurisdictionA">Jurisdiction A</label><select id="compare-a"></select></div>
-            <div class="control"><label for="compare-b" data-i18n="jurisdictionB">Jurisdiction B</label><select id="compare-b"></select></div>
-          </div>
-          <div class="table-wrapper compare-wrapper">
-            <table class="compare-table"><tbody id="compare-body"></tbody></table>
-          </div>
-        </section>
-
-        
-
-        <section id="timeline-section" class="card timeline-card">
-          <div class="card-header"><h2 id="timeline-title">Regulatory timeline</h2><div class="section-tools">
-            <div class="control compact-control"><label for="timeline-jurisdiction-filter">Jurisdiction</label><select id="timeline-jurisdiction-filter"><option value="all">All</option></select></div>
-            <div class="control compact-control"><label for="timeline-year-filter">Year</label><select id="timeline-year-filter"><option value="all">All</option></select></div>
-            <div class="control compact-control"><label for="timeline-category-filter">Category</label><select id="timeline-category-filter"><option value="all">All</option></select></div>
-          </div></div>
-          <div id="timeline-summary" class="timeline-summary"></div><div id="timeline-list" class="timeline-list"></div>
-        </section>
-
-        <section id="methodology-section" class="card methodology-card">
-          <div class="card-header">
-            <h2 data-i18n="methodologyTitle">Methodology</h2>
-          </div>
-          <p data-i18n="methodologyP1">The score does not treat the absence of regulation as inherently positive. It rewards legal clarity, room for regulated private innovation, investor and user protection, institutional coherence, workable stablecoin and tokenization frameworks, supervisory capacity, and lower risk of excessive state centralization.</p>
-          <p data-i18n="methodologyP2">This observatory is analytical and comparative. It is not legal advice. Scores combine editorial judgment and structured criteria and should be read with attention to context, trend, and source quality.</p>
-        </section>
       </div>
 
       <aside class="sidebar">
@@ -214,23 +146,78 @@
         </section>
 
         <section class="card updates-card">
-          <div class="card-header">
-            <h3 data-i18n="latestUpdates">Latest updates</h3>
-          </div>
+          <div class="card-header"><h3 data-i18n="latestUpdates">Latest updates</h3></div>
           <ul id="latest-updates"></ul>
+        </section>
+
+        <section class="card small-card">
+          <div class="card-header"><h3 data-i18n="topFavorable">Top 10 favorable</h3></div>
+          <ol id="top-favorable"></ol>
+        </section>
+
+        <section class="card small-card">
+          <div class="card-header"><h3 data-i18n="topRestrictive">Top 10 restrictive</h3></div>
+          <ol id="top-restrictive"></ol>
         </section>
       </aside>
     </section>
+
+    <section id="compare-section" class="card compare-section secondary-section">
+      <div class="card-header"><h2 data-i18n="compareTitle">Compare jurisdictions</h2></div>
+      <div class="compare-controls">
+        <div class="control"><label for="compare-a" data-i18n="jurisdictionA">Jurisdiction A</label><select id="compare-a"></select></div>
+        <div class="control"><label for="compare-b" data-i18n="jurisdictionB">Jurisdiction B</label><select id="compare-b"></select></div>
+      </div>
+      <div class="table-wrapper compare-wrapper"><table class="compare-table"><tbody id="compare-body"></tbody></table></div>
+    </section>
+
+    <section id="experiences-section" class="card experiences-section secondary-section">
+      <div class="card-header"><h2 id="experiences-title">Regulatory experiences</h2><div class="section-tools">
+        <div class="control compact-control"><label for="experience-filter">Filter</label><select id="experience-filter"><option value="all">All</option><option value="thesis">Thesis core</option><option value="emerging">EMDE focus</option><option value="implementation">Implementation</option><option value="data">Data & supervision</option></select></div>
+      </div></div>
+      <div id="experiences-grid" class="experiences-grid"></div>
+    </section>
+
+    <section id="themes-section" class="card themes-section secondary-section">
+      <div class="card-header"><h2 data-i18n="themesTitle">Thematic pillars</h2></div>
+      <div id="themes-grid" class="themes-grid"></div>
+    </section>
+
+    <section id="library-section" class="card library-section secondary-section">
+      <div class="card-header"><h2 id="library-title">Research base</h2><div class="section-tools">
+        <div class="control compact-control"><label for="library-filter">Publisher</label><select id="library-filter"><option value="all">All</option></select></div>
+        <div class="control compact-control"><label for="library-theme-filter">Theme</label><select id="library-theme-filter"><option value="all">All</option></select></div>
+        <div class="control compact-control"><label for="library-jurisdiction-filter">Jurisdiction</label><select id="library-jurisdiction-filter"><option value="all">All</option></select></div>
+      </div></div>
+      <div id="library-grid" class="library-grid"></div>
+    </section>
+
+    <section id="timeline-section" class="card timeline-card secondary-section">
+      <div class="card-header"><h2 id="timeline-title">Regulatory timeline</h2><div class="section-tools">
+        <div class="control compact-control"><label for="timeline-jurisdiction-filter">Jurisdiction</label><select id="timeline-jurisdiction-filter"><option value="all">All</option></select></div>
+        <div class="control compact-control"><label for="timeline-year-filter">Year</label><select id="timeline-year-filter"><option value="all">All</option></select></div>
+        <div class="control compact-control"><label for="timeline-category-filter">Category</label><select id="timeline-category-filter"><option value="all">All</option></select></div>
+      </div></div>
+      <div id="timeline-summary" class="timeline-summary"></div><div id="timeline-list" class="timeline-list"></div>
+    </section>
+
+    <section id="methodology-section" class="card methodology-card secondary-section">
+      <div class="card-header"><h2 data-i18n="methodologyTitle">Methodology</h2></div>
+      <p data-i18n="methodologyP1">The score does not treat the absence of regulation as inherently positive. It rewards legal clarity, room for regulated private innovation, investor and user protection, institutional coherence, workable stablecoin and tokenization frameworks, supervisory capacity, and lower risk of excessive state centralization.</p>
+      <p data-i18n="methodologyP2">This observatory is analytical and comparative. It is not legal advice. Scores combine editorial judgment and structured criteria and should be read with attention to context, trend, and source quality.</p>
+    </section>
   </main>
 
-
   <div id="overlay" class="overlay hidden"></div>
-  <div id="drawer" class="drawer hidden" aria-live="polite">
-    <div class="drawer-header"><h2 id="drawer-title">Details</h2><button id="drawer-close" class="button-secondary">Close</button></div>
+  <aside id="drawer" class="drawer hidden" aria-live="polite">
+    <div class="drawer-header">
+      <h2 id="drawer-title"></h2>
+      <button id="drawer-close" class="button-secondary" type="button" data-i18n="close">Close</button>
+    </div>
     <div id="drawer-content" class="drawer-content"></div>
-  </div>
+  </aside>
 
-  <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.6.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.6.0/dist/js/jsvectormap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.6.0/dist/maps/world.js"></script>
   <script src="script.js"></script>
 </body>

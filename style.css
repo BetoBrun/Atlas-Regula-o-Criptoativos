@@ -163,3 +163,5 @@ a { color: #0f172a; }
 .drawer-content .mini-card{padding:12px;border:1px solid var(--border);border-radius:14px;background:#fff}
 .drawer-content .mini-card strong{display:block;margin-bottom:6px}
 @media (max-width:760px){.drawer-content .mini-grid{grid-template-columns:1fr}}
+
+.focus-controls{position:sticky;top:76px;z-index:10}.secondary-section{margin-top:18px}.secondary-section .card-header h2{font-size:1.2rem}@media (max-width:760px){.focus-controls{top:0}}
