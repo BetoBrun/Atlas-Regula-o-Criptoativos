@@ -1,6 +1,6 @@
 from pathlib import Path
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 
 BASE = Path(__file__).resolve().parents[1]
 DATA = BASE / 'data' / 'manual-overrides.json'
@@ -54,9 +54,11 @@ def main() -> None:
         key=lambda x: x['last_update'], reverse=True
     )
     metadata = {
-        'generated_at': datetime.utcnow().isoformat() + 'Z',
+        'generated_at': datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),
         'country_count': len(countries),
-        'methodology_version': '1.1.0-bilingual'
+        'theme_count': len(json.loads((API / 'themes.json').read_text(encoding='utf-8'))) if (API / 'themes.json').exists() else 0,
+        'thesis_core_count': sum(1 for c in countries if c.get('thesis_core')),
+        'methodology_version': '2.0.0-global-beta'
     }
     (API / 'countries.json').write_text(json.dumps(countries, ensure_ascii=False, indent=2), encoding='utf-8')
     (API / 'rankings.json').write_text(json.dumps(rankings, ensure_ascii=False, indent=2), encoding='utf-8')
