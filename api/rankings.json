@@ -51,6 +51,7 @@
           "url": "https://www.vara.ae/"
         }
       ],
+      "thesis_core": true,
       "score": 86,
       "classification": "very_favorable"
     },
@@ -107,6 +108,7 @@
           "url": "https://www.sif.admin.ch/"
         }
       ],
+      "thesis_core": true,
       "score": 85,
       "classification": "very_favorable"
     },
@@ -162,61 +164,8 @@
           "url": "https://www.mas.gov.sg/"
         }
       ],
+      "thesis_core": true,
       "score": 83,
-      "classification": "very_favorable"
-    },
-    {
-      "country": "Hong Kong",
-      "iso3": "HKG",
-      "region": "Asia",
-      "trend": "improving",
-      "summary_en": "Hong Kong has moved toward a more explicit pro-innovation but supervised framework, especially for exchanges and fiat-backed stablecoins.",
-      "summary_pt": "Hong Kong avançou para um quadro mais explícito de incentivo à inovação com supervisão, especialmente para exchanges e stablecoins lastreadas em moeda fiduciária.",
-      "last_update": "2026-03-27",
-      "criteria": {
-        "legal_certainty": 17,
-        "proportionality": 12,
-        "exchanges": 9,
-        "stablecoins": 9,
-        "tokenization": 8,
-        "taxation": 8,
-        "mining_infrastructure": 4,
-        "innovation_openness": 9,
-        "anti_centralization": 4
-      },
-      "status": {
-        "exchanges": "licensed",
-        "stablecoins": "licensed framework",
-        "tokenization": "active",
-        "taxation": "competitive",
-        "mining": "limited",
-        "cbdc": "research"
-      },
-      "laws": [
-        "VASP licensing",
-        "Stablecoins Ordinance"
-      ],
-      "opportunities_en": [
-        "Exchange licensing",
-        "Asian capital access"
-      ],
-      "opportunities_pt": [
-        "Licenciamento de exchanges",
-        "Acesso a capital asiático"
-      ],
-      "risks_en": [
-        "Policy shifts"
-      ],
-      "risks_pt": [
-        "Mudanças de política"
-      ],
-      "references": [
-        {
-          "label": "HKMA",
-          "url": "https://www.hkma.gov.hk/"
-        }
-      ],
-      "score": 80,
       "classification": "very_favorable"
     },
     {
@@ -275,6 +224,7 @@
           "url": "https://www.whitehouse.gov/"
         }
       ],
+      "thesis_core": true,
       "score": 78,
       "classification": "favorable"
     },
@@ -329,6 +279,7 @@
           "url": "https://www.bankofengland.co.uk/"
         }
       ],
+      "thesis_core": true,
       "score": 74,
       "classification": "favorable"
     },
@@ -383,6 +334,7 @@
           "url": "https://www.securities-administrators.ca/"
         }
       ],
+      "thesis_core": false,
       "score": 71,
       "classification": "favorable"
     },
@@ -437,6 +389,7 @@
           "url": "https://www.bafin.de/"
         }
       ],
+      "thesis_core": true,
       "score": 70,
       "classification": "favorable"
     },
@@ -491,6 +444,7 @@
           "url": "https://www.fsa.go.jp/en/"
         }
       ],
+      "thesis_core": false,
       "score": 70,
       "classification": "favorable"
     },
@@ -550,6 +504,60 @@
           "url": "https://www.planalto.gov.br/"
         }
       ],
+      "thesis_core": true,
+      "score": 69,
+      "classification": "favorable"
+    },
+    {
+      "country": "France",
+      "iso3": "FRA",
+      "region": "Europe",
+      "trend": "stable",
+      "summary_en": "France combines early digital asset licensing experience with the broader MiCA framework, offering clarity but significant compliance obligations.",
+      "summary_pt": "A França combina experiência precoce em licenciamento de ativos digitais com o quadro mais amplo do MiCA, oferecendo clareza, porém com obrigações relevantes de compliance.",
+      "last_update": "2026-03-24",
+      "criteria": {
+        "legal_certainty": 17,
+        "proportionality": 9,
+        "exchanges": 8,
+        "stablecoins": 7,
+        "tokenization": 8,
+        "taxation": 6,
+        "mining_infrastructure": 4,
+        "innovation_openness": 7,
+        "anti_centralization": 3
+      },
+      "status": {
+        "exchanges": "regulated",
+        "stablecoins": "regulated under MiCA",
+        "tokenization": "active",
+        "taxation": "moderate friction",
+        "mining": "limited",
+        "cbdc": "euro area exploration"
+      },
+      "laws": [
+        "MiCA",
+        "PSAN regime"
+      ],
+      "opportunities_en": [
+        "Institutional market entry"
+      ],
+      "opportunities_pt": [
+        "Entrada de mercado institucional"
+      ],
+      "risks_en": [
+        "Regulatory cost"
+      ],
+      "risks_pt": [
+        "Custo regulatório"
+      ],
+      "references": [
+        {
+          "label": "AMF France",
+          "url": "https://www.amf-france.org/"
+        }
+      ],
+      "thesis_core": true,
       "score": 69,
       "classification": "favorable"
     }
@@ -606,6 +614,7 @@
           "url": "https://www.pbc.gov.cn/"
         }
       ],
+      "thesis_core": true,
       "score": 29,
       "classification": "very_restrictive"
     },
@@ -658,433 +667,401 @@
           "url": "https://www.rbi.org.in/"
         }
       ],
+      "thesis_core": false,
       "score": 40,
       "classification": "restrictive"
     },
     {
-      "country": "Nigeria",
-      "iso3": "NGA",
+      "country": "Zimbabwe",
+      "iso3": "ZWE",
       "region": "Africa",
       "trend": "mixed",
-      "summary_en": "Nigeria has strong grassroots crypto use but an unstable regulatory path, including CBDC experience with limited traction and changing approaches to exchanges.",
-      "summary_pt": "A Nigéria apresenta forte uso social de criptoativos, mas uma trajetória regulatória instável, incluindo experiência de CBDC com baixa tração e mudanças na abordagem sobre exchanges.",
-      "last_update": "2026-03-17",
+      "summary_en": "Baseline comparative profile for Zimbabwe. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Zimbabwe. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "last_update": "2026-04-07",
       "criteria": {
-        "legal_certainty": 7,
+        "legal_certainty": 10,
         "proportionality": 7,
         "exchanges": 4,
-        "stablecoins": 5,
-        "tokenization": 3,
+        "stablecoins": 4,
+        "tokenization": 4,
         "taxation": 4,
-        "mining_infrastructure": 5,
-        "innovation_openness": 6,
+        "mining_infrastructure": 4,
+        "innovation_openness": 4,
         "anti_centralization": 2
       },
       "status": {
         "exchanges": "uncertain",
-        "stablecoins": "used informally",
+        "stablecoins": "uncertain",
         "tokenization": "limited",
-        "taxation": "unclear",
-        "mining": "neutral",
-        "cbdc": "retail launched with low adoption"
+        "taxation": "heavy",
+        "mining": "allowed with friction",
+        "cbdc": "research only"
       },
-      "laws": [
-        "eNaira framework",
-        "Regulatory circulars"
-      ],
+      "laws": [],
       "opportunities_en": [
-        "High adoption base"
+        "Expand official-source review",
+        "Refine classification by activity",
+        "Add tax and AML detail"
       ],
       "opportunities_pt": [
-        "Base alta de adoção"
+        "Ampliar revisão com fontes oficiais",
+        "Refinar classificação por atividade",
+        "Adicionar detalhe tributário e AML"
       ],
       "risks_en": [
-        "Policy reversals"
+        "Preliminary profile may change after source audit"
       ],
       "risks_pt": [
-        "Reversões de política"
+        "O perfil preliminar pode mudar após auditoria das fontes"
       ],
-      "references": [
-        {
-          "label": "CBN",
-          "url": "https://www.cbn.gov.ng/"
-        }
-      ],
+      "references": [],
       "score": 43,
-      "classification": "restrictive"
+      "classification": "restrictive",
+      "thesis_core": false
     },
     {
-      "country": "Paraguay",
-      "iso3": "PRY",
-      "region": "Latin America",
-      "trend": "stable",
-      "summary_en": "Paraguay has abundant energy and mining potential, but its legal treatment of crypto remains fragmented and less institutionally mature.",
-      "summary_pt": "O Paraguai possui energia abundante e potencial para mineração, mas o tratamento jurídico dos criptoativos permanece fragmentado e menos maduro institucionalmente.",
-      "last_update": "2026-03-18",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "region": "Africa",
+      "trend": "mixed",
+      "summary_en": "Baseline comparative profile for Zambia. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Zambia. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "last_update": "2026-04-07",
       "criteria": {
-        "legal_certainty": 8,
-        "proportionality": 8,
-        "exchanges": 5,
-        "stablecoins": 3,
-        "tokenization": 3,
-        "taxation": 6,
-        "mining_infrastructure": 8,
-        "innovation_openness": 6,
-        "anti_centralization": 4
-      },
-      "status": {
-        "exchanges": "fragmented",
-        "stablecoins": "unclear",
-        "tokenization": "incipient",
-        "taxation": "developing reporting rules",
-        "mining": "potentially favorable",
-        "cbdc": "not central"
-      },
-      "laws": [
-        "Tax reporting measures",
-        "Central bank warnings"
-      ],
-      "opportunities_en": [
-        "Mining",
-        "Low-cost energy"
-      ],
-      "opportunities_pt": [
-        "Mineração",
-        "Energia de baixo custo"
-      ],
-      "risks_en": [
-        "Weak legal certainty"
-      ],
-      "risks_pt": [
-        "Baixa segurança jurídica"
-      ],
-      "references": [
-        {
-          "label": "BCP",
-          "url": "https://www.bcp.gov.py/"
-        }
-      ],
-      "score": 51,
-      "classification": "mixed"
-    },
-    {
-      "country": "Argentina",
-      "iso3": "ARG",
-      "region": "Latin America",
-      "trend": "improving",
-      "summary_en": "Argentina shows high social adoption and entrepreneurial activity, but macroeconomic instability and regulatory uncertainty remain relevant risks.",
-      "summary_pt": "A Argentina apresenta alta adoção social e atividade empreendedora, mas a instabilidade macroeconômica e a incerteza regulatória ainda são riscos relevantes.",
-      "last_update": "2026-03-19",
-      "criteria": {
-        "legal_certainty": 9,
-        "proportionality": 9,
-        "exchanges": 7,
-        "stablecoins": 6,
-        "tokenization": 5,
-        "taxation": 5,
-        "mining_infrastructure": 6,
-        "innovation_openness": 8,
-        "anti_centralization": 4
-      },
-      "status": {
-        "exchanges": "operating",
-        "stablecoins": "widely used",
-        "tokenization": "developing",
-        "taxation": "uncertain",
-        "mining": "moderate",
-        "cbdc": "unclear"
-      },
-      "laws": [
-        "Tax and reporting measures",
-        "Central bank restrictions history"
-      ],
-      "opportunities_en": [
-        "Stablecoin demand",
-        "Entrepreneurial adoption"
-      ],
-      "opportunities_pt": [
-        "Demanda por stablecoins",
-        "Adoção empreendedora"
-      ],
-      "risks_en": [
-        "Macroeconomic instability"
-      ],
-      "risks_pt": [
-        "Instabilidade macroeconômica"
-      ],
-      "references": [
-        {
-          "label": "BCRA",
-          "url": "https://www.bcra.gob.ar/"
-        }
-      ],
-      "score": 59,
-      "classification": "mixed"
-    },
-    {
-      "country": "Chile",
-      "iso3": "CHL",
-      "region": "Latin America",
-      "trend": "improving",
-      "summary_en": "Chile benefits from relatively stable institutions and strong digital infrastructure potential, though its crypto framework remains incremental.",
-      "summary_pt": "O Chile se beneficia de instituições relativamente estáveis e forte potencial de infraestrutura digital, embora seu marco para criptoativos ainda avance de forma incremental.",
-      "last_update": "2026-03-16",
-      "criteria": {
-        "legal_certainty": 11,
-        "proportionality": 10,
-        "exchanges": 6,
-        "stablecoins": 5,
-        "tokenization": 5,
-        "taxation": 6,
-        "mining_infrastructure": 7,
-        "innovation_openness": 7,
-        "anti_centralization": 4
-      },
-      "status": {
-        "exchanges": "operating",
-        "stablecoins": "partially open",
-        "tokenization": "developing",
-        "taxation": "moderate",
-        "mining": "potentially favorable",
-        "cbdc": "research"
-      },
-      "laws": [
-        "Fintech Law",
-        "Central bank studies"
-      ],
-      "opportunities_en": [
-        "Infrastructure",
-        "Institutional clarity"
-      ],
-      "opportunities_pt": [
-        "Infraestrutura",
-        "Clareza institucional"
-      ],
-      "risks_en": [
-        "Limited crypto-specific regulation"
-      ],
-      "risks_pt": [
-        "Regulação cripto específica limitada"
-      ],
-      "references": [
-        {
-          "label": "CMF Chile",
-          "url": "https://www.cmfchile.cl/"
-        }
-      ],
-      "score": 61,
-      "classification": "mixed"
-    },
-    {
-      "country": "South Korea",
-      "iso3": "KOR",
-      "region": "Asia",
-      "trend": "improving",
-      "summary_en": "South Korea maintains strong oversight of exchanges and market conduct, with growing interest in tokenization and institutional use cases.",
-      "summary_pt": "A Coreia do Sul mantém forte supervisão sobre exchanges e conduta de mercado, com interesse crescente em tokenização e casos de uso institucionais.",
-      "last_update": "2026-03-11",
-      "criteria": {
-        "legal_certainty": 14,
-        "proportionality": 9,
-        "exchanges": 8,
-        "stablecoins": 6,
-        "tokenization": 7,
-        "taxation": 5,
+        "legal_certainty": 10,
+        "proportionality": 7,
+        "exchanges": 4,
+        "stablecoins": 4,
+        "tokenization": 4,
+        "taxation": 4,
         "mining_infrastructure": 4,
-        "innovation_openness": 7,
-        "anti_centralization": 4
+        "innovation_openness": 4,
+        "anti_centralization": 2
       },
       "status": {
-        "exchanges": "regulated",
-        "stablecoins": "developing",
-        "tokenization": "developing",
-        "taxation": "moderate",
-        "mining": "limited",
-        "cbdc": "research"
+        "exchanges": "uncertain",
+        "stablecoins": "uncertain",
+        "tokenization": "limited",
+        "taxation": "heavy",
+        "mining": "allowed with friction",
+        "cbdc": "research only"
       },
-      "laws": [
-        "Virtual Asset User Protection Act"
-      ],
+      "laws": [],
       "opportunities_en": [
-        "Market conduct and tokenization"
+        "Expand official-source review",
+        "Refine classification by activity",
+        "Add tax and AML detail"
       ],
       "opportunities_pt": [
-        "Conduta de mercado e tokenização"
+        "Ampliar revisão com fontes oficiais",
+        "Refinar classificação por atividade",
+        "Adicionar detalhe tributário e AML"
       ],
       "risks_en": [
-        "Strict onboarding requirements"
+        "Preliminary profile may change after source audit"
       ],
       "risks_pt": [
-        "Requisitos rigorosos de onboarding"
+        "O perfil preliminar pode mudar após auditoria das fontes"
       ],
-      "references": [
-        {
-          "label": "FSC Korea",
-          "url": "https://www.fsc.go.kr/eng/"
-        }
-      ],
-      "score": 64,
-      "classification": "mixed"
+      "references": [],
+      "score": 43,
+      "classification": "restrictive",
+      "thesis_core": false
     },
     {
-      "country": "Australia",
-      "iso3": "AUS",
-      "region": "Oceania",
-      "trend": "improving",
-      "summary_en": "Australia offers a relatively open but still maturing framework, with ongoing reforms around tokenization, custody and licensing.",
-      "summary_pt": "A Austrália oferece um quadro relativamente aberto, porém ainda em amadurecimento, com reformas em andamento sobre tokenização, custódia e licenciamento.",
-      "last_update": "2026-03-10",
+      "country": "Uganda",
+      "iso3": "UGA",
+      "region": "Africa",
+      "trend": "mixed",
+      "summary_en": "Baseline comparative profile for Uganda. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Uganda. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "last_update": "2026-04-07",
       "criteria": {
-        "legal_certainty": 13,
-        "proportionality": 10,
-        "exchanges": 7,
-        "stablecoins": 6,
-        "tokenization": 7,
-        "taxation": 6,
-        "mining_infrastructure": 7,
-        "innovation_openness": 8,
-        "anti_centralization": 4
-      },
-      "status": {
-        "exchanges": "regulated",
-        "stablecoins": "developing",
-        "tokenization": "active reform",
-        "taxation": "moderate",
-        "mining": "potentially favorable",
-        "cbdc": "research"
-      },
-      "laws": [
-        "Treasury consultation papers",
-        "ASIC guidance"
-      ],
-      "opportunities_en": [
-        "Mining and tokenization"
-      ],
-      "opportunities_pt": [
-        "Mineração e tokenização"
-      ],
-      "risks_en": [
-        "Framework still evolving"
-      ],
-      "risks_pt": [
-        "Arcabouço ainda em evolução"
-      ],
-      "references": [
-        {
-          "label": "Treasury Australia",
-          "url": "https://treasury.gov.au/"
-        }
-      ],
-      "score": 68,
-      "classification": "favorable"
-    },
-    {
-      "country": "El Salvador",
-      "iso3": "SLV",
-      "region": "Latin America",
-      "trend": "stable",
-      "summary_en": "El Salvador remains symbolically important for crypto policy, with an institutional digital asset regime despite reforms to Bitcoin’s legal-tender status.",
-      "summary_pt": "El Salvador permanece simbolicamente importante para a política cripto, com um regime institucional de ativos digitais apesar das reformas no status do Bitcoin como moeda de curso legal.",
-      "last_update": "2026-03-15",
-      "criteria": {
-        "legal_certainty": 12,
-        "proportionality": 10,
-        "exchanges": 7,
-        "stablecoins": 6,
-        "tokenization": 8,
-        "taxation": 8,
-        "mining_infrastructure": 5,
-        "innovation_openness": 9,
-        "anti_centralization": 3
-      },
-      "status": {
-        "exchanges": "specialized framework",
-        "stablecoins": "possible",
-        "tokenization": "open",
-        "taxation": "favorable",
-        "mining": "neutral",
-        "cbdc": "not central"
-      },
-      "laws": [
-        "Digital Assets Issuance Law",
-        "Bitcoin Law reforms"
-      ],
-      "opportunities_en": [
-        "Digital asset issuance",
-        "Policy experimentation"
-      ],
-      "opportunities_pt": [
-        "Emissão de ativos digitais",
-        "Experimentação regulatória"
-      ],
-      "risks_en": [
-        "Country risk",
-        "Policy volatility"
-      ],
-      "risks_pt": [
-        "Risco-país",
-        "Volatilidade de política"
-      ],
-      "references": [
-        {
-          "label": "CNAD",
-          "url": "https://cnad.gob.sv/"
-        }
-      ],
-      "score": 68,
-      "classification": "favorable"
-    },
-    {
-      "country": "France",
-      "iso3": "FRA",
-      "region": "Europe",
-      "trend": "stable",
-      "summary_en": "France combines early digital asset licensing experience with the broader MiCA framework, offering clarity but significant compliance obligations.",
-      "summary_pt": "A França combina experiência precoce em licenciamento de ativos digitais com o quadro mais amplo do MiCA, oferecendo clareza, porém com obrigações relevantes de compliance.",
-      "last_update": "2026-03-24",
-      "criteria": {
-        "legal_certainty": 17,
-        "proportionality": 9,
-        "exchanges": 8,
-        "stablecoins": 7,
-        "tokenization": 8,
-        "taxation": 6,
+        "legal_certainty": 10,
+        "proportionality": 7,
+        "exchanges": 4,
+        "stablecoins": 4,
+        "tokenization": 4,
+        "taxation": 4,
         "mining_infrastructure": 4,
-        "innovation_openness": 7,
-        "anti_centralization": 3
+        "innovation_openness": 4,
+        "anti_centralization": 2
       },
       "status": {
-        "exchanges": "regulated",
-        "stablecoins": "regulated under MiCA",
-        "tokenization": "active",
-        "taxation": "moderate friction",
-        "mining": "limited",
-        "cbdc": "euro area exploration"
+        "exchanges": "uncertain",
+        "stablecoins": "uncertain",
+        "tokenization": "limited",
+        "taxation": "heavy",
+        "mining": "allowed with friction",
+        "cbdc": "research only"
       },
-      "laws": [
-        "MiCA",
-        "PSAN regime"
-      ],
+      "laws": [],
       "opportunities_en": [
-        "Institutional market entry"
+        "Expand official-source review",
+        "Refine classification by activity",
+        "Add tax and AML detail"
       ],
       "opportunities_pt": [
-        "Entrada de mercado institucional"
+        "Ampliar revisão com fontes oficiais",
+        "Refinar classificação por atividade",
+        "Adicionar detalhe tributário e AML"
       ],
       "risks_en": [
-        "Regulatory cost"
+        "Preliminary profile may change after source audit"
       ],
       "risks_pt": [
-        "Custo regulatório"
+        "O perfil preliminar pode mudar após auditoria das fontes"
       ],
-      "references": [
-        {
-          "label": "AMF France",
-          "url": "https://www.amf-france.org/"
-        }
+      "references": [],
+      "score": 43,
+      "classification": "restrictive",
+      "thesis_core": false
+    },
+    {
+      "country": "Tunisia",
+      "iso3": "TUN",
+      "region": "Africa",
+      "trend": "mixed",
+      "summary_en": "Baseline comparative profile for Tunisia. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Tunisia. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "last_update": "2026-04-07",
+      "criteria": {
+        "legal_certainty": 10,
+        "proportionality": 7,
+        "exchanges": 4,
+        "stablecoins": 4,
+        "tokenization": 4,
+        "taxation": 4,
+        "mining_infrastructure": 4,
+        "innovation_openness": 4,
+        "anti_centralization": 2
+      },
+      "status": {
+        "exchanges": "uncertain",
+        "stablecoins": "uncertain",
+        "tokenization": "limited",
+        "taxation": "heavy",
+        "mining": "allowed with friction",
+        "cbdc": "research only"
+      },
+      "laws": [],
+      "opportunities_en": [
+        "Expand official-source review",
+        "Refine classification by activity",
+        "Add tax and AML detail"
       ],
-      "score": 69,
-      "classification": "favorable"
+      "opportunities_pt": [
+        "Ampliar revisão com fontes oficiais",
+        "Refinar classificação por atividade",
+        "Adicionar detalhe tributário e AML"
+      ],
+      "risks_en": [
+        "Preliminary profile may change after source audit"
+      ],
+      "risks_pt": [
+        "O perfil preliminar pode mudar após auditoria das fontes"
+      ],
+      "references": [],
+      "score": 43,
+      "classification": "restrictive",
+      "thesis_core": false
+    },
+    {
+      "country": "Togo",
+      "iso3": "TGO",
+      "region": "Africa",
+      "trend": "mixed",
+      "summary_en": "Baseline comparative profile for Togo. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Togo. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "last_update": "2026-04-07",
+      "criteria": {
+        "legal_certainty": 10,
+        "proportionality": 7,
+        "exchanges": 4,
+        "stablecoins": 4,
+        "tokenization": 4,
+        "taxation": 4,
+        "mining_infrastructure": 4,
+        "innovation_openness": 4,
+        "anti_centralization": 2
+      },
+      "status": {
+        "exchanges": "uncertain",
+        "stablecoins": "uncertain",
+        "tokenization": "limited",
+        "taxation": "heavy",
+        "mining": "allowed with friction",
+        "cbdc": "research only"
+      },
+      "laws": [],
+      "opportunities_en": [
+        "Expand official-source review",
+        "Refine classification by activity",
+        "Add tax and AML detail"
+      ],
+      "opportunities_pt": [
+        "Ampliar revisão com fontes oficiais",
+        "Refinar classificação por atividade",
+        "Adicionar detalhe tributário e AML"
+      ],
+      "risks_en": [
+        "Preliminary profile may change after source audit"
+      ],
+      "risks_pt": [
+        "O perfil preliminar pode mudar após auditoria das fontes"
+      ],
+      "references": [],
+      "score": 43,
+      "classification": "restrictive",
+      "thesis_core": false
+    },
+    {
+      "country": "Tanzania",
+      "iso3": "TZA",
+      "region": "Africa",
+      "trend": "mixed",
+      "summary_en": "Baseline comparative profile for Tanzania. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Tanzania. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "last_update": "2026-04-07",
+      "criteria": {
+        "legal_certainty": 10,
+        "proportionality": 7,
+        "exchanges": 4,
+        "stablecoins": 4,
+        "tokenization": 4,
+        "taxation": 4,
+        "mining_infrastructure": 4,
+        "innovation_openness": 4,
+        "anti_centralization": 2
+      },
+      "status": {
+        "exchanges": "uncertain",
+        "stablecoins": "uncertain",
+        "tokenization": "limited",
+        "taxation": "heavy",
+        "mining": "allowed with friction",
+        "cbdc": "research only"
+      },
+      "laws": [],
+      "opportunities_en": [
+        "Expand official-source review",
+        "Refine classification by activity",
+        "Add tax and AML detail"
+      ],
+      "opportunities_pt": [
+        "Ampliar revisão com fontes oficiais",
+        "Refinar classificação por atividade",
+        "Adicionar detalhe tributário e AML"
+      ],
+      "risks_en": [
+        "Preliminary profile may change after source audit"
+      ],
+      "risks_pt": [
+        "O perfil preliminar pode mudar após auditoria das fontes"
+      ],
+      "references": [],
+      "score": 43,
+      "classification": "restrictive",
+      "thesis_core": false
+    },
+    {
+      "country": "Sudan",
+      "iso3": "SDN",
+      "region": "Africa",
+      "trend": "mixed",
+      "summary_en": "Baseline comparative profile for Sudan. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Sudan. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "last_update": "2026-04-07",
+      "criteria": {
+        "legal_certainty": 10,
+        "proportionality": 7,
+        "exchanges": 4,
+        "stablecoins": 4,
+        "tokenization": 4,
+        "taxation": 4,
+        "mining_infrastructure": 4,
+        "innovation_openness": 4,
+        "anti_centralization": 2
+      },
+      "status": {
+        "exchanges": "uncertain",
+        "stablecoins": "uncertain",
+        "tokenization": "limited",
+        "taxation": "heavy",
+        "mining": "allowed with friction",
+        "cbdc": "research only"
+      },
+      "laws": [],
+      "opportunities_en": [
+        "Expand official-source review",
+        "Refine classification by activity",
+        "Add tax and AML detail"
+      ],
+      "opportunities_pt": [
+        "Ampliar revisão com fontes oficiais",
+        "Refinar classificação por atividade",
+        "Adicionar detalhe tributário e AML"
+      ],
+      "risks_en": [
+        "Preliminary profile may change after source audit"
+      ],
+      "risks_pt": [
+        "O perfil preliminar pode mudar após auditoria das fontes"
+      ],
+      "references": [],
+      "score": 43,
+      "classification": "restrictive",
+      "thesis_core": false
+    },
+    {
+      "country": "South Sudan",
+      "iso3": "SSD",
+      "region": "Africa",
+      "trend": "mixed",
+      "summary_en": "Baseline comparative profile for South Sudan. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de South Sudan. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "last_update": "2026-04-07",
+      "criteria": {
+        "legal_certainty": 10,
+        "proportionality": 7,
+        "exchanges": 4,
+        "stablecoins": 4,
+        "tokenization": 4,
+        "taxation": 4,
+        "mining_infrastructure": 4,
+        "innovation_openness": 4,
+        "anti_centralization": 2
+      },
+      "status": {
+        "exchanges": "uncertain",
+        "stablecoins": "uncertain",
+        "tokenization": "limited",
+        "taxation": "heavy",
+        "mining": "allowed with friction",
+        "cbdc": "research only"
+      },
+      "laws": [],
+      "opportunities_en": [
+        "Expand official-source review",
+        "Refine classification by activity",
+        "Add tax and AML detail"
+      ],
+      "opportunities_pt": [
+        "Ampliar revisão com fontes oficiais",
+        "Refinar classificação por atividade",
+        "Adicionar detalhe tributário e AML"
+      ],
+      "risks_en": [
+        "Preliminary profile may change after source audit"
+      ],
+      "risks_pt": [
+        "O perfil preliminar pode mudar após auditoria das fontes"
+      ],
+      "references": [],
+      "score": 43,
+      "classification": "restrictive",
+      "thesis_core": false
     }
   ]
 }

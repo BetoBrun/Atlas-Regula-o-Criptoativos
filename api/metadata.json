@@ -1,5 +1,7 @@
 {
-  "generated_at": "2026-04-07T07:51:18.914487Z",
-  "country_count": 20,
-  "methodology_version": "1.1.0-bilingual"
+  "generated_at": "2026-04-08T00:10:46.074915Z",
+  "country_count": 195,
+  "theme_count": 1,
+  "thesis_core_count": 11,
+  "methodology_version": "2.0.0-global-beta"
 }
