@@ -49,6 +49,7 @@
       "url": "https://www.bafin.de/"
     }
   ],
+  "thesis_core": true,
   "score": 70,
   "classification": "favorable"
 }

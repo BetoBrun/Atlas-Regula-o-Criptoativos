@@ -51,6 +51,7 @@
       "url": "https://www.sif.admin.ch/"
     }
   ],
+  "thesis_core": true,
   "score": 85,
   "classification": "very_favorable"
 }

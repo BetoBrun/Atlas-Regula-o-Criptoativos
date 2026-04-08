@@ -1,71 +1,49 @@
 {
   "country": "Mauritius",
   "iso3": "MUS",
-  "iso2": "MU",
   "region": "Africa",
-  "trend": "improving",
-  "summary_en": "Mauritius has pursued an internationally oriented digital-asset posture with emphasis on licensing and financial-center competitiveness.",
-  "summary_pt": "Maurício adotou postura internacional para ativos digitais com ênfase em licenciamento e competitividade do centro financeiro.",
-  "last_update": "2026-03-31",
+  "trend": "mixed",
+  "summary_en": "Baseline comparative profile for Mauritius. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+  "summary_pt": "Perfil comparativo preliminar de Mauritius. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+  "last_update": "2026-04-07",
   "criteria": {
-    "legal_certainty": 12,
-    "proportionality": 8,
-    "exchanges": 8,
-    "stablecoins": 6,
-    "tokenization": 7,
-    "taxation": 6,
+    "legal_certainty": 10,
+    "proportionality": 7,
+    "exchanges": 4,
+    "stablecoins": 4,
+    "tokenization": 4,
+    "taxation": 4,
     "mining_infrastructure": 4,
-    "innovation_openness": 8,
-    "anti_centralization": 8
+    "innovation_openness": 4,
+    "anti_centralization": 2
   },
   "status": {
-    "exchanges": "licensed",
-    "stablecoins": "developing framework",
-    "tokenization": "active",
-    "mining": "limited",
-    "cbdc": "research"
+    "exchanges": "uncertain",
+    "stablecoins": "uncertain",
+    "tokenization": "limited",
+    "taxation": "heavy",
+    "mining": "allowed with friction",
+    "cbdc": "research only"
   },
-  "laws": [
-    "Virtual asset guidance"
-  ],
+  "laws": [],
   "opportunities_en": [
-    "Cross-border positioning",
-    "Fintech competitiveness"
+    "Expand official-source review",
+    "Refine classification by activity",
+    "Add tax and AML detail"
   ],
   "opportunities_pt": [
-    "Posicionamento transfronteiriço",
-    "Competitividade fintech"
+    "Ampliar revisão com fontes oficiais",
+    "Refinar classificação por atividade",
+    "Adicionar detalhe tributário e AML"
   ],
   "risks_en": [
-    "Limited scale",
-    "Reliance on implementation quality"
+    "Preliminary profile may change after source audit"
   ],
   "risks_pt": [
-    "Escala limitada",
-    "Dependência da qualidade de implementação"
+    "O perfil preliminar pode mudar após auditoria das fontes"
   ],
   "references": [],
-  "score": 69,
-  "classification": "favorable",
-  "thesis_core": false,
-  "thesis_scope": "expansion",
-  "authorities": [
-    "Financial Services Commission Mauritius"
-  ],
-  "model_en": "Competitiveness-driven licensing and service-provider model.",
-  "model_pt": "Modelo de prestadores e licenciamento orientado pela competitividade.",
-  "detailed_analysis_en": "Mauritius is relevant as an African financial-centre response to digital-asset competition.",
-  "detailed_analysis_pt": "Maurício é relevante como resposta de centro financeiro africano à competição em ativos digitais.",
-  "stablecoin_regime_en": "Stablecoin regulation is still less mature than in leading jurisdictions.",
-  "stablecoin_regime_pt": "A regulação de stablecoins ainda é menos madura do que nas jurisdições líderes.",
-  "tokenization_regime_en": "Tokenization is possible but still secondary to service licensing.",
-  "tokenization_regime_pt": "A tokenização é possível, mas ainda secundária em relação ao licenciamento de serviços.",
-  "cbdc_note_en": "CBDC remains secondary.",
-  "cbdc_note_pt": "CBDC permanece secundária.",
-  "comparison_axes": [
-    "licensing",
-    "stablecoins",
-    "tokenization",
-    "cbdc"
-  ]
+  "score": 43,
+  "classification": "restrictive",
+  "thesis_core": false
 }

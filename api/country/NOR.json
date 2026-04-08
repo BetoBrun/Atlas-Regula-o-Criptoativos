@@ -1,71 +1,49 @@
 {
   "country": "Norway",
   "iso3": "NOR",
-  "iso2": "NO",
   "region": "Europe",
   "trend": "stable",
-  "summary_en": "Norway tracks the broader European pattern of rule-based supervision with increasing attention to AML, consumer protection, and implementation.",
-  "summary_pt": "A Noruega acompanha o padrão europeu mais amplo de supervisão baseada em regras, com atenção crescente a AML, proteção do consumidor e implementação.",
-  "last_update": "2026-03-31",
+  "summary_en": "Baseline comparative profile for Norway. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+  "summary_pt": "Perfil comparativo preliminar de Norway. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+  "last_update": "2026-04-07",
   "criteria": {
-    "legal_certainty": 12,
+    "legal_certainty": 11,
     "proportionality": 8,
-    "exchanges": 8,
+    "exchanges": 6,
     "stablecoins": 6,
     "tokenization": 6,
     "taxation": 6,
-    "mining_infrastructure": 5,
+    "mining_infrastructure": 6,
     "innovation_openness": 6,
-    "anti_centralization": 8
+    "anti_centralization": 3
   },
   "status": {
-    "exchanges": "regulated",
-    "stablecoins": "developing framework",
+    "exchanges": "developing framework",
+    "stablecoins": "uncertain",
     "tokenization": "developing",
-    "mining": "moderate",
+    "taxation": "moderate",
+    "mining": "allowed with friction",
     "cbdc": "research"
   },
-  "laws": [
-    "AML and EU-aligned crypto oversight"
-  ],
+  "laws": [],
   "opportunities_en": [
-    "Nordic payments innovation",
-    "Institutional compliance"
+    "Expand official-source review",
+    "Refine classification by activity",
+    "Add tax and AML detail"
   ],
   "opportunities_pt": [
-    "Inovação nórdica em pagamentos",
-    "Compliance institucional"
+    "Ampliar revisão com fontes oficiais",
+    "Refinar classificação por atividade",
+    "Adicionar detalhe tributário e AML"
   ],
   "risks_en": [
-    "Not a first mover",
-    "Dependence on European alignment"
+    "Preliminary profile may change after source audit"
   ],
   "risks_pt": [
-    "Não é first mover",
-    "Dependência de alinhamento europeu"
+    "O perfil preliminar pode mudar após auditoria das fontes"
   ],
   "references": [],
-  "score": 65,
-  "classification": "favorable",
-  "thesis_core": false,
-  "thesis_scope": "expansion",
-  "authorities": [
-    "Norwegian FSA"
-  ],
-  "model_en": "EU-adjacent, compliance-oriented framework.",
-  "model_pt": "Marco adjacente à UE e orientado a compliance.",
-  "detailed_analysis_en": "Norway helps compare how non-EU European jurisdictions adapt to the same functional pressures.",
-  "detailed_analysis_pt": "A Noruega ajuda a comparar como jurisdições europeias fora da UE se adaptam às mesmas pressões funcionais.",
-  "stablecoin_regime_en": "Stablecoins are being absorbed through broader European-style regulatory logic.",
-  "stablecoin_regime_pt": "As stablecoins estão sendo absorvidas por lógica regulatória mais ampla em estilo europeu.",
-  "tokenization_regime_en": "Tokenization is developing, not leading.",
-  "tokenization_regime_pt": "A tokenização está em desenvolvimento, não na liderança.",
-  "cbdc_note_en": "CBDC remains exploratory.",
-  "cbdc_note_pt": "A CBDC permanece exploratória.",
-  "comparison_axes": [
-    "licensing",
-    "stablecoins",
-    "tokenization",
-    "cbdc"
-  ]
+  "score": 58,
+  "classification": "mixed",
+  "thesis_core": false
 }

@@ -1,71 +1,49 @@
 {
   "country": "Liechtenstein",
   "iso3": "LIE",
-  "iso2": "LI",
   "region": "Europe",
   "trend": "stable",
-  "summary_en": "Liechtenstein offers one of the clearest token economy statutes in Europe, centered on legal wrappers and service-provider certainty.",
-  "summary_pt": "Liechtenstein oferece uma das legislações mais claras da Europa para a economia tokenizada, centrada em invólucros jurídicos e segurança para prestadores.",
-  "last_update": "2026-03-31",
+  "summary_en": "Baseline comparative profile for Liechtenstein. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+  "summary_pt": "Perfil comparativo preliminar de Liechtenstein. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+  "last_update": "2026-04-07",
   "criteria": {
-    "legal_certainty": 15,
-    "proportionality": 9,
-    "exchanges": 8,
-    "stablecoins": 7,
-    "tokenization": 9,
+    "legal_certainty": 11,
+    "proportionality": 8,
+    "exchanges": 6,
+    "stablecoins": 6,
+    "tokenization": 6,
     "taxation": 6,
-    "mining_infrastructure": 4,
-    "innovation_openness": 8,
-    "anti_centralization": 9
+    "mining_infrastructure": 6,
+    "innovation_openness": 6,
+    "anti_centralization": 3
   },
   "status": {
-    "exchanges": "licensed",
-    "stablecoins": "open with compliance",
-    "tokenization": "very active",
-    "mining": "limited",
-    "cbdc": "not central"
+    "exchanges": "developing framework",
+    "stablecoins": "uncertain",
+    "tokenization": "developing",
+    "taxation": "moderate",
+    "mining": "allowed with friction",
+    "cbdc": "research"
   },
-  "laws": [
-    "TVTG / Blockchain Act"
-  ],
+  "laws": [],
   "opportunities_en": [
-    "Token economy law",
-    "Legal certainty for service providers"
+    "Expand official-source review",
+    "Refine classification by activity",
+    "Add tax and AML detail"
   ],
   "opportunities_pt": [
-    "Lei da economia tokenizada",
-    "Segurança jurídica para prestadores"
+    "Ampliar revisão com fontes oficiais",
+    "Refinar classificação por atividade",
+    "Adicionar detalhe tributário e AML"
   ],
   "risks_en": [
-    "Small market size",
-    "Dependence on EU interoperability"
+    "Preliminary profile may change after source audit"
   ],
   "risks_pt": [
-    "Pequeno tamanho de mercado",
-    "Dependência de interoperabilidade com a UE"
+    "O perfil preliminar pode mudar após auditoria das fontes"
   ],
   "references": [],
-  "score": 78,
-  "classification": "favorable",
-  "thesis_core": false,
-  "thesis_scope": "expansion",
-  "authorities": [
-    "FMA Liechtenstein"
-  ],
-  "model_en": "Comprehensive token economy law with clear service-provider categories.",
-  "model_pt": "Lei abrangente da economia tokenizada com categorias claras de prestadores.",
-  "detailed_analysis_en": "Liechtenstein is a reference case for high legal precision in tokenization and service classification.",
-  "detailed_analysis_pt": "Liechtenstein é caso de referência para alta precisão jurídica em tokenização e classificação de serviços.",
-  "stablecoin_regime_en": "Stablecoins fit within a legally structured token system, though scale remains limited.",
-  "stablecoin_regime_pt": "As stablecoins se encaixam em sistema jurídico estruturado de tokens, embora a escala permaneça limitada.",
-  "tokenization_regime_en": "Tokenization is one of the jurisdiction’s strongest comparative advantages.",
-  "tokenization_regime_pt": "A tokenização é uma das maiores vantagens comparativas da jurisdição.",
-  "cbdc_note_en": "CBDC is not a central pillar of the model.",
-  "cbdc_note_pt": "CBDC não é pilar central do modelo.",
-  "comparison_axes": [
-    "licensing",
-    "stablecoins",
-    "tokenization",
-    "cbdc"
-  ]
+  "score": 58,
+  "classification": "mixed",
+  "thesis_core": false
 }

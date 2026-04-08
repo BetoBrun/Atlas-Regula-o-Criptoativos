@@ -47,6 +47,7 @@
       "url": "https://www.rbi.org.in/"
     }
   ],
+  "thesis_core": false,
   "score": 40,
   "classification": "restrictive"
 }
