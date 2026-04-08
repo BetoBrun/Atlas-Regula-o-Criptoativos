@@ -11,11 +11,12 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div>
+  <header class="topbar topbar-hero">
+    <div class="hero-copy">
       <p class="eyebrow" data-i18n="eyebrow">Global regulatory intelligence</p>
       <h1 data-i18n="title">Crypto Regulation Atlas</h1>
       <p class="subtitle" data-i18n="subtitle">A comparative observatory of crypto regulation, stablecoins, tokenization, and CBDC policy.</p>
+      <p class="hero-note" id="hero-note">Global snapshot of crypto regulation with country profiles, criteria and interactive map.</p>
     </div>
     <div class="topbar-actions">
       <div class="lang-switcher" aria-label="Language selector">
@@ -28,25 +29,33 @@
   <main class="layout">
     <nav class="section-nav card">
       <a href="#overview-section" class="nav-link">Overview</a>
+      <a href="#criteria-section" class="nav-link">Criteria</a>
       <a href="#map-section" class="nav-link">Map</a>
       <a href="#country-panel" class="nav-link">Country</a>
       <a href="#compare-section" class="nav-link">Compare</a>
       <a href="#experiences-section" class="nav-link">Experiences</a>
-      <a href="#themes-section" class="nav-link">Themes</a>
       <a href="#library-section" class="nav-link">Library</a>
       <a href="#timeline-section" class="nav-link">Timeline</a>
       <a href="#methodology-section" class="nav-link">Methodology</a>
     </nav>
 
-    <section id="overview-section" class="stats-grid">
-      <article class="card stat-card"><div class="label" data-i18n="jurisdictionsMapped">Jurisdictions mapped</div><div class="value" id="stat-jurisdictions">—</div></article>
-      <article class="card stat-card"><div class="label" data-i18n="normativeActs">Normative acts catalogued</div><div class="value" id="stat-acts">—</div></article>
-      <article class="card stat-card"><div class="label">Score médio</div><div class="value" id="stat-themes">—</div></article>
-      <article class="card stat-card"><div class="label" data-i18n="thesisCore">Thesis core jurisdictions</div><div class="value" id="stat-thesis">—</div></article>
+    <section id="overview-section" class="stats-grid sprint1-grid">
+      <article class="card stat-card"><div class="label" id="kpi-jurisdictions-label">Jurisdictions mapped</div><div class="value" id="stat-jurisdictions">—</div></article>
+      <article class="card stat-card"><div class="label" id="kpi-avg-label">Average score</div><div class="value" id="stat-themes">—</div></article>
+      <article class="card stat-card"><div class="label" id="kpi-licensed-label">Licensed exchange regimes</div><div class="value" id="stat-licensed">—</div></article>
+      <article class="card stat-card"><div class="label" id="kpi-cbdc-label">CBDC programmes</div><div class="value" id="stat-cbdc">—</div></article>
     </section>
 
     <section class="controls-card focus-controls">
-      <div class="controls-grid">
+      <div class="preset-bar">
+        <div>
+          <div class="preset-label" id="preset-label">Quick views</div>
+          <div class="preset-subtitle" id="preset-subtitle">Open a curated set of jurisdictions instantly.</div>
+        </div>
+        <div id="preset-buttons" class="preset-buttons"></div>
+      </div>
+
+      <div class="controls-grid sprint1-controls">
         <div class="control control-search">
           <label for="search-input" data-i18n="searchLabel">Search</label>
           <input id="search-input" type="search" placeholder="Search a country" />
@@ -97,12 +106,22 @@
       </div>
     </section>
 
-    <section class="content-grid">
+    <section id="criteria-section" class="criteria-section card">
+      <div class="card-header">
+        <h2 id="criteria-title">Core criteria</h2>
+        <p class="section-intro" id="criteria-intro">The Atlas score is built from legal certainty, innovation openness, licensing, stablecoins, tokenization, taxation, mining infrastructure and decentralization risk.</p>
+      </div>
+      <div id="criteria-grid" class="criteria-grid"></div>
+    </section>
+
+    <section class="content-grid sprint1-content">
       <div class="main-panel">
         <section id="map-section" class="map-card card">
           <div class="card-header">
-            <h2 data-i18n="mapTitle">Global map</h2>
-            <p id="metadata"></p>
+            <div>
+              <h2 data-i18n="mapTitle">Global map</h2>
+              <p id="metadata"></p>
+            </div>
           </div>
           <div id="world-map"></div>
           <div class="legend">
@@ -137,29 +156,34 @@
         </section>
       </div>
 
-      <aside class="sidebar">
-        <section class="card detail-card" id="country-panel">
+      <aside class="sidebar sprint1-sidebar">
+        <section class="card detail-card country-card" id="country-panel">
           <div class="empty-state">
             <h2 data-i18n="selectCountry">Select a country</h2>
             <p data-i18n="selectCountryHelp">Click a country on the map or choose one in the table to inspect its regulatory profile.</p>
           </div>
         </section>
-
-        <section class="card updates-card">
-          <div class="card-header"><h3 data-i18n="latestUpdates">Latest updates</h3></div>
-          <ul id="latest-updates"></ul>
-        </section>
-
-        <section class="card small-card">
-          <div class="card-header"><h3 data-i18n="topFavorable">Top 10 favorable</h3></div>
-          <ol id="top-favorable"></ol>
-        </section>
-
-        <section class="card small-card">
-          <div class="card-header"><h3 data-i18n="topRestrictive">Top 10 restrictive</h3></div>
-          <ol id="top-restrictive"></ol>
-        </section>
       </aside>
+    </section>
+
+    <section class="cards-row secondary-section">
+      <section class="card updates-card">
+        <div class="card-header"><h3 data-i18n="latestUpdates">Latest updates</h3></div>
+        <ul id="latest-updates"></ul>
+      </section>
+
+      <section class="card signals-card">
+        <div class="cards-row inner-signals">
+          <section class="card small-card compact-card">
+            <div class="card-header"><h3 data-i18n="topFavorable">Top 10 favorable</h3></div>
+            <ol id="top-favorable"></ol>
+          </section>
+          <section class="card small-card compact-card">
+            <div class="card-header"><h3 data-i18n="topRestrictive">Top 10 restrictive</h3></div>
+            <ol id="top-restrictive"></ol>
+          </section>
+        </div>
+      </section>
     </section>
 
     <section id="compare-section" class="card compare-section secondary-section">
@@ -185,34 +209,36 @@
 
     <section id="library-section" class="card library-section secondary-section">
       <div class="card-header"><h2 id="library-title">Research base</h2><div class="section-tools">
-        <div class="control compact-control"><label for="library-filter">Publisher</label><select id="library-filter"><option value="all">All</option></select></div>
-        <div class="control compact-control"><label for="library-theme-filter">Theme</label><select id="library-theme-filter"><option value="all">All</option></select></div>
-        <div class="control compact-control"><label for="library-jurisdiction-filter">Jurisdiction</label><select id="library-jurisdiction-filter"><option value="all">All</option></select></div>
+        <div class="control compact-control"><label for="library-filter">Publisher</label><select id="library-filter"></select></div>
+        <div class="control compact-control"><label for="library-theme-filter">Theme</label><select id="library-theme-filter"></select></div>
+        <div class="control compact-control"><label for="library-jurisdiction-filter">Jurisdiction</label><select id="library-jurisdiction-filter"></select></div>
       </div></div>
+      <p class="section-intro" id="library-intro">Source pack curated for thesis development, comparative legal analysis and regulatory monitoring.</p>
       <div id="library-grid" class="library-grid"></div>
     </section>
 
     <section id="timeline-section" class="card timeline-card secondary-section">
       <div class="card-header"><h2 id="timeline-title">Regulatory timeline</h2><div class="section-tools">
-        <div class="control compact-control"><label for="timeline-jurisdiction-filter">Jurisdiction</label><select id="timeline-jurisdiction-filter"><option value="all">All</option></select></div>
-        <div class="control compact-control"><label for="timeline-year-filter">Year</label><select id="timeline-year-filter"><option value="all">All</option></select></div>
-        <div class="control compact-control"><label for="timeline-category-filter">Category</label><select id="timeline-category-filter"><option value="all">All</option></select></div>
+        <div class="control compact-control"><label for="timeline-jurisdiction-filter">Jurisdiction</label><select id="timeline-jurisdiction-filter"></select></div>
+        <div class="control compact-control"><label for="timeline-year-filter">Year</label><select id="timeline-year-filter"></select></div>
+        <div class="control compact-control"><label for="timeline-category-filter">Category</label><select id="timeline-category-filter"></select></div>
       </div></div>
-      <div id="timeline-summary" class="timeline-summary"></div><div id="timeline-list" class="timeline-list"></div>
+      <div id="timeline-summary" class="timeline-summary"></div>
+      <div id="timeline-list"></div>
     </section>
 
     <section id="methodology-section" class="card methodology-card secondary-section">
       <div class="card-header"><h2 data-i18n="methodologyTitle">Methodology</h2></div>
-      <p data-i18n="methodologyP1">The score does not treat the absence of regulation as inherently positive. It rewards legal clarity, room for regulated private innovation, investor and user protection, institutional coherence, workable stablecoin and tokenization frameworks, supervisory capacity, and lower risk of excessive state centralization.</p>
-      <p data-i18n="methodologyP2">This observatory is analytical and comparative. It is not legal advice. Scores combine editorial judgment and structured criteria and should be read with attention to context, trend, and source quality.</p>
+      <p data-i18n="methodologyP1">The Atlas uses a weighted additive multicriteria score...</p>
+      <p data-i18n="methodologyP2">Scores are anchored to explicit levels...</p>
     </section>
   </main>
 
   <div id="overlay" class="overlay hidden"></div>
-  <aside id="drawer" class="drawer hidden" aria-live="polite">
+  <aside id="drawer" class="drawer hidden" aria-hidden="true">
     <div class="drawer-header">
-      <h2 id="drawer-title"></h2>
-      <button id="drawer-close" class="button-secondary" type="button" data-i18n="close">Close</button>
+      <h2 id="drawer-title">Details</h2>
+      <button id="drawer-close" class="button-secondary">Close</button>
     </div>
     <div id="drawer-content" class="drawer-content"></div>
   </aside>

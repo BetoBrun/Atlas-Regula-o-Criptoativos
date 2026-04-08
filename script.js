@@ -54,7 +54,7 @@ const ISO3_TO_ISO2 = {
   ZAF:'ZA'
 };
 
-const state = { lang: localStorage.getItem('atlas-lang') || 'pt', countries: [], filtered: [], map: null, selected: null, view: 'map', metadata: null, themes: [], updates: [], experiences: [], library: [], timeline: [], experienceFilter: 'all', libraryFilter: 'all', libraryThemeFilter: 'all', libraryJurisdictionFilter: 'all', timelineJurisdiction: 'all', timelineYear: 'all', timelineCategory: 'all' };
+const state = { lang: localStorage.getItem('atlas-lang') || 'pt', countries: [], filtered: [], map: null, selected: null, view: 'map', metadata: null, themes: [], updates: [], experiences: [], library: [], timeline: [], presets: [], activePreset: 'all', countryCache: {}, experienceFilter: 'all', libraryFilter: 'all', libraryThemeFilter: 'all', libraryJurisdictionFilter: 'all', timelineJurisdiction: 'all', timelineYear: 'all', timelineCategory: 'all' };
 const REGION_ORDER = ['Africa', 'Asia', 'Europe', 'Latin America', 'Middle East', 'North America', 'Oceania'];
 const CRITERIA_LABELS = {
   legal_certainty: { en: 'Legal certainty', pt: 'Segurança jurídica' },
@@ -66,6 +66,19 @@ const CRITERIA_LABELS = {
   innovation_openness: { en: 'Innovation openness', pt: 'Abertura à inovação' },
   anti_centralization: { en: 'Anti-centralization', pt: 'Anticentralização' }
 };
+
+const DEFAULT_PRESETS = [
+  { slug: 'all', label_en: 'All', label_pt: 'Todos', filters: {} },
+  { slug: 'g20', label_en: 'G20', label_pt: 'G20', iso3: ['ARG','AUS','BRA','CAN','CHN','DEU','FRA','GBR','IND','IDN','ITA','JPN','KOR','MEX','RUS','SAU','ZAF','TUR','USA','EUU'] },
+  { slug: 'brics', label_en: 'BRICS', label_pt: 'BRICS', iso3: ['BRA','RUS','IND','CHN','ZAF','ARE','EGY','ETH','IRN','SAU'] },
+  { slug: 'latin-america', label_en: 'Latin America', label_pt: 'América Latina', filters: { region: 'Latin America' } },
+  { slug: 'europe', label_en: 'Europe', label_pt: 'Europa', filters: { region: 'Europe' } },
+  { slug: 'africa', label_en: 'Africa', label_pt: 'África', filters: { region: 'Africa' } },
+  { slug: 'asia', label_en: 'Asia', label_pt: 'Ásia', filters: { region: 'Asia' } },
+  { slug: 'licensed', label_en: 'Licensed exchanges', label_pt: 'Exchanges licenciadas', predicateKey: 'licensed' },
+  { slug: 'stablecoins', label_en: 'Stablecoins', label_pt: 'Stablecoins', predicateKey: 'stablecoins' },
+  { slug: 'cbdc', label_en: 'CBDC', label_pt: 'CBDC', predicateKey: 'cbdc' }
+];
 
 const MARKER_COORDS = {
   EUU: { lat: 50.8503, lng: 4.3517, label_en: 'European Union', label_pt: 'União Europeia' },
@@ -102,9 +115,18 @@ function applyTranslations() {
     else el.textContent = t(key);
   });
   document.getElementById('search-input').placeholder = t('searchPlaceholder');
-  const navLinks = [['#overview-section','overviewNav'],['#experiences-section','experiencesNav'],['#themes-section','themesNav'],['#map-section','mapNav'],['#compare-section','compareNav'],['#library-section','libraryNav'],['#timeline-section','timelineNav'],['#methodology-section','methodologyNav']];
-  document.querySelectorAll('.nav-link').forEach((el, idx) => el.textContent = t(navLinks[idx][1]));
+  const navLinks = [['#overview-section','overviewNav'],['#criteria-section','themesNav'],['#map-section','mapNav'],['#country-panel','country'],['#compare-section','compareNav'],['#experiences-section','experiencesNav'],['#library-section','libraryNav'],['#timeline-section','timelineNav'],['#methodology-section','methodologyNav']];
+  document.querySelectorAll('.nav-link').forEach((el, idx) => el.textContent = t((navLinks[idx] || [,'overviewNav'])[1]));
   const closeBtn=document.getElementById('drawer-close'); if (closeBtn) closeBtn.textContent=t('close');
+  const heroNote = document.getElementById('hero-note'); if (heroNote) heroNote.textContent = state.lang === 'pt' ? 'Mapa global, critérios comparáveis e leitura rápida por jurisdição.' : 'Global map, comparable criteria and quick country reading.';
+  const criteriaTitle = document.getElementById('criteria-title'); if (criteriaTitle) criteriaTitle.textContent = state.lang === 'pt' ? 'Critérios centrais' : 'Core criteria';
+  const criteriaIntro = document.getElementById('criteria-intro'); if (criteriaIntro) criteriaIntro.textContent = state.lang === 'pt' ? 'A pontuação do Atlas combina clareza regulatória, abertura à inovação, licenciamento, stablecoins, tokenização, tributação, infraestrutura de mineração e risco de centralização.' : 'The Atlas score combines legal certainty, innovation openness, licensing, stablecoins, tokenization, taxation, mining infrastructure and decentralization risk.';
+  const presetLabel = document.getElementById('preset-label'); if (presetLabel) presetLabel.textContent = state.lang === 'pt' ? 'Visões rápidas' : 'Quick views';
+  const presetSubtitle = document.getElementById('preset-subtitle'); if (presetSubtitle) presetSubtitle.textContent = state.lang === 'pt' ? 'Abra instantaneamente conjuntos curados de jurisdições.' : 'Open curated sets of jurisdictions instantly.';
+  const avg = document.getElementById('kpi-avg-label'); if (avg) avg.textContent = state.lang === 'pt' ? 'Pontuação média' : 'Average score';
+  const lic = document.getElementById('kpi-licensed-label'); if (lic) lic.textContent = state.lang === 'pt' ? 'Regimes com licenciamento' : 'Licensed exchange regimes';
+  const cbdc = document.getElementById('kpi-cbdc-label'); if (cbdc) cbdc.textContent = state.lang === 'pt' ? 'Programas de CBDC' : 'CBDC programmes';
+  const libIntro = document.getElementById('library-intro'); if (libIntro) libIntro.textContent = state.lang === 'pt' ? 'Base curada para desenvolvimento da tese, análise comparada e monitoramento regulatório.' : 'Curated source pack for thesis development, comparative legal analysis and regulatory monitoring.';
   renderAll();
 }
 
@@ -194,6 +216,7 @@ function closeDrawer(){ document.getElementById('overlay')?.classList.add('hidde
 function attachDrawerEvents(){ document.getElementById('overlay')?.addEventListener('click', closeDrawer); document.getElementById('drawer-close')?.addEventListener('click', closeDrawer); }
 
 function applyFilters() {
+  state.activePreset = 'all';
   const q = document.getElementById('search-input').value.trim().toLowerCase();
   const region = document.getElementById('region-filter').value;
   const trend = document.getElementById('trend-filter').value;
@@ -208,6 +231,85 @@ function applyFilters() {
     return true;
   });
   if (state.selected && !state.filtered.some(c => c.iso3 === state.selected.iso3)) state.selected = state.filtered[0] || state.countries[0] || null;
+  renderAll();
+}
+
+
+function presetPredicate(country, preset) {
+  if (!preset) return true;
+  if (preset.iso3) return preset.iso3.includes(country.iso3);
+  if (preset.predicateKey === 'licensed') return /licensed|regulated|framework/i.test(String(country.status?.exchanges || ''));
+  if (preset.predicateKey === 'stablecoins') return !!country.status?.stablecoins && !/banned|uncertain/i.test(String(country.status?.stablecoins || ''));
+  if (preset.predicateKey === 'cbdc') return !!country.status?.cbdc && !/not central/i.test(String(country.status?.cbdc || ''));
+  return true;
+}
+
+function renderPresets() {
+  const container = document.getElementById('preset-buttons');
+  if (!container) return;
+  const presets = state.presets?.length ? state.presets : DEFAULT_PRESETS;
+  container.innerHTML = presets.map(p => {
+    const label = state.lang === 'pt' ? (p.label_pt || p.label_en || p.slug) : (p.label_en || p.label_pt || p.slug);
+    return `<button class="preset-btn${p.slug === state.activePreset ? ' active' : ''}" data-preset="${esc(p.slug)}">${esc(label)}</button>`;
+  }).join('');
+  container.querySelectorAll('[data-preset]').forEach(btn => btn.addEventListener('click', () => applyPreset(btn.dataset.preset)));
+}
+
+function renderCriteriaOverview() {
+  const target = document.getElementById('criteria-grid');
+  if (!target) return;
+  const countries = state.filtered?.length ? state.filtered : state.countries;
+  const keys = ['legal_certainty','innovation_openness','exchanges','stablecoins','tokenization','taxation','mining_infrastructure','anti_centralization'];
+  const helperPt = {
+    legal_certainty: 'Previsibilidade normativa e coerência institucional.',
+    innovation_openness: 'Abertura para inovação e modelos experimentais.',
+    exchanges: 'Autorização e supervisão de exchanges.',
+    stablecoins: 'Tratamento jurídico e prudencial das stablecoins.',
+    tokenization: 'Segurança jurídica para tokenização e RWAs.',
+    taxation: 'Clareza tributária e obrigações de reporte.',
+    mining_infrastructure: 'Ambiente para infraestrutura e mineração.',
+    anti_centralization: 'Espaço para autocustódia e menor concentração estatal.'
+  };
+  const helperEn = {
+    legal_certainty: 'Predictability of the legal framework.',
+    innovation_openness: 'Openness to innovation and experimental models.',
+    exchanges: 'Authorisation and oversight for exchanges.',
+    stablecoins: 'Legal and prudential treatment of stablecoins.',
+    tokenization: 'Legal security for tokenization and RWAs.',
+    taxation: 'Tax clarity and reporting obligations.',
+    mining_infrastructure: 'Environment for infrastructure and mining.',
+    anti_centralization: 'Room for self-custody and lower centralisation risk.'
+  };
+  target.innerHTML = keys.map(key => {
+    const values = countries.map(c => Number(c.criteria?.[key] || 0)).filter(v => !Number.isNaN(v));
+    const avg = values.length ? (values.reduce((a,b)=>a+b,0) / values.length) : 0;
+    const label = (CRITERIA_LABELS[key] && CRITERIA_LABELS[key][state.lang]) || key;
+    const helper = state.lang === 'pt' ? helperPt[key] : helperEn[key];
+    return `<article class="criteria-card"><div class="criteria-top"><span class="criteria-name">${esc(label)}</span><span class="criteria-score">${avg.toFixed(1)}</span></div><p>${esc(helper || '')}</p><div class="criteria-bar"><span style="width:${Math.min(100, avg*5)}%"></span></div></article>`;
+  }).join('');
+}
+
+function applyPreset(slug) {
+  const presets = state.presets?.length ? state.presets : DEFAULT_PRESETS;
+  const preset = presets.find(p => p.slug === slug) || presets[0];
+  state.activePreset = preset.slug;
+  document.getElementById('search-input').value = '';
+  document.getElementById('region-filter').value = preset.filters?.region || 'all';
+  document.getElementById('trend-filter').value = preset.filters?.trend || 'all';
+  document.getElementById('score-min').value = String(preset.filters?.scoreMin || 0);
+  document.getElementById('topic-filter').value = preset.filters?.topic || 'all';
+  const region = document.getElementById('region-filter').value;
+  const trend = document.getElementById('trend-filter').value;
+  const scoreMin = Number(document.getElementById('score-min').value || 0);
+  const topic = document.getElementById('topic-filter').value;
+  state.filtered = state.countries.filter(c => {
+    if (region !== 'all' && c.region !== region) return false;
+    if (trend !== 'all' && c.trend !== trend) return false;
+    if (c.score < scoreMin) return false;
+    if (topic !== 'all' && !c.status?.[topic]) return false;
+    return presetPredicate(c, preset);
+  });
+  state.selected = state.filtered.find(c => c.iso3 === state.selected?.iso3) || state.filtered[0] || state.countries[0] || null;
   renderAll();
 }
 
@@ -365,6 +467,7 @@ function renderCountryPanel() {
       </div>
     </div>
     <div class="kpi-grid">
+      <div class="kpi emphasis"><div class="label">Score</div><div>${country.score}</div></div>
       <div class="kpi"><div class="label">ISO3</div><div>${country.iso3}</div></div>
       <div class="kpi"><div class="label">${t('trend')}</div><div>${translateTrend(country.trend)}</div></div>
       <div class="kpi"><div class="label">${t('region')}</div><div>${esc(country.region)}</div></div>
@@ -458,13 +561,16 @@ function renderMetadata(meta) {
   state.metadata = meta;
   const dt = meta?.generated_at ? new Date(meta.generated_at).toLocaleString(state.lang === 'pt' ? 'pt-BR' : 'en-GB') : '—';
   const countriesCovered = meta?.country_count ?? state.countries.length;
-  document.getElementById('metadata').textContent = `${t('generatedAt')}: ${dt} • ${t('countriesCovered')}: ${countriesCovered}`;
-  document.getElementById('stat-jurisdictions').textContent = countriesCovered;
-  const acts = state.countries.reduce((sum,c)=>sum + (c.laws?.length || 0), 0);
-  document.getElementById('stat-acts').textContent = acts;
-  const avgScore = state.countries.length ? Math.round(state.countries.reduce((sum,c)=>sum + (c.score || 0), 0) / state.countries.length) : 0;
+  const avgScore = state.filtered.length ? Math.round(state.filtered.reduce((sum,c)=>sum + (c.score || 0), 0) / state.filtered.length) : 0;
+  const licensedCount = state.filtered.filter(c => /licensed|regulated|framework/i.test(String(c.status?.exchanges || ''))).length;
+  const cbdcCount = state.filtered.filter(c => !!c.status?.cbdc && !/not central/i.test(String(c.status?.cbdc || ''))).length;
+  document.getElementById('metadata').textContent = `${t('generatedAt')}: ${dt} • ${t('countriesCovered')}: ${countriesCovered} • ${state.filtered.length}/${state.countries.length}`;
+  document.getElementById('stat-jurisdictions').textContent = state.filtered.length;
   document.getElementById('stat-themes').textContent = avgScore;
-  document.getElementById('stat-thesis').textContent = meta?.thesis_core_count ?? state.countries.filter(c=>c.thesis_core).length;
+  const licensedEl = document.getElementById('stat-licensed'); if (licensedEl) licensedEl.textContent = licensedCount;
+  const cbdcEl = document.getElementById('stat-cbdc'); if (cbdcEl) cbdcEl.textContent = cbdcCount;
+  const actsEl = document.getElementById('stat-acts'); if (actsEl) actsEl.textContent = state.countries.reduce((sum,c)=>sum + (c.laws?.length || 0), 0);
+  const thesisEl = document.getElementById('stat-thesis'); if (thesisEl) thesisEl.textContent = meta?.thesis_core_count ?? state.countries.filter(c=>c.thesis_core).length;
 }
 
 function renderCompare() {
@@ -493,7 +599,7 @@ function renderCompare() {
 
 function renderAll() {
   document.getElementById('score-min-value').textContent = document.getElementById('score-min').value;
-  renderRanking(); renderUpdates(); renderThemes(); renderExperiences(); renderLibrary(); renderTimeline(); renderTable(); renderCountryPanel(); renderCompare(); if (document.getElementById('world-map') && state.view==='map') buildMap();
+  renderPresets(); renderCriteriaOverview(); renderRanking(); renderUpdates(); renderThemes(); renderExperiences(); renderLibrary(); renderTimeline(); renderTable(); renderCountryPanel(); renderCompare(); if (document.getElementById('world-map') && state.view==='map') buildMap();
   if (state.metadata) renderMetadata(state.metadata);
 }
 
@@ -505,6 +611,7 @@ function setupControls() {
     document.getElementById('trend-filter').value = 'all';
     document.getElementById('score-min').value = '0';
     document.getElementById('topic-filter').value = 'all';
+    state.activePreset = 'all';
     applyFilters();
   });
   document.getElementById('experience-filter')?.addEventListener('change', e => { state.experienceFilter = e.target.value; renderExperiences(); });
@@ -525,16 +632,17 @@ function setupControls() {
 
 async function init() {
   setupLanguage(); setupControls(); attachDrawerEvents();
-  const [countries, metadata, themesFile, updates, experiencesFile, libraryFile, timelineFile] = await Promise.all([
+  const [countries, metadata, themesFile, updates, experiencesFile, libraryFile, timelineFile, presetsFile] = await Promise.all([
     loadJson('api/countries.json'),
     loadJson('api/metadata.json'),
     loadJson('api/themes.json').catch(()=>({themes:[]})),
     loadJson('api/updates.json').catch(()=>[]),
     loadJson('api/experiences.json').catch(()=>({experiences:[]})),
     loadJson('api/library.json').catch(()=>({items:[]})),
-    loadJson('api/timeline.json').catch(()=>({events:[]}))
+    loadJson('api/timeline.json').catch(()=>({events:[]})),
+    loadJson('data/presets.json').catch(()=>({presets: DEFAULT_PRESETS}))
   ]);
-  state.countries = countries; state.filtered = countries; state.selected = countries.find(c=>c.iso3==='BRA') || countries[0] || null; state.metadata = metadata; state.themes = themesFile.themes || []; state.updates = updates || []; state.experiences = experiencesFile.experiences || []; state.library = libraryFile.items || []; state.timeline = timelineFile.events || [];
+  state.countries = countries; state.filtered = countries; state.selected = countries.find(c=>c.iso3==='BRA') || countries[0] || null; state.metadata = metadata; state.themes = themesFile.themes || []; state.updates = updates || []; state.experiences = experiencesFile.experiences || []; state.library = libraryFile.items || []; state.timeline = timelineFile.events || []; state.presets = presetsFile.presets || DEFAULT_PRESETS;
   populateRegions(); applyTranslations();
 }
 
