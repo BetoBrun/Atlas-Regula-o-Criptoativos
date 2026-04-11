@@ -1,0 +1,185 @@
+from pathlib import Path
+import json
+from datetime import datetime, timezone
+from typing import Any
+
+BASE = Path(__file__).resolve().parents[1]
+DATA = BASE / 'data' / 'manual-overrides.json'
+PRESETS = BASE / 'data' / 'presets.json'
+API = BASE / 'api'
+COUNTRY_DIR = API / 'country'
+COUNTRY_DIR.mkdir(parents=True, exist_ok=True)
+
+WEIGHTS = {
+    'legal_certainty': 20,
+    'proportionality': 15,
+    'exchanges': 10,
+    'stablecoins': 10,
+    'tokenization': 10,
+    'taxation': 10,
+    'mining_infrastructure': 10,
+    'innovation_openness': 10,
+    'anti_centralization': 5,
+}
+
+LICENSED_EXCHANGE_STATUSES = {
+    'regulated',
+    'licensed',
+    'licensed framework',
+    'regulated with litigation risk',
+    'regulated under mica',
+    'specialized framework',
+}
+
+ACTIVE_CBDC_STATUSES = {
+    'pilot under debate',
+    'euro area exploration',
+    'wholesale focus',
+    'consultation stage',
+    'wholesale and cross-border exploration',
+    'advanced state model',
+    'retail pilot',
+    'wholesale experimentation',
+    'retail launched with low adoption',
+}
+
+PRELIMINARY_KEYWORDS = (
+    'baseline comparative profile',
+    'perfil comparativo preliminar',
+    'primary-source regulatory audit is pending',
+    'auditoria regulatória com fontes primárias',
+)
+
+
+def compute_score(criteria: dict[str, Any]) -> int:
+    return int(round(sum(float(criteria.get(k, 0) or 0) for k in WEIGHTS)))
+
+
+def classify(score: int) -> str:
+    if score >= 80:
+        return 'very_favorable'
+    if score >= 65:
+        return 'favorable'
+    if score >= 50:
+        return 'mixed'
+    if score >= 35:
+        return 'restrictive'
+    return 'very_restrictive'
+
+
+def normalize_status(value: Any) -> str:
+    return str(value or '').strip().lower()
+
+
+def is_preliminary(country: dict[str, Any]) -> bool:
+    blob = ' '.join([
+        str(country.get('summary_en', '')),
+        str(country.get('summary_pt', '')),
+    ]).lower()
+    return any(keyword in blob for keyword in PRELIMINARY_KEYWORDS)
+
+
+def build_metrics(countries: list[dict[str, Any]]) -> dict[str, Any]:
+    total = len(countries)
+    scores = [int(c.get('score', 0) or 0) for c in countries]
+    licensed = 0
+    cbdc_active = 0
+    thesis_core = 0
+    prelim = 0
+    source_backed = 0
+    laws_count = 0
+    by_classification: dict[str, int] = {}
+    by_region: dict[str, int] = {}
+
+    for c in countries:
+        exchange_status = normalize_status(c.get('status', {}).get('exchanges'))
+        cbdc_status = normalize_status(c.get('status', {}).get('cbdc'))
+        if exchange_status in LICENSED_EXCHANGE_STATUSES:
+            licensed += 1
+        if cbdc_status in ACTIVE_CBDC_STATUSES:
+            cbdc_active += 1
+        if c.get('thesis_core'):
+            thesis_core += 1
+        if is_preliminary(c):
+            prelim += 1
+        if c.get('references'):
+            source_backed += 1
+        laws_count += len(c.get('laws', []) or [])
+        cls = c.get('classification', 'unknown')
+        region = c.get('region', 'Unknown')
+        by_classification[cls] = by_classification.get(cls, 0) + 1
+        by_region[region] = by_region.get(region, 0) + 1
+
+    return {
+        'generated_at': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
+        'jurisdictions_mapped': total,
+        'average_score': round(sum(scores) / total, 1) if total else 0,
+        'licensed_exchange_regimes': licensed,
+        'cbdc_programmes_active': cbdc_active,
+        'thesis_core_count': thesis_core,
+        'normative_acts_catalogued': laws_count,
+        'source_backed_profiles': source_backed,
+        'preliminary_profiles': prelim,
+        'classification_breakdown': by_classification,
+        'region_breakdown': by_region,
+        'methodology_version': '2.1.0-github-ready',
+    }
+
+
+def main() -> None:
+    payload = json.loads(DATA.read_text(encoding='utf-8'))
+    countries = payload['countries']
+    for c in countries:
+        c['score'] = compute_score(c['criteria'])
+        c['classification'] = classify(c['score'])
+        c['profile_quality'] = 'preliminary' if is_preliminary(c) else 'source_backed'
+
+    countries_sorted = sorted(countries, key=lambda x: (x['score'], x['country']), reverse=True)
+    rankings = {
+        'top_favorable': countries_sorted[:10],
+        'top_restrictive': list(sorted(countries, key=lambda x: (x['score'], x['country']))[:10]),
+    }
+    updates = sorted(
+        [
+            {
+                'country': c['country'],
+                'iso3': c['iso3'],
+                'last_update': c['last_update'],
+                'trend': c['trend'],
+                'score': c['score'],
+                'title_en': c.get('country'),
+                'title_pt': c.get('country'),
+                'summary_en': c.get('summary_en', ''),
+                'summary_pt': c.get('summary_pt', ''),
+            }
+            for c in countries
+        ],
+        key=lambda x: x['last_update'],
+        reverse=True,
+    )
+    metrics = build_metrics(countries)
+    metadata = {
+        'generated_at': metrics['generated_at'],
+        'country_count': len(countries),
+        'theme_count': len(json.loads((API / 'themes.json').read_text(encoding='utf-8'))) if (API / 'themes.json').exists() else 0,
+        'thesis_core_count': metrics['thesis_core_count'],
+        'normative_acts_catalogued': metrics['normative_acts_catalogued'],
+        'source_backed_profiles': metrics['source_backed_profiles'],
+        'preliminary_profiles': metrics['preliminary_profiles'],
+        'methodology_version': metrics['methodology_version'],
+    }
+
+    (API / 'countries.json').write_text(json.dumps(countries, ensure_ascii=False, indent=2), encoding='utf-8')
+    (API / 'rankings.json').write_text(json.dumps(rankings, ensure_ascii=False, indent=2), encoding='utf-8')
+    (API / 'updates.json').write_text(json.dumps(updates, ensure_ascii=False, indent=2), encoding='utf-8')
+    (API / 'metadata.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding='utf-8')
+    (API / 'metrics.json').write_text(json.dumps(metrics, ensure_ascii=False, indent=2), encoding='utf-8')
+    if PRESETS.exists():
+        target = API / 'presets.json'
+        target.write_text(PRESETS.read_text(encoding='utf-8'), encoding='utf-8')
+    for c in countries:
+        (COUNTRY_DIR / f"{c['iso3']}.json").write_text(json.dumps(c, ensure_ascii=False, indent=2), encoding='utf-8')
+
+
+if __name__ == '__main__':
+    main()
