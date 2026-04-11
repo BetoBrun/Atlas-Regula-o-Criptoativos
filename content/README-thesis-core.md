@@ -1,16 +1,8 @@
-# Thesis Core Jurisdictions
+# Thematic round
 
-Este diretório reúne as jurisdições centrais do recorte comparativo da tese:
+This folder adds thesis-oriented theme pages for stablecoins, tokenization and CBDC/Drex.
 
-- Brazil
-- European Union
-- United States
-- United Kingdom
-- Singapore
-- Hong Kong
-- Switzerland
-- United Arab Emirates
-- El Salvador
-- Paraguay
+Esta pasta adiciona páginas temáticas orientadas pela tese para stablecoins, tokenização e CBDC/Drex.
 
-A lógica comparativa privilegia: clareza regulatória, regime de stablecoins, abertura à tokenização, coordenação supervisória e risco de centralização excessiva da infraestrutura monetária digital.
+
+DeFi was added as a fourth thematic pillar in April 2026.
