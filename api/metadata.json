@@ -1,11 +1,7 @@
 {
-  "generated_at": "2026-04-11T05:34:33.575584Z",
+  "generated_at": "2026-04-11T05:51:50.736854Z",
   "country_count": 195,
   "theme_count": 1,
   "thesis_core_count": 11,
-  "normative_acts_catalogued": 40,
-  "source_backed_profiles": 19,
-  "preliminary_profiles": 174,
-  "methodology_version": "2.1.0-github-ready",
-  "defi_profiles_tracked": 195
+  "methodology_version": "2.0.0-global-beta"
 }
