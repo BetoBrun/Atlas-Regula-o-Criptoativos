@@ -73,6 +73,21 @@
         "ZAF",
         "IND"
       ]
+    },
+    {
+      "slug": "defi",
+      "title_en": "DeFi",
+      "title_pt": "DeFi",
+      "summary_en": "Track how jurisdictions treat decentralised protocols, interfaces, staking, lending and governance structures.",
+      "summary_pt": "Acompanhe como as jurisdições tratam protocolos descentralizados, interfaces, staking, lending e estruturas de governança.",
+      "countries_featured": [
+        "USA",
+        "EUU",
+        "SGP",
+        "CHE",
+        "HKG",
+        "ARE"
+      ]
     }
   ]
 }

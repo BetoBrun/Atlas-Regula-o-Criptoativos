@@ -57,5 +57,11 @@
     "The European Union is treated as a single jurisdiction where the regulatory core is harmonised.",
     "The core score excludes taxation and mining/hardware, which are tracked separately as supplementary analytical blocks.",
     "Scores are read jointly with trend, summary and, where relevant, FSB implementation stage."
-  ]
+  ],
+  "supplementary_layers": [
+    "taxation",
+    "mining_infrastructure",
+    "defi"
+  ],
+  "notes": "DeFi is tracked as a supplementary analytical layer outside the core score in this version."
 }

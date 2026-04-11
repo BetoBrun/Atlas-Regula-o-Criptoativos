@@ -17,7 +17,8 @@
         "taxation": 9,
         "mining_infrastructure": 6,
         "innovation_openness": 10,
-        "anti_centralization": 4
+        "anti_centralization": 4,
+        "defi": 7
       },
       "status": {
         "exchanges": "licensed",
@@ -25,7 +26,8 @@
         "tokenization": "very active",
         "taxation": "favorable",
         "mining": "moderate",
-        "cbdc": "wholesale and cross-border exploration"
+        "cbdc": "wholesale and cross-border exploration",
+        "defi": "open with licensing focus on service layers"
       },
       "laws": [
         "VARA regime",
@@ -53,7 +55,10 @@
       ],
       "thesis_core": true,
       "score": 86,
-      "classification": "very_favorable"
+      "classification": "very_favorable",
+      "defi_regime_en": "The UAE is open to digital-asset markets, but its regulatory strength lies more in licensing service layers, exchanges and market actors than in building a fully decentralised-protocol framework.",
+      "defi_regime_pt": "Os Emirados Árabes Unidos são abertos aos mercados de ativos digitais, mas sua força regulatória está mais no licenciamento de camadas de serviço, exchanges e participantes de mercado do que em um marco completo para protocolos descentralizados.",
+      "profile_quality": "source_backed"
     },
     {
       "country": "Switzerland",
@@ -72,7 +77,8 @@
         "taxation": 8,
         "mining_infrastructure": 6,
         "innovation_openness": 9,
-        "anti_centralization": 4
+        "anti_centralization": 4,
+        "defi": 8
       },
       "status": {
         "exchanges": "regulated",
@@ -80,7 +86,8 @@
         "tokenization": "highly favorable",
         "taxation": "competitive",
         "mining": "moderate",
-        "cbdc": "wholesale focus"
+        "cbdc": "wholesale focus",
+        "defi": "comparatively open and functionally analysed"
       },
       "laws": [
         "Swiss DLT Act",
@@ -110,7 +117,10 @@
       ],
       "thesis_core": true,
       "score": 85,
-      "classification": "very_favorable"
+      "classification": "very_favorable",
+      "defi_regime_en": "Switzerland is one of the comparatively clearer jurisdictions for functional treatment of token-based and protocol-based structures, though DeFi is still analysed through the nature of the service rather than a separate DeFi code.",
+      "defi_regime_pt": "A Suíça é uma das jurisdições comparativamente mais claras para o tratamento funcional de estruturas baseadas em tokens e protocolos, embora DeFi ainda seja analisado pela natureza do serviço e não por um código específico de DeFi.",
+      "profile_quality": "source_backed"
     },
     {
       "country": "Singapore",
@@ -129,7 +139,8 @@
         "taxation": 8,
         "mining_infrastructure": 4,
         "innovation_openness": 10,
-        "anti_centralization": 4
+        "anti_centralization": 4,
+        "defi": 7
       },
       "status": {
         "exchanges": "licensed",
@@ -137,7 +148,8 @@
         "tokenization": "very active",
         "taxation": "competitive",
         "mining": "limited",
-        "cbdc": "wholesale experimentation"
+        "cbdc": "wholesale experimentation",
+        "defi": "open with strong compliance expectations"
       },
       "laws": [
         "Payment Services Act",
@@ -166,7 +178,10 @@
       ],
       "thesis_core": true,
       "score": 83,
-      "classification": "very_favorable"
+      "classification": "very_favorable",
+      "defi_regime_en": "Singapore is relatively open to digital-asset innovation, but DeFi-related services touching payments, token dealing or consumer-facing intermediation can still trigger licensing and conduct expectations.",
+      "defi_regime_pt": "Singapura é relativamente aberta à inovação em ativos digitais, mas serviços ligados a DeFi que toquem pagamentos, negociação de tokens ou intermediação voltada ao consumidor ainda podem acionar deveres de licenciamento e conduta.",
+      "profile_quality": "source_backed"
     },
     {
       "country": "United States",
@@ -185,7 +200,8 @@
         "taxation": 7,
         "mining_infrastructure": 9,
         "innovation_openness": 9,
-        "anti_centralization": 4
+        "anti_centralization": 4,
+        "defi": 6
       },
       "status": {
         "exchanges": "regulated with litigation risk",
@@ -193,7 +209,8 @@
         "tokenization": "active",
         "taxation": "moderate",
         "mining": "favorable in several states",
-        "cbdc": "research only"
+        "cbdc": "research only",
+        "defi": "enforcement-led and uncertain perimeter"
       },
       "laws": [
         "GENIUS Act (2025)",
@@ -226,7 +243,10 @@
       ],
       "thesis_core": true,
       "score": 78,
-      "classification": "favorable"
+      "classification": "favorable",
+      "defi_regime_en": "The United States has intense DeFi exposure but still relies largely on indirect enforcement through securities, commodities, sanctions and AML theories. The legal perimeter for protocols, interfaces and governance remains contested.",
+      "defi_regime_pt": "Os Estados Unidos têm forte exposição a DeFi, mas ainda dependem em grande medida de enforcement indireto via valores mobiliários, commodities, sanções e AML. O perímetro jurídico de protocolos, interfaces e governança continua controvertido.",
+      "profile_quality": "source_backed"
     },
     {
       "country": "United Kingdom",
@@ -245,7 +265,8 @@
         "taxation": 6,
         "mining_infrastructure": 5,
         "innovation_openness": 8,
-        "anti_centralization": 4
+        "anti_centralization": 4,
+        "defi": 6
       },
       "status": {
         "exchanges": "regulated",
@@ -253,7 +274,8 @@
         "tokenization": "sandboxing",
         "taxation": "moderate",
         "mining": "neutral",
-        "cbdc": "consultation stage"
+        "cbdc": "consultation stage",
+        "defi": "developing through targeted consultations"
       },
       "laws": [
         "FCA crypto regime",
@@ -281,7 +303,10 @@
       ],
       "thesis_core": true,
       "score": 74,
-      "classification": "favorable"
+      "classification": "favorable",
+      "defi_regime_en": "The United Kingdom has moved through staged consultations and targeted rules, but DeFi still sits largely within an evolving perimeter defined by financial promotions, AML and activity-based regulation.",
+      "defi_regime_pt": "O Reino Unido avançou por consultas graduais e regras direcionadas, mas DeFi ainda se encontra em perímetro evolutivo, definido sobretudo por promoções financeiras, AML e regulação baseada em atividades.",
+      "profile_quality": "source_backed"
     },
     {
       "country": "Canada",
@@ -300,7 +325,8 @@
         "taxation": 6,
         "mining_infrastructure": 8,
         "innovation_openness": 7,
-        "anti_centralization": 4
+        "anti_centralization": 4,
+        "defi": 6
       },
       "status": {
         "exchanges": "regulated",
@@ -308,7 +334,8 @@
         "tokenization": "developing",
         "taxation": "moderate",
         "mining": "favorable in some provinces",
-        "cbdc": "research"
+        "cbdc": "research",
+        "defi": "developing"
       },
       "laws": [
         "CSA guidance",
@@ -336,62 +363,10 @@
       ],
       "thesis_core": false,
       "score": 71,
-      "classification": "favorable"
-    },
-    {
-      "country": "Germany",
-      "iso3": "DEU",
-      "region": "Europe",
-      "trend": "stable",
-      "summary_en": "Germany benefits from EU-level legal certainty under MiCA and strong financial regulation, though compliance can be costly.",
-      "summary_pt": "A Alemanha se beneficia da segurança jurídica em nível europeu sob o MiCA e de uma forte regulação financeira, embora o compliance possa ser custoso.",
-      "last_update": "2026-03-25",
-      "criteria": {
-        "legal_certainty": 17,
-        "proportionality": 10,
-        "exchanges": 8,
-        "stablecoins": 7,
-        "tokenization": 8,
-        "taxation": 6,
-        "mining_infrastructure": 4,
-        "innovation_openness": 7,
-        "anti_centralization": 3
-      },
-      "status": {
-        "exchanges": "regulated",
-        "stablecoins": "regulated under MiCA",
-        "tokenization": "active",
-        "taxation": "moderate friction",
-        "mining": "limited",
-        "cbdc": "euro area exploration"
-      },
-      "laws": [
-        "MiCA",
-        "German banking supervision rules"
-      ],
-      "opportunities_en": [
-        "Regulated tokenization",
-        "Institutional adoption"
-      ],
-      "opportunities_pt": [
-        "Tokenização regulada",
-        "Adoção institucional"
-      ],
-      "risks_en": [
-        "High compliance cost"
-      ],
-      "risks_pt": [
-        "Alto custo de compliance"
-      ],
-      "references": [
-        {
-          "label": "BaFin",
-          "url": "https://www.bafin.de/"
-        }
-      ],
-      "thesis_core": true,
-      "score": 70,
-      "classification": "favorable"
+      "classification": "favorable",
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "source_backed"
     },
     {
       "country": "Japan",
@@ -410,7 +385,8 @@
         "taxation": 5,
         "mining_infrastructure": 4,
         "innovation_openness": 7,
-        "anti_centralization": 4
+        "anti_centralization": 4,
+        "defi": 7
       },
       "status": {
         "exchanges": "licensed",
@@ -418,7 +394,8 @@
         "tokenization": "active",
         "taxation": "moderate friction",
         "mining": "limited",
-        "cbdc": "research"
+        "cbdc": "research",
+        "defi": "functionally constrained but clearer than average"
       },
       "laws": [
         "Payment Services Act",
@@ -446,7 +423,128 @@
       ],
       "thesis_core": false,
       "score": 70,
-      "classification": "favorable"
+      "classification": "favorable",
+      "defi_regime_en": "Japan has a comparatively mature crypto framework, but DeFi is still approached functionally through existing categories and compliance expectations rather than a dedicated DeFi regime.",
+      "defi_regime_pt": "O Japão possui um marco cripto comparativamente maduro, mas DeFi ainda é tratado de forma funcional por categorias existentes e expectativas de compliance, e não por um regime próprio.",
+      "profile_quality": "source_backed"
+    },
+    {
+      "country": "Germany",
+      "iso3": "DEU",
+      "region": "Europe",
+      "trend": "stable",
+      "summary_en": "Germany benefits from EU-level legal certainty under MiCA and strong financial regulation, though compliance can be costly.",
+      "summary_pt": "A Alemanha se beneficia da segurança jurídica em nível europeu sob o MiCA e de uma forte regulação financeira, embora o compliance possa ser custoso.",
+      "last_update": "2026-03-25",
+      "criteria": {
+        "legal_certainty": 17,
+        "proportionality": 10,
+        "exchanges": 8,
+        "stablecoins": 7,
+        "tokenization": 8,
+        "taxation": 6,
+        "mining_infrastructure": 4,
+        "innovation_openness": 7,
+        "anti_centralization": 3,
+        "defi": 6
+      },
+      "status": {
+        "exchanges": "regulated",
+        "stablecoins": "regulated under MiCA",
+        "tokenization": "active",
+        "taxation": "moderate friction",
+        "mining": "limited",
+        "cbdc": "euro area exploration",
+        "defi": "developing"
+      },
+      "laws": [
+        "MiCA",
+        "German banking supervision rules"
+      ],
+      "opportunities_en": [
+        "Regulated tokenization",
+        "Institutional adoption"
+      ],
+      "opportunities_pt": [
+        "Tokenização regulada",
+        "Adoção institucional"
+      ],
+      "risks_en": [
+        "High compliance cost"
+      ],
+      "risks_pt": [
+        "Alto custo de compliance"
+      ],
+      "references": [
+        {
+          "label": "BaFin",
+          "url": "https://www.bafin.de/"
+        }
+      ],
+      "thesis_core": true,
+      "score": 70,
+      "classification": "favorable",
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "source_backed"
+    },
+    {
+      "country": "France",
+      "iso3": "FRA",
+      "region": "Europe",
+      "trend": "stable",
+      "summary_en": "France combines early digital asset licensing experience with the broader MiCA framework, offering clarity but significant compliance obligations.",
+      "summary_pt": "A França combina experiência precoce em licenciamento de ativos digitais com o quadro mais amplo do MiCA, oferecendo clareza, porém com obrigações relevantes de compliance.",
+      "last_update": "2026-03-24",
+      "criteria": {
+        "legal_certainty": 17,
+        "proportionality": 9,
+        "exchanges": 8,
+        "stablecoins": 7,
+        "tokenization": 8,
+        "taxation": 6,
+        "mining_infrastructure": 4,
+        "innovation_openness": 7,
+        "anti_centralization": 3,
+        "defi": 6
+      },
+      "status": {
+        "exchanges": "regulated",
+        "stablecoins": "regulated under MiCA",
+        "tokenization": "active",
+        "taxation": "moderate friction",
+        "mining": "limited",
+        "cbdc": "euro area exploration",
+        "defi": "developing"
+      },
+      "laws": [
+        "MiCA",
+        "PSAN regime"
+      ],
+      "opportunities_en": [
+        "Institutional market entry"
+      ],
+      "opportunities_pt": [
+        "Entrada de mercado institucional"
+      ],
+      "risks_en": [
+        "Regulatory cost"
+      ],
+      "risks_pt": [
+        "Custo regulatório"
+      ],
+      "references": [
+        {
+          "label": "AMF France",
+          "url": "https://www.amf-france.org/"
+        }
+      ],
+      "thesis_core": true,
+      "score": 69,
+      "classification": "favorable",
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "source_backed"
     },
     {
       "country": "Brazil",
@@ -465,7 +563,8 @@
         "taxation": 6,
         "mining_infrastructure": 8,
         "innovation_openness": 7,
-        "anti_centralization": 3
+        "anti_centralization": 3,
+        "defi": 4
       },
       "status": {
         "exchanges": "regulated",
@@ -473,7 +572,8 @@
         "tokenization": "developing",
         "taxation": "moderate friction",
         "mining": "potentially favorable",
-        "cbdc": "pilot under debate"
+        "cbdc": "pilot under debate",
+        "defi": "incipient and under analysis"
       },
       "laws": [
         "Law 14.478/2022",
@@ -506,60 +606,10 @@
       ],
       "thesis_core": true,
       "score": 69,
-      "classification": "favorable"
-    },
-    {
-      "country": "France",
-      "iso3": "FRA",
-      "region": "Europe",
-      "trend": "stable",
-      "summary_en": "France combines early digital asset licensing experience with the broader MiCA framework, offering clarity but significant compliance obligations.",
-      "summary_pt": "A França combina experiência precoce em licenciamento de ativos digitais com o quadro mais amplo do MiCA, oferecendo clareza, porém com obrigações relevantes de compliance.",
-      "last_update": "2026-03-24",
-      "criteria": {
-        "legal_certainty": 17,
-        "proportionality": 9,
-        "exchanges": 8,
-        "stablecoins": 7,
-        "tokenization": 8,
-        "taxation": 6,
-        "mining_infrastructure": 4,
-        "innovation_openness": 7,
-        "anti_centralization": 3
-      },
-      "status": {
-        "exchanges": "regulated",
-        "stablecoins": "regulated under MiCA",
-        "tokenization": "active",
-        "taxation": "moderate friction",
-        "mining": "limited",
-        "cbdc": "euro area exploration"
-      },
-      "laws": [
-        "MiCA",
-        "PSAN regime"
-      ],
-      "opportunities_en": [
-        "Institutional market entry"
-      ],
-      "opportunities_pt": [
-        "Entrada de mercado institucional"
-      ],
-      "risks_en": [
-        "Regulatory cost"
-      ],
-      "risks_pt": [
-        "Custo regulatório"
-      ],
-      "references": [
-        {
-          "label": "AMF France",
-          "url": "https://www.amf-france.org/"
-        }
-      ],
-      "thesis_core": true,
-      "score": 69,
-      "classification": "favorable"
+      "classification": "favorable",
+      "defi_regime_en": "Brazil has no dedicated DeFi framework yet. The likely path is indirect treatment through VASP, securities, payments, AML and consumer-protection rules, with legal uncertainty for non-custodial protocols and interfaces.",
+      "defi_regime_pt": "O Brasil ainda não possui um marco específico para DeFi. O caminho provável é o enquadramento indireto por regras de VASP, valores mobiliários, pagamentos, AML e defesa do consumidor, com incerteza jurídica para protocolos não custodiais e interfaces.",
+      "profile_quality": "source_backed"
     }
   ],
   "top_restrictive": [
@@ -580,7 +630,8 @@
         "taxation": 5,
         "mining_infrastructure": 1,
         "innovation_openness": 4,
-        "anti_centralization": 0
+        "anti_centralization": 0,
+        "defi": 1
       },
       "status": {
         "exchanges": "banned",
@@ -588,7 +639,8 @@
         "tokenization": "state-influenced pilots",
         "taxation": "secondary issue",
         "mining": "hostile",
-        "cbdc": "advanced state model"
+        "cbdc": "advanced state model",
+        "defi": "hostile or effectively closed"
       },
       "laws": [
         "Crypto trading bans",
@@ -616,7 +668,10 @@
       ],
       "thesis_core": true,
       "score": 29,
-      "classification": "very_restrictive"
+      "classification": "very_restrictive",
+      "defi_regime_en": "China remains hostile to decentralised crypto-financial activity, making DeFi effectively closed within the domestic perimeter except for tightly controlled state or approved channels.",
+      "defi_regime_pt": "A China permanece hostil à atividade financeira cripto descentralizada, tornando DeFi efetivamente fechado no perímetro doméstico, salvo canais estatais ou especificamente aprovados.",
+      "profile_quality": "source_backed"
     },
     {
       "country": "India",
@@ -635,7 +690,8 @@
         "taxation": 2,
         "mining_infrastructure": 5,
         "innovation_openness": 6,
-        "anti_centralization": 2
+        "anti_centralization": 2,
+        "defi": 4
       },
       "status": {
         "exchanges": "allowed with friction",
@@ -643,7 +699,8 @@
         "tokenization": "limited",
         "taxation": "heavy",
         "mining": "mixed",
-        "cbdc": "retail pilot"
+        "cbdc": "retail pilot",
+        "defi": "limited"
       },
       "laws": [
         "Tax provisions",
@@ -669,15 +726,18 @@
       ],
       "thesis_core": false,
       "score": 40,
-      "classification": "restrictive"
+      "classification": "restrictive",
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "source_backed"
     },
     {
-      "country": "Zimbabwe",
-      "iso3": "ZWE",
+      "country": "Algeria",
+      "iso3": "DZA",
       "region": "Africa",
       "trend": "mixed",
-      "summary_en": "Baseline comparative profile for Zimbabwe. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
-      "summary_pt": "Perfil comparativo preliminar de Zimbabwe. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "summary_en": "Baseline comparative profile for Algeria. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Algeria. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
       "last_update": "2026-04-07",
       "criteria": {
         "legal_certainty": 10,
@@ -688,7 +748,8 @@
         "taxation": 4,
         "mining_infrastructure": 4,
         "innovation_openness": 4,
-        "anti_centralization": 2
+        "anti_centralization": 2,
+        "defi": 3
       },
       "status": {
         "exchanges": "uncertain",
@@ -696,7 +757,8 @@
         "tokenization": "limited",
         "taxation": "heavy",
         "mining": "allowed with friction",
-        "cbdc": "research only"
+        "cbdc": "research only",
+        "defi": "limited"
       },
       "laws": [],
       "opportunities_en": [
@@ -718,15 +780,18 @@
       "references": [],
       "score": 43,
       "classification": "restrictive",
-      "thesis_core": false
+      "thesis_core": false,
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "preliminary"
     },
     {
-      "country": "Zambia",
-      "iso3": "ZMB",
+      "country": "Angola",
+      "iso3": "AGO",
       "region": "Africa",
       "trend": "mixed",
-      "summary_en": "Baseline comparative profile for Zambia. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
-      "summary_pt": "Perfil comparativo preliminar de Zambia. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "summary_en": "Baseline comparative profile for Angola. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Angola. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
       "last_update": "2026-04-07",
       "criteria": {
         "legal_certainty": 10,
@@ -737,7 +802,8 @@
         "taxation": 4,
         "mining_infrastructure": 4,
         "innovation_openness": 4,
-        "anti_centralization": 2
+        "anti_centralization": 2,
+        "defi": 3
       },
       "status": {
         "exchanges": "uncertain",
@@ -745,7 +811,8 @@
         "tokenization": "limited",
         "taxation": "heavy",
         "mining": "allowed with friction",
-        "cbdc": "research only"
+        "cbdc": "research only",
+        "defi": "limited"
       },
       "laws": [],
       "opportunities_en": [
@@ -767,15 +834,18 @@
       "references": [],
       "score": 43,
       "classification": "restrictive",
-      "thesis_core": false
+      "thesis_core": false,
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "preliminary"
     },
     {
-      "country": "Uganda",
-      "iso3": "UGA",
+      "country": "Benin",
+      "iso3": "BEN",
       "region": "Africa",
       "trend": "mixed",
-      "summary_en": "Baseline comparative profile for Uganda. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
-      "summary_pt": "Perfil comparativo preliminar de Uganda. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "summary_en": "Baseline comparative profile for Benin. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Benin. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
       "last_update": "2026-04-07",
       "criteria": {
         "legal_certainty": 10,
@@ -786,7 +856,8 @@
         "taxation": 4,
         "mining_infrastructure": 4,
         "innovation_openness": 4,
-        "anti_centralization": 2
+        "anti_centralization": 2,
+        "defi": 3
       },
       "status": {
         "exchanges": "uncertain",
@@ -794,7 +865,8 @@
         "tokenization": "limited",
         "taxation": "heavy",
         "mining": "allowed with friction",
-        "cbdc": "research only"
+        "cbdc": "research only",
+        "defi": "limited"
       },
       "laws": [],
       "opportunities_en": [
@@ -816,15 +888,18 @@
       "references": [],
       "score": 43,
       "classification": "restrictive",
-      "thesis_core": false
+      "thesis_core": false,
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "preliminary"
     },
     {
-      "country": "Tunisia",
-      "iso3": "TUN",
+      "country": "Botswana",
+      "iso3": "BWA",
       "region": "Africa",
       "trend": "mixed",
-      "summary_en": "Baseline comparative profile for Tunisia. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
-      "summary_pt": "Perfil comparativo preliminar de Tunisia. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "summary_en": "Baseline comparative profile for Botswana. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Botswana. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
       "last_update": "2026-04-07",
       "criteria": {
         "legal_certainty": 10,
@@ -835,7 +910,8 @@
         "taxation": 4,
         "mining_infrastructure": 4,
         "innovation_openness": 4,
-        "anti_centralization": 2
+        "anti_centralization": 2,
+        "defi": 3
       },
       "status": {
         "exchanges": "uncertain",
@@ -843,7 +919,8 @@
         "tokenization": "limited",
         "taxation": "heavy",
         "mining": "allowed with friction",
-        "cbdc": "research only"
+        "cbdc": "research only",
+        "defi": "limited"
       },
       "laws": [],
       "opportunities_en": [
@@ -865,15 +942,18 @@
       "references": [],
       "score": 43,
       "classification": "restrictive",
-      "thesis_core": false
+      "thesis_core": false,
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "preliminary"
     },
     {
-      "country": "Togo",
-      "iso3": "TGO",
+      "country": "Burkina Faso",
+      "iso3": "BFA",
       "region": "Africa",
       "trend": "mixed",
-      "summary_en": "Baseline comparative profile for Togo. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
-      "summary_pt": "Perfil comparativo preliminar de Togo. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "summary_en": "Baseline comparative profile for Burkina Faso. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Burkina Faso. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
       "last_update": "2026-04-07",
       "criteria": {
         "legal_certainty": 10,
@@ -884,7 +964,8 @@
         "taxation": 4,
         "mining_infrastructure": 4,
         "innovation_openness": 4,
-        "anti_centralization": 2
+        "anti_centralization": 2,
+        "defi": 3
       },
       "status": {
         "exchanges": "uncertain",
@@ -892,7 +973,8 @@
         "tokenization": "limited",
         "taxation": "heavy",
         "mining": "allowed with friction",
-        "cbdc": "research only"
+        "cbdc": "research only",
+        "defi": "limited"
       },
       "laws": [],
       "opportunities_en": [
@@ -914,15 +996,18 @@
       "references": [],
       "score": 43,
       "classification": "restrictive",
-      "thesis_core": false
+      "thesis_core": false,
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "preliminary"
     },
     {
-      "country": "Tanzania",
-      "iso3": "TZA",
+      "country": "Burundi",
+      "iso3": "BDI",
       "region": "Africa",
       "trend": "mixed",
-      "summary_en": "Baseline comparative profile for Tanzania. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
-      "summary_pt": "Perfil comparativo preliminar de Tanzania. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "summary_en": "Baseline comparative profile for Burundi. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Burundi. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
       "last_update": "2026-04-07",
       "criteria": {
         "legal_certainty": 10,
@@ -933,7 +1018,8 @@
         "taxation": 4,
         "mining_infrastructure": 4,
         "innovation_openness": 4,
-        "anti_centralization": 2
+        "anti_centralization": 2,
+        "defi": 3
       },
       "status": {
         "exchanges": "uncertain",
@@ -941,7 +1027,8 @@
         "tokenization": "limited",
         "taxation": "heavy",
         "mining": "allowed with friction",
-        "cbdc": "research only"
+        "cbdc": "research only",
+        "defi": "limited"
       },
       "laws": [],
       "opportunities_en": [
@@ -963,15 +1050,18 @@
       "references": [],
       "score": 43,
       "classification": "restrictive",
-      "thesis_core": false
+      "thesis_core": false,
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "preliminary"
     },
     {
-      "country": "Sudan",
-      "iso3": "SDN",
+      "country": "Cabo Verde",
+      "iso3": "CPV",
       "region": "Africa",
       "trend": "mixed",
-      "summary_en": "Baseline comparative profile for Sudan. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
-      "summary_pt": "Perfil comparativo preliminar de Sudan. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "summary_en": "Baseline comparative profile for Cabo Verde. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Cabo Verde. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
       "last_update": "2026-04-07",
       "criteria": {
         "legal_certainty": 10,
@@ -982,7 +1072,8 @@
         "taxation": 4,
         "mining_infrastructure": 4,
         "innovation_openness": 4,
-        "anti_centralization": 2
+        "anti_centralization": 2,
+        "defi": 3
       },
       "status": {
         "exchanges": "uncertain",
@@ -990,7 +1081,8 @@
         "tokenization": "limited",
         "taxation": "heavy",
         "mining": "allowed with friction",
-        "cbdc": "research only"
+        "cbdc": "research only",
+        "defi": "limited"
       },
       "laws": [],
       "opportunities_en": [
@@ -1012,15 +1104,18 @@
       "references": [],
       "score": 43,
       "classification": "restrictive",
-      "thesis_core": false
+      "thesis_core": false,
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "preliminary"
     },
     {
-      "country": "South Sudan",
-      "iso3": "SSD",
+      "country": "Cameroon",
+      "iso3": "CMR",
       "region": "Africa",
       "trend": "mixed",
-      "summary_en": "Baseline comparative profile for South Sudan. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
-      "summary_pt": "Perfil comparativo preliminar de South Sudan. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
+      "summary_en": "Baseline comparative profile for Cameroon. Primary-source regulatory audit is pending deeper country-by-country validation in the Atlas pipeline.",
+      "summary_pt": "Perfil comparativo preliminar de Cameroon. A auditoria regulatória com fontes primárias ainda depende de validação aprofundada país a país no pipeline do Atlas.",
       "last_update": "2026-04-07",
       "criteria": {
         "legal_certainty": 10,
@@ -1031,7 +1126,8 @@
         "taxation": 4,
         "mining_infrastructure": 4,
         "innovation_openness": 4,
-        "anti_centralization": 2
+        "anti_centralization": 2,
+        "defi": 3
       },
       "status": {
         "exchanges": "uncertain",
@@ -1039,7 +1135,8 @@
         "tokenization": "limited",
         "taxation": "heavy",
         "mining": "allowed with friction",
-        "cbdc": "research only"
+        "cbdc": "research only",
+        "defi": "limited"
       },
       "laws": [],
       "opportunities_en": [
@@ -1061,7 +1158,10 @@
       "references": [],
       "score": 43,
       "classification": "restrictive",
-      "thesis_core": false
+      "thesis_core": false,
+      "defi_regime_en": "The jurisdiction does not yet have a dedicated DeFi regime. The treatment of decentralised protocols is mostly indirect or still analytically uncertain.",
+      "defi_regime_pt": "A jurisdição ainda não possui um regime específico para DeFi. O tratamento de protocolos descentralizados é majoritariamente indireto ou ainda analiticamente incerto.",
+      "profile_quality": "preliminary"
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-04-11T05:34:33.575584Z",
+  "jurisdictions_mapped": 195,
+  "average_score": 50.8,
+  "licensed_exchange_regimes": 13,
+  "cbdc_programmes_active": 10,
+  "thesis_core_count": 11,
+  "normative_acts_catalogued": 40,
+  "source_backed_profiles": 19,
+  "preliminary_profiles": 174,
+  "classification_breakdown": {
+    "favorable": 9,
+    "restrictive": 121,
+    "mixed": 61,
+    "very_favorable": 3,
+    "very_restrictive": 1
+  },
+  "region_breakdown": {
+    "North America": 2,
+    "Latin America": 33,
+    "Europe": 48,
+    "Middle East": 15,
+    "Asia": 29,
+    "Africa": 54,
+    "Oceania": 14
+  },
+  "methodology_version": "2.1.0-github-ready"
+}
