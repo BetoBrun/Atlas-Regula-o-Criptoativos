@@ -3,9 +3,9 @@
   "iso3": "FRA",
   "region": "Europe",
   "trend": "stable",
-  "summary_en": "France combines early digital asset licensing experience with the broader MiCA framework, offering clarity but significant compliance obligations.",
-  "summary_pt": "A França combina experiência precoce em licenciamento de ativos digitais com o quadro mais amplo do MiCA, oferecendo clareza, porém com obrigações relevantes de compliance.",
-  "last_update": "2026-03-24",
+  "summary_en": "France benefits from both legacy domestic crypto supervision and MiCA harmonisation, producing a relatively mature EU environment.",
+  "summary_pt": "A França se beneficia tanto da supervisão doméstica legada quanto da harmonização do MiCA, produzindo um ambiente europeu relativamente maduro.",
+  "last_update": "2026-03-31",
   "criteria": {
     "legal_certainty": 17,
     "proportionality": 9,
@@ -47,7 +47,31 @@
       "url": "https://www.amf-france.org/"
     }
   ],
-  "thesis_core": true,
+  "thesis_core": false,
   "score": 69,
-  "classification": "favorable"
+  "classification": "favorable",
+  "thesis_scope": true,
+  "authorities": [
+    "AMF",
+    "ACPR",
+    "ESMA / EBA (EU layer)"
+  ],
+  "model_en": "Hybrid transition from the national PSAN/DASP model to full MiCA integration.",
+  "model_pt": "Transição híbrida do modelo nacional de PSAN/DASP para a integração plena ao MiCA.",
+  "detailed_analysis_en": "France is analytically important because it anticipated parts of the European framework through its earlier national regime for digital asset service providers. This gives the country a bridge position between pre-MiCA experimentation and full EU harmonisation. Its comparative strength is institutional continuity; its weakness is the coexistence of transition rules and dense compliance expectations.",
+  "detailed_analysis_pt": "A França é analiticamente importante porque antecipou partes do framework europeu por meio de seu regime nacional anterior para prestadores de serviços de ativos digitais. Isso coloca o país em posição de ponte entre a experimentação pré-MiCA e a harmonização plena da UE. Sua força comparativa é a continuidade institucional; sua fraqueza está na convivência entre regras transitórias e exigências densas de compliance.",
+  "stablecoin_regime_en": "Stablecoins are now primarily governed through MiCA, but French supervisory practice remains relevant in market entry and transition.",
+  "stablecoin_regime_pt": "As stablecoins passam a ser governadas primariamente pelo MiCA, mas a prática supervisória francesa continua relevante no ingresso e na transição regulatória.",
+  "tokenization_regime_en": "France remains favourable to tokenisation, especially where existing capital-market regulation can be combined with EU crypto rules.",
+  "tokenization_regime_pt": "A França continua favorável à tokenização, especialmente quando a regulação tradicional do mercado de capitais pode ser combinada com as regras europeias de cripto.",
+  "cbdc_note_en": "The country is relevant in the digital euro debate and in wholesale experimentation, more than as a standalone retail CBDC jurisdiction.",
+  "cbdc_note_pt": "O país é relevante no debate do euro digital e em experimentações de atacado, mais do que como jurisdição de CBDC de varejo autônoma.",
+  "comparison_axes": {
+    "clarity": "high",
+    "innovation": "medium-high",
+    "stablecoins": "structured",
+    "tokenization": "promising",
+    "state_centralization": "moderate"
+  },
+  "iso2": "FR"
 }

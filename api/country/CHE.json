@@ -53,5 +53,27 @@
   ],
   "thesis_core": true,
   "score": 85,
-  "classification": "very_favorable"
+  "classification": "very_favorable",
+  "thesis_scope": "core_jurisdiction",
+  "authorities": [
+    "FINMA",
+    "State Secretariat for International Finance (SIF)"
+  ],
+  "model_en": "Principles-based but mature legal environment with strong DLT legislation, custody certainty and tokenization support.",
+  "model_pt": "Ambiente jurídico maduro, orientado por princípios, com legislação DLT robusta, segurança na custódia e apoio à tokenização.",
+  "detailed_analysis_en": "Switzerland remains a benchmark for legal certainty in tokenization and DLT market infrastructure. The DLT framework and subsequent FINMA guidance support custody, bankruptcy protection and operational segregation. The jurisdiction is especially attractive for tokenized securities, market infrastructure and institutional-grade crypto services.",
+  "detailed_analysis_pt": "A Suíça permanece como referência em segurança jurídica para tokenização e infraestrutura de mercado em DLT. O framework DLT e as orientações posteriores da FINMA reforçam custódia, proteção em insolvência e segregação operacional. A jurisdição é especialmente atraente para valores mobiliários tokenizados, infraestrutura de mercado e serviços cripto de padrão institucional.",
+  "stablecoin_regime_en": "Generally open within compliance and licensing expectations, but not built around a single dedicated stablecoin statute like MiCA.",
+  "stablecoin_regime_pt": "Em geral aberta dentro de expectativas de compliance e licenciamento, mas sem estatuto único dedicado a stablecoins nos moldes do MiCA.",
+  "tokenization_regime_en": "Highly favorable and one of the strongest globally.",
+  "tokenization_regime_pt": "Altamente favorável e uma das mais fortes do mundo.",
+  "cbdc_note_en": "Wholesale and infrastructure-focused approach.",
+  "cbdc_note_pt": "Abordagem focada em atacado e infraestrutura.",
+  "comparison_axes": {
+    "regulatory_model": "very_favorable",
+    "stablecoin_maturity": "open with compliance",
+    "tokenization_maturity": "highly favorable",
+    "cbdc_posture": "wholesale focus"
+  },
+  "iso2": "CH"
 }

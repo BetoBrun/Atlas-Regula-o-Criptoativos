@@ -3,9 +3,9 @@
   "iso3": "CHN",
   "region": "Asia",
   "trend": "stable",
-  "summary_en": "China is highly restrictive toward private crypto markets while strongly pursuing state-led digital currency and blockchain infrastructure strategies.",
-  "summary_pt": "A China é altamente restritiva em relação aos mercados privados de criptoativos, ao mesmo tempo em que persegue fortemente estratégias estatais de moeda digital e infraestrutura blockchain.",
-  "last_update": "2026-03-12",
+  "summary_en": "China is the clearest case of private-crypto prohibition combined with strong state digital-currency centralisation.",
+  "summary_pt": "A China é o caso mais claro de proibição de cripto privado combinada com forte centralização estatal da moeda digital.",
+  "last_update": "2026-03-31",
   "criteria": {
     "legal_certainty": 10,
     "proportionality": 3,
@@ -49,7 +49,30 @@
       "url": "https://www.pbc.gov.cn/"
     }
   ],
-  "thesis_core": true,
+  "thesis_core": false,
   "score": 29,
-  "classification": "very_restrictive"
+  "classification": "very_restrictive",
+  "thesis_scope": true,
+  "authorities": [
+    "People’s Bank of China",
+    "State financial and cyberspace authorities"
+  ],
+  "model_en": "Prohibitive private-crypto model combined with strong state preference for sovereign digital monetary infrastructure.",
+  "model_pt": "Modelo proibitivo para cripto privado, combinado com forte preferência estatal por infraestrutura monetária digital soberana.",
+  "detailed_analysis_en": "China remains essential to the comparative framework because it represents the clearest case of exclusion of private crypto-market development alongside strong state-backed digital monetary strategy. Private crypto trading and related business remain prohibited, while the state preserves a monopoly logic around lawful digital money. The jurisdiction is useful in the thesis as a limiting case of digital monetary centralisation. Recent signals around real-world-asset tokenisation do not alter the core anti-crypto position, though they may indicate controlled experimentation outside classic crypto-market logic.",
+  "detailed_analysis_pt": "A China permanece essencial ao quadro comparativo porque representa o caso mais nítido de exclusão do desenvolvimento privado do mercado cripto, ao lado de uma estratégia estatal forte de infraestrutura monetária digital. A negociação privada de cripto e atividades correlatas continuam proibidas, enquanto o Estado preserva uma lógica monopolista em torno do dinheiro digital legítimo. A jurisdição é útil na tese como caso-limite de centralização monetária digital. Sinais recentes sobre tokenização de ativos do mundo real não alteram a posição anticroipto de fundo, embora possam indicar experimentação controlada fora da lógica clássica do mercado cripto.",
+  "stablecoin_regime_en": "Private stablecoins are not meaningfully open; the state resists parallel private digital-money infrastructures.",
+  "stablecoin_regime_pt": "Stablecoins privadas não estão significativamente abertas; o Estado resiste a infraestruturas paralelas privadas de dinheiro digital.",
+  "tokenization_regime_en": "Potential controlled openings around RWA tokenization are analytically interesting, but remain distinct from a liberal crypto market.",
+  "tokenization_regime_pt": "Possíveis aberturas controladas em torno da tokenização de ativos do mundo real são analiticamente interessantes, mas continuam distintas de um mercado cripto liberalizado.",
+  "cbdc_note_en": "CBDC and sovereign digital-currency strategy are central; this is a high-centralisation jurisdiction.",
+  "cbdc_note_pt": "CBDC e estratégia soberana de moeda digital são centrais; trata-se de uma jurisdição de alta centralização.",
+  "comparison_axes": {
+    "clarity": "high (prohibition-oriented)",
+    "innovation": "low for private crypto / selective for state-backed digital infrastructure",
+    "stablecoins": "closed",
+    "tokenization": "selective / controlled",
+    "state_centralization": "very high"
+  },
+  "iso2": "CN"
 }

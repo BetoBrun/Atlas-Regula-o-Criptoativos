@@ -3,9 +3,9 @@
   "iso3": "CHL",
   "region": "Latin America",
   "trend": "improving",
-  "summary_en": "Chile benefits from relatively stable institutions and strong digital infrastructure potential, though its crypto framework remains incremental.",
-  "summary_pt": "O Chile se beneficia de instituições relativamente estáveis e forte potencial de infraestrutura digital, embora seu marco para criptoativos ainda avance de forma incremental.",
-  "last_update": "2026-03-16",
+  "summary_en": "Chile offers a service-based, fintech-oriented route to crypto regulation, with increasing formalisation under CMF oversight.",
+  "summary_pt": "O Chile oferece uma via de regulação de cripto orientada por serviços e fintech, com crescente formalização sob supervisão da CMF.",
+  "last_update": "2026-03-31",
   "criteria": {
     "legal_certainty": 11,
     "proportionality": 10,
@@ -51,5 +51,29 @@
   ],
   "thesis_core": false,
   "score": 61,
-  "classification": "mixed"
+  "classification": "mixed",
+  "thesis_scope": true,
+  "authorities": [
+    "CMF Chile",
+    "UAF / AML layer",
+    "tax authorities"
+  ],
+  "model_en": "Fintech-law-based approach that progressively pulls crypto-related services into a broader financial innovation perimeter.",
+  "model_pt": "Abordagem baseada na Lei Fintech, que progressivamente traz serviços ligados a cripto para um perímetro mais amplo de inovação financeira.",
+  "detailed_analysis_en": "Chile is relevant as a case of fintech-centred regulation rather than a single omnibus crypto statute. The CMF has operationalised the Fintech Law through rules on registration, authorisation, governance and compliance. This produces a more service-based than asset-based model. The strength of the Chilean path is gradual institutionalisation; the limitation is that crypto-specific issues such as stablecoin architecture and tokenisation may still depend on interpretation and incremental rulemaking.",
+  "detailed_analysis_pt": "O Chile é relevante como caso de regulação centrada em fintech, e não em um único estatuto geral de cripto. A CMF operacionalizou a Lei Fintech por meio de regras sobre registro, autorização, governança e compliance. Isso produz um modelo mais orientado a serviços do que a classes de ativos. A força da trajetória chilena está na institucionalização gradual; sua limitação é que questões especificamente cripto, como arquitetura de stablecoins e tokenização, ainda dependem de interpretação e de regulação incremental.",
+  "stablecoin_regime_en": "No fully separate flagship stablecoin regime yet; treatment emerges through the fintech and financial-services perimeter.",
+  "stablecoin_regime_pt": "Ainda não há um regime emblemático e totalmente separado para stablecoins; o tratamento emerge a partir do perímetro fintech e de serviços financeiros.",
+  "tokenization_regime_en": "Tokenisation potential exists through the regulated fintech perimeter, but with less symbolic centrality than in Argentina or the EU.",
+  "tokenization_regime_pt": "Existe potencial para tokenização por meio do perímetro regulado de fintech, mas com menor centralidade simbólica do que na Argentina ou na UE.",
+  "cbdc_note_en": "CBDC is not the central comparative feature here; the key issue is incorporation of crypto-related services into the formal financial perimeter.",
+  "cbdc_note_pt": "CBDC não é aqui a característica comparativa central; a questão-chave é a incorporação de serviços ligados a cripto ao perímetro financeiro formal.",
+  "comparison_axes": {
+    "clarity": "medium",
+    "innovation": "medium-high",
+    "stablecoins": "partial",
+    "tokenization": "developing",
+    "state_centralization": "low-moderate"
+  },
+  "iso2": "CL"
 }

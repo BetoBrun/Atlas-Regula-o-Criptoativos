@@ -3,9 +3,9 @@
   "iso3": "CAN",
   "region": "North America",
   "trend": "stable",
-  "summary_en": "Canada has comparatively strong exchange oversight and mature market institutions, though innovation can face meaningful compliance burdens.",
-  "summary_pt": "O Canadá possui supervisão relativamente forte de exchanges e instituições de mercado maduras, embora a inovação possa enfrentar ônus relevantes de compliance.",
-  "last_update": "2026-03-09",
+  "summary_en": "Canada offers a coordinated, securities-led model for crypto platforms, practical but less unified than MiCA-style systems.",
+  "summary_pt": "O Canadá oferece um modelo coordenado e orientado por valores mobiliários para plataformas cripto, prático, mas menos unificado do que sistemas ao estilo MiCA.",
+  "last_update": "2026-03-31",
   "criteria": {
     "legal_certainty": 15,
     "proportionality": 10,
@@ -51,5 +51,30 @@
   ],
   "thesis_core": false,
   "score": 71,
-  "classification": "favorable"
+  "classification": "favorable",
+  "thesis_scope": true,
+  "authorities": [
+    "Canadian Securities Administrators (CSA)",
+    "provincial securities commissions",
+    "FINTRAC / AML layer",
+    "Bank of Canada in systemic discussions"
+  ],
+  "model_en": "Securities-led, platform-focused model with strong investor-risk messaging and registration pressure.",
+  "model_pt": "Modelo orientado por valores mobiliários e focado em plataformas, com forte mensagem de risco ao investidor e pressão por registro.",
+  "detailed_analysis_en": "Canada is relevant because it has built a comparatively operational framework around crypto trading platforms through securities regulation and coordinated provincial action. Rather than adopting a single omnibus crypto law, Canada has leaned on registration, exemptive relief, undertakings and enforcement. This produces a framework that is practical and comparatively disciplined for platforms, but also narrower and less conceptually unified than a MiCA-style statute.",
+  "detailed_analysis_pt": "O Canadá é relevante porque construiu um framework relativamente operacional para plataformas de negociação de cripto por meio da regulação de valores mobiliários e da coordenação provincial. Em vez de adotar uma lei geral única de cripto, o Canadá se apoiou em registro, exemptive relief, undertakings e enforcement. Isso produz um framework prático e relativamente disciplinado para plataformas, mas também mais estreito e menos conceitualmente unificado do que um estatuto ao estilo MiCA.",
+  "stablecoin_regime_en": "Stablecoin treatment exists mainly through platform and securities-related controls rather than a single flagship regime.",
+  "stablecoin_regime_pt": "O tratamento das stablecoins existe principalmente por meio de controles sobre plataformas e valores mobiliários, e não de um único regime emblemático.",
+  "tokenization_regime_en": "Tokenization is possible within capital-market structures, but the Canadian comparative identity is still platform supervision.",
+  "tokenization_regime_pt": "A tokenização é possível dentro das estruturas do mercado de capitais, mas a identidade comparativa canadense ainda é a supervisão de plataformas.",
+  "cbdc_note_en": "CBDC is not the key comparative feature; platform regulation and investor protection are.",
+  "cbdc_note_pt": "CBDC não é a característica comparativa central; regulação de plataformas e proteção do investidor são.",
+  "comparison_axes": {
+    "clarity": "medium-high",
+    "innovation": "medium",
+    "stablecoins": "partial",
+    "tokenization": "developing",
+    "state_centralization": "low-moderate"
+  },
+  "iso2": "CA"
 }

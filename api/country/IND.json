@@ -3,9 +3,9 @@
   "iso3": "IND",
   "region": "Asia",
   "trend": "mixed",
-  "summary_en": "India combines a very large user base with heavy taxation and still-evolving policy, creating a mixed environment for crypto business formation.",
-  "summary_pt": "A Índia combina uma base muito grande de usuários com tributação pesada e política ainda em evolução, criando um ambiente misto para a formação de negócios cripto.",
-  "last_update": "2026-03-14",
+  "summary_en": "India combines massive adoption with fragmented regulation, strong taxation and increasing AML scrutiny.",
+  "summary_pt": "A Índia combina adoção massiva com regulação fragmentada, forte tributação e crescente escrutínio AML.",
+  "last_update": "2026-03-31",
   "criteria": {
     "legal_certainty": 8,
     "proportionality": 4,
@@ -49,5 +49,30 @@
   ],
   "thesis_core": false,
   "score": 40,
-  "classification": "restrictive"
+  "classification": "restrictive",
+  "thesis_scope": true,
+  "authorities": [
+    "Ministry of Finance",
+    "FIU-IND",
+    "tax authorities",
+    "Reserve Bank of India"
+  ],
+  "model_en": "High-adoption but still fragmented model, combining taxation, AML supervision and caution in financial-system integration.",
+  "model_pt": "Modelo de alta adoção, porém ainda fragmentado, combinando tributação, supervisão AML e cautela na integração ao sistema financeiro.",
+  "detailed_analysis_en": "India is one of the world’s largest crypto-adoption jurisdictions, yet its legal model remains more piecemeal than comprehensive. Taxation of virtual digital assets and AML duties for service providers coexist with the absence of a fully integrated market-structure statute. This makes India a crucial example of a jurisdiction where market reality is strong but legal systematisation remains incomplete. For the thesis, it illustrates how high social adoption does not automatically translate into coherent institutional design.",
+  "detailed_analysis_pt": "A Índia é uma das maiores jurisdições do mundo em adoção de cripto, mas seu modelo jurídico continua mais fragmentado do que abrangente. A tributação sobre ativos digitais virtuais e os deveres de AML para prestadores coexistem com a ausência de um estatuto plenamente integrado de estrutura de mercado. Isso faz da Índia um exemplo crucial de jurisdição em que a realidade de mercado é forte, mas a sistematização jurídica permanece incompleta. Para a tese, ela ilustra como alta adoção social não se traduz automaticamente em desenho institucional coerente.",
+  "stablecoin_regime_en": "Stablecoins are relevant in use, but there is no fully mature standalone framework equivalent to MiCA-style regimes.",
+  "stablecoin_regime_pt": "As stablecoins são relevantes no uso, mas não há um framework autônomo plenamente maduro equivalente aos regimes ao estilo MiCA.",
+  "tokenization_regime_en": "Tokenization remains secondary to taxation, AML and platform-compliance questions.",
+  "tokenization_regime_pt": "A tokenização permanece secundária em relação a questões de tributação, AML e compliance de plataformas.",
+  "cbdc_note_en": "India is notable for its CBDC experimentation, but private-crypto regulation remains distinct and only partially systematised.",
+  "cbdc_note_pt": "A Índia é notável por sua experimentação com CBDC, mas a regulação de cripto privado permanece distinta e apenas parcialmente sistematizada.",
+  "comparison_axes": {
+    "clarity": "medium-low",
+    "innovation": "medium",
+    "stablecoins": "partial",
+    "tokenization": "incipient",
+    "state_centralization": "moderate-high in public-money strategy"
+  },
+  "iso2": "IN"
 }

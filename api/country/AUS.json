@@ -3,9 +3,9 @@
   "iso3": "AUS",
   "region": "Oceania",
   "trend": "improving",
-  "summary_en": "Australia offers a relatively open but still maturing framework, with ongoing reforms around tokenization, custody and licensing.",
-  "summary_pt": "A Austrália oferece um quadro relativamente aberto, porém ainda em amadurecimento, com reformas em andamento sobre tokenização, custódia e licenciamento.",
-  "last_update": "2026-03-10",
+  "summary_en": "Australia is shifting from consultation to concrete implementation, using a functional approach that extends existing financial-services law to digital-asset platforms, custody and payment stablecoins.",
+  "summary_pt": "A Austrália está migrando da consulta para a implementação concreta, usando uma abordagem funcional que estende a legislação financeira existente a plataformas de ativos digitais, custódia e payment stablecoins.",
+  "last_update": "2026-04-01",
   "criteria": {
     "legal_certainty": 13,
     "proportionality": 10,
@@ -26,8 +26,9 @@
     "cbdc": "research"
   },
   "laws": [
-    "Treasury consultation papers",
-    "ASIC guidance"
+    "Treasury 2025 statement",
+    "Corporations Amendment (Digital Assets Framework) Bill 2025",
+    "Project Acacia"
   ],
   "opportunities_en": [
     "Mining and tokenization"
@@ -43,11 +44,44 @@
   ],
   "references": [
     {
-      "label": "Treasury Australia",
-      "url": "https://treasury.gov.au/"
+      "label": "Treasury - March 2025 statement",
+      "url": "https://treasury.gov.au/publication/p2025-628504"
+    },
+    {
+      "label": "Treasury Ministers - Bill 2025",
+      "url": "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/media-releases/new-digital-asset-laws-unlock-innovation-and-safeguard"
+    },
+    {
+      "label": "RBA - Project Acacia",
+      "url": "https://www.rba.gov.au/media-releases/2025/mr-25-18.html"
     }
   ],
   "thesis_core": false,
   "score": 68,
-  "classification": "favorable"
+  "classification": "favorable",
+  "thesis_scope": true,
+  "authorities": [
+    "Australian Treasury",
+    "ASIC",
+    "AUSTRAC",
+    "RBA"
+  ],
+  "model_en": "Functional and technology-neutral reform model built on the existing financial-services architecture.",
+  "model_pt": "Modelo de reforma funcional e technology-neutral construído sobre a arquitetura já existente de serviços financeiros.",
+  "detailed_analysis_en": "Australia is analytically important because it does not start from a blank slate. Instead, it adapts legacy financial-services law to digital asset platforms and tokenised custody, while treating payment stablecoins within the broader reform of the payments framework. Project Acacia strengthens this picture by showing a policy environment in which stablecoins, bank deposit tokens and wholesale CBDC are tested as complementary settlement assets rather than as a single monopolistic solution.",
+  "detailed_analysis_pt": "A Austrália é analiticamente importante porque não parte de uma folha em branco. Em vez disso, adapta o direito financeiro legado a plataformas de ativos digitais e custódia tokenizada, ao mesmo tempo em que trata payment stablecoins dentro da reforma mais ampla do sistema de pagamentos. O Project Acacia reforça esse quadro ao mostrar um ambiente de política pública em que stablecoins, bank deposit tokens e wholesale CBDC são testados como ativos complementares de liquidação, e não como solução monopolista única.",
+  "stablecoin_regime_en": "Payment stablecoins are being integrated into the payments-reform agenda rather than left entirely outside the legal perimeter.",
+  "stablecoin_regime_pt": "As payment stablecoins estão sendo integradas à agenda de reforma de pagamentos, e não deixadas totalmente fora do perímetro jurídico.",
+  "tokenization_regime_en": "Tokenised custody and wholesale tokenised markets are central to the present Australian reform cycle.",
+  "tokenization_regime_pt": "Custódia tokenizada e mercados atacadistas tokenizados são centrais no ciclo atual de reforma australiano.",
+  "cbdc_note_en": "Australia’s public-money experimentation is wholesale and complementary, not retail-totalising.",
+  "cbdc_note_pt": "A experimentação australiana com dinheiro público é atacadista e complementar, não totalizante no varejo.",
+  "comparison_axes": {
+    "clarity": "medium-high",
+    "innovation": "medium-high",
+    "stablecoins": "partial / payments-linked",
+    "tokenization": "promising",
+    "state_centralization": "moderate"
+  },
+  "iso2": "AU"
 }
