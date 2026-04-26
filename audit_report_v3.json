@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-04-26T14:35:37.063464",
+  "version": "v3_april2026",
+  "summary": {
+    "total_jurisdictions": 201,
+    "thesis_core_jurisdictions": 10,
+    "duplicates_merged": 41,
+    "score_inconsistencies_found": 8,
+    "score_inconsistencies_documented": [
+      "IDN",
+      "KEN",
+      "LIE",
+      "MUS",
+      "PHL",
+      "QAT",
+      "THA",
+      "UKR"
+    ]
+  },
+  "distribution": {
+    "very_favorable_80_100": 5,
+    "favorable_65_79": 22,
+    "mixed_50_64": 63,
+    "restrictive_35_49": 110,
+    "very_restrictive_0_34": 1
+  },
+  "top_20_ranking": [
+    {
+      "rank": 1,
+      "country": "United Arab Emirates",
+      "iso3": "ARE",
+      "score": 86,
+      "classification": "very_favorable",
+      "thesis_core": true
+    },
+    {
+      "rank": 2,
+      "country": "Switzerland",
+      "iso3": "CHE",
+      "score": 85,
+      "classification": "very_favorable",
+      "thesis_core": true
+    },
+    {
+      "rank": 3,
+      "country": "Singapore",
+      "iso3": "SGP",
+      "score": 83,
+      "classification": "very_favorable",
+      "thesis_core": true
+    },
+    {
+      "rank": 4,
+      "country": "European Union",
+      "iso3": "EUU",
+      "score": 80,
+      "classification": "very_favorable",
+      "thesis_core": true
+    },
+    {
+      "rank": 5,
+      "country": "Hong Kong",
+      "iso3": "HKG",
+      "score": 80,
+      "classification": "very_favorable",
+      "thesis_core": true
+    },
+    {
+      "rank": 6,
+      "country": "Liechtenstein",
+      "iso3": "LIE",
+      "score": 78,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 7,
+      "country": "United States",
+      "iso3": "USA",
+      "score": 78,
+      "classification": "favorable",
+      "thesis_core": true
+    },
+    {
+      "rank": 8,
+      "country": "Gibraltar",
+      "iso3": "GIB",
+      "score": 75,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 9,
+      "country": "Bermuda",
+      "iso3": "BMU",
+      "score": 74,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 10,
+      "country": "United Kingdom",
+      "iso3": "GBR",
+      "score": 74,
+      "classification": "favorable",
+      "thesis_core": true
+    },
+    {
+      "rank": 11,
+      "country": "Bahamas",
+      "iso3": "BHS",
+      "score": 73,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 12,
+      "country": "Cayman Islands",
+      "iso3": "CYM",
+      "score": 72,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 13,
+      "country": "Canada",
+      "iso3": "CAN",
+      "score": 71,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 14,
+      "country": "Germany",
+      "iso3": "DEU",
+      "score": 70,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 15,
+      "country": "Japan",
+      "iso3": "JPN",
+      "score": 70,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 16,
+      "country": "Brazil",
+      "iso3": "BRA",
+      "score": 69,
+      "classification": "favorable",
+      "thesis_core": true
+    },
+    {
+      "rank": 17,
+      "country": "France",
+      "iso3": "FRA",
+      "score": 69,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 18,
+      "country": "Mauritius",
+      "iso3": "MUS",
+      "score": 69,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 19,
+      "country": "Thailand",
+      "iso3": "THA",
+      "score": 69,
+      "classification": "favorable",
+      "thesis_core": false
+    },
+    {
+      "rank": 20,
+      "country": "Australia",
+      "iso3": "AUS",
+      "score": 68,
+      "classification": "favorable",
+      "thesis_core": false
+    }
+  ],
+  "thesis_core_rankings": [
+    {
+      "rank": 1,
+      "country": "United Arab Emirates",
+      "iso3": "ARE",
+      "score": 86,
+      "classification": "very_favorable",
+      "trend": "improving"
+    },
+    {
+      "rank": 2,
+      "country": "Switzerland",
+      "iso3": "CHE",
+      "score": 85,
+      "classification": "very_favorable",
+      "trend": "stable"
+    },
+    {
+      "rank": 3,
+      "country": "Singapore",
+      "iso3": "SGP",
+      "score": 83,
+      "classification": "very_favorable",
+      "trend": "improving"
+    },
+    {
+      "rank": 4,
+      "country": "European Union",
+      "iso3": "EUU",
+      "score": 80,
+      "classification": "very_favorable",
+      "trend": "improving"
+    },
+    {
+      "rank": 5,
+      "country": "Hong Kong",
+      "iso3": "HKG",
+      "score": 80,
+      "classification": "very_favorable",
+      "trend": "improving"
+    },
+    {
+      "rank": 7,
+      "country": "United States",
+      "iso3": "USA",
+      "score": 78,
+      "classification": "favorable",
+      "trend": "improving"
+    },
+    {
+      "rank": 10,
+      "country": "United Kingdom",
+      "iso3": "GBR",
+      "score": 74,
+      "classification": "favorable",
+      "trend": "improving"
+    },
+    {
+      "rank": 16,
+      "country": "Brazil",
+      "iso3": "BRA",
+      "score": 69,
+      "classification": "favorable",
+      "trend": "improving"
+    },
+    {
+      "rank": 22,
+      "country": "El Salvador",
+      "iso3": "SLV",
+      "score": 68,
+      "classification": "favorable",
+      "trend": "stable"
+    },
+    {
+      "rank": 90,
+      "country": "Paraguay",
+      "iso3": "PRY",
+      "score": 51,
+      "classification": "mixed",
+      "trend": "stable"
+    }
+  ],
+  "corrections_applied": {
+    "duplicates_consolidated": {
+      "description": "41 pares de arquivos ISO3 lowercase/uppercase foram mesclados. O arquivo mais rico foi usado como base, com campos ausentes complementados do outro.",
+      "canonical_format": "uppercase ISO3 (ex: BRA.json, EUU.json)",
+      "count": 41
+    },
+    "scoring_methodology_updated": {
+      "description": "scoring_methodology_v3.json gerado com mapeamento formal entre chaves JSON e dimensoes metodologicas, documentacao de escala efetiva, formula de calculo e inconsistencias conhecidas.",
+      "file": "scoring_methodology_v3.json"
+    },
+    "inconsistencies_documented": {
+      "description": "Tres jurisdicoes (THA, UKR, LIE) com delta de +3 pontos entre sum(criteria) e stored score receberam 'editorial_note' no arquivo JSON.",
+      "recommendation": "Auditar manualmente para confirmar se o delta e ajuste editorial intencional ou erro de entrada"
+    }
+  },
+  "remaining_issues": {
+    "exchanges_weight_underutilization": "A dimensao 'exchanges' tem peso 14 mas maximo observado de 10. O peso reflete relevancia analitica, nao e totalmente utilizavel na distribuicao atual de scores.",
+    "mining_infrastructure_semantic_ambiguity": "O campo 'mining_infrastructure' captura tanto supervisory_capacity quanto infraestrutura produtiva. A tese deve explicitar esse duplo carater na secao metodologica.",
+    "taxation_in_core_vs_supplementary": "O campo 'taxation' contribui para o score core (soma direta), mas a methodology o classifica como supplementary. A inconsistencia esta documentada mas nao eliminada - requer decisao editorial.",
+    "proportionality_weight_cap": "Uma jurisdicao (CHE, score 13) ficou 1 ponto abaixo do peso maximo de 14, sugerindo que o peso e alcancavel mas raramente. Nenhuma correcao necessaria."
+  },
+  "thesis_alignment_notes": {
+    "brazil_position": "#16 de 201 jurisdicoes",
+    "brazil_score": 69,
+    "brazil_classification": "favorable",
+    "brazil_anti_centralization": 3,
+    "note_anti_centralization": "O score baixo em anti_centralization (3/10) e coerente com a hipotese central da tese sobre risco de centralizacao monetaria digital via Drex. Nenhuma correcao necessaria - e um resultado analitico, nao um erro."
+  }
+}
