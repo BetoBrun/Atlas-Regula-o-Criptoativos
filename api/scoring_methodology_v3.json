@@ -1,0 +1,234 @@
+{
+  "version": "v3_thesis_aligned_april2026",
+  "unit_of_analysis": "jurisdiction",
+  "scope": "core legal-institutional score - Atlas Comparado da Regulacao de Criptoativos (tese UnB 2026)",
+  "score_formula": "score = sum(criteria.values()) — soma direta dos 9 valores pre-ponderados. Cada valor em criteria e um weighted score: o valor bruto (0-10) multiplicado pelo peso da dimensao e dividido por 10. Exemplo: legal_certainty = raw_score_0_10 * 18 / 10, resultando em escala efetiva 0-18.",
+  "score_range": "0 to ~100 (9 dimensions, theoretical max ~108, but empirically calibrated to 0-100 range)",
+  "criteria_keys": {
+    "legal_certainty": {
+      "label": "Seguranca juridica / Regulatory clarity",
+      "methodology_equivalent": "regulatory_clarity",
+      "weight": 18,
+      "effective_scale": "0 to 18",
+      "description": "Qualidade e certeza operativa do arcabouco juridico para criptoativos. Inclui precisao das categorias normativas, previsibilidade do enforcement e maturidade do quadro legal.",
+      "anchor_levels": {
+        "0-3": "proibicao, ausencia total ou indeterminacao grave",
+        "4-9": "tratamento incipiente, orientado apenas a AML ou advertencias",
+        "10-13": "arcabouco parcial ou em transicao",
+        "14-16": "arcabouco avancado mas incompleto",
+        "17-18": "arcabouco operativo, claro e abrangente"
+      }
+    },
+    "proportionality": {
+      "label": "Proporcionalidade / Private innovation openness",
+      "methodology_equivalent": "private_innovation_openness",
+      "weight": 14,
+      "effective_scale": "0 to 14",
+      "description": "Abertura do regime a inovacao privada regulada. Mede calibracao de exigencias vs incentivos, barreiras de entrada e espaco para novos modelos de negocio sob supervisao.",
+      "anchor_levels": {
+        "0-3": "regime fechado, sem abertura a inovacao privada",
+        "4-7": "abertura limitada, exigencias desproporcionais",
+        "8-10": "abertura moderada, alguns segmentos favorecidos",
+        "11-12": "abertura consistente com supervisao proporcional",
+        "13-14": "ambiente fortemente favoravel a inovacao privada supervisionada"
+      }
+    },
+    "exchanges": {
+      "label": "Regime de exchanges/CASPs",
+      "methodology_equivalent": "investor_user_protection",
+      "weight": 14,
+      "effective_scale": "0 to 14",
+      "description": "Maturidade do regime para prestadores de servicos de criptoativos. Inclui autorizacao, custódia, conduta, divulgacao e protecao do usuario/investidor.",
+      "note": "Em pratica, o score maximo observado e 10 por conta do tratamento conservador dado a jurisdicoes sem licenciamento pleno de exchanges. O peso declarado e 14 mas a distribuicao efetiva e mais comprimida.",
+      "anchor_levels": {
+        "0-2": "ausencia de regulacao especifica ou proibicao",
+        "3-5": "regulacao AML-first, sem arcabouco prudencial",
+        "6-8": "regime em desenvolvimento, autorizacao parcial",
+        "9-10": "regime maduro com autorizacao, custódia e conduta",
+        "11-14": "regime plenamente operativo (reservado para casos excepcionais)"
+      }
+    },
+    "stablecoins": {
+      "label": "Regime de stablecoins",
+      "methodology_equivalent": "stablecoin_regime",
+      "weight": 12,
+      "effective_scale": "0 to 12",
+      "description": "Existencia e maturidade de arcabouco dedicado ou funcionalmente adequado para stablecoins. Inclui requisitos de reserva, resgate, autorizacao e supervisao.",
+      "anchor_levels": {
+        "0-2": "sem regime especifico, proibicao ou equivalencia negativa",
+        "3-5": "tratamento incipiente ou apenas por analogia",
+        "6-8": "regime em desenvolvimento, parcialmente operativo",
+        "9-10": "regime maduro com reservas, resgate e autorizacao",
+        "11-12": "regime abrangente com supervisao forcada (tipo MiCA EMTs)"
+      }
+    },
+    "tokenization": {
+      "label": "Tokenizacao / Legal security for tokenized assets",
+      "methodology_equivalent": "tokenization_legal_security",
+      "weight": 10,
+      "effective_scale": "0 to 10",
+      "description": "Suporte juridico para ativos tokenizados e infraestrutura de mercado em DLT. Inclui clareza sobre propriedade, transferencia, custódia e integracao com mercado de capitais.",
+      "anchor_levels": {
+        "0-2": "ausencia de reconhecimento juridico",
+        "3-5": "reconhecimento incipiente ou por analogia",
+        "6-7": "regime em desenvolvimento, seguranca parcial",
+        "8-9": "arcabouco solido, ativo mas nao plenamente consolidado",
+        "10": "ambiente altamente favoravel com clareza juridica plena"
+      }
+    },
+    "mining_infrastructure": {
+      "label": "Infraestrutura / Supervisory and operational capacity",
+      "methodology_equivalent": "supervisory_capacity",
+      "weight": 10,
+      "effective_scale": "0 to 10",
+      "description": "Capacidade supervisoria e operacional do regulador, combinada com habilidade de infraestrutura digital e produtiva. Inclui autorizacoes, monitoramento, reporting e capital humano regulatorio. Nota: o nome historico 'mining_infrastructure' reflete tambem avaliacao de habilitacao de infraestrutura produtiva (energia, compute).",
+      "note": "Esta dimensao foi renomeada internamente para 'regulatory_operational_capacity' na v3, mas o campo JSON mantem 'mining_infrastructure' por compatibilidade retroativa. A tese deve explicitar esse duplo carater.",
+      "anchor_levels": {
+        "0-2": "ausencia de capacidade supervisoria efetiva",
+        "3-5": "capacidade limitada, reativa ou nao especializada",
+        "6-7": "capacidade em desenvolvimento, supervisao setorizada",
+        "8-9": "capacidade supervisoria operativa e especializada",
+        "10": "capacidade plena com enforcement e reporting estabelecidos"
+      }
+    },
+    "innovation_openness": {
+      "label": "Abertura a inovacao / Private innovation signal",
+      "methodology_equivalent": "private_innovation_openness_secondary",
+      "weight": 10,
+      "effective_scale": "0 to 10",
+      "description": "Sinal de abertura efetiva a inovacao: sandboxes, licencas experimentais, sinalizacao positiva de autoridades, ecosistema de startups cripto. Complementa 'proportionality' com foco em sinalizacao institucional.",
+      "note": "Esta dimensao e correlacionada com 'proportionality' e pode ser consolidada em versoes futuras. Na v3, e mantida separada por capturar sinal distinto de postura regulatoria proativa."
+    },
+    "anti_centralization": {
+      "label": "Risco de centralizacao estatal",
+      "methodology_equivalent": "state_centralization_risk",
+      "weight": 10,
+      "effective_scale": "0 to 10",
+      "description": "Grau em que o arcabouco evita concentracao excessiva de poder monetario/informacional digital no Estado. Inclui design de CBDC, escopo de programabilidade, privacidade e espaco para alternativas privadas.",
+      "anchor_levels": {
+        "0-2": "alta centralizacao: CBDC de varejo mandatoria ou proibicao de privados",
+        "3-4": "tendencia centralizadora: CBDC dominante, restricoes severas a privados",
+        "5-6": "equilibrio tenso: CBDC e privados coexistem com restricoes",
+        "7-8": "abertura consistente: privados favorecidos, CBDC restrita a atacado",
+        "9-10": "descentralizacao: sem CBDC de varejo, plena competicao privada"
+      }
+    },
+    "taxation": {
+      "label": "Tributacao / Tax environment",
+      "methodology_equivalent": "taxation_environment",
+      "weight": 10,
+      "effective_scale": "0 to 10",
+      "description": "Nivel de friccao tributaria sobre operacoes com criptoativos. Inclui clareza das regras de incidencia, proporcionalidade das aliquotas, existencia de tratamento diferenciado para ativos digitais e previsibilidade do ambiente fiscal. Dimensao analitica central: o tratamento tributario constitui restricao de primeira ordem sobre a viabilidade pratica de ecossistemas cripto, sendo inseparavel da avaliacao do ambiente regulatorio-institucional.",
+      "anchor_levels": {
+        "0-2": "proibicao de operacoes ou incidencia punitiva sem base legal clara",
+        "3-4": "tributacao elevada e/ou grande incerteza sobre incidencia",
+        "5-6": "friccao moderada, regime em desenvolvimento ou parcialmente claro",
+        "7-8": "ambiente tributario funcional com razoavel previsibilidade",
+        "9-10": "ambiente tributario competitivo, claro e proporcional"
+      },
+      "rationale_for_inclusion_in_core": "Tributacao e dimensao analitica central, nao periferica, na avaliacao de ambientes regulatorios para criptoativos. A insercao como 9a dimensao do core score reflete que: (i) o tratamento fiscal e inseparavel da viabilidade operacional de PSAVs e usuarios; (ii) a incerteza tributaria constitui restricao de primeira ordem sobre alocacao de capital e decisoes de localizacao de negocios; (iii) jurisdicoes lideres (Suica, Singapura, EAU) devem parte de sua atratividade precisamente ao ambiente fiscal favoravel. Classificar tributacao como supplementary induziria subestimacao da distancia regulatoria entre jurisdicoes que, em todos os outros eixos, seriam equivalentes."
+    }
+  },
+  "supplementary_layers": {
+    "defi": {
+      "label": "DeFi",
+      "description": "Tratamento regulatorio de financas descentralizadas. Rastreado separadamente, nao contribui para o score principal.",
+      "weight_in_practice": 0
+    }
+  },
+  "thresholds": {
+    "very_favorable": [
+      80,
+      100
+    ],
+    "favorable": [
+      65,
+      79
+    ],
+    "mixed": [
+      50,
+      64
+    ],
+    "restrictive": [
+      35,
+      49
+    ],
+    "very_restrictive": [
+      0,
+      34
+    ]
+  },
+  "consistency_rules": [
+    "Fontes oficiais em vigor prevalecem sobre discursos, consultas e soft law.",
+    "Scores de stablecoins nao sao inferidos apenas da regulacao geral de CASPs.",
+    "A Uniao Europeia e tratada como jurisdicao unica onde o nucleo regulatorio e harmonizado.",
+    "O score e calculado como soma direta dos valores em 'criteria', onde cada valor e um weighted score pre-calculado (escala 0 a peso_da_dimensao).",
+    "Scores sao lidos em conjunto com 'trend', 'summary' e, onde relevante, estagio de implementacao FSB.",
+    "A dimensao 'mining_infrastructure' captura tanto capacidade supervisoria quanto habilitacao de infraestrutura produtiva - ver nota em criteria_keys.",
+    "Tributacao e dimensao core (9a dimensao, peso 10). Nao e tratada como camada suplementar. Ver scoring_methodology_v3.json, criteria_keys.taxation."
+  ],
+  "known_inconsistencies": {
+    "score_vs_sum_discrepancy": {
+      "description": "Tres jurisdicoes apresentam score armazenado 3 pontos acima da soma das criteria.",
+      "affected": {
+        "THA": {
+          "sum_criteria": 66,
+          "stored_score": 69,
+          "delta": 3
+        },
+        "UKR": {
+          "sum_criteria": 59,
+          "stored_score": 62,
+          "delta": 3
+        },
+        "LIE": {
+          "sum_criteria": 75,
+          "stored_score": 78,
+          "delta": 3
+        }
+      },
+      "status": "Pendente auditoria - pode ser ajuste editorial intencional nao documentado"
+    },
+    "exchanges_underutilized_weight": {
+      "description": "A dimensao 'exchanges' tem peso declarado de 14 mas score maximo observado de 10. O peso nao e totalmente utilizavel na pratica atual de pontuacao.",
+      "status": "Reconhecido - os pesos refletem relevancia analitica relativa, nao capacidade maxima absoluta de cada dimensao"
+    },
+    "taxonomy_before_v3": {
+      "description": "Versoes anteriores usavam nomenclatura distinta para as dimensoes. A v3 introduz o mapeamento formal entre nomenclatura das criteria e nomenclatura da methodology.",
+      "status": "Corrigido neste arquivo"
+    },
+    "taxation_in_core_vs_supplementary": {
+      "status": "RESOLVIDO na v3",
+      "resolution": "Opcao B adotada: taxation declarada formalmente como 9a dimensao do core score. A classificacao anterior como supplementary_layer foi removida. Ver rationale_for_inclusion_in_core em criteria_keys.taxation."
+    }
+  },
+  "audit_log": [
+    {
+      "date": "2026-04-26",
+      "action": "v3 methodology generated",
+      "changes": [
+        "Adicionado campo 'criteria_keys' com mapeamento formal entre chaves JSON e dimensoes metodologicas",
+        "Documentada escala efetiva por dimensao (0 a peso_da_dimensao)",
+        "Documentada formula de calculo: score = sum(criteria values)",
+        "Adicionado 'known_inconsistencies' com os 3 casos de discrepancia",
+        "Adicionado 'supplementary_layers' com nota sobre taxation",
+        "Adicionado 'audit_log'"
+      ]
+    },
+    {
+      "date": "2026-04-26",
+      "action": "v3.1 - taxation promoted to core dimension (Option B)",
+      "changes": [
+        "taxation movida de supplementary_layers para criteria_keys como 9a dimensao formal",
+        "Adicionado rationale_for_inclusion_in_core explicando a decisao editorial",
+        "known_inconsistencies.taxation_in_core_vs_supplementary marcado como RESOLVIDO",
+        "score_range atualizado para refletir 9 dimensoes core"
+      ]
+    }
+  ],
+  "dimensions": {
+    "count": 9,
+    "total_weight": 108,
+    "note": "O score e a soma direta dos 9 valores pre-ponderados em criteria. O maximo teorico e 108 (soma de todos os pesos), mas na pratica nenhuma jurisdicao alcanca pontuacao maxima em todas as dimensoes simultaneamente. Os thresholds (very_favorable >= 80, favorable >= 65, etc.) foram calibrados empiricamente sobre a distribuicao observada e permanecem validos. O acrescimo de taxation como 9a dimensao nao altera os scores armazenados: taxation ja estava presente nas criteria de todos os paises desde a versao anterior."
+  }
+}
